@@ -1,0 +1,3241 @@
+@prefix this: <http://purl.org/np/RA5ANtziRDJlTHUNoBzRanPJQ1mbRYrav_M_Wn0bDFDYo> .
+@prefix sub: <http://purl.org/np/RA5ANtziRDJlTHUNoBzRanPJQ1mbRYrav_M_Wn0bDFDYo#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Many would consider Linked Data (LD) to be one of the most important technological trends in data man- agement of the last decade [16]. However, seamless consumption of LD in applications is still very lim- ited given the varying quality of the data published in the Linked Open Data (LOD) Cloud [18,44]. This is the result of a combination of data- and process- related factors. The data sets being released into the LOD Cloud are – apart from any factual flaws they may contain – very diverse in terms of formats, structure, and vocabulary. This heterogeneity and the fact that some kinds of data tend to be more challenging to lift to RDF than others make it hard to avoid errors, especially when the translation happens automatically.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAl4V7UZBVsiwt3QTeFz5p3XrnXVXlUNZL-OEtal64zkk> .
+@prefix sub: <http://purl.org/np/RAl4V7UZBVsiwt3QTeFz5p3XrnXVXlUNZL-OEtal64zkk#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Simple issues like syntax errors or duplicates can be easily identified and repaired in a fully automatic fash- ion. However, data quality issues in LD are more chal- lenging to detect. Current approaches to tackle these problems still require expert human intervention, e.g., for specifying rules [14] or test cases [21], or fail due to the context-specific nature of quality assessment, which does not lend itself well to general workflows and rules that could be executed by a computer pro- gram. In this paper, we explore an alternative data cu- ration strategy, which is based on crowdsourcing.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAmm5LknxWXbIAM7mcmtB66bF9JoWnCzJY1H3TD29HYEU> .
+@prefix sub: <http://purl.org/np/RAmm5LknxWXbIAM7mcmtB66bF9JoWnCzJY1H3TD29HYEU#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Crowdsourcing [19] refers to the process of solving a problem formulated as a task by reaching out to a large network of (often previously unknown) people. One of the most popular forms of crowdsourcing are ‘microtasks’ (or ‘microwork’), which consists on di- viding a task into several smaller subtasks that can be independently solved. Conditional on the tackled prob- lem, the level of task granularity can vary (microtasks whose results need to be aggregated vs. macrotasks, which require filtering to identify the most valuable contributions); as can the incentive structure (e.g., pay- ments per unit of useful work vs. prizes for top par- ticipants in a contest). Another major design decision in the crowdsourcing workflow is the selection of the crowd. While many (micro)tasks can be performed by untrained workers, others might require more skilled human participants, especially in specialized fields of expertise, such as LD. Of course, expert intervention usually comes at a higher price; either in monetary re- wards or in the form of effort to recruit participants in another setting, such as volunteer work. Microtask crowdsourcing platforms such as Amazon Mechanical Turk (MTurk) 1 on the other hand offer a formidable and readily-available workforce at relatively low fees.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAKIcLsdIpUJyqy6rRH8QlH58zqWnF8ZuCETiaKGdgWZ8> .
+@prefix sub: <http://purl.org/np/RAKIcLsdIpUJyqy6rRH8QlH58zqWnF8ZuCETiaKGdgWZ8#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "In this work, we crowdsource three specific LD quality issues. We did so building on previous work of ours [43] which analyzed common quality prob- lems encountered in Linked Data sources and classi- fied them according to the extent to which they could be amenable to crowdsourcing. The first research ques- tion explored is hence: RQ1: Is it feasible to detect quality issues in LD sets via crowdsourcing mecha- nisms? This question aims at establishing a general un- derstanding if crowdsourcing approaches can be used to find issues in LD sets and if so, to what degree they are an efficient and effective solution. Secondly, given the option of different crowds, we formulate RQ2: In a crowdsourcing approach, can we employ unskilled lay users to identify quality issues in RDF triple data or to what extent is expert validation needed and desirable? As a subquestion to RQ2, we also examined which type of crowd is most suitable to detect which type of quality issue (and, conversely, which errors they are prone to make). With these questions, we are interested (i) in learning to what extent we can exploit the cost- efficiency of lay users, or if the quality of error detec- tion is prohibitively low. We (ii) investigate how well experts generally perform in a crowdsourcing setting and if and how they outperform lay users. And lastly, (iii) it is of interest if one of the two distinct approaches performs well in areas that might not be a strength of the other method and crowd.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAIsS8ayWzfxAapJ9Lo7syIwmxxRZMb5lAI5mBDPiclB8> .
+@prefix sub: <http://purl.org/np/RAIsS8ayWzfxAapJ9Lo7syIwmxxRZMb5lAI5mBDPiclB8#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "To answer these questions, we (i) first launched a contest that acquired 58 experts knowledgeable in Linked Data to find and classify erroneous RDF triples from DBpedia (Section 4.1). They inspected 68, 976 triples in total. These triples were then (ii) submitted as paid microtasks on MTurk to be examined by workers on the MTurk platform in a similar way (Section 4.2). Each approach (contest and paid microtasks) makes several assumptions about the audiences they address (the ‘crowd’) and their skills. This is reflected in the design of the crowdsourcing tasks and the related in- centive mechanisms. The results of both crowds were then compared to a manually created gold standard.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RASAFKSUTJGuktM2pfwofnERIuVLX5vXoGURWh_mqPZ_g> .
+@prefix sub: <http://purl.org/np/RASAFKSUTJGuktM2pfwofnERIuVLX5vXoGURWh_mqPZ_g#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The results of the comparison of experts and turkers, as discussed in Section 5, indicate that (i) untrained crowdworkers are in fact able to spot certain quality issues with satisfactory precision; that (ii) experts per- form well locating two but not the third type of qual- ity issues given, and that lastly (iii) the two approaches reveal complementary strengths.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAyIGRVh0VS0Fn802WjCeN2QFXS7Dg8_bHxyLgMnMPorA> .
+@prefix sub: <http://purl.org/np/RAyIGRVh0VS0Fn802WjCeN2QFXS7Dg8_bHxyLgMnMPorA#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Given these insights, RQ3 was formulated: How can we design better crowdsourcing workflows using lay users or experts for curating LD sets, beyond one-step solutions for pointing out quality flaws? To do so, we adapted the crowdsourcing pattern known as Find-Fix- Verify, which has been originally proposed by Bern- stein et al. in [3]. Specifically, we wanted to know: can (i) we enhance the results of the LD quality issue de- tection through lay users by adding a subsequent step of cross-checking (Verify) to the initial Find stage? Or is it (ii) even more promising to combine experts and lay workers by letting the latter Verify the results of the experts’ Find step, hence drawing on the crowds’ complementary skills for deficiency identification we recognized before?”";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAs2lQd-kKTbB-IUa1VTvPUnwm8-4jJWf8t_BRU1QmQF4> .
+@prefix sub: <http://purl.org/np/RAs2lQd-kKTbB-IUa1VTvPUnwm8-4jJWf8t_BRU1QmQF4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Accordingly, the results of both Find stages (ex- pert and workers) – in the form of sets of triples iden- tified as incorrect, marked with the respective errors – were fed into a subsequent Verify step, carried out by MTurk workers (Section 4.3). The task consisted solely of the rating of a formerly indicated quality is- sue for a triple as correctly or wrongly assigned. This Verify step was, in fact, able to improve the preci- sion of both Find stages substantially. In particular, the experts’ Find stage results could be improved to precision levels of around 0.9 in the Verify stage for two error types which showed to score much lower for an expert-only Find approach. The worker-worker Find-Verify strategy yielded also better results than the Find-only worker approach, and for one error type even reached slightly better precision than the expert-worker model. All in all, we show that (i) a Find-Verify combination of experts and lay users is likely to pro- duce the best results, but that (ii) they are not superior to expert-only evaluation in all cases. We demonstrate also that (iii) lay users-only Find-Verify approaches can be a viable alternative for detection of LD qual- ity issues if experts are not available and that they cer- tainly outperform Find-only lay user workflows.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA-O8C4wPAlFrwWA00Qpr0jNdjZW8YhzgcFpeNUg6Tvqs> .
+@prefix sub: <http://purl.org/np/RA-O8C4wPAlFrwWA00Qpr0jNdjZW8YhzgcFpeNUg6Tvqs#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Note that we did not implement a Fix step in this work, as correcting the greatest part of the found er- rors via crowdsourcing is not the most cost-efficient method of addressing these issues. Thus, we argue in Section 4, a majority of errors can and should be addressed already at the level of individual wrappers leveraging datasets to LD.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAc8bjOpv-3L_eYbrc2SEPopYHI6ui_66GMCsMPIBuygw> .
+@prefix sub: <http://purl.org/np/RAc8bjOpv-3L_eYbrc2SEPopYHI6ui_66GMCsMPIBuygw#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "To understand the strengths and limitations of crowdsourcing in this scenario, we further executed automated baseline approaches to compare them to the results of our crowdsourcing experiments. We show that while they may be amenable to pre-filtering RDF triple data for ontological inconsistencies (thus poten- tially decreasing the amount of cases necessary to be browsed in the Find stage), a substantial part of quality issues can only be addressed via human intervention.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA532IpIwaJ-YlFMM1UoYF7gas5pP4ei9yIdLA2Bo1vQ4> .
+@prefix sub: <http://purl.org/np/RA532IpIwaJ-YlFMM1UoYF7gas5pP4ei9yIdLA2Bo1vQ4#> .
+@prefix p1: <http://purl.org/np/RA5ANtziRDJlTHUNoBzRanPJQ1mbRYrav_M_Wn0bDFDYo> .
+@prefix p2: <http://purl.org/np/RAl4V7UZBVsiwt3QTeFz5p3XrnXVXlUNZL-OEtal64zkk> .
+@prefix p3: <http://purl.org/np/RAmm5LknxWXbIAM7mcmtB66bF9JoWnCzJY1H3TD29HYEU> .
+@prefix p4: <http://purl.org/np/RAKIcLsdIpUJyqy6rRH8QlH58zqWnF8ZuCETiaKGdgWZ8> .
+@prefix p5: <http://purl.org/np/RAIsS8ayWzfxAapJ9Lo7syIwmxxRZMb5lAI5mBDPiclB8> .
+@prefix p6: <http://purl.org/np/RASAFKSUTJGuktM2pfwofnERIuVLX5vXoGURWh_mqPZ_g> .
+@prefix p7: <http://purl.org/np/RAyIGRVh0VS0Fn802WjCeN2QFXS7Dg8_bHxyLgMnMPorA> .
+@prefix p8: <http://purl.org/np/RAs2lQd-kKTbB-IUa1VTvPUnwm8-4jJWf8t_BRU1QmQF4> .
+@prefix p9: <http://purl.org/np/RA-O8C4wPAlFrwWA00Qpr0jNdjZW8YhzgcFpeNUg6Tvqs> .
+@prefix p10: <http://purl.org/np/RAc8bjOpv-3L_eYbrc2SEPopYHI6ui_66GMCsMPIBuygw> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p9: npx:introduces p9:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-introduction-title;
+    co:nextItem sub:_2 .
+  
+  sub:_10 co:itemContent p7:\#paragraph;
+    co:nextItem sub:_11 .
+  
+  sub:_11 co:itemContent p8:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_3 co:itemContent p9:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p10:\#paragraph .
+  
+  sub:_5 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_8 .
+  
+  sub:_8 co:itemContent p5:\#paragraph;
+    co:nextItem sub:_9 .
+  
+  sub:_9 co:itemContent p6:\#paragraph;
+    co:nextItem sub:_10 .
+  
+  sub:section-introduction co:firstItem sub:_1;
+    po:contains p9:\#paragraph, p1:\#paragraph, p5:\#paragraph, p4:\#paragraph, p6:\#paragraph,
+      p10:\#paragraph, p2:\#paragraph, p3:\#paragraph, p8:\#paragraph, p7:\#paragraph;
+    po:containsAsHeader sub:section-introduction-title;
+    a deo:Introduction, doco:Section .
+  
+  sub:section-introduction-title c4o:hasContent "Introduction";
+    a doco:SectionTitle .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  p6: npx:introduces p6:\#paragraph .
+  
+  p10: npx:introduces p10:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  p8: npx:introduces p8:\#paragraph .
+  
+  p7: npx:introduces p7:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA0E1r6scu-Xrf-ecxZs7galz0BEhj2fm6QEKowz77sk0> .
+@prefix sub: <http://purl.org/np/RA0E1r6scu-Xrf-ecxZs7galz0BEhj2fm6QEKowz77sk0#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Past Document Engineering works that have proposed algorithms for the characterization and identification of particular structural behaviours of various parts of text documents. For instance, in [39], Tannier et al. present an algorithm based on Natural Language Processing (NLP) tools for assigning each element of an XML document to one of three categories. These categories are hard tag (i.e. those elements that interrupt the linearity of a text, such as paragraphs and sections), soft tag (i.e. the elements that identify significant text fragments that do not break the text flow, such as emphasis and links), and jump tag (i.e. those elements that are detached from the surrounding text, such as footnotes and comments).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAB7E7ZJrPtTVsKs6R-TicPrsASU2McahBN8QvO-ZH8dQ> .
+@prefix sub: <http://purl.org/np/RAB7E7ZJrPtTVsKs6R-TicPrsASU2McahBN8QvO-ZH8dQ#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "In another work [46], Zou et al. propose a categorization of HTML elements based on two classes: inline (i.e. those that do not provide horizontal breaks in the visualisation of an HTML document) and line-break tags (i.e. the opposite of the inline class). They also have developed an algorithm that uses this categorization and a Hidden Markov Model for identifying the structural roles (title, author, affiliation, abstract, etc.) of textual fragments – using a corpus of medical journal articles stored in HTML to provide examples.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAup_IY7clRSRZq4n9v94Gjz7ub3faigTl2vYww6Z9f5w> .
+@prefix sub: <http://purl.org/np/RAup_IY7clRSRZq4n9v94Gjz7ub3faigTl2vYww6Z9f5w#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The approach proposed by Koh et al. [22] is to identify junk structures in HTML documents, such as navigation menus, advertisements, and footers. In particular, their algorithm recognises recurring hierarchies of nested elements and allows one to exclude all the HTML markup that does not concern the actual content of the document.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAX0IFFW7LeN5wyxsCNE2AMZIrW0A7vTY0QDnGSsKV0mE> .
+@prefix sub: <http://purl.org/np/RAX0IFFW7LeN5wyxsCNE2AMZIrW0A7vTY0QDnGSsKV0mE#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Other approaches based on the application of Optical Character Recognition (OCR) techniques to a corpus of PDF documents have also been proposed, with the goal of reconstructing the organisation of a document by marking up its most meaningful parts. For instance, in [21], Kim et al. propose an approach based on the OCR recognition of article zones so as to label them with particular categories, such as affiliations, abstract, sections, titles and authors. Similarly, in [38], Taghva et al. use an OCR technique for reconstructing the logical structure of technical documents starting from the information about fonts and geometry of a scanned document.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAEbXV3jb1Mt5IZgCUO2oTFqKQd4nKbGE96RI4IdVT5zs> .
+@prefix sub: <http://purl.org/np/RAEbXV3jb1Mt5IZgCUO2oTFqKQd4nKbGE96RI4IdVT5zs#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Several other works have introduced theories and algorithms for the identification of various characterizations of scholarly articles, such as entities cited in articles (e.g. [13]), rhetorical structures (e.g. [24]), arguments (e.g. [34]), and citation functions (e.g. [8,40] and [19]). In addition, models and ontologies have been proposed for creating and associating annotations to documents and their parts, e.g. [4,28,33], and [25].";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAGHZTCaUJI8gU9PqjcoO4VhS7ALHAoP4rYzGqW6eyinE> .
+@prefix sub: <http://purl.org/np/RAGHZTCaUJI8gU9PqjcoO4VhS7ALHAoP4rYzGqW6eyinE#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "These papers thus propose algorithms based on NLP tools, Machine Learning approaches, and OCR frameworks for annotating the various component parts of a document with specific categories. In contrast, the work I present in this article uses none of these techniques. Rather, it involves a pure Document Engineering analysis of the containment relations between the various document parts, without consideration of any aspect related to the language used to write the document or the markup language used to store it. CISE is thus compatible with and complementary to the aforementioned tools, and in principle each could be used to refine the results of the other. However, exploring these kinds of interactions is beyond the scope of this article.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAjyxRlcc-gx_ffi1pinUZKS3RuF59izB-leVdgI51NVc> .
+@prefix sub: <http://purl.org/np/RAjyxRlcc-gx_ffi1pinUZKS3RuF59izB-leVdgI51NVc#> .
+@prefix p1: <http://purl.org/np/RA0E1r6scu-Xrf-ecxZs7galz0BEhj2fm6QEKowz77sk0> .
+@prefix p2: <http://purl.org/np/RAB7E7ZJrPtTVsKs6R-TicPrsASU2McahBN8QvO-ZH8dQ> .
+@prefix p3: <http://purl.org/np/RAup_IY7clRSRZq4n9v94Gjz7ub3faigTl2vYww6Z9f5w> .
+@prefix p4: <http://purl.org/np/RAX0IFFW7LeN5wyxsCNE2AMZIrW0A7vTY0QDnGSsKV0mE> .
+@prefix p5: <http://purl.org/np/RAEbXV3jb1Mt5IZgCUO2oTFqKQd4nKbGE96RI4IdVT5zs> .
+@prefix p6: <http://purl.org/np/RAGHZTCaUJI8gU9PqjcoO4VhS7ALHAoP4rYzGqW6eyinE> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p1: npx:introduces p1:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
+  p6: npx:introduces p6:\#paragraph .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-related-work-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5:\#paragraph;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent p6:\#paragraph .
+  
+  sub:section-related-work co:firstItem sub:_1;
+    po:contains p1:\#paragraph, p2:\#paragraph, p5:\#paragraph, p6:\#paragraph, p4:\#paragraph,
+      p3:\#paragraph;
+    po:containsAsHeader sub:section-related-work-title;
+    a deo:RelatedWork, doco:Section .
+  
+  sub:section-related-work-title c4o:hasContent "Related works";
+    a doco:SectionTitle .
+  
+  p3: npx:introduces p3:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAvfGG248C4ggM4YeSbcJrXGbcDqrkNma8pdaX8px8E3A> .
+@prefix sub: <http://purl.org/np/RAvfGG248C4ggM4YeSbcJrXGbcDqrkNma8pdaX8px8E3A#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent """The principle of compositionality “states that the meaning of an expression is a function of, and only of, the meanings of its parts together with the method by which those parts are combined” [30]. This definition is quite broad. In fact, it does not precisely define several aspects, such as what is a meaning, what is a function, and what is a part of an expression. Despite its vagueness, this principle has been used in works of several disciplines, such as:
+
+Linguistics, e.g. Richard Montague, in one of his seminal works [27], proposes an approach that allows the definition of a precise syntax of a natural language (such as English) by means of a set of syntactic categories that are mapped to their possible semantic representations expressed as mathematical formulas by means of explicit conversion rules. In particular, the way the syntactic categories are combined within the syntactic structure of a sentence is used to derive its meaning;
+
+Computer Science, e.g. the Curry–Howard isomorphism [18], which states that the proof system and the model of computation (such as the lambda calculus) are actually the same mathematical tool presented from two different perspectives. In this light, mathematical proofs can be written as runnable computer programs, and vice versa;
+
+Molecular Biology, e.g. the reductionist approach used by Crick [6], among others, which claims that the behaviour of high-level functions of a larger biological system (e.g. an organism) can be explained by looking at the ways in which its low-level components (e.g. its genes) actually work.""";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA4gfi8P2Dg5eAB6JWHD8IhLvAqJK1rb0DYTZBaS6fWTY> .
+@prefix sub: <http://purl.org/np/RA4gfi8P2Dg5eAB6JWHD8IhLvAqJK1rb0DYTZBaS6fWTY#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent """I propose that the same principle of compositionality can be used to infer high-level semantics from the low-level structural organisation of a scholarly article. The idea is to annotate the various parts of a scholarly article progressively according to diverse layers of annotations, from the lower syntactic layers to higher semantic layers.2 For instance, a possible stratification of such layers (from the most syntactic ones to the most semantic ones) is illustrated as follows:
+1. syntactic containment, i.e. the dominance and containment relations [37] that exist between the various parts of scholarly articles;
+
+2. syntactic structures, i.e. the particular structural pattern (inline, block, etc.) of each part;
+
+3. structural semantics, i.e. the typical article structural types within articles, such as sections, paragraphs, tables, figures;
+
+4. rhetorical components, i.e. the functions that characterize each section, such as introduction, methods, material, data, results, conclusions;
+
+5. citation functions, i.e. the characterization of all inline citations (i.e. in-text reference pointers) with the inferred reason why the authors have made each citation [40];
+
+6. argumentative organisation, i.e. the relations among the various parts of scholarly articles according to particular argumentative models such as Toulmin’s [42];
+
+7. article categorization, i.e. the type, either in terms of publication venue (journal article, conference paper, etc.) or content (research paper, review, opinion, etc.), of each scholarly article;
+
+8. discipline clustering, i.e. the identification of the discipline(s) to which each article belongs to.""";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAaUwRGExGGnfwdpQ4bJFIGK0at9BxVEwkjtv_i5ad5ec> .
+@prefix sub: <http://purl.org/np/RAaUwRGExGGnfwdpQ4bJFIGK0at9BxVEwkjtv_i5ad5ec#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The graph on the left in Fig. 1 shows a strict application of the principle of compositionality. While it may seem valid from an intuitive perspective, past studies (e.g. [29]3) have proved that the sole application of such principle could not guarantee successful recognition of all the possible interactions existing in a layered system, such as the one that defines the various kinds of meanings possessed by each part of a scholarly article. For instance, it is possible that some semantic annotations of a higher layer can cause the specification of new meanings to a lower layer.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RASqyPpLmhkPGOxvHI5KE2uYdb5W9x-2pKtcSGnxxt-Tg> .
+@prefix sub: <http://purl.org/np/RASqyPpLmhkPGOxvHI5KE2uYdb5W9x-2pKtcSGnxxt-Tg#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "This causal relationship is called downward causation [3], and it has been one of the main objections to a purely reductionist approach for the description of the composition and behaviour of a biological system. Downward causation can be defined as a converse of the principle of compositionality: higher layers of a biological system can cause changes to its lower layers. Thus, in the context of the aforementioned eight layers of scholarly articles, it would be possible, for instance, to infer new meanings for the elements annotated in layer 3 by applying the downward causation from layer 4 – e.g. by explicitly marking a section as bibliography of an article (layer 3) if all the child elements that such a section contains (except its title) have been referenced somewhere within the article (layer 4).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAfozflIC0sZOnrICuTfeLTF9OT1uwOi6DXsGJa2byhYQ> .
+@prefix sub: <http://purl.org/np/RAfozflIC0sZOnrICuTfeLTF9OT1uwOi6DXsGJa2byhYQ#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent """The graph on the right in Fig. 1 illustrates the simultaneous use of the principle of compositionality and that of downward causation for inferring the various meanings (at different layers) associated with the parts of a scholarly article. It admits the possibility that a layer can convey meaningful information to any of the higher or lower layers. Of course, in order to use the principles of compositionality and downward causation for inferring the characterization of the various parts of a scholarly article, it is important to clarify what are their main components – i.e. the parts of an expression, their meanings, and the functions that enable either the compositionality or downward causation between layers. In the context of scholarly articles, I define these three aspects as follows:
+
+a part of a scholarly article is any content enclosed by a particular marker – for instance, if we consider a scholarly article stored with an XML-like markup language, each markup element defines a particular part of that scholarly article. In the example shown in Fig. 2, the empty boxes with red border, the blue-underlined strings, and the italic and strong strings are delimiting various parts of the scholarly article, represented by specific markup elements in the related XML sources;
+
+the meaning of each part is an informative specification of the type or property characterizing that part. In the example shown in Fig. 2, the red labels with white text, as well as the pink rectangles, define specific semantics of some of the article parts;
+
+a function is an associative rule that allows, given particular known premises, the specification of a meaning to a particular part of a scholarly article.""";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RALGArl6HsSQW4Pr77PlB1UognVnX7t0o72sa5DLCwccc> .
+@prefix sub: <http://purl.org/np/RALGArl6HsSQW4Pr77PlB1UognVnX7t0o72sa5DLCwccc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Using the aforementioned definitions, we can iteratively apply rules following the principles of compositionality and downward causation so as to associate various meanings to article parts. Starting from the pure syntactical containment of certain parts, we can derive their structural semantics, their rhetoric, and other semantic representations of the article. For instance, recalling the stratification into eight layers introduced above, it is possible to create rules that, starting from a low-level definition of the structure of an article (e.g. the organisation of the markup elements that have been used to describe its content – layer 1), permit each markup element to be defined according to more general compositional patterns depicting its structure (e.g. the fact that a markup element can behave like a block or an inline item – layer 2). Again, starting from the definitions in the first two layers, one can go on to characterize the semantics of each markup element according to specific categories defining its structural behaviour (e.g. paragraph, section, list, figure, etc. – layer 3). Along the same lines, one can further derive the rhetorical organisation of a scholarly article, identifying the argumentative role of each part: Introduction, Methods, Material, Experiment, inline reference, etc. (layer 4). In addition, as mentioned above, one can use some of the characterizations specified in layer 4 to specify more precisely the parts annotated in layer 3 (e.g. to identify the bibliography).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAxvRb0G5QqnK1_fB0WgTs1DxG5MOVRKGWqEdn9QFfguI> .
+@prefix sub: <http://purl.org/np/RAxvRb0G5QqnK1_fB0WgTs1DxG5MOVRKGWqEdn9QFfguI#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "All these associations should be specifiable without considering either the natural language in which the paper is written or the particular markup language in which it is stored. For instance, the two examples depicted in Fig. 2 show that a mechanism developed to infer the semantics of the various parts of the first article (A) should be able to assign the same semantics to parts of the second article (B), since they share the same syntactic containment between article parts.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA816UUe5plt2371E_0nZBzViz4KeDs6E-yESJCQLBVMQ> .
+@prefix sub: <http://purl.org/np/RA816UUe5plt2371E_0nZBzViz4KeDs6E-yESJCQLBVMQ#> .
+@prefix p1: <http://purl.org/np/RAvfGG248C4ggM4YeSbcJrXGbcDqrkNma8pdaX8px8E3A> .
+@prefix p2: <http://purl.org/np/RA4gfi8P2Dg5eAB6JWHD8IhLvAqJK1rb0DYTZBaS6fWTY> .
+@prefix p3: <http://purl.org/np/RAaUwRGExGGnfwdpQ4bJFIGK0at9BxVEwkjtv_i5ad5ec> .
+@prefix p4: <http://purl.org/np/RASqyPpLmhkPGOxvHI5KE2uYdb5W9x-2pKtcSGnxxt-Tg> .
+@prefix p5: <http://purl.org/np/RAfozflIC0sZOnrICuTfeLTF9OT1uwOi6DXsGJa2byhYQ> .
+@prefix p6: <http://purl.org/np/RALGArl6HsSQW4Pr77PlB1UognVnX7t0o72sa5DLCwccc> .
+@prefix p7: <http://purl.org/np/RAxvRb0G5QqnK1_fB0WgTs1DxG5MOVRKGWqEdn9QFfguI> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p2: npx:introduces p2:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-problem-statement-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5:\#paragraph;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent p6:\#paragraph;
+    co:nextItem sub:_8 .
+  
+  sub:_8 co:itemContent p7:\#paragraph .
+  
+  sub:section-problem-statement co:firstItem sub:_1;
+    po:contains p2:\#paragraph, p6:\#paragraph, p4:\#paragraph, p3:\#paragraph, p5:\#paragraph,
+      p1:\#paragraph, p7:\#paragraph;
+    po:containsAsHeader sub:section-problem-statement-title;
+    a deo:ProblemStatement, doco:Section .
+  
+  sub:section-problem-statement-title c4o:hasContent "A pathway from syntax to semantics";
+    a doco:SectionTitle .
+  
+  p6: npx:introduces p6:\#paragraph .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p7: npx:introduces p7:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAEEAoDN1mn5Bu9O2mCVHh1XKy14nocE71lCD477A1mG4> .
+@prefix sub: <http://purl.org/np/RAEEAoDN1mn5Bu9O2mCVHh1XKy14nocE71lCD477A1mG4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent """Taking inspiration from the ideas introduced in Section 3, and restricting the possible input documents to the scholarly articles available in a reasonable markup language (e.g. an XML-like language), one can propose an approach for retrieving the higher-level characterizations of the parts of a scholarly article starting from their lower-level conceptualisations (by means of the principle of compositionality) and vice versa (by means of the downward causation). I have named this approach compositional and iterative semantic enhancement (or CISE, pronounced size) of scholarly articles. The following conditions should be satisfied when applying CISE:
+
+[hierarchical markup] the source of a scholarly article should be available in (or easily converted into) a markup language that can convey the hierarchical containment of the various parts of scholarly articles;
+
+[language agnosticism] there is no need to have a prior knowledge of the natural language used for writing the scholarly article;
+
+[layer inter-dependency] a layer describing a particular conceptualisation of the parts of a scholarly article should depend on the conceptualisation of at least one other lower or higher layer;
+
+[inter-domain reuse] some of the typical structural and semantic aspects of scholarly articles should be shared across different research domains (e.g. abstract, introduction, conclusions);
+
+[intra-domain reuse] scholarly documents within a specific domain should share several structural and semantic aspects, even if these are not adopted by other research domains (e.g. the “related works” section is used in Computer Science articles, while it is not used in Life Science articles).""";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAaoW0gPFgQ_Wq-OLg1_X5pvxNyB9yLkgQfy18QYUtCxY> .
+@prefix sub: <http://purl.org/np/RAaoW0gPFgQ_Wq-OLg1_X5pvxNyB9yLkgQfy18QYUtCxY#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The pseudocode shown in Listing 1 introduces the main procedure of CISE. It works by taking three objects as inputs (line 1): a set of marked-up documents to process, a set of annotations referring to the various parts contained in the documents, and a list of rules responsible for inferring new annotations from the existing annotations associated with the documents. Each rule is actually a function taking two parameters as input: a set of documents and a set of annotations. A rule can be run or not run according to the current status of the inputs it receives. For instance, some existing annotations activate the application of a particular rule on a certain document, while others do not. In principle, a rule can simultaneously process more than one document in the input document set, and it could thus find common patterns across documents. The output of a rule is a tuple to_add, to_remove, that are two sets of annotations to be added to and removed from the current set of annotations.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAneQajFZQ5A2kURbkd4NYCOGEJUFfWdmWzynRXGb1OqQ> .
+@prefix sub: <http://purl.org/np/RAneQajFZQ5A2kURbkd4NYCOGEJUFfWdmWzynRXGb1OqQ#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent """Each annotation is a tuple documenti, layerj, propertyk where:
+
+documenti is the document where the annotation has been specified;
+
+layerj is the layer defining the kind of information depicted by the annotation;
+
+propertyk is a set of statements related to a particular part (i.e. a markup element) of documenti.""";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAPZM-aUaQrHClUcjI3AWTXmbmx9D5OS7b7JhGtG38EUQ> .
+@prefix sub: <http://purl.org/np/RAPZM-aUaQrHClUcjI3AWTXmbmx9D5OS7b7JhGtG38EUQ#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "After the initialization of some variables (line 2), the main loop of CISE (line 4) continues until no annotations are added or removed from the current set of available annotations. The rationale behind this choice is that the application of the rules can change the status of the specified set of annotations and, consequently, it can create the premises for running a rule that was not previously activated. The following lines (5–6) set the variables that are used for checking if some modifications to the set of annotations are introduced as consequence of an iteration.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAugy-o9Ani4XCMPxOT8u4zKcdMi7e5JGVl45CaEoeytI> .
+@prefix sub: <http://purl.org/np/RAugy-o9Ani4XCMPxOT8u4zKcdMi7e5JGVl45CaEoeytI#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The next loop (lines 8–11) is responsible for applying all the rules to all the documents using all the annotations specified as input. As anticipated, the application of a rule returns two sets (line 9): one containing the annotations that should be added, and the other containing the annotations that should be removed. These are then removed from (line 10, where - is the intersection operator between sets) and added to (line 11, where | is the union operator between sets) the current set of annotations. Finally, the variable final_annotations is incremented with the number of annotations added to/removed from the current set of annotations (line 13).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAMQhVJyOvM4Ix7jy17TkLY836r-TT99lLRr73G-5BKkY> .
+@prefix sub: <http://purl.org/np/RAMQhVJyOvM4Ix7jy17TkLY836r-TT99lLRr73G-5BKkY#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "When the application of all the rules results in no further modifications to the current set of annotations, the algorithm terminates and returns the updated annotation set (line 15). Otherwise, the algorithm runs a new iteration of the main loop (starting from line 5).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAZ-8fAoi8EuqLdL0ImU3LeTT3o8Dll3_Sq1JYh4D9Mxo> .
+@prefix sub: <http://purl.org/np/RAZ-8fAoi8EuqLdL0ImU3LeTT3o8Dll3_Sq1JYh4D9Mxo#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "In the following section, I describe the outcomes of some implementations of CISE that I have developed with colleagues in my research group. These outcomes provide the first evidence of the feasibility of CISE for inferring the characterizations of parts of a scholarly article characterized in different layers, each depicting a particular kind of information. These outcomes provide a partial positive answer to the research question introduced in Section 1 – namely whether it is possible to derive the semantic and rhetorical representation of a scholarly article from its syntactic organisation.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAU0l4SGS7qx8yFGUFgC-N7WFBGIfN2bIvONwpVDT_RsA> .
+@prefix sub: <http://purl.org/np/RAU0l4SGS7qx8yFGUFgC-N7WFBGIfN2bIvONwpVDT_RsA#> .
+@prefix p1: <http://purl.org/np/RAEEAoDN1mn5Bu9O2mCVHh1XKy14nocE71lCD477A1mG4> .
+@prefix p2: <http://purl.org/np/RAaoW0gPFgQ_Wq-OLg1_X5pvxNyB9yLkgQfy18QYUtCxY> .
+@prefix p3: <http://purl.org/np/RAneQajFZQ5A2kURbkd4NYCOGEJUFfWdmWzynRXGb1OqQ> .
+@prefix p4: <http://purl.org/np/RAPZM-aUaQrHClUcjI3AWTXmbmx9D5OS7b7JhGtG38EUQ> .
+@prefix p5: <http://purl.org/np/RAugy-o9Ani4XCMPxOT8u4zKcdMi7e5JGVl45CaEoeytI> .
+@prefix p6: <http://purl.org/np/RAMQhVJyOvM4Ix7jy17TkLY836r-TT99lLRr73G-5BKkY> .
+@prefix p7: <http://purl.org/np/RAZ-8fAoi8EuqLdL0ImU3LeTT3o8Dll3_Sq1JYh4D9Mxo> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p1: npx:introduces p1:\#paragraph .
+  
+  p6: npx:introduces p6:\#paragraph .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-methods-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5:\#paragraph;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent p6:\#paragraph;
+    co:nextItem sub:_8 .
+  
+  sub:_8 co:itemContent p7:\#paragraph .
+  
+  sub:section-methods co:firstItem sub:_1;
+    po:contains p1:\#paragraph, p6:\#paragraph, p4:\#paragraph, p7:\#paragraph, p2:\#paragraph,
+      p3:\#paragraph, p5:\#paragraph;
+    po:containsAsHeader sub:section-methods-title;
+    a deo:Methods, doco:Section .
+  
+  sub:section-methods-title c4o:hasContent "Compositional and iterative semantic enhancement of scholary articles";
+    a doco:SectionTitle .
+  
+  p7: npx:introduces p7:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAT3Ig_ajFeoyxXtv8lVkE-SLi2xhHQuKKCWPPjEGsF2I> .
+@prefix sub: <http://purl.org/np/RAT3Ig_ajFeoyxXtv8lVkE-SLi2xhHQuKKCWPPjEGsF2I#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "In recent years, I have experimented extensively, with other colleagues in my research group, with possible paths for the implementation of CISE. Our goal, starting from the pure syntactic containment of the various parts comprising scholarly articles, was to derive additional semantic descriptions of them. Each implementation of CISE we developed aimed at inferring new annotations related to one layer only, describing a specific kind of information.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAyAw0Qp2E1TkNo6N_cqjXr5nof_Tt_Tg1lh5VEIFbWQY> .
+@prefix sub: <http://purl.org/np/RAyAw0Qp2E1TkNo6N_cqjXr5nof_Tt_Tg1lh5VEIFbWQY#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent """In our experiments, all the annotations of a layer are defined according to a particular ontology. To this end, we have developed a collection of ontologies that can be used to describe the first four layers introduced in Section 3, namely:
+
+1. syntactic containment: EARMARK [11] provides an ontologically precise definition of markup that instantiates the markup of a text document as an independent OWL document outside of the text strings it annotates;
+
+2. syntactic structures: the Pattern Ontology [9] permits the segmentation of the structure of digital documents into a small number of atomic components, a set of the structural patterns that can be manipulated independently and re-used in different contexts;
+
+3. structural semantics: DoCO, the Document Components Ontology [5] provides a vocabulary for the structural document components (paragraph, section, list, figure, table, etc.); and
+
+4. rhetorical components: DEO, the Discourse Elements Ontology [5] provides a structured vocabulary for rhetorical elements within documents (introduction, discussion, acknowledgements, etc.).""";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAl6SvNF4WIT9apdEG1W92HPYcANu_onNvbtecwjP_dQM> .
+@prefix sub: <http://purl.org/np/RAl6SvNF4WIT9apdEG1W92HPYcANu_onNvbtecwjP_dQM#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The identification of all the information related to the aforementioned layers is a quite complex work of analysis and derivation. These implementations are a clear evidence that the principles and the approach depicted by CISE are sound, at least to a certain extent, and that the automatic enhancement of scholarly articles by means of Semantic Publishing technologies can be achieved without necessarily using tools that rely on natural language processing or specific markup schemas. In the following subsections, we briefly introduce the outcomes of our experimentations with CISE.4";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RACFZCtIZEc90oafNnARv_0pmgbN2cOhG0TGJuavmJdZc> .
+@prefix sub: <http://purl.org/np/RACFZCtIZEc90oafNnARv_0pmgbN2cOhG0TGJuavmJdZc#> .
+@prefix p1: <http://purl.org/np/RAT3Ig_ajFeoyxXtv8lVkE-SLi2xhHQuKKCWPPjEGsF2I> .
+@prefix p2: <http://purl.org/np/RAyAw0Qp2E1TkNo6N_cqjXr5nof_Tt_Tg1lh5VEIFbWQY> .
+@prefix p3: <http://purl.org/np/RAl6SvNF4WIT9apdEG1W92HPYcANu_onNvbtecwjP_dQM> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:_1 co:itemContent sub:section-implementation-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph .
+  
+  sub:section-implementation co:firstItem sub:_1;
+    po:contains p1:\#paragraph, p3:\#paragraph, p2:\#paragraph;
+    po:containsAsHeader sub:section-implementation-title;
+    a deo:Scenario, doco:Section .
+  
+  sub:section-implementation-title c4o:hasContent "Implementations of CSIE";
+    a doco:SectionTitle .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA0bkLVf1f4sT_sEIzHjAFohR9GI58ggKpl4BDIarRVug> .
+@prefix sub: <http://purl.org/np/RA0bkLVf1f4sT_sEIzHjAFohR9GI58ggKpl4BDIarRVug#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Understanding how scholarly documents can be segmented into structural components, which can then be manipulated independently for different purposes, is a topic that my colleagues and I have studied extensively in the past. The main outcome of this research [9] is the proposal of a theory of structural patterns for digital documents that are sufficient to express what most users need in terms of document constituents and components when writing scholarly papers.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAN58uDZXpFJjLOCJ0bndYOQBcC0RLsL0Mev2MMxO4HSY> .
+@prefix sub: <http://purl.org/np/RAN58uDZXpFJjLOCJ0bndYOQBcC0RLsL0Mev2MMxO4HSY#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent """The basic idea behind this theory – which has been derived by analysing best practice in existing XML grammars and documents [43] – is that each element of a markup language should comply with one and only one structural pattern, depending on the fact that the element:
+
+can or cannot contain text (+t in the first case, −t otherwise);
+
+can or cannot contain other elements (+s in the first case, −s otherwise);
+
+is contained by another element that can or cannot contain text (+T in the first case, −T otherwise).""";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAIFs22TEFfVN7Wta2pgmSJaVrQKICZCw4_519ui8MwAk> .
+@prefix sub: <http://purl.org/np/RAIFs22TEFfVN7Wta2pgmSJaVrQKICZCw4_519ui8MwAk#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "By combining all these possible values – ±t, ±s, and ±T – we obtain eight core structural patterns: inline, block, popup, container, atom, field, milestone, and meta. These patterns are described in the Pattern Ontology and are summarised in Fig. 3.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA-of6r6uxm9wVWTuILTraPBggrhnPsIf-sGhgCm8vImc> .
+@prefix sub: <http://purl.org/np/RA-of6r6uxm9wVWTuILTraPBggrhnPsIf-sGhgCm8vImc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "In [9], colleagues and I have experimented with a CISE implementation for assigning structural patterns to markup elements in XML sources, without relying on any background information about the vocabulary, its intended meaning, its schema, and the natural language in which they have been written. The main steps of the algorithm implemented are shown in Listing 2.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAa3Hq9da4_zoGzLv2QghcfNDaJ63VAbtkxlDTj8wSKOw> .
+@prefix sub: <http://purl.org/np/RAa3Hq9da4_zoGzLv2QghcfNDaJ63VAbtkxlDTj8wSKOw#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "This new algorithm is organised in three main steps, each re-using the mechanism introduced in Listing 1. The first step (line 2) retrieves all the annotations referring to the first layer (i.e. syntactic containment) by representing the XML input documents in input using EARMARK [11]. This transformation is handled by the function convert_into_earmark which populates the initially empty set of annotations with statements that guarantee a complete ontological description of the document markup.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAGLiiT98r3Z46r-WFbSAfaBDHBOqold2gYbsGMF9UDnc> .
+@prefix sub: <http://purl.org/np/RAGLiiT98r3Z46r-WFbSAfaBDHBOqold2gYbsGMF9UDnc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The second step (lines 4–7) assigns, to each instance of each element of each document, the ±t and ±s values according to the kinds of nodes (i.e. textual nodes and/or markup elements) such instance contains (function assign_t_s_properties), and the ±T values according to the previous assignments (function assign_T_properties). Finally, the full structural pattern is specified using all the aforementioned assignments (function assign_patterns).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA_pwcK7Q4KKYl8Mv8Yw41WupRTFEr9-v6c-TeR9hmaCY> .
+@prefix sub: <http://purl.org/np/RA_pwcK7Q4KKYl8Mv8Yw41WupRTFEr9-v6c-TeR9hmaCY#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The third step (lines 9–11) is responsible for harmonising the pattern association of all the instances of the same element. For instance, it would be possible that, in the same document, two instances of an element “x” are assigned to two different patterns, e.g. atom and inline. However, occasionally, it would be possible to generalise these assignments so as to have the same pattern specified for all the instances of the same element – e.g. in the previous example, all the instances of “x” assigned to the pattern atom can be safely assigned to the pattern inline since it is more flexible, allowing the containment of both text nodes and markup elements. This operation of harmonisation, applied to all the pattern assignments of a document, aims at reaching the local coherence of the assignments (function reach_local_coherence) – i.e. the situation in which all the instances of each markup element in a document are assigned to the same pattern. It is worth mentioning that there are situations where such local coherence cannot be reached for some documents. In these cases, all their pattern assignments are removed, so as not to be processed by the following rules. In addition, this harmonisation operation can be applied to all the instances of all the markup elements contained in all the documents that have been found locally coherent. In this case, we talk about reaching the global coherence of the pattern assignments across the corpus of documents (function reach_global_coherence). Finally, the results of these associations are returned (line 13).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAPfJljOyd-5nMP3YNvOU6enJdHnb1_j4aLl0bTwWRwyU> .
+@prefix sub: <http://purl.org/np/RAPfJljOyd-5nMP3YNvOU6enJdHnb1_j4aLl0bTwWRwyU#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "In Fig. 4, I show an execution of the algorithm in Listing 2 using the document introduced in the panel B of Fig. 2. In particular, panel A of Fig. 4 shows the outcomes of the function assign_t_s_properties, supposing that the containment relations of the elements have been already described by the annotations included in layer 1. Panel B completes the previous assignments with those introduced by the function assign_T_properties. Panel C depicts only the outcomes of the function assign_patterns (without showing again the previous assignments). Finally, panel D shows some modifications of the pattern assignments to reach local and global coherence (functions reach_local_coherence and reach_global_coherence).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAVS1ZToA5rGu3rQOouzWngB7UkiANG2cte2jdxkhDg8I> .
+@prefix sub: <http://purl.org/np/RAVS1ZToA5rGu3rQOouzWngB7UkiANG2cte2jdxkhDg8I#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "In order to understand what extent structural patterns are used in different communities, we have executed this CISE-based algorithm on a large set of documents stored using different XML-based markup languages. Some of these markup languages, e.g. TEI [41] and DocBook [44], are not inherently pattern-based – i.e. it is possible in principle to use them to write locally/globally incoherent documents. For instance, a DocBook document that is not pattern-based in introduced in Listing 3.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAnE4iLPNH1fUr1Vjc6IKO-TDLOFCDHTf-gfRpMgkubr4> .
+@prefix sub: <http://purl.org/np/RAnE4iLPNH1fUr1Vjc6IKO-TDLOFCDHTf-gfRpMgkubr4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent """This experimentation allowed us to reached the following conclusions:
+
+in a community (e.g., a conference proceedings or a journal) that uses a permissive non-pattern-based markup language, most authors nevertheless use a pattern-based subset of such language for writing their scholarly articles. This conclusion has been derived by analysing the outcomes of the algorithm execution, as illustrated in [9];
+
+only a small number of pattern-based documents coming from different communities of authors, all stored using the same markup language, is needed for automatically generating generic visualisations for all documents stored in that markup language (regardless of whether they are pattern-based or not) included in the communities in consideration. This conclusion has been empirically demonstrated by developing a prototypical tool, called PViewer, which implements such automatic visualisation mechanism, as introduced in [9].""";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAmdlR1VtKDbqnRoy3jtm0QUO9T4keiUw2aVDu9XRghT4> .
+@prefix sub: <http://purl.org/np/RAmdlR1VtKDbqnRoy3jtm0QUO9T4keiUw2aVDu9XRghT4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Once the algorithm has identified that all the individuals of the markup element “x” included in pattern-based documents of a certain community comply with a particular pattern, it is then possible implicitly to associate the same pattern to all the individual of the same element included in non-pattern-based documents of the same community. As a consequence, these assignments can be used to provide a guide to authors (or even to automatic tools) for adjusting the current organisation of non-pattern-based documents so as to convert them into proper pattern-based ones.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA9YtGqyTLp-NT-EuzeOqQd8SrKb7TUy4s9j4-c3JVrwo> .
+@prefix sub: <http://purl.org/np/RA9YtGqyTLp-NT-EuzeOqQd8SrKb7TUy4s9j4-c3JVrwo#> .
+@prefix p1: <http://purl.org/np/RA0bkLVf1f4sT_sEIzHjAFohR9GI58ggKpl4BDIarRVug> .
+@prefix p2: <http://purl.org/np/RAN58uDZXpFJjLOCJ0bndYOQBcC0RLsL0Mev2MMxO4HSY> .
+@prefix p3: <http://purl.org/np/RAIFs22TEFfVN7Wta2pgmSJaVrQKICZCw4_519ui8MwAk> .
+@prefix p4: <http://purl.org/np/RA-of6r6uxm9wVWTuILTraPBggrhnPsIf-sGhgCm8vImc> .
+@prefix p5: <http://purl.org/np/RAa3Hq9da4_zoGzLv2QghcfNDaJ63VAbtkxlDTj8wSKOw> .
+@prefix p6: <http://purl.org/np/RAGLiiT98r3Z46r-WFbSAfaBDHBOqold2gYbsGMF9UDnc> .
+@prefix p7: <http://purl.org/np/RA_pwcK7Q4KKYl8Mv8Yw41WupRTFEr9-v6c-TeR9hmaCY> .
+@prefix p8: <http://purl.org/np/RAPfJljOyd-5nMP3YNvOU6enJdHnb1_j4aLl0bTwWRwyU> .
+@prefix p9: <http://purl.org/np/RAVS1ZToA5rGu3rQOouzWngB7UkiANG2cte2jdxkhDg8I> .
+@prefix p10: <http://purl.org/np/RAnE4iLPNH1fUr1Vjc6IKO-TDLOFCDHTf-gfRpMgkubr4> .
+@prefix p11: <http://purl.org/np/RAmdlR1VtKDbqnRoy3jtm0QUO9T4keiUw2aVDu9XRghT4> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p4: npx:introduces p4:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-implementation-title;
+    co:nextItem sub:_2 .
+  
+  sub:_10 co:itemContent p9:\#paragraph;
+    co:nextItem sub:_11 .
+  
+  sub:_11 co:itemContent p10:\#paragraph;
+    co:nextItem sub:_12 .
+  
+  sub:_12 co:itemContent p11:\#paragraph .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5:\#paragraph;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent p6:\#paragraph;
+    co:nextItem sub:_8 .
+  
+  sub:_8 co:itemContent p7:\#paragraph;
+    co:nextItem sub:_9 .
+  
+  sub:_9 co:itemContent p8:\#paragraph;
+    co:nextItem sub:_10 .
+  
+  sub:section-implementation co:firstItem sub:_1;
+    po:contains p4:\#paragraph, p1:\#paragraph, p6:\#paragraph, p3:\#paragraph, p2:\#paragraph,
+      p8:\#paragraph, p9:\#paragraph, p7:\#paragraph, p5:\#paragraph, p11:\#paragraph, p10:\#paragraph;
+    po:containsAsHeader sub:section-implementation-title;
+    a deo:Scenario, doco:Section .
+  
+  sub:section-implementation-title c4o:hasContent "From containment to structural patterns";
+    a doco:SectionTitle .
+  
+  p6: npx:introduces p6:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p8: npx:introduces p8:\#paragraph .
+  
+  p9: npx:introduces p9:\#paragraph .
+  
+  p7: npx:introduces p7:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
+  p11: npx:introduces p11:\#paragraph .
+  
+  p10: npx:introduces p10:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAMFTWfKcAp_SYaoj-Y84E7IcIHNiJmzLCxw0fiphCYHY> .
+@prefix sub: <http://purl.org/np/RAMFTWfKcAp_SYaoj-Y84E7IcIHNiJmzLCxw0fiphCYHY#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The systematic use of the patterns introduced in Section 5.1 allows authors to create unambiguous, manageable and well-structured documents. In addition, thanks to the regularity they provide, it is possible to perform complex operations on pattern-based documents (e.g. visualisation) even without knowing their vocabulary. Thus, it should be possible to implement reliable and efficient tools and algorithms that can make hypotheses regarding the meanings of document fragments, that can identify singularities, and that can study global properties of sets of documents.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA01ryoB7I034RtXfb0hUmI0Vk_FHpmupSHRk3M8IHi9k> .
+@prefix sub: <http://purl.org/np/RA01ryoB7I034RtXfb0hUmI0Vk_FHpmupSHRk3M8IHi9k#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Starting from these premises, my colleagues and I have implemented another algorithm to infer layer 3 annotations from the structural patterns retrieved using the algorithm introduced in Listing 2 [10]. Specifically, we use the entities defined in the Document Components Ontology (DoCO) (excluding, on purpose, those defined in other imported ontologies) to mark up elements of documents that have specific structural connotations, such as paragraphs, sections, titles, lists, figures, tables, etc.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA3Ym3POQZO4VDoLKp7bVW3oBjffGzqK3wBhNIwjUFGZY> .
+@prefix sub: <http://purl.org/np/RA3Ym3POQZO4VDoLKp7bVW3oBjffGzqK3wBhNIwjUFGZY#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "A pseudocode of this new algorithm is introduced in Listing 4. It is organised in two steps. First, starting from the input XML documents, it retrieves all the annotations of the first two layers by reusing the algorithm discussed in Section 5.1 (line 2). Then, the following step (lines 4–9) reuses the CISE algorithm introduced in Section 4, by specifying the annotation retrieved previously and the list of functions, where each is responsible for identifying all the markup elements that act according to a specific structural behaviour (e.g. paragraph) in the documents. Each of these rules implements some heuristics that have been derived by analysing how the structural patterns are used in scholarly documents, as detailed in [10] with more detail. For instance, identify_paragraphs associate the type doco:Paragraph to all the instances of the same markup element “x” that is the block element (in terms of structural patterns) with most occurrences (i.e. instances) in the document. If we consider the example in the panel D of Fig. 4, all the instances of the element “c” will be annotated as paragraphs.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAmBo4EPPLA9Cj7wsyCRAVsvPOJ6lyryZKIOYA8eMYalk> .
+@prefix sub: <http://purl.org/np/RAmBo4EPPLA9Cj7wsyCRAVsvPOJ6lyryZKIOYA8eMYalk#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent """We have run the algorithm introduced in Listing 4 on the XML sources of all the articles published in the Proceedings of Balisage (http://balisage.net), which are marked up in DocBook [44]. We obtained quite high overall values of precision and recall (i.e. 0.887 and 0.890 respectively) when comparing the results of the algorithm with a gold standard we created manually by assigning structural characterizations to all the markup elements defined in DocBook. By analysing the outcomes of the algorithm execution, as illustrated in [10], we have reached the following conclusion:
+
+only a small number of pattern-based documents, written by different authors of the same community, is needed for extracting the structural semantics of the main components of all the documents produced by that community.""";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAFeqvdJpDq2H6kOGEg4B0WV8pmD9ihuY-F_YvuroL5-c> .
+@prefix sub: <http://purl.org/np/RAFeqvdJpDq2H6kOGEg4B0WV8pmD9ihuY-F_YvuroL5-c#> .
+@prefix p1: <http://purl.org/np/RAMFTWfKcAp_SYaoj-Y84E7IcIHNiJmzLCxw0fiphCYHY> .
+@prefix p2: <http://purl.org/np/RA01ryoB7I034RtXfb0hUmI0Vk_FHpmupSHRk3M8IHi9k> .
+@prefix p3: <http://purl.org/np/RA3Ym3POQZO4VDoLKp7bVW3oBjffGzqK3wBhNIwjUFGZY> .
+@prefix p4: <http://purl.org/np/RAmBo4EPPLA9Cj7wsyCRAVsvPOJ6lyryZKIOYA8eMYalk> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p2: npx:introduces p2:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-implementation-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph .
+  
+  sub:section-implementation-title c4o:hasContent "From structural patterns to structural semantics";
+    a doco:SectionTitle .
+  
+  sub:section-implemetation co:firstItem sub:_1;
+    po:contains p2:\#paragraph, p3:\#paragraph, p1:\#paragraph, p4:\#paragraph;
+    po:containsAsHeader sub:section-implementation-title;
+    a deo:Scenario, doco:Section .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p4: npx:introduces p4:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAh93qCWuDHn7dhCnfC8qUDwieCpcoXnzpKqfNNUORHSA> .
+@prefix sub: <http://purl.org/np/RAh93qCWuDHn7dhCnfC8qUDwieCpcoXnzpKqfNNUORHSA#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The work presented in [10] was further extended by applying two additional algorithms that have allowed us to retrieve specific rhetorical components in the document, i.e. the references. We then used this rhetorical characterization to assign more precise definitions to the structural entities retrieved by the algorithm introduced in Listing 4.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RALDYaWp9isLwEpKjE3noGPUXCSh86ZfMj-OlFoLMOd74> .
+@prefix sub: <http://purl.org/np/RALDYaWp9isLwEpKjE3noGPUXCSh86ZfMj-OlFoLMOd74#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "According to the Discourse Element Ontology (DEO), the ontology used to represent the annotations of layer 4, a reference is an element that references to a specific part of the document or to another publication. Thus, this category describes any bibliographic reference, any in-text reference pointer to a bibliographic reference, and any pointer to other article items such as figures or tables. These references are recognised by means of the algorithm introduced in Listing 5.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAIa3MnjhyamlvvibIhaYS9Bj40-jXTc964Z-mtrQqLoY> .
+@prefix sub: <http://purl.org/np/RAIa3MnjhyamlvvibIhaYS9Bj40-jXTc964Z-mtrQqLoY#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "This new algorithm is organised in two steps. First, starting from the input XML documents, it retrieves all the annotations of the first three layers by reusing the algorithm discussed in Section 5.2 (line 2). Then, the following step (line 4) reuses the CISE algorithm introduced in Section 4, by specifying the annotations retrieved previously and a particular function, identify_references, that is responsible for annotating all the markup elements that act as references. In particular, this function associates the type deo:Reference to all the instances of elements that are compliant either with the pattern atom or the pattern milestone, and that have an attribute “x” with value “#” + “v”, where “v” is the value of another attribute “y” of another element.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAYMYhiy_obuA2FOA0KCCkdBs3aMHa153tunuyx4OuH2A> .
+@prefix sub: <http://purl.org/np/RAYMYhiy_obuA2FOA0KCCkdBs3aMHa153tunuyx4OuH2A#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Although this rhetorical characterization of article parts only identifies references, these new annotations allow us to infer new meanings for the elements annotated in layer 3, by applying downward causation from layer 4. Specifically, this information about the references allowed us to identify the Bibliography section of an article, by identifying the element of type doco:Section (layer 3) whose children elements, except the section title, are all referenced in the main text.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAr8dIfrD9YPqJJf1xuOk9AD6gPlD0ExKLq_xhJ5sqL_Q> .
+@prefix sub: <http://purl.org/np/RAr8dIfrD9YPqJJf1xuOk9AD6gPlD0ExKLq_xhJ5sqL_Q#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The algorithm in Listing 6 implements this: after retrieving all fourth layer annotations (line 2), it reuses the CISE algorithm introduced in Section 4 so as to annotate all the lists that are bibliographic reference lists (function identify_bibliographic_reference_lists) and all the sections that are Bibliography sections (function identify_bibliographies).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAv-l3ZKsyFkIfwBbFm9gmg45q6CZStKIkrNLl02nmzCg> .
+@prefix sub: <http://purl.org/np/RAv-l3ZKsyFkIfwBbFm9gmg45q6CZStKIkrNLl02nmzCg#> .
+@prefix p1: <http://purl.org/np/RAh93qCWuDHn7dhCnfC8qUDwieCpcoXnzpKqfNNUORHSA> .
+@prefix p2: <http://purl.org/np/RALDYaWp9isLwEpKjE3noGPUXCSh86ZfMj-OlFoLMOd74> .
+@prefix p3: <http://purl.org/np/RAIa3MnjhyamlvvibIhaYS9Bj40-jXTc964Z-mtrQqLoY> .
+@prefix p4: <http://purl.org/np/RAYMYhiy_obuA2FOA0KCCkdBs3aMHa153tunuyx4OuH2A> .
+@prefix p5: <http://purl.org/np/RAr8dIfrD9YPqJJf1xuOk9AD6gPlD0ExKLq_xhJ5sqL_Q> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p3: npx:introduces p3:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p5: npx:introduces p4:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-implementation-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5:\#paragraph .
+  
+  sub:section-implementation co:firstItem sub:_1;
+    po:contains p3:\#paragraph, p2:\#paragraph, p4:\#paragraph, p1:\#paragraph, p5:\#paragraph;
+    po:containsAsHeader sub:section-implementation-title;
+    a deo:Scenario, doco:Section .
+  
+  sub:section-implementation-title c4o:hasContent "From structural semantics to rhetorical components and back";
+    a doco:SectionTitle .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAk1SGO_E4kcKBKtBAmIpELc5JSSoYjg9yD9yrbtt6gqg> .
+@prefix sub: <http://purl.org/np/RAk1SGO_E4kcKBKtBAmIpELc5JSSoYjg9yD9yrbtt6gqg#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "In Section 5 I have shown how the approach proposed in Section 4 can be implemented to return annotations belonging the first four layers introduced in Section 3. It also presents some issues that cannot be addressed by looking only at the syntactical containment of article parts. The most important issue is this: since CISE focusses on article parts that must be clearly marked-up in some way, all the other portions of the article text are simply discarded. By design, CISE does not undertake the analysis of natural language text. There are several existing applications, such as Named Entity Recognition tools (NER) [15] and other NLP technologies (e.g. [34]), that can be used for this purpose.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAiXIRavwa_luaViRgbUH1pms-mecvaI4qQ2ObttG0z9k> .
+@prefix sub: <http://purl.org/np/RAiXIRavwa_luaViRgbUH1pms-mecvaI4qQ2ObttG0z9k#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "CISE is intrinsically limited by some of the conditions, introduced in Section 4, necessary for its implementation. The most limiting is the requirement that the article to be analysed should be appropriately marked up by means of some (e.g. XML-based) markup language. While it is not necessary to know the particular grammar and vocabulary of the markup language used, it is crucial that the article parts are organised hierarchically according to appropriate containment principles. For instance, in an HTML-based article, all the section-subsection relations should be explicitly defined by means of nested section elements. The common usage of headings of different levels (i.e. h1–h6 elements) within a flat structure (e.g. an article element) is inadequate for this, since it does not explicitly define the intended hierarchical organisation of the sections.5";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAxyujFT9qZyXkHbleXW51eGKCkVqURbXqloIeol4bFvQ> .
+@prefix sub: <http://purl.org/np/RAxyujFT9qZyXkHbleXW51eGKCkVqURbXqloIeol4bFvQ#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "CISE depends on the theoretical backgrounds introduced in Section 3, namely the principles of compositionality and downward causation. The other conditions introduced in Section 4 are less strict and need a more careful investigation. In particular, while scholarly documents can be written in different natural languages, their main constituents common across the whole scholarly communication domain. Of course, the presentation of research articles can vary according to the particular domain – e.g. Life Sciences articles usually follow a well-defined structure, while Computer Science articles are usually organised in a less conservative way. However, they all follow generic underlying ways of organising the arguments supporting the research conclusions – even if some aspects are more commonly found in one domain rather than another (e.g. Life Science articles typically have a Background section, while Computer Science articles have a Related Works section, whose function, while similar, is different in important aspects). Nevertheless, my hypothesis (partially supported by existing studies, e.g. [26]) is that many of the ways of organising research articles are shared across the various research areas.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA9b3VEkIDEfHMC18lNsDVHCKBXVw_BmuaFkLMVFjKB4U> .
+@prefix sub: <http://purl.org/np/RA9b3VEkIDEfHMC18lNsDVHCKBXVw_BmuaFkLMVFjKB4U#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Future extensions and new implementations of CISE will permit me to study such intra- and inter-domain patterns and similarities, identifying which particular structures and semantic connotations are shared between different research areas, and determining how much argumentative information is hidden behind quite simple syntactic structures. From such analysis, it might be possible to identify particular patterns of organisation of document parts that characterize certain domains or particular the types of papers (research papers, reviews, letters, etc.).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA9c8IHoJ7LnKXZ__tbIEqzFXAcY0E3J-qzScR23-vBXE> .
+@prefix sub: <http://purl.org/np/RA9c8IHoJ7LnKXZ__tbIEqzFXAcY0E3J-qzScR23-vBXE#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "It might also be possible to extend CISE to the remaining higher layers introduced in Section 3, each defined by a specific ontology: annotations about citation functions (target ontology: CiTO [32]), argumentative organisation (target ontology: AMO), article categorization (target ontology: FaBiO [32]), and discipline clustering (target ontology: DBpedia Ontology [23]).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA-EPpi433QuTXRBAFjBNZgdqK86lrluAjKoevynSBR0I> .
+@prefix sub: <http://purl.org/np/RA-EPpi433QuTXRBAFjBNZgdqK86lrluAjKoevynSBR0I#> .
+@prefix p1: <http://purl.org/np/RAk1SGO_E4kcKBKtBAmIpELc5JSSoYjg9yD9yrbtt6gqg> .
+@prefix p2: <http://purl.org/np/RAiXIRavwa_luaViRgbUH1pms-mecvaI4qQ2ObttG0z9k> .
+@prefix p3: <http://purl.org/np/RAxyujFT9qZyXkHbleXW51eGKCkVqURbXqloIeol4bFvQ> .
+@prefix p4: <http://purl.org/np/RA9b3VEkIDEfHMC18lNsDVHCKBXVw_BmuaFkLMVFjKB4U> .
+@prefix p5: <http://purl.org/np/RA9c8IHoJ7LnKXZ__tbIEqzFXAcY0E3J-qzScR23-vBXE> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:_1 co:itemContent sub:section-future-work-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5:\#paragraph .
+  
+  sub:section-conclusion co:firstItem sub:_1;
+    po:contains p4:\#paragraph, p5:\#paragraph, p2:\#paragraph, p1:\#paragraph, p3:\#paragraph;
+    po:containsAsHeader sub:section-future-work-title;
+    a deo:Discussion, deo:FutureWork, doco:Section .
+  
+  sub:section-future-work-title c4o:hasContent "Limitations and future directions";
+    a doco:SectionTitle .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA4O0Lgea65ssi1Vyd0JDQTy3NzPJFX3vvNBid4Y0ETSo> .
+@prefix sub: <http://purl.org/np/RA4O0Lgea65ssi1Vyd0JDQTy3NzPJFX3vvNBid4Y0ETSo#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "In this article, I have introduced the compositional and iterative semantic enhancement (CISE) approach for the automated enrichment of scholarly articles with meaningful semantic annotations by means of Semantic Publishing technologies. Taking inspiration from past approaches that rely on the principles of compositionality and downward causation, the CISE strategy enables the automatic enhancement of the various parts comprising a scholarly article by means of an iterative process, providing additional semantic descriptions by combining the enhancements obtained in previous executions of the approach.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAP4GKEo8t8aJjBqTDVzHzId62PKr0dp36JKT9nVUKYpk> .
+@prefix sub: <http://purl.org/np/RAP4GKEo8t8aJjBqTDVzHzId62PKr0dp36JKT9nVUKYpk#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "I have also discussed the outcomes of past CISE experimentations that my colleagues and I have developed for the automatic annotation of document components in scholarly articles according to particular structural patterns (inline, block, etc.), structural semantics (paragraph, section, figure, etc.), and rhetorical components (i.e. references), as introduced in Section 5. While these do not address all the layers of annotations sketched in Section 3, I think the outcomes described in Section 5 are acceptable pointers for claiming that some level of automatic semantic enhancement of scholarly articles is possible even in the presence of specific constraints such as the independence from the natural language used for writing such articles and the markup language used for storing their contents. Thus CISE provides at least a partial positive answer to the research question presented in Section 1: “Can the purely syntactic organisation of the various parts of a scholarly article convey something about its semantic and rhetorical representation, and to what extent?”. In the future, I plan to perform additional studies and experiments to further validate this claim.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAhMwvh_gKqqNdqmr3prgV12C8tYZnxflgzgwdKecXU3g> .
+@prefix sub: <http://purl.org/np/RAhMwvh_gKqqNdqmr3prgV12C8tYZnxflgzgwdKecXU3g#> .
+@prefix p1: <http://purl.org/np/RA4O0Lgea65ssi1Vyd0JDQTy3NzPJFX3vvNBid4Y0ETSo> .
+@prefix p2: <http://purl.org/np/RAP4GKEo8t8aJjBqTDVzHzId62PKr0dp36JKT9nVUKYpk> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p1: npx:introduces p1:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-conclusion-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph .
+  
+  sub:section-conclusion co:firstItem sub:_1;
+    po:contains p1:\#paragraph, p2:\#paragraph;
+    po:containsAsHeader sub:section-conclusion-title;
+    a deo:Conclusion, doco:Section .
+  
+  sub:section-conclusion-title c4o:hasContent "Conclusions";
+    a doco:SectionTitle .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA7lHJMFRodbFo30L8VFbDqSE4UU_AjGS5XgEtz2tg-N0> .
+@prefix sub: <http://purl.org/np/RA7lHJMFRodbFo30L8VFbDqSE4UU_AjGS5XgEtz2tg-N0#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:comment-1 <http://example.com/ADD-LINK-HEREhasImpact> "0"^^xsd:positiveInteger;
+    <http://example.com/ADD-LINK-HERErefersTo> <http://dx.doi.org/10.3233/sw-160239>,
+      doco:Article;
+    c4o:hasContent "This manuscript was submitted as 'full paper' and should be reviewed along the usual dimensions for research contributions which include (1) originality, (2) significance of the results, and (3) quality of writing.";
+    a <http://example.com/ADD-LINK-HEREContentComment>, <http://example.com/ADD-LINK-HERENeutralComment>,
+      <http://example.com/ADD-LINK-HERENoActionNeededComment>, <http://example.com/ADD-LINK-HEREReviewComment> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAqHKiJFtYkplWKOjEpUKIBbpz6DGoQ614FGqHTxi-p0o> .
+@prefix sub: <http://purl.org/np/RAqHKiJFtYkplWKOjEpUKIBbpz6DGoQ614FGqHTxi-p0o#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:comment-2 <http://example.com/ADD-LINK-HEREhasImpact> "5"^^xsd:positiveInteger;
+    <http://example.com/ADD-LINK-HERErefersTo> <http://dx.doi.org/10.3233/sw-160239>,
+      doco:Article;
+    c4o:hasContent "The authors present a study where they examine the applicability of crowdsourcing to Linked Data Quality problems with DBpedia as an example. They show the general feasibility of the approach and continue to investigate whether and for which tasks in particular unskilled laymen instead of experts can also be employed to solve LDQ problems. Furthermore, they address the problem of optimal or better crowdsourcing workflows tom employ experts and laymen for Linked Data curation.";
+    a <http://example.com/ADD-LINK-HEREContentComment>, <http://example.com/ADD-LINK-HERENeutralComment>,
+      <http://example.com/ADD-LINK-HERENoActionNeededComment>, <http://example.com/ADD-LINK-HEREReviewComment> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAEp83yDZuqu2i81UMH2jxi6hYZHZs0bhr2JWW-fWBUyU> .
+@prefix sub: <http://purl.org/np/RAEp83yDZuqu2i81UMH2jxi6hYZHZs0bhr2JWW-fWBUyU#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:comment-3 <http://example.com/ADD-LINK-HEREhasImpact> "5"^^xsd:positiveInteger;
+    <http://example.com/ADD-LINK-HERErefersTo> <http://dx.doi.org/10.3233/sw-160239>,
+      doco:Article;
+    c4o:hasContent "The problem addressed is a rather interesting one, giving first insights in how to adapt crowdsourcing to LDQ issues. From my point of view, I would have liked to see a more concise comparison of the two crowdsourcing approaches also with the sophisticated state-of-the-art automated tools. ";
+    a <http://example.com/ADD-LINK-HEREActionNeededComment>, <http://example.com/ADD-LINK-HEREContentComment>,
+      <http://example.com/ADD-LINK-HERENeutralComment>, <http://example.com/ADD-LINK-HEREReviewComment> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RARqFLoxO_1mQHyFIqVgVQ0IU0v7-Sx20BXg634bBUtBk> .
+@prefix sub: <http://purl.org/np/RARqFLoxO_1mQHyFIqVgVQ0IU0v7-Sx20BXg634bBUtBk#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:comment-4 <http://example.com/ADD-LINK-HEREhasImpact> "5"^^xsd:positiveInteger;
+    <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>, <http://example.com/ADD-LINK-HERESection>;
+    c4o:hasContent "The proposed RDFUnit approach in the way the authors conducted their experiments has some flaws and is too limited (for details cf below). Thus, I have some (significant) issues with the evaluation, which should be addressed by the authors.";
+    a <http://example.com/ADD-LINK-HEREActionNeededComment>, <http://example.com/ADD-LINK-HEREContentComment>,
+      <http://example.com/ADD-LINK-HERENegativeComment>, <http://example.com/ADD-LINK-HEREReviewComment> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAVI94RUUCgbofHtky3z4K0P5rxYzLIgkUwfSgTeNStRI> .
+@prefix sub: <http://purl.org/np/RAVI94RUUCgbofHtky3z4K0P5rxYzLIgkUwfSgTeNStRI#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:comment-5 <http://example.com/ADD-LINK-HEREhasImpact> "3"^^xsd:positiveInteger;
+    <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>, doco:Paragraph;
+    c4o:hasContent """1) In the end of the introduction (p.3) the limitations of automated methods for Linked Data quality assurance are mentioned with referring to checking ontological inconsistencies only. Besides, there also exist approached based on statistics (as e.g. outlier detection, etc.) which should not be neglected or at least mentioned as such in the related work section.[1,2,3] [1] Heiko Paulheim and Christian Bizer. 2014. Improving the Quality of Linked Data Using Statistical Distributions. Int. J. Semant. Web Inf. Syst. 10, 2 (April 2014), pp. 63-86.
+[2] Didier Cherix, Ricardo Usbeck, Andreas Both, Jens Lehmann. 2014. CROCUS: Cluster-based Ontology Data Cleansing. WASABI 2014 at Extended Semantic Web Conference 2014.
+[3] Daniel Fleischhacker, Heiko Paulheim, Volha Bryl, Johanna Völker, and Christian Bizer. 2014. Detecting Errors in Numerical Linked Data Using Cross-Checked Outlier Detection. In Proc. 13th Int. Semantic Web Conference (ISWC '14), pp. 357-372.""";
+    a <http://example.com/ADD-LINK-HEREActionNeededComment>, <http://example.com/ADD-LINK-HEREContentComment>,
+      <http://example.com/ADD-LINK-HERENegativeComment>, <http://example.com/ADD-LINK-HEREReviewComment> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RACOGevuvBWIPnD9_7N19kz-eA19eQZny5eFVR3q-Y3mA> .
+@prefix sub: <http://purl.org/np/RACOGevuvBWIPnD9_7N19kz-eA19eQZny5eFVR3q-Y3mA#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:comment-6 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Section;
+    c4o:hasContent "2) In section 2) Linked Data Quality Issues, you focus on three RDF-tripel level quality issues only out of a larger set of Linked Data Quality issues referred to by your previous work in that area. Unfortunately, you do not explain why the 3 categories of quality issues you focus on are representative either for LDQ issues in general and crowdsourcing in particular. What about the other quality issues concerning their importance, representativeness, suitability for crowdsourcing etc? A more detailed discussion would be helpful.";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA6ilsTUoZrnduEsO7qxWvJOWHrEk5EKrwLwWC-Of9dJg> .
+@prefix sub: <http://purl.org/np/RA6ilsTUoZrnduEsO7qxWvJOWHrEk5EKrwLwWC-Of9dJg#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:comment-7 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Paragraph;
+    c4o:hasContent "3) In section 3.2) you give background information on the Find-Fix-Verify pattern (2nd paragraph). This information (in which scenario it was used first, etc.) is not really necessary for the rest of the paper.”";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA1jcYOjYKy5GAQ1ON-V9C3t6hDfZpoCgXpanzyZZckf8> .
+@prefix sub: <http://purl.org/np/RA1jcYOjYKy5GAQ1ON-V9C3t6hDfZpoCgXpanzyZZckf8#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:comment-8 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Paragraph;
+    c4o:hasContent "4) On page 9 you state that your function \"prune\" discards all RDF triples of which an URI could not be dereferenced. Was there a significant amount of these RDF triples? Did it only concern triples with relation to an external website that could not be dereferenced or did it also concern DBpedia URIs?";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA9PmnYYgMYMFNiSeTp0eM8tSTS9tN7UyEH0u1CW0DyIc> .
+@prefix sub: <http://purl.org/np/RA9PmnYYgMYMFNiSeTp0eM8tSTS9tN7UyEH0u1CW0DyIc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:comment-9 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Paragraph;
+    c4o:hasContent "5) In p.11, Fig 3, the comparison of DBpedia RDF triples (middle column) shown in your tool is compared with wikipedia infobox values (left column) for which you implemented an extractor. How do you ensure that your extractor does not create extraction errors like they are about to occur in the DBpedia infobox which resulted in the RDF triple under consideration? What if both - your wikipedia infobox extractor and the DBpedia RDF triple - show the very same error? Many problems of the DBpedia extractors arise from wrong infobox information, because many wikipedia authors don't care about infobox conventions. Can these kind of errors be detected at all with your crowdsourcing tool (based on the very same mechanisms to give a hint to the crowdworker)?";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAyiWHLmMRP3JEz_4KccdvU62geTRx0hucpd8hoxVKX8E> .
+@prefix sub: <http://purl.org/np/RAyiWHLmMRP3JEz_4KccdvU62geTRx0hucpd8hoxVKX8E#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:comment-10 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Paragraph;
+    c4o:hasContent "6) In your evaluation, p.17, section 5.2.6, you present an \"analysis\" of expert misclassifications. The analysis only states in an aggregated form what kind of misclassifications occurred, but does not give any explanation or details why these occurred.";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+  
+  sub:comment-11 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Paragraph;
+    c4o:hasContent "7) Also in your evaluation, p.21, section 5.3.5, you claimed that rdf:type information could not be evaluated correctly by users because yago classes do not provide self-speaking labels or other textual information. But, the URI of yago classes usually consists of a self-speaking name and some numerical information, such as e.g. yago:AerospaceEngineer109776079 , which is perfectly readable for humans.";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+  
+  sub:comment-12 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Paragraph;
+    c4o:hasContent "8) Why don't you consider (also) the Open World Assumption (p.21) for your baseline approach. Please explain.";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+  
+  sub:comment-13 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Paragraph;
+    c4o:hasContent "9) The rules you provide as constraints to be checked for your baseline approach (p.22) are sometimes questionable. As e.g., Persons without a birthdate (even if they sometimes have a deathdate) - this holds for many historical persons born a long time ago, simply because their birthdate is not known.";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+  
+  sub:comment-14 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Section;
+    c4o:hasContent "10) In your experiments you should give the LD experts always full schema/ontology information to consider the correctness of an RDF triple.";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+  
+  sub:comment-15 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Paragraph;
+    c4o:hasContent "11) Baseline evaluation (p.22, section 5.4.2). In addition to the foaf:name, you should also take into account alternative labels (from redirects and interlanguage links) of the entity under consideration, if you want to find out automatically, whether the external web page refers to this entity. Otherwise you might not detect it. Why have you set the threshold to \">1\"? Why is two times sufficient? Often in natural language texts, it is avoided to name a subject more often with the same name, but synonyms and pronouns are used instead.";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+  
+  sub:comment-16 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Paragraph;
+    c4o:hasContent "12) In p.23, table 9: I doubt the ability of the baseline to detect, whether the baseline is able to identify if a \"thumbnail\" or a \"depiction\" refers to the correct image for this entity. Please justify and explain how you ensure this.";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+  
+  sub:comment-17 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Paragraph;
+    c4o:hasContent "13) In the related work section (p.24/25) Games with a Purpose are mentioned. There exist also games with the dedicated purpose of DBpedia quality check that have not been mentioned/compared [4]. [4] J. Waitelonis, N. Ludwig, M. Knuth, H. Sack: Whoknows? - Evaluating Linked Data Heuristics with a Quiz that cleans up DBpedia. International Journal of Interactive Technology and Smart Education (ITSE), Emerald Group, Bingley (UK), Vol. 8, 2011 (3).";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+  
+  sub:comment-18 <http://example.com/ADD-LINK-HERErefersTo> <http://example.com/ADD-HERE-ID>,
+      doco:Paragraph;
+    c4o:hasContent """14) Also in the related work section (p. 25), Tools for Linked Data Quality Assessment that are able to automatically extract/create ontology constraints from available data, to further use these constraints to assess the quality of the remaining data have been neglected.[5,6] [5] Jens Lehmann, Lorenz Bühmann: ORE - A Tool for Repairing and Enriching Knowledge Bases\"\", Proc. of the 9th Int. Semantic Web Conference 2010, Lecture Notes in Computer Science, Springer, 2010
+[6] G. Töpper, M. Knuth, and H. Sack: DBpedia ontology enrichment for inconsistency detection. In Proc. of the 8th Int. Conf. on Semantic Systems (I-SEMANTICS '12). ACM, New York, NY, USA, pp. 33-40.""";
+    a <http://example.com/ADD-LINK-HEREReviewComment> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA7CEL15n4dInOmHePSfRGPtT4-qTFQCg2g6crFp70LoQ> .
+@prefix sub: <http://purl.org/np/RA7CEL15n4dInOmHePSfRGPtT4-qTFQCg2g6crFp70LoQ#> .
+@prefix p1nanopub: <http://purl.org/np/RA7lHJMFRodbFo30L8VFbDqSE4UU_AjGS5XgEtz2tg-N0> .
+@prefix p2nanopub: <http://purl.org/np/RAqHKiJFtYkplWKOjEpUKIBbpz6DGoQ614FGqHTxi-p0o> .
+@prefix p3nanopub: <http://purl.org/np/RAEp83yDZuqu2i81UMH2jxi6hYZHZs0bhr2JWW-fWBUyU> .
+@prefix p4nanopub: <http://purl.org/np/RARqFLoxO_1mQHyFIqVgVQ0IU0v7-Sx20BXg634bBUtBk> .
+@prefix p5nanopub: <http://purl.org/np/RAVI94RUUCgbofHtky3z4K0P5rxYzLIgkUwfSgTeNStRI> .
+@prefix p6nanopub: <http://purl.org/np/RACOGevuvBWIPnD9_7N19kz-eA19eQZny5eFVR3q-Y3mA> .
+@prefix p7nanopub: <http://purl.org/np/RA6ilsTUoZrnduEsO7qxWvJOWHrEk5EKrwLwWC-Of9dJg> .
+@prefix p8nanopub: <http://purl.org/np/RA1jcYOjYKy5GAQ1ON-V9C3t6hDfZpoCgXpanzyZZckf8> .
+@prefix p9nanopub: <http://purl.org/np/RA9PmnYYgMYMFNiSeTp0eM8tSTS9tN7UyEH0u1CW0DyIc> .
+@prefix p10nanopub: <http://purl.org/np/RAyiWHLmMRP3JEz_4KccdvU62geTRx0hucpd8hoxVKX8E> .
+@prefix p11nanopub: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p11#> .
+@prefix p12nanopub: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p12#> .
+@prefix p13nanopub: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p13#> .
+@prefix p14nanopub: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p14#> .
+@prefix p15nanopub: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p15#> .
+@prefix p16nanopub: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p16#> .
+@prefix p17nanopub: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p17#> .
+@prefix p18nanopub: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p18#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix fr: <http://fairreviews.linkeddata.es/def/core/index.html#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p11nanopub: npx:introduces p10nanopub:\#comment-11 .
+  
+  p12nanopub: npx:introduces p10nanopub:\#comment-12 .
+  
+  p13nanopub: npx:introduces p10nanopub:\#comment-13 .
+  
+  p14nanopub: npx:introduces p10nanopub:\#comment-14 .
+  
+  p15nanopub: npx:introduces p10nanopub:\#comment-15 .
+  
+  p16nanopub: npx:introduces p10nanopub:\#comment-16 .
+  
+  p17nanopub: npx:introduces p10nanopub:\#comment-17 .
+  
+  p18nanopub: npx:introduces p10nanopub:\#comment-18 .
+  
+  p8nanopub: npx:introduces p8nanopub:\#comment-8 .
+  
+  p7nanopub: npx:introduces p7nanopub:\#comment-7 .
+  
+  sub:_1 co:itemContent sub:section-introduction-title;
+    co:nextItem sub:_2 .
+  
+  sub:_10 co:itemContent p9nanopub:\#comment-9;
+    co:nextItem sub:_11 .
+  
+  sub:_11 co:itemContent p10nanopub:\#comment-10;
+    co:nextItem sub:_12 .
+  
+  sub:_12 co:itemContent p10nanopub:\#comment-11;
+    co:nextItem sub:_13 .
+  
+  sub:_13 co:itemContent p10nanopub:\#comment-12;
+    co:nextItem sub:_14 .
+  
+  sub:_14 co:itemContent p10nanopub:\#comment-13;
+    co:nextItem sub:_15 .
+  
+  sub:_15 co:itemContent p10nanopub:\#comment-14;
+    co:nextItem sub:_16 .
+  
+  sub:_16 co:itemContent p10nanopub:\#comment-15;
+    co:nextItem sub:_17 .
+  
+  sub:_17 co:itemContent p10nanopub:\#comment-16;
+    co:nextItem sub:_18 .
+  
+  sub:_18 co:itemContent p10nanopub:\#comment-17;
+    co:nextItem sub:_19 .
+  
+  sub:_19 co:itemContent p10nanopub:\#comment-18 .
+  
+  sub:_2 co:itemContent p1nanopub:\#comment-1;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2nanopub:\#comment-2;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3nanopub:\#comment-3;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4nanopub:\#comment-4;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5nanopub:\#comment-5;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent p6nanopub:\#comment-6;
+    co:nextItem sub:_8 .
+  
+  sub:_8 co:itemContent p7nanopub:\#comment-7;
+    co:nextItem sub:_9 .
+  
+  sub:_9 co:itemContent p8nanopub:\#comment-8;
+    co:nextItem sub:_10 .
+  
+  sub:review-1 fr:isReviewOf <http://dx.doi.org/10.3233/sw-160239>;
+    co:firstItem sub:_1;
+    dc:creator <https://orcid.org/0000-0002-7114-6459>;
+    po:contains <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p9#comment-10>,
+      <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p9#comment-11>, <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p9#comment-12>,
+      <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p9#comment-13>, <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p9#comment-14>,
+      <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p9#comment-15>, <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p9#comment-16>,
+      <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p9#comment-17>, p8nanopub:\#comment-8,
+      p7nanopub:\#comment-7, p1nanopub:\#comment-1, p9nanopub:\#comment-9, p6nanopub:\#comment-6,
+      p3nanopub:\#comment-3, p4nanopub:\#comment-4, p5nanopub:\#comment-5, p2nanopub:\#comment-2,
+      p10nanopub:\#comment-18;
+    a fr:Review .
+  
+  p1nanopub: npx:introduces p1nanopub:\#comment-1 .
+  
+  p9nanopub: npx:introduces p9nanopub:\#comment-9 .
+  
+  p6nanopub: npx:introduces p6nanopub:\#comment-6 .
+  
+  p3nanopub: npx:introduces p3nanopub:\#comment-3 .
+  
+  p4nanopub: npx:introduces p4nanopub:\#comment-4 .
+  
+  p5nanopub: npx:introduces p5nanopub:\#comment-5 .
+  
+  p2nanopub: npx:introduces p2nanopub:\#comment-2 .
+  
+  p10nanopub: npx:introduces p10nanopub:\#comment-10 .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
