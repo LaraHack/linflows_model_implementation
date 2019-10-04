@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix wd: <https://www.w3.org/TR/annotation-model/#annotations> .
+
+@prefix : <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+# General description:
+<https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> a owl:Ontology ;
+	rdfs:comment "This vocabulary represents a finer-grained model for scientific reviews."@en ;
+	dcterms:modified "2019-06-19"^^xsd:date ;
+	dc:contributor "Tobias Kuhn"^^xsd:string ;
+	dcterms:created "2018-09-01"^^xsd:date ;
+	dc:creator <https://orcid.org/0000-0002-7114-6459> ;
+	dcterms:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+	owl:versionInfo "1.0" ;
+	vann:preferredNamespaceUri "https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#" ;
+	dc:title "Linkflows reviews"@en ;
+	dc:publisher <http://http://ucds.cs.vu.nl/> ;
+	vann:preferredNamespacePrefix "lkf"^^xsd:string .
+
+# main classes for review comment
+:Comment a owl:Class ;
+  rdfs:subClassOf prov:Entity .
+:ReviewComment rdfs:subClassOf :Comment .
+:ResponseComment rdfs:subClassOf :Comment .
+:ActionCheckComment rdfs:subClassOf :Comment .
+
+# General properties:
+:refersTo rdf:type rdf:Property .
+:refersTo rdfs:domain :Comment .
+:refersTo rdfs:range prov:Entity .
+
+:isResponseTo rdf:type rdf:Property .
+:isResponseTo rdfs:domain :ResponseComment .
+:isResponseTo rdfs:range :Comment .
+
+:isUpdateOf rdf:type rdf:Property .
+:isUpdateOf rdfs:domain prov:Entity .
+:isUpdateOf rdfs:range prov:Entity .
+
+:hasCommentText rdfs:subPropertyOf dcterms:description .
+:hasCommentText rdfs:domain :Comment .
+:hasCommentText rdfs:range xsd:string .
+
+:hasCommentAuthor rdfs:subPropertyOf dc:creator .
+:hasCommentAuthor rdfs:domain :Comment .
+:hasCommentAuthor rdfs:range prov:Agent .
+
+# Dimensions (classes)
+
+:SyntaxComment rdfs:subClassOf :ReviewComment .
+:StyleComment rdfs:subClassOf :ReviewComment .
+:ContentComment rdfs:subClassOf :ReviewComment .
+
+:SyntaxComment owl:disjointWith :StyleComment .
+:StyleComment owl:disjointWith :ContentComment .
+:SyntaxComment owl:disjointWith :ContentComment .
+
+# Point raised in the review comment: negative, neutral, positive
+:NegativeComment rdfs:subClassOf :ReviewComment .
+:NeutralComment rdfs:subClassOf :ReviewComment .
+:PositiveComment rdfs:subClassOf :ReviewComment .
+
+:NegativeComment owl:disjointWith :NeutralComment .
+:NeutralComment owl:disjointWith :PositiveComment .
+:NegativeComment owl:disjointWith :PositiveComment .
+
+# Action:
+:ActionNeededComment rdfs:subClassOf :ReviewComment .
+:SuggestionComment rdfs:subClassOf :ReviewComment .
+:NoActionNeededComment rdfs:subClassOf :ReviewComment .
+
+:ActionNeededComment owl:disjointWith :SuggestionComment .
+:SuggestionComment owl:disjointWith :NoActionNeededComment .
+:ActionNeededComment owl:disjointWith :NoActionNeededComment .
+
+# Response action:
+:PointAddressedComment rdfs:subClassOf :ActionCheckComment .
+:PointPartiallyAddressedComment rdfs:subClassOf :ActionCheckComment .
+:PointNotAddressedComment rdfs:subClassOf :ActionCheckComment .
+
+:PointAddressedComment owl:disjointWith :PointNotAddressedComment .
+:PointNotAddressedComment owl:disjointWith :PointPartiallyAddressedComment .
+:PointAddressedComment owl:disjointWith :PointPartiallyAddressedComment .
+
+# Response reply:
+:AgreementComment rdfs:subClassOf :ResponseComment .
+:DisagreementComment rdfs:subClassOf :ResponseComment .
+:PartialAgreementComment rdfs:subClassOf :ResponseComment .
+
+# Properties:
+# impact:
+:hasImpact rdf:type owl:DatatypeProperty .
+#:hasImpact rdfs:label "Overall impact on quality" .
+#:hasImpact dcterms:description "the impact of the point raised in the review comment on the overall quality of the article according to the reviewer. For negative points, the positive impact if the point is fully addressed. For positive points, the negative impact if this point were not true" .
+:hasImpact rdfs:domain :ReviewComment .
+:hasImpact rdfs:range xsd:positiveInteger .
+
+# author response/action:
+#
