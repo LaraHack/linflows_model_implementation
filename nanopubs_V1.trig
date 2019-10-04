@@ -2709,7 +2709,7 @@ only a small number of pattern-based documents, written by different authors of 
 }
 
 :assertion {
-<http://dx.doi.org/10.3233/sw-160239> a doco:Article ;
+:articleVersion1 a doco:Article ;
   # pav:previousVersion :version-2 ;
 	dcterms:title "Detecting Linked Data Quality Issues via Crowdsourcing: A DBpedia Study" ;
 	dcterms:creator <http://orcid.org/0000-0003-0530-4305> ; # add all authors

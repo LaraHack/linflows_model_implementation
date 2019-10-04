@@ -308,8 +308,8 @@ sub:pubinfo {
   this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA532IpIwaJ-YlFMM1UoYF7gas5pP4ei9yIdLA2Bo1vQ4> .
-@prefix sub: <http://purl.org/np/RA532IpIwaJ-YlFMM1UoYF7gas5pP4ei9yIdLA2Bo1vQ4#> .
+@prefix this: <http://purl.org/np/RAR49VV4FWVgWLfEEus-Gfjp767oWvLzNOM4mu2DQMni4> .
+@prefix sub: <http://purl.org/np/RAR49VV4FWVgWLfEEus-Gfjp767oWvLzNOM4mu2DQMni4#> .
 @prefix p1: <http://purl.org/np/RA5ANtziRDJlTHUNoBzRanPJQ1mbRYrav_M_Wn0bDFDYo> .
 @prefix p2: <http://purl.org/np/RAl4V7UZBVsiwt3QTeFz5p3XrnXVXlUNZL-OEtal64zkk> .
 @prefix p3: <http://purl.org/np/RAmm5LknxWXbIAM7mcmtB66bF9JoWnCzJY1H3TD29HYEU> .
@@ -341,6 +341,12 @@ sub:Head {
 
 sub:assertion {
   p9: npx:introduces p9:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
+  p4: npx:introduces p4:\#paragraph .
   
   sub:_1 co:itemContent sub:section-introduction-title;
     co:nextItem sub:_2 .
@@ -374,7 +380,7 @@ sub:assertion {
   sub:_9 co:itemContent p6:\#paragraph;
     co:nextItem sub:_10 .
   
-  sub:section-introduction co:firstItem sub:_1;
+  sub:section co:firstItem sub:_1;
     po:contains p9:\#paragraph, p1:\#paragraph, p5:\#paragraph, p4:\#paragraph, p6:\#paragraph,
       p10:\#paragraph, p2:\#paragraph, p3:\#paragraph, p8:\#paragraph, p7:\#paragraph;
     po:containsAsHeader sub:section-introduction-title;
@@ -382,12 +388,6 @@ sub:assertion {
   
   sub:section-introduction-title c4o:hasContent "Introduction";
     a doco:SectionTitle .
-  
-  p1: npx:introduces p1:\#paragraph .
-  
-  p5: npx:introduces p5:\#paragraph .
-  
-  p4: npx:introduces p4:\#paragraph .
   
   p6: npx:introduces p6:\#paragraph .
   
@@ -597,8 +597,8 @@ sub:pubinfo {
   this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAjyxRlcc-gx_ffi1pinUZKS3RuF59izB-leVdgI51NVc> .
-@prefix sub: <http://purl.org/np/RAjyxRlcc-gx_ffi1pinUZKS3RuF59izB-leVdgI51NVc#> .
+@prefix this: <http://purl.org/np/RA13XsfEGt_YRkR-eHe-ZKYUyttptPARblNCjIBukJNyw> .
+@prefix sub: <http://purl.org/np/RA13XsfEGt_YRkR-eHe-ZKYUyttptPARblNCjIBukJNyw#> .
 @prefix p1: <http://purl.org/np/RA0E1r6scu-Xrf-ecxZs7galz0BEhj2fm6QEKowz77sk0> .
 @prefix p2: <http://purl.org/np/RAB7E7ZJrPtTVsKs6R-TicPrsASU2McahBN8QvO-ZH8dQ> .
 @prefix p3: <http://purl.org/np/RAup_IY7clRSRZq4n9v94Gjz7ub3faigTl2vYww6Z9f5w> .
@@ -627,14 +627,6 @@ sub:Head {
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
   
-  p2: npx:introduces p2:\#paragraph .
-  
-  p5: npx:introduces p5:\#paragraph .
-  
-  p6: npx:introduces p6:\#paragraph .
-  
-  p4: npx:introduces p4:\#paragraph .
-  
   sub:_1 co:itemContent sub:section-related-work-title;
     co:nextItem sub:_2 .
   
@@ -655,7 +647,7 @@ sub:assertion {
   
   sub:_7 co:itemContent p6:\#paragraph .
   
-  sub:section-related-work co:firstItem sub:_1;
+  sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p2:\#paragraph, p5:\#paragraph, p6:\#paragraph, p4:\#paragraph,
       p3:\#paragraph;
     po:containsAsHeader sub:section-related-work-title;
@@ -663,6 +655,14 @@ sub:assertion {
   
   sub:section-related-work-title c4o:hasContent "Related works";
     a doco:SectionTitle .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
+  p6: npx:introduces p6:\#paragraph .
+  
+  p4: npx:introduces p4:\#paragraph .
   
   p3: npx:introduces p3:\#paragraph .
 }
@@ -920,8 +920,8 @@ sub:pubinfo {
   this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA816UUe5plt2371E_0nZBzViz4KeDs6E-yESJCQLBVMQ> .
-@prefix sub: <http://purl.org/np/RA816UUe5plt2371E_0nZBzViz4KeDs6E-yESJCQLBVMQ#> .
+@prefix this: <http://purl.org/np/RAPRBEFKrANtpiCqeESuOJLGjoUecjZS9L28fGZg5rJ4I> .
+@prefix sub: <http://purl.org/np/RAPRBEFKrANtpiCqeESuOJLGjoUecjZS9L28fGZg5rJ4I#> .
 @prefix p1: <http://purl.org/np/RAvfGG248C4ggM4YeSbcJrXGbcDqrkNma8pdaX8px8E3A> .
 @prefix p2: <http://purl.org/np/RA4gfi8P2Dg5eAB6JWHD8IhLvAqJK1rb0DYTZBaS6fWTY> .
 @prefix p3: <http://purl.org/np/RAaUwRGExGGnfwdpQ4bJFIGK0at9BxVEwkjtv_i5ad5ec> .
@@ -951,6 +951,8 @@ sub:Head {
 sub:assertion {
   p2: npx:introduces p2:\#paragraph .
   
+  p6: npx:introduces p6:\#paragraph .
+  
   sub:_1 co:itemContent sub:section-problem-statement-title;
     co:nextItem sub:_2 .
   
@@ -974,7 +976,7 @@ sub:assertion {
   
   sub:_8 co:itemContent p7:\#paragraph .
   
-  sub:section-problem-statement co:firstItem sub:_1;
+  sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p6:\#paragraph, p4:\#paragraph, p3:\#paragraph, p5:\#paragraph,
       p1:\#paragraph, p7:\#paragraph;
     po:containsAsHeader sub:section-problem-statement-title;
@@ -982,8 +984,6 @@ sub:assertion {
   
   sub:section-problem-statement-title c4o:hasContent "A pathway from syntax to semantics";
     a doco:SectionTitle .
-  
-  p6: npx:introduces p6:\#paragraph .
   
   p4: npx:introduces p4:\#paragraph .
   
@@ -1238,8 +1238,8 @@ sub:pubinfo {
   this: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAU0l4SGS7qx8yFGUFgC-N7WFBGIfN2bIvONwpVDT_RsA> .
-@prefix sub: <http://purl.org/np/RAU0l4SGS7qx8yFGUFgC-N7WFBGIfN2bIvONwpVDT_RsA#> .
+@prefix this: <http://purl.org/np/RAsQWVxNajLn85494KLkXEsp_LQMNYvZhmaH7RZbAuDdM> .
+@prefix sub: <http://purl.org/np/RAsQWVxNajLn85494KLkXEsp_LQMNYvZhmaH7RZbAuDdM#> .
 @prefix p1: <http://purl.org/np/RAEEAoDN1mn5Bu9O2mCVHh1XKy14nocE71lCD477A1mG4> .
 @prefix p2: <http://purl.org/np/RAaoW0gPFgQ_Wq-OLg1_X5pvxNyB9yLkgQfy18QYUtCxY> .
 @prefix p3: <http://purl.org/np/RAneQajFZQ5A2kURbkd4NYCOGEJUFfWdmWzynRXGb1OqQ> .
@@ -1273,6 +1273,12 @@ sub:assertion {
   
   p4: npx:introduces p4:\#paragraph .
   
+  p7: npx:introduces p7:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
   sub:_1 co:itemContent sub:section-methods-title;
     co:nextItem sub:_2 .
   
@@ -1296,7 +1302,7 @@ sub:assertion {
   
   sub:_8 co:itemContent p7:\#paragraph .
   
-  sub:section-methods co:firstItem sub:_1;
+  sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p6:\#paragraph, p4:\#paragraph, p7:\#paragraph, p2:\#paragraph,
       p3:\#paragraph, p5:\#paragraph;
     po:containsAsHeader sub:section-methods-title;
@@ -1304,12 +1310,6 @@ sub:assertion {
   
   sub:section-methods-title c4o:hasContent "Compositional and iterative semantic enhancement of scholary articles";
     a doco:SectionTitle .
-  
-  p7: npx:introduces p7:\#paragraph .
-  
-  p2: npx:introduces p2:\#paragraph .
-  
-  p3: npx:introduces p3:\#paragraph .
   
   p5: npx:introduces p5:\#paragraph .
 }
@@ -1424,8 +1424,8 @@ sub:pubinfo {
   this: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RACFZCtIZEc90oafNnARv_0pmgbN2cOhG0TGJuavmJdZc> .
-@prefix sub: <http://purl.org/np/RACFZCtIZEc90oafNnARv_0pmgbN2cOhG0TGJuavmJdZc#> .
+@prefix this: <http://purl.org/np/RABLBWCLUyEZD5K0Bzi68zJvZOMNsI802X_bYiqhiGRk0> .
+@prefix sub: <http://purl.org/np/RABLBWCLUyEZD5K0Bzi68zJvZOMNsI802X_bYiqhiGRk0#> .
 @prefix p1: <http://purl.org/np/RAT3Ig_ajFeoyxXtv8lVkE-SLi2xhHQuKKCWPPjEGsF2I> .
 @prefix p2: <http://purl.org/np/RAyAw0Qp2E1TkNo6N_cqjXr5nof_Tt_Tg1lh5VEIFbWQY> .
 @prefix p3: <http://purl.org/np/RAl6SvNF4WIT9apdEG1W92HPYcANu_onNvbtecwjP_dQM> .
@@ -1460,7 +1460,7 @@ sub:assertion {
   
   sub:_4 co:itemContent p3:\#paragraph .
   
-  sub:section-implementation co:firstItem sub:_1;
+  sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p3:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-implementation-title;
     a deo:Scenario, doco:Section .
@@ -1835,8 +1835,8 @@ sub:pubinfo {
   this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA9YtGqyTLp-NT-EuzeOqQd8SrKb7TUy4s9j4-c3JVrwo> .
-@prefix sub: <http://purl.org/np/RA9YtGqyTLp-NT-EuzeOqQd8SrKb7TUy4s9j4-c3JVrwo#> .
+@prefix this: <http://purl.org/np/RAPB89gJ381D8aGP0yWgVr8M1EEVrHKOKhHhg40PMg-9s> .
+@prefix sub: <http://purl.org/np/RAPB89gJ381D8aGP0yWgVr8M1EEVrHKOKhHhg40PMg-9s#> .
 @prefix p1: <http://purl.org/np/RA0bkLVf1f4sT_sEIzHjAFohR9GI58ggKpl4BDIarRVug> .
 @prefix p2: <http://purl.org/np/RAN58uDZXpFJjLOCJ0bndYOQBcC0RLsL0Mev2MMxO4HSY> .
 @prefix p3: <http://purl.org/np/RAIFs22TEFfVN7Wta2pgmSJaVrQKICZCw4_519ui8MwAk> .
@@ -1871,6 +1871,12 @@ sub:assertion {
   p4: npx:introduces p4:\#paragraph .
   
   p1: npx:introduces p1:\#paragraph .
+  
+  p6: npx:introduces p6:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
   
   sub:_1 co:itemContent sub:section-implementation-title;
     co:nextItem sub:_2 .
@@ -1907,7 +1913,7 @@ sub:assertion {
   sub:_9 co:itemContent p8:\#paragraph;
     co:nextItem sub:_10 .
   
-  sub:section-implementation co:firstItem sub:_1;
+  sub:section co:firstItem sub:_1;
     po:contains p4:\#paragraph, p1:\#paragraph, p6:\#paragraph, p3:\#paragraph, p2:\#paragraph,
       p8:\#paragraph, p9:\#paragraph, p7:\#paragraph, p5:\#paragraph, p11:\#paragraph, p10:\#paragraph;
     po:containsAsHeader sub:section-implementation-title;
@@ -1915,12 +1921,6 @@ sub:assertion {
   
   sub:section-implementation-title c4o:hasContent "From containment to structural patterns";
     a doco:SectionTitle .
-  
-  p6: npx:introduces p6:\#paragraph .
-  
-  p3: npx:introduces p3:\#paragraph .
-  
-  p2: npx:introduces p2:\#paragraph .
   
   p8: npx:introduces p8:\#paragraph .
   
@@ -2070,8 +2070,8 @@ sub:pubinfo {
   this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAFeqvdJpDq2H6kOGEg4B0WV8pmD9ihuY-F_YvuroL5-c> .
-@prefix sub: <http://purl.org/np/RAFeqvdJpDq2H6kOGEg4B0WV8pmD9ihuY-F_YvuroL5-c#> .
+@prefix this: <http://purl.org/np/RAKzoR8FW1DtelxZlsySpdLsMoJNYM00mtmHpNy57O8ew> .
+@prefix sub: <http://purl.org/np/RAKzoR8FW1DtelxZlsySpdLsMoJNYM00mtmHpNy57O8ew#> .
 @prefix p1: <http://purl.org/np/RAMFTWfKcAp_SYaoj-Y84E7IcIHNiJmzLCxw0fiphCYHY> .
 @prefix p2: <http://purl.org/np/RA01ryoB7I034RtXfb0hUmI0Vk_FHpmupSHRk3M8IHi9k> .
 @prefix p3: <http://purl.org/np/RA3Ym3POQZO4VDoLKp7bVW3oBjffGzqK3wBhNIwjUFGZY> .
@@ -2114,13 +2114,13 @@ sub:assertion {
   
   sub:_5 co:itemContent p4:\#paragraph .
   
-  sub:section-implementation-title c4o:hasContent "From structural patterns to structural semantics";
-    a doco:SectionTitle .
-  
-  sub:section-implemetation co:firstItem sub:_1;
+  sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p3:\#paragraph, p1:\#paragraph, p4:\#paragraph;
     po:containsAsHeader sub:section-implementation-title;
     a deo:Scenario, doco:Section .
+  
+  sub:section-implementation-title c4o:hasContent "From structural patterns to structural semantics";
+    a doco:SectionTitle .
   
   p1: npx:introduces p1:\#paragraph .
   
@@ -2291,8 +2291,8 @@ sub:pubinfo {
   this: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAv-l3ZKsyFkIfwBbFm9gmg45q6CZStKIkrNLl02nmzCg> .
-@prefix sub: <http://purl.org/np/RAv-l3ZKsyFkIfwBbFm9gmg45q6CZStKIkrNLl02nmzCg#> .
+@prefix this: <http://purl.org/np/RAMcNH450Dqjk6CzFhy5Lku_bVo7dsAgcIne9MBuS64ik> .
+@prefix sub: <http://purl.org/np/RAMcNH450Dqjk6CzFhy5Lku_bVo7dsAgcIne9MBuS64ik#> .
 @prefix p1: <http://purl.org/np/RAh93qCWuDHn7dhCnfC8qUDwieCpcoXnzpKqfNNUORHSA> .
 @prefix p2: <http://purl.org/np/RALDYaWp9isLwEpKjE3noGPUXCSh86ZfMj-OlFoLMOd74> .
 @prefix p3: <http://purl.org/np/RAIa3MnjhyamlvvibIhaYS9Bj40-jXTc964Z-mtrQqLoY> .
@@ -2322,12 +2322,6 @@ sub:assertion {
   
   p2: npx:introduces p2:\#paragraph .
   
-  p4: npx:introduces p4:\#paragraph .
-  
-  p1: npx:introduces p1:\#paragraph .
-  
-  p5: npx:introduces p4:\#paragraph .
-  
   sub:_1 co:itemContent sub:section-implementation-title;
     co:nextItem sub:_2 .
   
@@ -2345,13 +2339,19 @@ sub:assertion {
   
   sub:_6 co:itemContent p5:\#paragraph .
   
-  sub:section-implementation co:firstItem sub:_1;
+  sub:section co:firstItem sub:_1;
     po:contains p3:\#paragraph, p2:\#paragraph, p4:\#paragraph, p1:\#paragraph, p5:\#paragraph;
     po:containsAsHeader sub:section-implementation-title;
     a deo:Scenario, doco:Section .
   
   sub:section-implementation-title c4o:hasContent "From structural semantics to rhetorical components and back";
     a doco:SectionTitle .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p5: npx:introduces p4:\#paragraph .
 }
 
 sub:provenance {
@@ -2518,8 +2518,8 @@ sub:pubinfo {
   this: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA-EPpi433QuTXRBAFjBNZgdqK86lrluAjKoevynSBR0I> .
-@prefix sub: <http://purl.org/np/RA-EPpi433QuTXRBAFjBNZgdqK86lrluAjKoevynSBR0I#> .
+@prefix this: <http://purl.org/np/RAEgPP_C0kwkpGZ8tu4N-V3J8EBvRgICEOTmi2EaQS29o> .
+@prefix sub: <http://purl.org/np/RAEgPP_C0kwkpGZ8tu4N-V3J8EBvRgICEOTmi2EaQS29o#> .
 @prefix p1: <http://purl.org/np/RAk1SGO_E4kcKBKtBAmIpELc5JSSoYjg9yD9yrbtt6gqg> .
 @prefix p2: <http://purl.org/np/RAiXIRavwa_luaViRgbUH1pms-mecvaI4qQ2ObttG0z9k> .
 @prefix p3: <http://purl.org/np/RAxyujFT9qZyXkHbleXW51eGKCkVqURbXqloIeol4bFvQ> .
@@ -2545,6 +2545,10 @@ sub:Head {
 }
 
 sub:assertion {
+  p4: npx:introduces p4:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
   sub:_1 co:itemContent sub:section-future-work-title;
     co:nextItem sub:_2 .
   
@@ -2562,17 +2566,13 @@ sub:assertion {
   
   sub:_6 co:itemContent p5:\#paragraph .
   
-  sub:section-conclusion co:firstItem sub:_1;
+  sub:section co:firstItem sub:_1;
     po:contains p4:\#paragraph, p5:\#paragraph, p2:\#paragraph, p1:\#paragraph, p3:\#paragraph;
     po:containsAsHeader sub:section-future-work-title;
     a deo:Discussion, deo:FutureWork, doco:Section .
   
   sub:section-future-work-title c4o:hasContent "Limitations and future directions";
     a doco:SectionTitle .
-  
-  p4: npx:introduces p4:\#paragraph .
-  
-  p5: npx:introduces p5:\#paragraph .
   
   p2: npx:introduces p2:\#paragraph .
   
@@ -2652,8 +2652,8 @@ sub:pubinfo {
   this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAhMwvh_gKqqNdqmr3prgV12C8tYZnxflgzgwdKecXU3g> .
-@prefix sub: <http://purl.org/np/RAhMwvh_gKqqNdqmr3prgV12C8tYZnxflgzgwdKecXU3g#> .
+@prefix this: <http://purl.org/np/RAVgl4mcw7b9FMW977sIpN6pRzzL4P1JfvD5YiSd4dLt4> .
+@prefix sub: <http://purl.org/np/RAVgl4mcw7b9FMW977sIpN6pRzzL4P1JfvD5YiSd4dLt4#> .
 @prefix p1: <http://purl.org/np/RA4O0Lgea65ssi1Vyd0JDQTy3NzPJFX3vvNBid4Y0ETSo> .
 @prefix p2: <http://purl.org/np/RAP4GKEo8t8aJjBqTDVzHzId62PKr0dp36JKT9nVUKYpk> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -2688,7 +2688,7 @@ sub:assertion {
   
   sub:_3 co:itemContent p2:\#paragraph .
   
-  sub:section-conclusion co:firstItem sub:_1;
+  sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-conclusion-title;
     a deo:Conclusion, doco:Section .
@@ -2706,10 +2706,74 @@ sub:pubinfo {
   this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA7lHJMFRodbFo30L8VFbDqSE4UU_AjGS5XgEtz2tg-N0> .
-@prefix sub: <http://purl.org/np/RA7lHJMFRodbFo30L8VFbDqSE4UU_AjGS5XgEtz2tg-N0#> .
+@prefix this: <http://purl.org/np/RAlWBeL-uNLLfIDvM-OWY6JT905AvaFkE2rXFKO2DzG5E> .
+@prefix sub: <http://purl.org/np/RAlWBeL-uNLLfIDvM-OWY6JT905AvaFkE2rXFKO2DzG5E#> .
+@prefix s1: <http://purl.org/np/RAR49VV4FWVgWLfEEus-Gfjp767oWvLzNOM4mu2DQMni4> .
+@prefix s2: <http://purl.org/np/RA13XsfEGt_YRkR-eHe-ZKYUyttptPARblNCjIBukJNyw> .
+@prefix s3: <http://purl.org/np/RAPRBEFKrANtpiCqeESuOJLGjoUecjZS9L28fGZg5rJ4I> .
+@prefix s4: <http://purl.org/np/RAsQWVxNajLn85494KLkXEsp_LQMNYvZhmaH7RZbAuDdM> .
+@prefix s5: <http://purl.org/np/RABLBWCLUyEZD5K0Bzi68zJvZOMNsI802X_bYiqhiGRk0> .
+@prefix s6: <http://purl.org/np/RAEgPP_C0kwkpGZ8tu4N-V3J8EBvRgICEOTmi2EaQS29o> .
+@prefix s7: <http://purl.org/np/RAVgl4mcw7b9FMW977sIpN6pRzzL4P1JfvD5YiSd4dLt4> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:_1 co:itemContent s1:\#section;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent s2:\#section;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent s3:\#section;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent s4:\#section;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent s5:\#section;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent s6:\#section;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent s7:\#section .
+  
+  sub:articleVersion1 co:firstItem sub:_1;
+    dc:creator <http://orcid.org/0000-0003-0530-4305>;
+    dc:language "en";
+    dc:title "Detecting Linked Data Quality Issues via Crowdsourcing: A DBpedia Study";
+    po:contains s2:\#section, s5:\#section, s6:\#section, s3:\#section, s1:\#section,
+      s7:\#section, s4:\#section;
+    a doco:Article .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA7lHJMFRodbFo30L8VFbDqSE4UU_AjGS5XgEtz2tg-N0> .
+@prefix sub: <http://purl.org/np/RA7lHJMFRodbFo30L8VFbDqSE4UU_AjGS5XgEtz2tg-N0#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -2738,13 +2802,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+  this: dcterms:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
 @prefix this: <http://purl.org/np/RAqHKiJFtYkplWKOjEpUKIBbpz6DGoQ614FGqHTxi-p0o> .
 @prefix sub: <http://purl.org/np/RAqHKiJFtYkplWKOjEpUKIBbpz6DGoQ614FGqHTxi-p0o#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -2773,13 +2837,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+  this: dcterms:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
 @prefix this: <http://purl.org/np/RAEp83yDZuqu2i81UMH2jxi6hYZHZs0bhr2JWW-fWBUyU> .
 @prefix sub: <http://purl.org/np/RAEp83yDZuqu2i81UMH2jxi6hYZHZs0bhr2JWW-fWBUyU#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -2808,13 +2872,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+  this: dcterms:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
 @prefix this: <http://purl.org/np/RARqFLoxO_1mQHyFIqVgVQ0IU0v7-Sx20BXg634bBUtBk> .
 @prefix sub: <http://purl.org/np/RARqFLoxO_1mQHyFIqVgVQ0IU0v7-Sx20BXg634bBUtBk#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -2841,13 +2905,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+  this: dcterms:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
 @prefix this: <http://purl.org/np/RAVI94RUUCgbofHtky3z4K0P5rxYzLIgkUwfSgTeNStRI> .
 @prefix sub: <http://purl.org/np/RAVI94RUUCgbofHtky3z4K0P5rxYzLIgkUwfSgTeNStRI#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -2877,13 +2941,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+  this: dcterms:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
 @prefix this: <http://purl.org/np/RACOGevuvBWIPnD9_7N19kz-eA19eQZny5eFVR3q-Y3mA> .
 @prefix sub: <http://purl.org/np/RACOGevuvBWIPnD9_7N19kz-eA19eQZny5eFVR3q-Y3mA#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -2910,13 +2974,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+  this: dcterms:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
 @prefix this: <http://purl.org/np/RA6ilsTUoZrnduEsO7qxWvJOWHrEk5EKrwLwWC-Of9dJg> .
 @prefix sub: <http://purl.org/np/RA6ilsTUoZrnduEsO7qxWvJOWHrEk5EKrwLwWC-Of9dJg#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -2943,13 +3007,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+  this: dcterms:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
 @prefix this: <http://purl.org/np/RA1jcYOjYKy5GAQ1ON-V9C3t6hDfZpoCgXpanzyZZckf8> .
 @prefix sub: <http://purl.org/np/RA1jcYOjYKy5GAQ1ON-V9C3t6hDfZpoCgXpanzyZZckf8#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -2976,13 +3040,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+  this: dcterms:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
 @prefix this: <http://purl.org/np/RA9PmnYYgMYMFNiSeTp0eM8tSTS9tN7UyEH0u1CW0DyIc> .
 @prefix sub: <http://purl.org/np/RA9PmnYYgMYMFNiSeTp0eM8tSTS9tN7UyEH0u1CW0DyIc#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -3009,13 +3073,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+  this: dcterms:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
 @prefix this: <http://purl.org/np/RAyiWHLmMRP3JEz_4KccdvU62geTRx0hucpd8hoxVKX8E> .
 @prefix sub: <http://purl.org/np/RAyiWHLmMRP3JEz_4KccdvU62geTRx0hucpd8hoxVKX8E#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -3083,7 +3147,7 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
+  this: dcterms:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
 @prefix this: <http://purl.org/np/RA7CEL15n4dInOmHePSfRGPtT4-qTFQCg2g6crFp70LoQ> .
