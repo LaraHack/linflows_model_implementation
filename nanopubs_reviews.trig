@@ -32,8 +32,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p2#> .
@@ -68,8 +67,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p3#> .
@@ -105,8 +103,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p4#> .
@@ -142,8 +139,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p5#> .
@@ -181,8 +177,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p6#> .
@@ -216,8 +211,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p7#> .
@@ -251,8 +245,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p8#> .
@@ -286,8 +279,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p9#> .
@@ -321,8 +313,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p10#> .
@@ -356,8 +347,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p10#> .
@@ -391,8 +381,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p10#> .
@@ -426,8 +415,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 
@@ -462,8 +450,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 
@@ -498,8 +485,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 
@@ -534,8 +520,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 
@@ -570,8 +555,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 
@@ -606,8 +590,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 
@@ -643,8 +626,7 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1#> .
@@ -776,6 +758,5 @@
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> ;
-		a npx:ExampleNanopub .
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
