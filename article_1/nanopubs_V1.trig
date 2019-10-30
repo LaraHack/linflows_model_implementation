@@ -631,7 +631,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """Past Document Engineering works that have proposed algorithms for the characterization and identification of particular structural behaviours of various parts of text documents. For instance, in [39], Tannier et al. present an algorithm based on Natural Language Processing (NLP) tools for assigning each element of an XML document to one of three categories. These categories are hard tag (i.e. those elements that interrupt the linearity of a text, such as paragraphs and sections), soft tag (i.e. the elements that identify significant text fragments that do not break the text flow, such as emphasis and links), and jump tag (i.e. those elements that are detached from the surrounding text, such as footnotes and comments).""" .
+		c4o:hasContent """The Web of Data spans a network of data sources of varying quality. There are a large number of high- quality data sets, for instance, in the life-science do- main, which are the result of decades of thorough curation and have been recently made available as Linked Open Data 2 . Other data sets, however, have been (semi-)automatically translated into RDF from their primary sources, or via crowdsourcing in a decen- tralized process involving a large number of contrib- utors, for example DBpedia [23]. While the combina- tion of machine-driven extraction and crowdsourcing was a reasonable approach to produce a baseline ver- sion of a greatly useful resource, it was also the cause of a wide range of quality problems, in particular in the mappings between Wikipedia at""" .
 }
 
 :provenance {
@@ -663,7 +663,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """In another work [46], Zou et al. propose a categorization of HTML elements based on two classes: inline (i.e. those that do not provide horizontal breaks in the visualisation of an HTML document) and line-break tags (i.e. the opposite of the inline class). They also have developed an algorithm that uses this categorization and a Hidden Markov Model for identifying the structural roles (title, author, affiliation, abstract, etc.) of textual fragments – using a corpus of medical journal articles stored in HTML to provide examples.""" .
+		c4o:hasContent """Our analysis of Linked Data quality issues focuses on DBpedia as a representative data set for the broader Web of Data due to the diversity of the types of er- rors exhibited and the vast domain and scope of the data set. In our previous work [44], we compiled a list of data quality dimensions (criteria) applica- ble to Linked Data quality assessment. Afterwards, we mapped these dimensions to DBpedia [43]. A sub-set of four dimensions of the original framework were found particularly relevant in this setting: Ac- curacy, Relevancy, Representational-Consistency and Interlinking. To provide a comprehensive analysis of DBpedia quality, we further divided these four cate- gories of problems into sub-categories. For the purpose of this paper, from these categories we chose the fol- lowing three triple-level quality issues.""" .
 }
 
 :provenance {
@@ -695,7 +695,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """The approach proposed by Koh et al. [22] is to identify junk structures in HTML documents, such as navigation menus, advertisements, and footers. In particular, their algorithm recognises recurring hierarchies of nested elements and allows one to exclude all the HTML markup that does not concern the actual content of the document.""" .
+		c4o:hasContent """Object incorrectly/incompletely extracted. Consider the triple: (dbpedia:Rodrigo Salinas, dbpedia-owl:birthPlace, dbpe- dia:Puebla F.C.) . The DBpedia resource is about the person ‘Rodrigo Salinas’, with the incorrect value of the birth place. Instead of extracting the name of the city or country from Wikipedia, the stadium name Puebla F.C , is extracted.""" .
 }
 
 :provenance {
@@ -727,7 +727,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """Other approaches based on the application of Optical Character Recognition (OCR) techniques to a corpus of PDF documents have also been proposed, with the goal of reconstructing the organisation of a document by marking up its most meaningful parts. For instance, in [21], Kim et al. propose an approach based on the OCR recognition of article zones so as to label them with particular categories, such as affiliations, abstract, sections, titles and authors. Similarly, in [38], Taghva et al. use an OCR technique for reconstructing the logical structure of technical documents starting from the information about fonts and geometry of a scanned document.""" .
+		c4o:hasContent """Datatype or language tag incorrectly extracted. This category refers to triples with an incorrect datatype for a typed literal. For example, consider the triple: (dbpe- dia:Oreye, dbpedia-owl:postalCode, “4360”@en) . The datatype of the literal “4360” is incorrectly identified as english instead of integer.""" .
 }
 
 :provenance {
@@ -759,7 +759,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """Several other works have introduced theories and algorithms for the identification of various characterizations of scholarly articles, such as entities cited in articles (e.g. [13]), rhetorical structures (e.g. [24]), arguments (e.g. [34]), and citation functions (e.g. [8,40] and [19]). In addition, models and ontologies have been proposed for creating and associating annotations to documents and their parts, e.g. [4,28,33], and [25].""" .
+		c4o:hasContent """Incorrect link. This category refers to RDF triples whose association between the subject and the object is incorrect. Erroneous interlinks can associate values within a dataset or between several data sources. This category of quality issues also includes links to exter- nal Web sites or other external data sources such as Wikimedia, Freebase, GeoSpecies or links generated via the Flickr wrapper are incorrect; that is, they do not show any related content pertaining to the resource.""" .
 }
 
 :provenance {
@@ -791,7 +791,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """These papers thus propose algorithms based on NLP tools, Machine Learning approaches, and OCR frameworks for annotating the various component parts of a document with specific categories. In contrast, the work I present in this article uses none of these techniques. Rather, it involves a pure Document Engineering analysis of the containment relations between the various document parts, without consideration of any aspect related to the language used to write the document or the markup language used to store it. CISE is thus compatible with and complementary to the aforementioned tools, and in principle each could be used to refine the results of the other. However, exploring these kinds of interactions is beyond the scope of this article.""" .
+		c4o:hasContent """These categories of quality problems occur perva- sively in DBpedia. These problems might be present in other data sets which are extracted in a similar fashion as DBpedia. Given the diversity of the situa- tions in which they can be instantiated (broad range of datatypes and object values) and their sometimes deeply contextual character (interlinking), assessing them automatically is challenging. In the following we explain how crowdsourcing could support quality as- sessment processes""" .
 }
 
 :provenance {
@@ -831,8 +831,8 @@
 }
 
 :assertion {
-	:section a doco:Section, deo:RelatedWork ;
-		po:containsAsHeader :section-related-work-title ;
+	:section a doco:Section;
+		po:containsAsHeader :section-2-title ;
 		po:contains
 			p1:paragraph ,
 			p2:paragraph ,
@@ -841,7 +841,7 @@
 			p5:paragraph ,
 			p6:paragraph ;
 		co:firstItem [
-		    co:itemContent :section-related-work-title ;
+		    co:itemContent :section-2-title ;
 		    co:nextItem [
 		      co:itemContent p1:paragraph ;
 		      co:nextItem [
@@ -854,8 +854,8 @@
 			      co:itemContent p5:paragraph ;
 			      co:nextItem [
 				co:itemContent p6:paragraph ] ] ] ] ] ] ] .
-	:section-related-work-title a doco:SectionTitle ;
-		c4o:hasContent "Related works" .
+	:section-2-title a doco:SectionTitle ;
+		c4o:hasContent "Linked Data Quality Issues" .
 
 	p1: npx:introduces p1:paragraph .
 	p2: npx:introduces p2:paragraph .
