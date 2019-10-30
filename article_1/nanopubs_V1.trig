@@ -22,7 +22,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/https://doi.org/10.3233/sw-160239> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -31,7 +31,39 @@
 }
 
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p1#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Many would consider Linked Data (LD) to be one of the most important technological trends in data man- agement of the last decade [16]. However, seamless consumption of LD in applications is still very lim- ited given the varying quality of the data published in the Linked Open Data (LOD) Cloud [18,44]. This is the result of a combination of data- and process- related factors. The data sets being released into the LOD Cloud are – apart from any factual flaws they may contain – very diverse in terms of formats, struc- ture, and vocabulary. This heterogeneity and the fact that some kinds of data tend to be more challenging to lift to RDF than others make it hard to avoid errors, especially when the translation happens automatically.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -55,7 +87,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -63,7 +95,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -86,7 +118,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -94,7 +126,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -118,7 +150,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -126,7 +158,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p4#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -150,7 +182,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -158,7 +190,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p5#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -182,7 +214,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -190,7 +222,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p6#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p6#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -214,7 +246,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -222,7 +254,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p7#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p7#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -246,7 +278,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -254,7 +286,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p8#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p8#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -278,7 +310,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -286,7 +318,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p9#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p9#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -310,7 +342,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -318,7 +350,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p10#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p10#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -342,7 +374,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -350,17 +382,17 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p1#> .
-@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p2#> .
-@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p3#> .
-@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p4#> .
-@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p5#> .
-@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p6#> .
-@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p7#> .
-@prefix p8: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p8#> .
-@prefix p9: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p9#> .
-@prefix p10: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1_p10#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p5#> .
+@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p6#> .
+@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p7#> .
+@prefix p8: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p8#> .
+@prefix p9: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p9#> .
+@prefix p10: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p10#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -433,7 +465,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -441,7 +473,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2_p1#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -465,7 +497,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -473,7 +505,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -497,7 +529,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -505,7 +537,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2_p3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -529,7 +561,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -537,7 +569,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2_p4#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -561,7 +593,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -569,7 +601,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2_p5#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -593,7 +625,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -601,7 +633,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2_p6#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p6#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -625,7 +657,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -633,13 +665,13 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2_p1#> .
-@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2_p2#> .
-@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2_p3#> .
-@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2_p4#> .
-@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2_p5#> .
-@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2_p6#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p5#> .
+@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p6#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -696,7 +728,7 @@
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -704,7 +736,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p1#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -734,7 +766,7 @@ Molecular Biology, e.g. the reductionist approach used by Crick [6], among other
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -742,7 +774,7 @@ Molecular Biology, e.g. the reductionist approach used by Crick [6], among other
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -781,7 +813,7 @@ Molecular Biology, e.g. the reductionist approach used by Crick [6], among other
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -789,7 +821,7 @@ Molecular Biology, e.g. the reductionist approach used by Crick [6], among other
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -814,14 +846,14 @@ Molecular Biology, e.g. the reductionist approach used by Crick [6], among other
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
 	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p4#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -844,14 +876,14 @@ Molecular Biology, e.g. the reductionist approach used by Crick [6], among other
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
 	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p5#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -881,14 +913,14 @@ a function is an associative rule that allows, given particular known premises, 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
 	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p6#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p6#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -912,7 +944,7 @@ a function is an associative rule that allows, given particular known premises, 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -920,7 +952,7 @@ a function is an associative rule that allows, given particular known premises, 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p7#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p7#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -944,7 +976,7 @@ a function is an associative rule that allows, given particular known premises, 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -952,14 +984,14 @@ a function is an associative rule that allows, given particular known premises, 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p1#> .
-@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p2#> .
-@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p3#> .
-@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p4#> .
-@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p5#> .
-@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p6#> .
-@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3_p7#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p5#> .
+@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p6#> .
+@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p7#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1020,7 +1052,7 @@ a function is an associative rule that allows, given particular known premises, 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1028,7 +1060,7 @@ a function is an associative rule that allows, given particular known premises, 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p1#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1062,7 +1094,7 @@ a function is an associative rule that allows, given particular known premises, 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1070,7 +1102,7 @@ a function is an associative rule that allows, given particular known premises, 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1094,7 +1126,7 @@ a function is an associative rule that allows, given particular known premises, 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1102,7 +1134,7 @@ a function is an associative rule that allows, given particular known premises, 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1133,7 +1165,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1141,7 +1173,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p4#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1165,14 +1197,14 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
 	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p5#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1196,7 +1228,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1204,7 +1236,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p6#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p6#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1228,7 +1260,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1237,7 +1269,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 }
 
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p7#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p7#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1261,21 +1293,21 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
 	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p1#> .
-@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p2#> .
-@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p3#> .
-@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p4#> .
-@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p5#> .
-@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p6#> .
-@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4_p7#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p5#> .
+@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p6#> .
+@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p7#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1336,7 +1368,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1344,7 +1376,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5_p1#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1368,7 +1400,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1376,7 +1408,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1408,7 +1440,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1416,7 +1448,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5_p3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5_p3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1439,7 +1471,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1447,10 +1479,10 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5_p1#> .
-@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5_p2#> .
-@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5_p3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5_p3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1495,7 +1527,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1503,7 +1535,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p1#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1527,7 +1559,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1535,7 +1567,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1565,14 +1597,14 @@ is contained by another element that can or cannot contain text (+T in the first
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
 	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1595,7 +1627,7 @@ is contained by another element that can or cannot contain text (+T in the first
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1603,7 +1635,7 @@ is contained by another element that can or cannot contain text (+T in the first
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p4#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1627,7 +1659,7 @@ is contained by another element that can or cannot contain text (+T in the first
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1635,7 +1667,7 @@ is contained by another element that can or cannot contain text (+T in the first
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p5#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1659,7 +1691,7 @@ is contained by another element that can or cannot contain text (+T in the first
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1667,7 +1699,7 @@ is contained by another element that can or cannot contain text (+T in the first
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p6#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p6#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1691,7 +1723,7 @@ is contained by another element that can or cannot contain text (+T in the first
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1699,7 +1731,7 @@ is contained by another element that can or cannot contain text (+T in the first
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p7#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p7#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1723,7 +1755,7 @@ is contained by another element that can or cannot contain text (+T in the first
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1731,7 +1763,7 @@ is contained by another element that can or cannot contain text (+T in the first
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p8#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p8#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1755,14 +1787,14 @@ is contained by another element that can or cannot contain text (+T in the first
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
 	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p9#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p9#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1786,7 +1818,7 @@ is contained by another element that can or cannot contain text (+T in the first
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1794,7 +1826,7 @@ is contained by another element that can or cannot contain text (+T in the first
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p10#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p10#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1822,7 +1854,7 @@ only a small number of pattern-based documents coming from different communities
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1830,7 +1862,7 @@ only a small number of pattern-based documents coming from different communities
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p11#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p11#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1854,7 +1886,7 @@ only a small number of pattern-based documents coming from different communities
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1862,18 +1894,18 @@ only a small number of pattern-based documents coming from different communities
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p1#> .
-@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p2#> .
-@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p3#> .
-@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p4#> .
-@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p5#> .
-@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p6#> .
-@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p7#> .
-@prefix p8: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p8#> .
-@prefix p9: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p9#> .
-@prefix p10: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p10#> .
-@prefix p11: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.1_p11#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p5#> .
+@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p6#> .
+@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p7#> .
+@prefix p8: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p8#> .
+@prefix p9: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p9#> .
+@prefix p10: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p10#> .
+@prefix p11: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1_p11#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1950,7 +1982,7 @@ only a small number of pattern-based documents coming from different communities
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1958,7 +1990,7 @@ only a small number of pattern-based documents coming from different communities
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.2_p1#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1982,7 +2014,7 @@ only a small number of pattern-based documents coming from different communities
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -1990,7 +2022,7 @@ only a small number of pattern-based documents coming from different communities
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.2_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2014,14 +2046,14 @@ only a small number of pattern-based documents coming from different communities
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
 	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.2_p3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2_p3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2045,7 +2077,7 @@ only a small number of pattern-based documents coming from different communities
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2053,7 +2085,7 @@ only a small number of pattern-based documents coming from different communities
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.2_p4#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2_p4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2079,7 +2111,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2087,11 +2119,11 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.2#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.2_p1#> .
-@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.2_p2#> .
-@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.2_p3#> .
-@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.2_p4#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2_p4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2140,7 +2172,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2148,7 +2180,7 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.3_p1#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2172,7 +2204,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2180,7 +2212,7 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.3_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2204,7 +2236,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2213,7 +2245,7 @@ only a small number of pattern-based documents, written by different authors of 
 }
 
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.3_p3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3_p3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2237,7 +2269,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2245,7 +2277,7 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.3_p4#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3_p4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2269,7 +2301,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2277,7 +2309,7 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.3_p5#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3_p5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2301,7 +2333,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2309,12 +2341,12 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.3#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.3_p1#> .
-@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.3_p2#> .
-@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.3_p3#> .
-@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.3_p4#> .
-@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5.3_p5#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3_p5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2367,7 +2399,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2375,7 +2407,7 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s6_p1#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2399,14 +2431,14 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
 	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s6_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2429,7 +2461,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2437,7 +2469,7 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s6_p3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6_p3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2461,7 +2493,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2469,7 +2501,7 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s6_p4#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6_p4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2493,7 +2525,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2501,7 +2533,7 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s6_p5#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6_p5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2524,7 +2556,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2532,12 +2564,12 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s6#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s6_p1#> .
-@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s6_p2#> .
-@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s6_p3#> .
-@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s6_p4#> .
-@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s6_p5#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6_p5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2590,7 +2622,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2598,7 +2630,7 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s7_p1#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2622,14 +2654,14 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
 	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s7_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2653,7 +2685,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2661,9 +2693,9 @@ only a small number of pattern-based documents, written by different authors of 
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s7#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s7_p1#> .
-@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s7_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -2704,7 +2736,7 @@ only a small number of pattern-based documents, written by different authors of 
 
 :provenance {
 	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/DS-170012> .
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
 }
 
 :pubinfo {
@@ -2713,14 +2745,14 @@ only a small number of pattern-based documents, written by different authors of 
 }
 
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper/v1#> .
-@prefix s1: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s1#> .
-@prefix s2: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s2#> .
-@prefix s3: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s3#> .
-@prefix s4: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s4#> .
-@prefix s5: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s5#> .
-@prefix s6: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s6#> .
-@prefix s7: <http://purl.org/nanopub/temp/linkflows/sample-paper/v1/s7#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#> .
+@prefix s1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1#> .
+@prefix s2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2#> .
+@prefix s3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3#> .
+@prefix s4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4#> .
+@prefix s5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#> .
+@prefix s6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6#> .
+@prefix s7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
