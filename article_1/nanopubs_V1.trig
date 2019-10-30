@@ -59,39 +59,12 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p1#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix npx: <http://purl.org/nanopub/x/> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix c4o: <http://purl.org/spar/c4o/> .
-
-:Head {
-	: np:hasAssertion :assertion ;
-		np:hasProvenance :provenance ;
-		np:hasPublicationInfo :pubinfo ;
-		a np:Nanopublication .
-}
-
-:assertion {
-	:paragraph a doco:Paragraph ;
-		c4o:hasContent """Many would consider Linked Data (LD) to be one of the most important technological trends in data man- agement of the last decade [16]. However, seamless consumption of LD in applications is still very lim- ited given the varying quality of the data published in the Linked Open Data (LOD) Cloud [18,44]. This is the result of a combination of data- and process- related factors. The data sets being released into the LOD Cloud are – apart from any factual flaws they may contain – very diverse in terms of formats, structure, and vocabulary. This heterogeneity and the fact that some kinds of data tend to be more challenging to lift to RDF than others make it hard to avoid errors, especially when the translation happens automatically.""" .
-}
-
-:provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
-}
-
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -122,7 +95,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -154,7 +127,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -186,7 +159,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -218,7 +191,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -250,7 +223,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -282,7 +255,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -314,7 +287,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -346,7 +319,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -378,7 +351,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -469,7 +442,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -501,7 +474,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -533,7 +506,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -565,7 +538,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -597,7 +570,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -629,7 +602,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -661,7 +634,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -732,7 +705,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -2658,7 +2631,7 @@ only a small number of pattern-based documents, written by different authors of 
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7_p2#> .
@@ -2689,7 +2662,7 @@ only a small number of pattern-based documents, written by different authors of 
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -2740,7 +2713,7 @@ only a small number of pattern-based documents, written by different authors of 
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -2809,6 +2782,6 @@ only a small number of pattern-based documents, written by different authors of 
 }
 
 :pubinfo {
-	: dc:created "2019-09-13T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
