@@ -355,6 +355,84 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_contributions_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """This paper is an extension to previous work of ours [1], in which we presented the results of combin- ing LD experts and lay users from MTurk when detect- ing quality issues in DBpedia. The novel contributions of our current work can be summarized as follows:""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_contributions_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-introduction-contributions-title ;
+		po:contains
+			p1:paragraph ;
+		  co:firstItem [
+		    co:itemContent :section-introduction-contributions-title ;
+		    co:nextItem [
+					 co:itemContent p1:paragraph ] ] .
+		:section-introduction-contributions-title a doco:SectionTitle ;
+			c4o:hasContent "Contributions" .
+
+	p1: npx:introduces p1:paragraph .
+	s1_contributions: npx:introduces s1_contributions:section .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1#> .
 @prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p1#> .
 @prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p2#> .
@@ -366,6 +444,7 @@
 @prefix p8: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p8#> .
 @prefix p9: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p9#> .
 @prefix p10: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p10#> .
+@prefix s1_contributions: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_contributions#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -398,7 +477,8 @@
 			p7:paragraph ,
 			p8:paragraph ,
 			p9:paragraph ,
-			p10:paragraph ;
+			p10:paragraph ,
+			s1_contributions:section ;
 		  co:firstItem [
 		    co:itemContent :section-introduction-title ;
 		    co:nextItem [
@@ -420,7 +500,9 @@
 				    						co:nextItem [
 				      						co:itemContent p9:paragraph ;
 													co:nextItem [
-				      							co:itemContent p10:paragraph ] ] ] ] ] ] ] ] ] ] ] .
+				      							co:itemContent p10:paragraph ;
+															co:nextItem [
+					      							co:itemContent s1_contributions:section ] ] ] ] ] ] ] ] ] ] ] ] .
 		:section-introduction-title a doco:SectionTitle ;
 			c4o:hasContent "Introduction" .
 
@@ -434,6 +516,7 @@
 	p8: npx:introduces p8:paragraph .
 	p9: npx:introduces p9:paragraph .
 	p10: npx:introduces p10:paragraph .
+	s1_contributions: npx:introduces s1_contributions:section .
 }
 
 :provenance {
