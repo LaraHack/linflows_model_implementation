@@ -905,11 +905,11 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.1_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -928,22 +928,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """I propose that the same principle of compositionality can be used to infer high-level semantics from the low-level structural organisation of a scholarly article. The idea is to annotate the various parts of a scholarly article progressively according to diverse layers of annotations, from the lower syntactic layers to higher semantic layers.2 For instance, a possible stratification of such layers (from the most syntactic ones to the most semantic ones) is illustrated as follows:
-1. syntactic containment, i.e. the dominance and containment relations [37] that exist between the various parts of scholarly articles;
-
-2. syntactic structures, i.e. the particular structural pattern (inline, block, etc.) of each part;
-
-3. structural semantics, i.e. the typical article structural types within articles, such as sections, paragraphs, tables, figures;
-
-4. rhetorical components, i.e. the functions that characterize each section, such as introduction, methods, material, data, results, conclusions;
-
-5. citation functions, i.e. the characterization of all inline citations (i.e. in-text reference pointers) with the inferred reason why the authors have made each citation [40];
-
-6. argumentative organisation, i.e. the relations among the various parts of scholarly articles according to particular argumentative models such as Toulmin’s [42];
-
-7. article categorization, i.e. the type, either in terms of publication venue (journal article, conference paper, etc.) or content (research paper, review, opinion, etc.), of each scholarly article;
-
-8. discipline clustering, i.e. the identification of the discipline(s) to which each article belongs to.""" .
+		c4o:hasContent """A contest reaches out to a crowd to solve a given problem and rewards the best ideas. It exploits competition and intellectual challenge as main drivers for participation. The idea, originating from open innovation, has been employed in many domains, from creative industries to sciences, for tasks of varying complexity (from designing logos to building sophisticated algorithms). In particular, contests as means to successfully involve experts in advancing science have a long-standing tradition in research, e.g., the Darpa challenges 3 and NetFlix. 4 Usually, contests as crowdsourcing mechanisms are open for a medium to long period of time in order to attract high quality contributions. Contests may apply different reward models, but a common modality is to define one main prize for the contest winner.""" .
 }
 
 :provenance {
@@ -952,73 +937,11 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p3#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix npx: <http://purl.org/nanopub/x/> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix c4o: <http://purl.org/spar/c4o/> .
-
-
-:Head {
-	: np:hasAssertion :assertion ;
-		np:hasProvenance :provenance ;
-		np:hasPublicationInfo :pubinfo ;
-		a np:Nanopublication .
-}
-
-:assertion {
-	:paragraph a doco:Paragraph ;
-		c4o:hasContent """The graph on the left in Fig. 1 shows a strict application of the principle of compositionality. While it may seem valid from an intuitive perspective, past studies (e.g. [29]3) have proved that the sole application of such principle could not guarantee successful recognition of all the possible interactions existing in a layered system, such as the one that defines the various kinds of meanings possessed by each part of a scholarly article. For instance, it is possible that some semantic annotations of a higher layer can cause the specification of new meanings to a lower layer.""" .
-}
-
-:provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
-}
-
-:pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
-}
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p4#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix npx: <http://purl.org/nanopub/x/> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix c4o: <http://purl.org/spar/c4o/> .
-:Head {
-	: np:hasAssertion :assertion ;
-		np:hasProvenance :provenance ;
-		np:hasPublicationInfo :pubinfo ;
-		a np:Nanopublication .
-}
-
-:assertion {
-	:paragraph a doco:Paragraph ;
-		c4o:hasContent """This causal relationship is called downward causation [3], and it has been one of the main objections to a purely reductionist approach for the description of the composition and behaviour of a biological system. Downward causation can be defined as a converse of the principle of compositionality: higher layers of a biological system can cause changes to its lower layers. Thus, in the context of the aforementioned eight layers of scholarly articles, it would be possible, for instance, to infer new meanings for the elements annotated in layer 3 by applying the downward causation from layer 4 – e.g. by explicitly marking a section as bibliography of an article (layer 3) if all the child elements that such a section contains (except its title) have been referenced somewhere within the article (layer 4).""" .
-}
-
-:provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
-}
-
-:pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
-}
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p5#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.1_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1037,13 +960,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """The graph on the right in Fig. 1 illustrates the simultaneous use of the principle of compositionality and that of downward causation for inferring the various meanings (at different layers) associated with the parts of a scholarly article. It admits the possibility that a layer can convey meaningful information to any of the higher or lower layers. Of course, in order to use the principles of compositionality and downward causation for inferring the characterization of the various parts of a scholarly article, it is important to clarify what are their main components – i.e. the parts of an expression, their meanings, and the functions that enable either the compositionality or downward causation between layers. In the context of scholarly articles, I define these three aspects as follows:
-
-a part of a scholarly article is any content enclosed by a particular marker – for instance, if we consider a scholarly article stored with an XML-like markup language, each markup element defines a particular part of that scholarly article. In the example shown in Fig. 2, the empty boxes with red border, the blue-underlined strings, and the italic and strong strings are delimiting various parts of the scholarly article, represented by specific markup elements in the related XML sources;
-
-the meaning of each part is an informative specification of the type or property characterizing that part. In the example shown in Fig. 2, the red labels with white text, as well as the pink rectangles, define specific semantics of some of the article parts;
-
-a function is an associative rule that allows, given particular known premises, the specification of a meaning to a particular part of a scholarly article.""" .
+		c4o:hasContent """We applied this contest-based model to mobilize an expert crowd consisting of researchers and Linked Data enthusiasts to discover and classify quality issues in DBpedia. The reward mechanism applied in this contest was “one-participant gets it all”. The winner was the participant who covered the highest number of DBpedia resources.""" .
 }
 
 :provenance {
@@ -1052,10 +969,11 @@ a function is an associative rule that allows, given particular known premises, 
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p6#> .
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1074,7 +992,7 @@ a function is an associative rule that allows, given particular known premises, 
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """Using the aforementioned definitions, we can iteratively apply rules following the principles of compositionality and downward causation so as to associate various meanings to article parts. Starting from the pure syntactical containment of certain parts, we can derive their structural semantics, their rhetoric, and other semantic representations of the article. For instance, recalling the stratification into eight layers introduced above, it is possible to create rules that, starting from a low-level definition of the structure of an article (e.g. the organisation of the markup elements that have been used to describe its content – layer 1), permit each markup element to be defined according to more general compositional patterns depicting its structure (e.g. the fact that a markup element can behave like a block or an inline item – layer 2). Again, starting from the definitions in the first two layers, one can go on to characterize the semantics of each markup element according to specific categories defining its structural behaviour (e.g. paragraph, section, list, figure, etc. – layer 3). Along the same lines, one can further derive the rhetorical organisation of a scholarly article, identifying the argumentative role of each part: Introduction, Methods, Material, Experiment, inline reference, etc. (layer 4). In addition, as mentioned above, one can use some of the characterizations specified in layer 4 to specify more precisely the parts annotated in layer 3 (e.g. to identify the bibliography).""" .
+		c4o:hasContent """This form of crowdsourcing is applied to problems which can be broken down into smaller units of work (called ‘microtasks’). Microtask crowdsourcing works best for tasks that rely primarily on basic human abilities, such as visual and audio cognition or natural language understanding, and less on acquired skills (such as subject-matter knowledge).""" .
 }
 
 :provenance {
@@ -1083,11 +1001,11 @@ a function is an associative rule that allows, given particular known premises, 
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p7#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1106,7 +1024,7 @@ a function is an associative rule that allows, given particular known premises, 
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """All these associations should be specifiable without considering either the natural language in which the paper is written or the particular markup language in which it is stored. For instance, the two examples depicted in Fig. 2 show that a mechanism developed to infer the semantics of the various parts of the first article (A) should be able to assign the same semantics to parts of the second article (B), since they share the same syntactic containment between article parts.""" .
+		c4o:hasContent """To be more efficient than traditional outsourcing (or even in-house resources), microtasks need to be highly parallelized. This means that the actual work is executed by a high number of contributors in a decentralized fashion; 5 this not only leads to significant improvements in terms of time of delivery, but also offers a means to cross-check the accuracy of the answers (as each task is typically assigned to more than one person). Collecting answers from different workers allow for techniques such as majority voting (or other aggregation methods) to automatically identify accurate responses. The most common reward model in microtask crowdsourcing implies small monetary payments for each worker who has successfully solved a task.""" .
 }
 
 :provenance {
@@ -1115,9 +1033,44 @@ a function is an associative rule that allows, given particular known premises, 
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """In our work, we used microtask crowdsourcing as a fast and cost-efficient way to examine the three types of DBPedia errors described in Section 2. We provided specific instructions to workers about how to assess RDF triples according to the three previous quality issues. We reached out to the crowd of the microtask marketplace Amazon Mechanical Turk (MTurk). In the following we present a summary of the relevant MTurk terminology:""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+
+
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3#> .
 @prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3_p1#> .
