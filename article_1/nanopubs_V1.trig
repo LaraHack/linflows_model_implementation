@@ -759,7 +759,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """Incorrect link. This category refers to RDF triples whose association between the subject and the object is incorrect. Erroneous interlinks can associate values within a dataset or between several data sources. This category of quality issues also includes links to exter- nal Web sites or other external data sources such as Wikimedia, Freebase, GeoSpecies or links generated via the Flickr wrapper are incorrect; that is, they do not show any related content pertaining to the resource.""" .
+		c4o:hasContent """Incorrect link. This category refers to RDF triples whose association between the subject and the object is incorrect. Erroneous interlinks can associate values within a dataset or between several data sources. This category of quality issues also includes links to external Web sites or other external data sources such as Wikimedia, Freebase, GeoSpecies or links generated via the Flickr wrapper are incorrect; that is, they do not show any related content pertaining to the resource.""" .
 }
 
 :provenance {
@@ -791,7 +791,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """These categories of quality problems occur perva- sively in DBpedia. These problems might be present in other data sets which are extracted in a similar fashion as DBpedia. Given the diversity of the situa- tions in which they can be instantiated (broad range of datatypes and object values) and their sometimes deeply contextual character (interlinking), assessing them automatically is challenging. In the following we explain how crowdsourcing could support quality as- sessment processes""" .
+		c4o:hasContent """These categories of quality problems occur pervasively in DBpedia. These problems might be present in other data sets which are extracted in a similar fashion as DBpedia. Given the diversity of the situations in which they can be instantiated (broad range of datatypes and object values) and their sometimes deeply contextual character (interlinking), assessing them automatically is challenging. In the following we explain how crowdsourcing could support quality assessment processes.""" .
 }
 
 :provenance {
@@ -896,7 +896,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """The term crowdsourcing was first proposed by Howe [19] that consists on a problem-solving mech- anism in which a task is performed by an “an unde- fined (and generally large) network of people in the form of an open call.” Nowadays, many different forms of crowdsourcing have emerged, e.g., microtask, con- tests, macrotask, crowdfunding, among others; each form of crowdsourcing is designed to target partic- ular types of problems and reaching out to different crowds. In the following we briefly describe contest- based and microtask crowdsourcing, the two crowd- sourcing methods studied in this work.""" .
+		c4o:hasContent """The term crowdsourcing was first proposed by Howe [19] that consists on a problem-solving mechanism in which a task is performed by an “an undefined (and generally large) network of people in the form of an open call.” Nowadays, many different forms of crowdsourcing have emerged, e.g., microtask, contests, macrotask, crowdfunding, among others; each form of crowdsourcing is designed to target particular types of problems and reaching out to different crowds. In the following we briefly describe contest- based and microtask crowdsourcing, the two crowdsourcing methods studied in this work.""" .
 }
 
 :provenance {
