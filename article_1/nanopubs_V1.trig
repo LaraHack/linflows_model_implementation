@@ -1271,7 +1271,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -1424,7 +1424,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -1485,7 +1485,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -1508,17 +1508,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """Taking inspiration from the ideas introduced in Section 3, and restricting the possible input documents to the scholarly articles available in a reasonable markup language (e.g. an XML-like language), one can propose an approach for retrieving the higher-level characterizations of the parts of a scholarly article starting from their lower-level conceptualisations (by means of the principle of compositionality) and vice versa (by means of the downward causation). I have named this approach compositional and iterative semantic enhancement (or CISE, pronounced size) of scholarly articles. The following conditions should be satisfied when applying CISE:
-
-[hierarchical markup] the source of a scholarly article should be available in (or easily converted into) a markup language that can convey the hierarchical containment of the various parts of scholarly articles;
-
-[language agnosticism] there is no need to have a prior knowledge of the natural language used for writing the scholarly article;
-
-[layer inter-dependency] a layer describing a particular conceptualisation of the parts of a scholarly article should depend on the conceptualisation of at least one other lower or higher layer;
-
-[inter-domain reuse] some of the typical structural and semantic aspects of scholarly articles should be shared across different research domains (e.g. abstract, introduction, conclusions);
-
-[intra-domain reuse] scholarly documents within a specific domain should share several structural and semantic aspects, even if these are not adopted by other research domains (e.g. the “related works” section is used in Computer Science articles, while it is not used in Life Science articles).""" .
+		c4o:hasContent """Our work on human-driven Linked Data quality assessment focuses on applying crowdsourcing tech-niques to annotate RDF triples with their correspond- ing quality issue. Given a set of quality issues Q and a set T of RDF triples to be assessed, we formally define the annotation of triples with their corresponding quality issues as follows.""" .
 }
 
 :provenance {
@@ -1527,7 +1517,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -1550,7 +1540,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """The pseudocode shown in Listing 1 introduces the main procedure of CISE. It works by taking three objects as inputs (line 1): a set of marked-up documents to process, a set of annotations referring to the various parts contained in the documents, and a list of rules responsible for inferring new annotations from the existing annotations associated with the documents. Each rule is actually a function taking two parameters as input: a set of documents and a set of annotations. A rule can be run or not run according to the current status of the inputs it receives. For instance, some existing annotations activate the application of a particular rule on a certain document, while others do not. In principle, a rule can simultaneously process more than one document in the input document set, and it could thus find common patterns across documents. The output of a rule is a tuple to_add, to_remove, that are two sets of annotations to be added to and removed from the current set of annotations.""" .
+		c4o:hasContent """Definition 1. (Problem Definition: Mapping RDF Triples to Quality Issues). Given T a set of RDF triples and Q a set of quality issues, a mapping of triples to quality issues is defined as a partial function φ : T → 2 Q . φ(t) denotes the quality issues associated with t ∈ T . In particular, when φ(t) 6 = ∅ the triple t is considered ‘incorrect’, otherwise it can be affirmed that t is ‘correct’.""" .
 }
 
 :provenance {
@@ -1559,7 +1549,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -1583,13 +1573,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """Each annotation is a tuple documenti, layerj, propertyk where:
-
-documenti is the document where the annotation has been specified;
-
-layerj is the layer defining the kind of information depicted by the annotation;
-
-propertyk is a set of statements related to a particular part (i.e. a markup element) of documenti.""" .
+		c4o:hasContent """In order to provide an efficient crowdsourcing solu- tion to the problem presented in Definition 1, we ap- plied a variation of the crowdsourcing pattern Find- Fix-Verify [3]. As discussed in Section 3, this crowd- sourcing pattern allows for increasing the overall quality of the results while maintaining competitive monetary costs when applying other crowdsourcing ap- proaches. Our implementation of the Find-Fix-Verify pattern is tailored to assess the quality of Linked Data sets that are automatically created from other sources. Such is the case of DBpedia [24], a data set created by extracting knowledge from Wikipedia via declarative mediator/wrapper pattern. The wrappers are the result of a crowdsourced community effort of contributors to the DBpedia project. To crowdsource the assessment of triples of data sets like DBpedia, we devise a two-fold approach including the following stages: Find and Verify. In the Find stage, the crowd was requested to detect LD quality issues in a set of RDF triples, and annotate them with the corresponding issue(s) if applicable. We define the Find Stage as follows:""" .
 }
 
 :provenance {
@@ -1598,7 +1582,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -1621,7 +1605,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """After the initialization of some variables (line 2), the main loop of CISE (line 4) continues until no annotations are added or removed from the current set of available annotations. The rationale behind this choice is that the application of the rules can change the status of the specified set of annotations and, consequently, it can create the premises for running a rule that was not previously activated. The following lines (5–6) set the variables that are used for checking if some modifications to the set of annotations are introduced as consequence of an iteration.""" .
+		c4o:hasContent """Definition 2. (Find Stage). Given a set T of RDF triples and a set Q of quality issues, the Find stage consists on crowdsourcing the mappings φ̇ : T → 2 Q . The input of the Find stage is represented as F i = (T , Q), and the output F o = (T , φ̇(T )).""" .
 }
 
 :provenance {
@@ -1630,7 +1614,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p5#> .
@@ -1652,7 +1636,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """The next loop (lines 8–11) is responsible for applying all the rules to all the documents using all the annotations specified as input. As anticipated, the application of a rule returns two sets (line 9): one containing the annotations that should be added, and the other containing the annotations that should be removed. These are then removed from (line 10, where - is the intersection operator between sets) and added to (line 11, where | is the union operator between sets) the current set of annotations. Finally, the variable final_annotations is incremented with the number of annotations added to/removed from the current set of annotations (line 13).""" .
+		c4o:hasContent """The outcome of this stage – triples judged as ‘incorrect’ – is then assessed in the Verify stage, in which the crowd confirms/denies the presence of quality issues in each RDF triple processed in the previous stage. We define the Verify Stage as follows:""" .
 }
 
 :provenance {
@@ -1661,7 +1645,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -1684,7 +1668,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """When the application of all the rules results in no further modifications to the current set of annotations, the algorithm terminates and returns the updated annotation set (line 15). Otherwise, the algorithm runs a new iteration of the main loop (starting from line 5).""" .
+		c4o:hasContent """Definition 3. (Verify Stage). Given a set T of RDF triples and mappings φ̇(T ), the Verify stage consists on crowdsourcing mappings as follows φ̈ : φ̇(T ) → φ̇(T ). The input of the Verify stage is represented as, V i = (T , φ̇(T )) which corresponds to the output of the Find stage (V i = F o ), and the output of the Verify stage is represented as V o = (T , φ̈(T )).""" .
 }
 
 :provenance {
@@ -1693,10 +1677,9 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p7#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -1717,7 +1700,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """In the following section, I describe the outcomes of some implementations of CISE that I have developed with colleagues in my research group. These outcomes provide the first evidence of the feasibility of CISE for inferring the characterizations of parts of a scholarly article characterized in different layers, each depicting a particular kind of information. These outcomes provide a partial positive answer to the research question introduced in Section 1 – namely whether it is possible to derive the semantic and rhetorical representation of a scholarly article from its syntactic organisation.""" .
+		c4o:hasContent """The Fix stage originally proposed in the Find-Fix-Verify pattern is out of the scope of this paper, since the main goal of this work is identifying quality issues. In addition, since our work is designed for data sets extracted automatically via wrappers, it is highly probable that the quality issues detected for a certain triple might also occur in the set of triples that were generated via the same wrapper. Therefore, a more efficient solution to implement the Fix stage could consist of adjusting the wrappers that caused the issue in the first place, instead of crowdsourcing the correction of each triple which increases the overall monetary cost.""" .
 }
 
 :provenance {
@@ -1726,17 +1709,207 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p8#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """In the implementation of the Find and Verify stages in our approach, we explore two different crowdsourc- ing workflows combining different types of crowds. The first workflow combines LD experts and microtask workers: This workflow leverages the expertise of Linked Data experts in a contest to find and classify erroneous triples according to a pre-defined quality taxonomy, while the workers verify the outcome of the contest. The second workflow entirely relies on microtask crowdsourcing to perform the Find and Verify stages. As discussed in Section 3, these crowdsourcing approaches exhibit different characteristics in terms of the types of tasks they can be applied to, the way the results are consolidated and exploited, and the audiences they target. Therefore, in this work we study the impact on involving different types of crowd to detect quality issues in RDF triples: LD experts in the contest and workers in the microtasks. Table 1 presents a summary of the two approaches as they have been used in this work for LD quality assessment purposes.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p9#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Figure 1 depicts the steps carried out in each of the stages of the two crowdsourcing workflows studied in this work. In the following sections, we provide more details about the implementation of the variants of the Find and Verify stages.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """In this implementation of the Find stage, we reached out to an expert crowd of researchers and Linked Data enthusiasts via a contest. The tasks in the contest con- sist on identifying and classifying specific types of Linked Data quality problems in DBpedia triples. To collect the contributions from this crowd, in previous work [43], we developed a web-based tool called TripleCheckMate 6 (cf. Figure 2). TripleCheckMate [22] allows users to select RDF resources, identify issues related to triples of the resource and classify these issues according to a pre-defined taxonomy of data quality problems [44]. A prize was announced for the user submitting the highest number of (real) quality problems.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1_p2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """The workflow starts when a user signs into the TripleCheckMate tool to participate in the contest, as shown in Figure 1. As a basic means to avoid spam, each user first has to login with his Google account through OAuth2. Then she is presented with three op- tions to choose a resource from DBpedia: (i) ‘Any’, for random selection; (ii) ‘Per Class’, where she may choose a resource belonging to a particular class of her interest; and (iii) ‘Manual’, where she may pro- vide a URI of a resource herself. Once a resource is selected following one of these alternatives, the user is presented with a table in which each row corresponds to an RDF triple of that resource. The next step is the actual quality assessment at triple level. The user is provided with the link to the corresponding Wikipedia page of the given resource in order to offer more con- text for the evaluation. If she detects a triple containing a problem, she checks the box ‘Is Wrong’. Moreover, she assigns specific quality problems (according to the classification devised in [43]) to troublesome triples, as depicted in Figure 2. The user can assess as many triples from a resource as desired, or select another re- source to evaluate.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1_p3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """The TripleCheckMate tool only records the triples that are identified as ‘incorrect’. This is consistent with the definition of Find stage from the original Find-Fix- Verify pattern, where the crowd exclusively detects the problematic elements; while the remaining data is not taken into consideration. In addition, this tool mea- sures inter-rater agreements. This means that DBpedia resources are typically checked multiple times. This redundancy mechanism is extremely useful to analyze the performance of the users (as we compare their responses against each other), to identify quality problems which are likely to be real (as they are confirmed by more than one opinion) and to detect unwanted be- havior (as users are not ‘rewarded’ unless their assess- ments are ‘consensual’).""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1_p4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """The outcome of this contest corresponds to a set of triples T judged as ‘incorrect’ by LD experts and clas- sified according to the detected quality issues in Q.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p1#> .
-@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p2#> .
-@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p3#> .
-@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p4#> .
-@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p5#> .
-@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p6#> .
-@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p7#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1_p4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1757,8 +1930,64 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 }
 
 :assertion {
-	:section a doco:Section, deo:Methods ;
-		po:containsAsHeader :section-methods-title ;
+	:section a doco:Section ;
+		po:containsAsHeader :section-4.1-title ;
+		po:contains
+			p1:paragraph ,
+			p2:paragraph ,
+			p3:paragraph ,
+			p4:paragraph ;
+		co:firstItem [
+		co:itemContent :section-4.1-title ;
+		co:nextItem [
+      co:itemContent p1:paragraph ;
+      co:nextItem [
+				co:itemContent p2:paragraph ;
+				co:nextItem [
+				  co:itemContent p3:paragraph ;
+				  co:nextItem [
+				    co:itemContent p4:paragraph ] ] ] ] ] .
+	:section-4.1-title a doco:SectionTitle ;
+		c4o:hasContent "Find Stage: Contest-based Crowdsourcing" .
+
+	p1: npx:introduces p1:paragraph .
+	p2: npx:introduces p2:paragraph .
+	p3: npx:introduces p3:paragraph .
+	p4: npx:introduces p4:paragraph .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p5#> .
+@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p6#> .
+@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p7#> .
+@prefix p8: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p8#> .
+@prefix p9: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p9#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-4-title ;
 		po:contains
 			p1:paragraph ,
 			p2:paragraph ,
@@ -1766,25 +1995,31 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 			p4:paragraph ,
 			p5:paragraph ,
 			p6:paragraph ,
-			p7:paragraph ;
+			p7:paragraph ,
+			p8:paragraph ,
+			p9:paragraph ;
 		co:firstItem [
-		co:itemContent :section-methods-title ;
+		co:itemContent :section-4-title ;
 		co:nextItem [
-		      co:itemContent p1:paragraph ;
-		      co:nextItem [
-			co:itemContent p2:paragraph ;
-			co:nextItem [
-			  co:itemContent p3:paragraph ;
-			  co:nextItem [
-			    co:itemContent p4:paragraph ;
-			    co:nextItem [
-			      co:itemContent p5:paragraph ;
-			      co:nextItem [
-				co:itemContent p6:paragraph ;
+      co:itemContent p1:paragraph ;
+      co:nextItem [
+				co:itemContent p2:paragraph ;
 				co:nextItem [
-				  co:itemContent p7:paragraph ] ] ] ] ] ] ] ] .
-	:section-methods-title a doco:SectionTitle ;
-		c4o:hasContent "Compositional and iterative semantic enhancement of scholary articles" .
+				  co:itemContent p3:paragraph ;
+				  co:nextItem [
+				    co:itemContent p4:paragraph ;
+				    co:nextItem [
+				      co:itemContent p5:paragraph ;
+				      co:nextItem [
+								co:itemContent p6:paragraph ;
+								co:nextItem [
+				  				co:itemContent p7:paragraph ;
+									co:nextItem [
+										co:itemContent p8:paragraph ;
+										co:nextItem [
+						  				co:itemContent p9:paragraph ] ] ] ] ] ] ] ] ] ] .
+	:section-4-title a doco:SectionTitle ;
+		c4o:hasContent "Our Approach: Crowdsourcing Linked Data Quality Assessment" .
 
 	p1: npx:introduces p1:paragraph .
 	p2: npx:introduces p2:paragraph .
@@ -1793,6 +2028,8 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 	p5: npx:introduces p5:paragraph .
 	p6: npx:introduces p6:paragraph .
 	p7: npx:introduces p7:paragraph .
+	p8: npx:introduces p8:paragraph .
+	p9: npx:introduces p9:paragraph .
 }
 
 :provenance {
@@ -1801,7 +2038,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -1960,7 +2197,7 @@ propertyk is a set of statements related to a particular part (i.e. a markup ele
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -2415,7 +2652,7 @@ only a small number of pattern-based documents coming from different communities
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -2605,7 +2842,7 @@ only a small number of pattern-based documents, written by different authors of 
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -2832,7 +3069,7 @@ only a small number of pattern-based documents, written by different authors of 
 }
 
 :pubinfo {
-	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
