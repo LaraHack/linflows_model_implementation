@@ -1230,7 +1230,7 @@
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1#> .
-@prefix 3.1_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1_p1#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1254,15 +1254,15 @@
 	:section a doco:Section;
 		po:containsAsHeader :section-3.1-title ;
 		po:contains
-			3.1_p1:paragraph ;
+			p1:paragraph ;
 			co:firstItem [
 				co:itemContent :section-3-title ;
 				co:nextItem [
-		      co:itemContent 3.1_p1:paragraph ] ] .
+		      co:itemContent p1:paragraph ] ] .
 	:section-3.1-title a doco:SectionTitle ;
 		c4o:hasContent "Types of Crowdsourcing" .
 
-		3.1_p1: npx:introduces 3.1_p1:paragraph .
+		p1: npx:introduces p1:paragraph .
 }
 
 :provenance {
@@ -1276,8 +1276,8 @@
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.1#> .
-@prefix 3.1.1_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.1_p1#> .
-@prefix 3.1.1_p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.1_p2#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.1_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.1_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1301,25 +1301,25 @@
 	:section a doco:Section;
 		po:containsAsHeader :section-3.1.1-title ;
 		po:contains
-			3.1.1_p1:paragraph ,
-			3.1.1_p2:paragraph ;
+			p1:paragraph ,
+			p2:paragraph ;
 			co:firstItem [
 				co:itemContent :section-3.1.1-title ;
 				co:nextItem [
-		      co:itemContent 3.1.1_p1:paragraph ;
+		      co:itemContent p1:paragraph ;
 					co:nextItem [
-			      co:itemContent 3.1.1_p2:paragraph ] ] ] .
+			      co:itemContent p2:paragraph ] ] ] .
 	:section-3.1.1-title a doco:SectionTitle ;
 		c4o:hasContent "Contest-based Crowdsourcing" .
 
-		3.1.1_p1: npx:introduces 3.1.1_p1:paragraph .
-		3.1.1_p2: npx:introduces 3.1.1_p2:paragraph .
+		p1: npx:introduces p1:paragraph .
+		p2: npx:introduces p2:paragraph .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2#> .
-@prefix 3.1.2_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p1#> .
-@prefix 3.1.2_p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p2#> .
-@prefix 3.1.2_p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p3#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1343,31 +1343,31 @@
 	:section a doco:Section;
 		po:containsAsHeader :section-3.1.2-title ;
 		po:contains
-			3.1.2_p1:paragraph ,
-			3.1.2_p2:paragraph ,
-			3.1.2_p3:paragraph ;
+			p1:paragraph ,
+			p2:paragraph ,
+			p3:paragraph ;
 			co:firstItem [
 				co:itemContent :section-3.1.2-title ;
 				co:nextItem [
-		      co:itemContent 3.1.2_p1:paragraph ;
+		      co:itemContent p1:paragraph ;
 					co:nextItem [
-			      co:itemContent 3.1.2_p2:paragraph ;
+			      co:itemContent p2:paragraph ;
 							co:nextItem [
-				      co:itemContent 3.1.2_p3:paragraph ] ] ] ] .
+				      co:itemContent p3:paragraph ] ] ] ] .
 	:section-3.1.2-title a doco:SectionTitle ;
 		c4o:hasContent "Microtask Crowdsourcing" .
 
-		3.1.2_p1: npx:introduces 3.1.2_p1:paragraph .
-		3.1.2_p2: npx:introduces 3.1.2_p2:paragraph .
-		3.1.2_p3: npx:introduces 3.1.2_p3:paragraph .
+		p1: npx:introduces p1:paragraph .
+		p2: npx:introduces p2:paragraph .
+		p3: npx:introduces p3:paragraph .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2#> .
-@prefix 3.2_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p1#> .
-@prefix 3.2_p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p2#> .
-@prefix 3.2_p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p3#> .
-@prefix 3.2_p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p4#> .
-@prefix 3.2_p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p5#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1391,31 +1391,31 @@
 	:section a doco:Section;
 		po:containsAsHeader :section-3.2-title ;
 		po:contains
-			3.2_p1:paragraph ,
-			3.2_p2:paragraph ,
-			3.2_p3:paragraph ,
-			3.2_p4:paragraph ,
-			3.2_p5:paragraph ;
+			p1:paragraph ,
+			p2:paragraph ,
+			p3:paragraph ,
+			p4:paragraph ,
+			p5:paragraph ;
 			co:firstItem [
 				co:itemContent :section-3.2-title ;
 				co:nextItem [
-		      co:itemContent 3.2_p1:paragraph ;
+		      co:itemContent p1:paragraph ;
 					co:nextItem [
-			      co:itemContent 3.2_p2:paragraph ;
+			      co:itemContent p2:paragraph ;
 							co:nextItem [
-				      co:itemContent 3.2_p3:paragraph ;
+				      co:itemContent p3:paragraph ;
 								co:nextItem [
-					      co:itemContent 3.2_p4:paragraph ;
+					      co:itemContent p4:paragraph ;
 									co:nextItem [
-						      co:itemContent 3.2_p5:paragraph ] ] ] ] ] ] .
+						      co:itemContent p5:paragraph ] ] ] ] ] ] .
 	:section-3.2-title a doco:SectionTitle ;
 		c4o:hasContent "Crowdsourcing Pattern Find-Fix-Verify" .
 
-		3.2_p1: npx:introduces 3.2_p1:paragraph .
-		3.2_p2: npx:introduces 3.2_p2:paragraph .
-		3.2_p3: npx:introduces 3.2_p3:paragraph .
-		3.2_p4: npx:introduces 3.2_p4:paragraph .
-		3.2_p5: npx:introduces 3.2_p5:paragraph .
+		p1: npx:introduces p1:paragraph .
+		p2: npx:introduces p2:paragraph .
+		p3: npx:introduces p3:paragraph .
+		p4: npx:introduces p4:paragraph .
+		p5: npx:introduces p5:paragraph .
 }
 
 :provenance {
@@ -1429,17 +1429,10 @@
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3#> .
-@prefix 3.1_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1_p1#> .
-@prefix 3.1.1_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.1_p1#> .
-@prefix 3.1.1_p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.1_p2#> .
-@prefix 3.1.2_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p1#> .
-@prefix 3.1.2_p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p2#> .
-@prefix 3.1.2_p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p3#> .
-@prefix s3.2_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p1#> .
-@prefix 3.2_p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p2#> .
-@prefix 3.2_p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p3#> .
-@prefix 3.2_p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p4#> .
-@prefix 3.2_p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p5#> .
+@prefix s3.1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1#> .
+@prefix s3.1.1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.1#> .
+@prefix s3.1.2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2#> .
+@prefix s3.2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1463,43 +1456,27 @@
 	:section a doco:Section;
 		po:containsAsHeader :section-3-title ;
 		po:contains
-			3.1_p1:paragraph ,
-			3.1.1_p1:paragraph ,
-			3.1.1_p2:paragraph ,
-			3.1.2_p1:paragraph ,
-			3.1.2_p2:paragraph ,
-			3.1.2_p3:paragraph ,
-			s3.2_p1:paragraph ,
-			3.2_p2:paragraph ,
-			3.2_p3:paragraph ,
-			3.2_p4:paragraph ,
-			3.2_p5:paragraph ;
+			s3.1:section ,
+			s3.1.1:section ,
+			s3.1.2:section ,
+			s3.2:section ;
 			co:firstItem [
 				co:itemContent :section-3-title ;
 				co:nextItem [
-		      co:itemContent p1:paragraph ;
+		      co:itemContent s3.1:section ;
 		      co:nextItem [
-						co:itemContent p2:paragraph ;
+						co:itemContent s3.1.1:section ;
 						co:nextItem [
-				  		co:itemContent p3:paragraph ;
+				  		co:itemContent s3.1.2:section ;
 				  		co:nextItem [
-				    		co:itemContent p4:paragraph ;
-				    		co:nextItem [
-				      		co:itemContent p5:paragraph ;
-				      		co:nextItem [
-										co:itemContent p6:paragraph ;
-										co:nextItem [
-					  					co:itemContent p7:paragraph ] ] ] ] ] ] ] ] .
+				    		co:itemContent s3.2:section ] ] ] ] ] .
 	:section-3-title a doco:SectionTitle ;
 		c4o:hasContent "Crowdsourcing Preliminaries" .
 
-	p1: npx:introduces p1:paragraph .
-	p2: npx:introduces p2:paragraph .
-	p3: npx:introduces p3:paragraph .
-	p4: npx:introduces p4:paragraph .
-	p5: npx:introduces p5:paragraph .
-	p6: npx:introduces p6:paragraph .
-	p7: npx:introduces p7:paragraph .
+	s3.1: npx:introduces s3.1:section .
+	s3.1.1: npx:introduces s3.1.1:section .
+	s3.1.2: npx:introduces s3.1.2:section .
+	s3.2: npx:introduces s3.2:section .
 }
 
 :provenance {
