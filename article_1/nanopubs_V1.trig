@@ -1237,11 +1237,11 @@
 @prefix 3.1.2_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p1#> .
 @prefix 3.1.2_p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p2#> .
 @prefix 3.1.2_p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2_p3#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p1#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p2#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p3#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p4#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p5#> .
+@prefix s3.2_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p1#> .
+@prefix 3.2_p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p2#> .
+@prefix 3.2_p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p3#> .
+@prefix 3.2_p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p4#> .
+@prefix 3.2_p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1262,34 +1262,38 @@
 }
 
 :assertion {
-	:section a doco:Section, deo:ProblemStatement ;
-		po:containsAsHeader :section-problem-statement-title ;
+	:section a doco:Section;
+		po:containsAsHeader :section-3-title ;
 		po:contains
-			p1:paragraph ,
-			p2:paragraph ,
-			p3:paragraph ,
-			p4:paragraph ,
-			p5:paragraph ,
-			p6:paragraph ,
-			p7:paragraph ;
+		3.1_p1:paragraph ,
+		3.1.1_p1:paragraph ,
+		3.1.1_p2:paragraph ,
+		3.1.2_p1:paragraph ,
+		3.1.2_p2:paragraph ,
+		3.1.2_p3:paragraph ,
+		s3.2_p1:paragraph ,
+		3.2_p2:paragraph ,
+		3.2_p3:paragraph ,
+		3.2_p4:paragraph ,
+		3.2_p5 ;
 		co:firstItem [
-		co:itemContent :section-problem-statement-title ;
-		co:nextItem [
-		      co:itemContent p1:paragraph ;
-		      co:nextItem [
-			co:itemContent p2:paragraph ;
+			co:itemContent :section-3-title ;
 			co:nextItem [
-			  co:itemContent p3:paragraph ;
-			  co:nextItem [
-			    co:itemContent p4:paragraph ;
-			    co:nextItem [
-			      co:itemContent p5:paragraph ;
-			      co:nextItem [
-				co:itemContent p6:paragraph ;
-				co:nextItem [
-				  co:itemContent p7:paragraph ] ] ] ] ] ] ] ] .
-	:section-problem-statement-title a doco:SectionTitle ;
-		c4o:hasContent "A pathway from syntax to semantics" .
+	      co:itemContent p1:paragraph ;
+	      co:nextItem [
+					co:itemContent p2:paragraph ;
+					co:nextItem [
+			  		co:itemContent p3:paragraph ;
+			  		co:nextItem [
+			    		co:itemContent p4:paragraph ;
+			    		co:nextItem [
+			      		co:itemContent p5:paragraph ;
+			      		co:nextItem [
+									co:itemContent p6:paragraph ;
+									co:nextItem [
+				  					co:itemContent p7:paragraph ] ] ] ] ] ] ] ] .
+	:section-3-title a doco:SectionTitle ;
+		c4o:hasContent "Crowdsourcing Preliminaries" .
 
 	p1: npx:introduces p1:paragraph .
 	p2: npx:introduces p2:paragraph .
