@@ -1956,6 +1956,307 @@
 	p4: npx:introduces p4:paragraph .
 }
 
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """This Find stage applies microtasks solved by lay users from a crowdsourcing platform. In order to perform a fair comparison between the performance of LD experts and crowd workers, in this variant of the Find stage we aimed at implementing a similar workflow (including a similar user interface) for the crowd workers as the one provided to the LD experts. Therefore, in this stage the crowd is enquired for identifying quality issues on a set of RDF triples associated with RDF resources from the DBpedia data set. However, given that crowd workers are not necessarily knowledgeable about RDF or Linked Data, each microtask was augmented with human-readable information associated with the RDF triples. Formally, in our approach, a microtask is defined as follows.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Definition 4. (Microtask). A microtask m is a set of 3-tuples (t, h t , Q), where t is an RDF triple, h t corre- sponds to human-readable information that describes t, and Q is the set of quality issues to be assessed on triple t.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Following the MTurk terminology (cf. Section 3), each 3-tuple (t, h t , Q) corresponds to a question while m is a HIT (Human Intelligence Task) with granularity (number of questions) equals to |m|.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """The execution of this stage, as depicted in Figure 1, starts by generating the microtasks from F i , i.e., the sets of RDF triples T and quality issues Q to crowdsource. In addition, a parameter α can be specified as a threshold on the number of questions to include in a single microtask. Algorithm 1 presents the procedure to create the microtasks. The algorithm firstly per- forms a pruning step (line 2) to remove triples that do not require human assessment. For instance, in our im- plementation, the function prune discards RDF triples whose URIs could not be dereferenced. The algorithm then proceeds to build microtasks such that each microtask only contains triples associated with a specific resource, similar to the interfaces of the TripleCheck-Mate tool used in the contest. The set S contains all the resources that appear as subjects in the set of triples T (line 3). For each subject, the algorithm builds the set of triples T 0 associated with the subject (line 5), and the creation of microtasks begins (line 6). From the pool T 0 , a triple t is selected (line 8) and the corresponding human-readable information is extracted (line 9). In this stage, similar to the TripleCheckMate, each microtask requires the workers to browse all the possible quality issues, therefore, the set of issues to assess on triple t is equal to Q in each microtask cre- ated (line 10). In case that the number of questions in the current microtask exceeds the threshold α, a new microtask is then created. The definition of the parameter α allows for avoiding the creation of very long tasks, i.e., when the number of triples with the same subject is large; appropriate values of α enables the creation of tasks than can still be solved in a reasonable time, consistent with the concept of microtask (a short task). Algorithm 1 continues creating microtasks for all the triples of a resource (lines 7-16), for all the resources (lines 4-18). The outcome of the algorithm is a set M of microtasks to assess the quality of the triples in T according to the issues in Q.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """The generated microtasks are then submitted to the crowdsourcing platform. When a worker accepts a microtask or HIT, she is presented with a table that con- tains triples associated to an RDF resource, as shown in Figure 1. For each triple, the worker determines whether the triple is ’incorrect’ with respect to a fixed set of quality issues Q (cf. Section 2): object incorrectly/incompletely extracted, datatype incorrectly extracted or incorrect link, abbreviated as ‘Value’, ‘datatype’, and ‘Link’, respectively. Once the worker has assessed all the triples within a microtask, she proceeds to submit the HIT. Consistently with the Find stage implemented with a contest, the outcome of the microtasks corresponds to a set of triples T judged as ‘incorrect’ by workers and classified according to the detected quality issues in Q.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p6#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """An important aspect when generating microtasks from RDF data (or machine-readable data in general) is developing useful human-understandable interfaces (Algorithm 1, line 9) for the target non-expert crowds. In microtasks, optimal user interfaces reduce ambigu- ity as well as the probability to retrieve erroneous answers from the crowd due to a misinterpretation of the task. Therefore, before start to resolve one of our tasks, the crowd workers were instructed with details and ex- amples about each quality issue. After reading the in- structions, workers proceed to resolve the given task. Figure 3 depicts the interface of a microtask generated for the Find stage in our approach. To display each triple, we retrieved the values of the foaf:name or rdfs:label properties for subjects, predicates, and datatypes. The name of languages in language-tagged strings were parsed using a conversion table from the best current practices BCP 47 [7], as suggested by the RDF specification 7 . Language tags and datatypes of objects were highlighted, such that workers can easily iden tify them 8 . Additionally, in order to provide contextual information, we implemented a simple wrapper which extracts the corresponding data encoded in the infobox of the Wikipedia article associated with the resource – specified via foaf:isPrimaryTopicOf . The crowd has the pos- sibility to select one or several quality issues per triple.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p7#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Further microtask design criteria related to spam de-tection and quality control; we used different mecha- nisms to discourage low-effort behavior which leads to random answers and to identify accurate answers (see Section 5.2.2).""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p5#> .
+@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p6#> .
+@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p7#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-4.2-title ;
+		po:contains
+			p1:paragraph ,
+			p2:paragraph ,
+			p3:paragraph ,
+			p4:paragraph ,
+			p5:paragraph ,
+			p6:paragraph ,
+			p7:paragraph ;
+		co:firstItem [
+		co:itemContent :section-4-title ;
+		co:nextItem [
+      co:itemContent p1:paragraph ;
+      co:nextItem [
+				co:itemContent p2:paragraph ;
+				co:nextItem [
+				  co:itemContent p3:paragraph ;
+				  co:nextItem [
+				    co:itemContent p4:paragraph ;
+				    co:nextItem [
+				      co:itemContent p5:paragraph ;
+				      co:nextItem [
+								co:itemContent p6:paragraph ;
+								co:nextItem [
+				  				co:itemContent p7:paragraph ] ] ] ] ] ] ] ] .
+	:section-4.2-title a doco:SectionTitle ;
+		c4o:hasContent "Find Stage: Paid Microtask Crowdsourcing" .
+
+	p1: npx:introduces p1:paragraph .
+	p2: npx:introduces p2:paragraph .
+	p3: npx:introduces p3:paragraph .
+	p4: npx:introduces p4:paragraph .
+	p5: npx:introduces p5:paragraph .
+	p6: npx:introduces p6:paragraph .
+	p7: npx:introduces p7:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4#> .
 @prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p1#> .
 @prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p2#> .
