@@ -1276,6 +1276,72 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2#> .
+@prefix 3.2_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p1#> .
+@prefix 3.2_p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p2#> .
+@prefix 3.2_p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p3#> .
+@prefix 3.2_p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p4#> .
+@prefix 3.2_p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section;
+		po:containsAsHeader :section-3.2-title ;
+		po:contains
+			3.2_p1:paragraph ,
+			3.2_p2:paragraph ,
+			3.2_p3:paragraph ,
+			3.2_p4:paragraph ,
+			3.2_p5:paragraph ;
+			co:firstItem [
+				co:itemContent :section-3.2-title ;
+				co:nextItem [
+		      co:itemContent 3.2_p1:paragraph ;
+					co:nextItem [
+			      co:itemContent 3.2_p2:paragraph ;
+							co:nextItem [
+				      co:itemContent 3.2_p3:paragraph ;
+								co:nextItem [
+					      co:itemContent 3.2_p4:paragraph ;
+									co:nextItem [
+						      co:itemContent 3.2_p5:paragraph ] ] ] ] ] ] .
+	:section-3.2-title a doco:SectionTitle ;
+		c4o:hasContent "Crowdsourcing Pattern Find-Fix-Verify" .
+
+		3.2_p1: npx:introduces 3.2_p1:paragraph .
+		3.2_p2: npx:introduces 3.2_p2:paragraph .
+		3.2_p3: npx:introduces 3.2_p3:paragraph .
+		3.2_p4: npx:introduces 3.2_p4:paragraph .
+		3.2_p5: npx:introduces 3.2_p5:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-18T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3#> .
 @prefix 3.1_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1_p1#> .
 @prefix 3.1.1_p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.1_p1#> .
