@@ -1905,7 +1905,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1#> .
 @prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1_p1#> .
 @prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1_p2#> .
 @prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1_p3#> .
@@ -2924,7 +2924,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.4#> .
 @prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.4_p1#> .
 @prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.4_p2#> .
 @prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.4_p3#> .
@@ -3015,6 +3015,10 @@
 @prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p7#> .
 @prefix p8: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p8#> .
 @prefix p9: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p9#> .
+@prefix s4.1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1#> .
+@prefix s4.2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2#> .
+@prefix s4.3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.3#> .
+@prefix s4.4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -3046,7 +3050,11 @@
 			p6:paragraph ,
 			p7:paragraph ,
 			p8:paragraph ,
-			p9:paragraph ;
+			p9:paragraph ,
+			s4.1:section ,
+			s4.2:section ,
+			s4.3:section ,
+			s4.4:section ;
 		co:firstItem [
 		co:itemContent :section-4-title ;
 		co:nextItem [
@@ -3066,7 +3074,15 @@
 									co:nextItem [
 										co:itemContent p8:paragraph ;
 										co:nextItem [
-						  				co:itemContent p9:paragraph ] ] ] ] ] ] ] ] ] ] .
+						  				co:itemContent p9:paragraph ;
+											co:nextItem [
+												co:itemContent s4.1:section ;
+												co:nextItem [
+													co:itemContent s4.2:section ;
+													co:nextItem [
+														co:itemContent s4.3:section ;
+														co:nextItem [
+															co:itemContent s4.4:section ] ] ] ] ] ] ] ] ] ] ] ] ] ] .
 	:section-4-title a doco:SectionTitle ;
 		c4o:hasContent "Our Approach: Crowdsourcing Linked Data Quality Assessment" .
 
@@ -3079,6 +3095,10 @@
 	p7: npx:introduces p7:paragraph .
 	p8: npx:introduces p8:paragraph .
 	p9: npx:introduces p9:paragraph .
+	s4.1: npx:introduces s4.1:section .
+	s4.2: npx:introduces s4.2:section .
+	s4.3: npx:introduces s4.3:section .
+	s4.4: npx:introduces s4.4:section .
 }
 
 :provenance {
