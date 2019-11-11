@@ -26,7 +26,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -59,12 +59,12 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -95,7 +95,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -127,7 +127,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -159,7 +159,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -191,7 +191,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -223,7 +223,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -255,7 +255,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -287,7 +287,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -319,7 +319,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -351,7 +351,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -383,7 +383,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -429,7 +429,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -461,7 +461,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -507,7 +507,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -608,7 +608,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -640,7 +640,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -672,7 +672,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -704,7 +704,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -736,7 +736,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -768,7 +768,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -800,7 +800,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -871,7 +871,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -3139,7 +3139,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -3171,7 +3171,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -3203,7 +3203,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -3281,7 +3281,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -3313,7 +3313,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -3394,7 +3394,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -3426,7 +3426,7 @@
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -5086,7 +5086,547 @@
 	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-______________________________
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """We took the same set of resources from DBpedia, that were assigned to the LD experts, and performed baseline approaches for each type of quality issue. The results are discussed in this section.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """We use the Test-Driven quality assessment (TDQA) methodology [21] as our main baseline comparison ap- proach to detect incorrect object values and datatypes and literals. TDQA is inspired from test-driven development and proposes a methodology to define (i) au- tomatic, (ii) semi-automatic and (iii) manual test cases based on SPARQL. Automatic test cases are generated based on schema constraints. The methodology suggests the use of semi-automatic schema enrichment that, in turn, will generate more automatic test cases. Manual test cases are written by domain experts and can be based either on a test case pattern library, or written as manual SPARQL queries.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """RDFUnit 18 [20] is a tool that implements the TDQA methodology. RDFUnit generates automatic test cases for all enabled schemata and checks for common axiom validations. At the time of writing, RDFUnit supports the detection of inconsistencies for domain and range for RDFS and cardinality, disjointness, functionality, symetricity and reflexiveness for OWL under Closed World Assumption (CWA). We re-used the same setup for DBpedia, used by Kontokostas et al. [21] but excluding 830 test cases that were automatically generated for rdfs:range. The dataset was checked against the following schemata (namespaces): dbpedia-19 owl, foaf, dcterms, dc, skos, and geo. In addition, we reused the axioms produced by the ontology enrichment step for DBpedia, as described by Kontokostas et al. [21].""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """In total, 5, 146 tests were run, in particular: 3, 376 were automatically generated from the tested vocabularies or ontologies, 1, 723 from the enrichment step and 47 defined manually. From the 5, 146 total test cases only 138 failed and returned a total 765 individual validation errors. Table 7 aggregates the test case results and violation instances based on the generation type. Although the enrichment based test cases were generated automatically, we distinguish them from those automatic test cases that were based on the original schema.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """In Table 8, we aggregate the failed test cases and the total instance violations based on the patterns the test cases were based on. Most of the errors originate from ontological constraints such as functionality, datatype and domain violations. Common violation instances of ontological constraints are multiple birth/death dates and population values, datatype of xsd:integer instead of xsd:nonNegativeInteger and various rdfs:domain violations. In addition to ontological constraints, manual constraints resulted in violation instances such as: birth date after the death date (1), (probably) invalid postal codes (13), persons without a birth date (51), persons with death date that should also have a birth date (3), a resource with coordinates should be a dbpedia-owl:Place (16) and a dbpedia-owl:Place should have coordinates (7).""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """In addition to the violation instances in Table 8, there exists 51 additional violation instances originated by a test case that was written as a manual SPARQL query and checks weather a person’s height is between 0.4 and 2.5 meters. In this specific case, the base unit is meters and the values are extracted as centimetre. Thus, although the results look valid to a user, they are actually wrong.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p6#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """As a baseline approach a complete direct comparison is not possible except for 85 wrong datatypes and 13 failed regular expressions (cf. Table 8). However, even in this case it is not possible to provide a precision since RDFUnit runs through the whole set of resources and possibly catches errors the LD experts didn’t catch since it considers the ontological schema. This is because the LD experts performed triple based evalua- tion using the TripleCheckMate tool, which does not provide schema information directly. Thus, only those experts who are conversant with the schema might be able to identify those errors. Examples of such inconsistencies are datatype detection that is not defined in the ontology e.g. dates vs numbers (“1935”ˆˆxsd:integer ) or erroneous language tags. Also, rdfs:domain violations were not reported from the LD experts since for every triple they had to cross-check the ontology definitions for the evaluated property and the rdf:type statements of the resource. Similar combinations apply for all the other patterns types described in Table 8. RDFUnit was running beyond the isolated triple level that the LD experts and crowd were evaluating and was checking various combinations of triples.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p7#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """However, using RDFUnit the set of incorrect values and datatypes and literals can be extracted and then fed to the LD experts to verify those errors as some of the errors require human judgement in terms of semantically incorrect triples. For example in case of logical inconsistencies, RDFUnit relies only on domain (dataset) experts to define custom rules, for example the human height constraint.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p5#> .
+@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p6#> .
+@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p7#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-5.4.1-title ;
+		po:contains
+			p1:paragraph ,
+			p2:paragraph ,
+			p3:paragraph ,
+			p4:paragraph ,
+			p5:paragraph ,
+			p6:paragraph ,
+			p7:paragraph;
+		co:firstItem [
+		co:itemContent :section-5.4.1-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ;
+	    co:nextItem [
+				co:itemContent p2:paragraph ;
+				co:nextItem [
+					co:itemContent p3:paragraph ;
+					co:nextItem [
+						co:itemContent p4:paragraph ;
+						co:nextItem [
+							co:itemContent p5:paragraph ;
+							co:nextItem [
+								co:itemContent p6:paragraph ;
+								co:nextItem [
+									co:itemContent p7:paragraph ] ] ] ] ] ] ] ] .
+	:section-5.4.1-title a doco:SectionTitle ;
+		c4o:hasContent "Object Values, Datatypes and Literals" .
+
+	p1: npx:introduces p1:paragraph .
+	p2: npx:introduces p2:paragraph .
+	p3: npx:introduces p3:paragraph .
+	p4: npx:introduces p4:paragraph .
+	p5: npx:introduces p5:paragraph .
+	p6: npx:introduces p6:paragraph .
+	p7: npx:introduces p7:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.2_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """For this type of task, we implemented a baseline that retrieves, for each triple, the external web page – which corresponds to the object of the triple – and searches for occurrences of the foaf:name of the subject within the page. If the number of occurrences is greater than 1, the algorithm interprets the external page as being related to the resource. In this case the link is considered correct. Listing 1 shows the script used to detect the number of times the title of the resource appears in the web page.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.2_p2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """In order to compare the baseline with the crowd- sourcing approaches (i.e. detection whether the interlinks are correct), we first extracted the interlinks from the triples subject to crowdsourcing. A total of 2, 780 interlinks were retrieved. Table 9 shows the number and types of interlinks present in the dataset.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.2_p3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """As a result of running this script, we detected a total of 2412 interlinks that were not detected to have the title of the resource in the external web page (link). In other words, only 368 of the total 2, 780 interlinks were detected to be correct by this automatic approach, achieving a precision of 0.1323.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.2#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.2_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.2_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.2_p3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-5.4.2-title ;
+		po:contains
+			p1:paragraph ,
+			p2:paragraph ,
+			p3:paragraph ;
+		co:firstItem [
+		co:itemContent :section-5.4.2-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ;
+	    co:nextItem [
+				co:itemContent p2:paragraph ;
+				co:nextItem [
+					co:itemContent p3:paragraph ] ] ] ] .
+	:section-5.4.2-title a doco:SectionTitle ;
+		c4o:hasContent "Interlinks" .
+
+	p1: npx:introduces p1:paragraph .
+	p2: npx:introduces p2:paragraph .
+	p3: npx:introduces p3:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4_p1#> .
+@prefix s5.4.1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1#> .
+@prefix s5.4.2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section, deo:Evaluation ;
+		po:containsAsHeader :section-5.4-title ;
+		po:contains
+			p1:paragraph ,
+			s5.4.1:section ,
+			s5.4.2:section ;
+		co:firstItem [
+		co:itemContent :section-5.4-title ;
+		co:nextItem [
+			co:itemContent p1:paragraph ;
+			co:nextItem [
+				co:itemContent s5.4.1:section ;
+				co:nextItem [
+					co:itemContent s5.4.2:section ] ] ] .
+	:section-5.4-title a doco:SectionTitle ;
+		c4o:hasContent "Evaluation of Baseline Approaches" .
+
+	p1: npx:introduces p1:paragraph .
+	s5.4.1: npx:introduces s5.4.1:section .
+	s5.4.2: npx:introduces s5.4.2:section .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#> .
 @prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5_p1#> .
@@ -5178,7 +5718,7 @@ ______________________________
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """In Section 5 I have shown how the approach proposed in Section 4 can be implemented to return annotations belonging the first four layers introduced in Section 3. It also presents some issues that cannot be addressed by looking only at the syntactical containment of article parts. The most important issue is this: since CISE focusses on article parts that must be clearly marked-up in some way, all the other portions of the article text are simply discarded. By design, CISE does not undertake the analysis of natural language text. There are several existing applications, such as Named Entity Recognition tools (NER) [15] and other NLP technologies (e.g. [34]), that can be used for this purpose.""" .
+		c4o:hasContent """Referring back to the research questions formulated in Section 1, our experiments let us identify the strengths and weaknesses of applying crowdsourcing mechanisms for data quality assessment, following the Find-Fix-Verify pattern. Regarding the precision achieved in both workflows, we compared the outcomes produced in each stage by the different crowds against a manually defined gold standard; precision values achieved by both crowds show that crowdsourcing workflows offer feasible solutions to enhance the quality of Linked Data data sets (RQ1).""" .
 }
 
 :provenance {
@@ -5187,9 +5727,10 @@ ______________________________
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
+
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
@@ -5208,7 +5749,7 @@ ______________________________
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """CISE is intrinsically limited by some of the conditions, introduced in Section 4, necessary for its implementation. The most limiting is the requirement that the article to be analysed should be appropriately marked up by means of some (e.g. XML-based) markup language. While it is not necessary to know the particular grammar and vocabulary of the markup language used, it is crucial that the article parts are organised hierarchically according to appropriate containment principles. For instance, in an HTML-based article, all the section-subsection relations should be explicitly defined by means of nested section elements. The common usage of headings of different levels (i.e. h1–h6 elements) within a flat structure (e.g. an article element) is inadequate for this, since it does not explicitly define the intended hierarchical organisation of the sections.5""" .
+		c4o:hasContent """In each type of task, the LD experts and MTurk workers applied different skills and strategies to solve the assignments successfully (RQ2). The data collected for each type of task suggests that the effort of LD experts must be applied on tasks demanding specific-domain skills beyond common knowledge. For instance, LD experts successfully identified issues on very specific datatypes, e.g., when time units are simply annotated as numbers ( xsd:Integer or xsd:Float ). In the same type of task, workers focused on assessing triples annotated with language tags, instead of datatypes like the experts. The MTurk crowd has proven to be very skilled at verifying whether literals are written in a certain language. In addition, workers were exceptionally good and efficient at performing comparisons between data entries, specially when some contextual information is provided.""" .
 }
 
 :provenance {
@@ -5217,7 +5758,7 @@ ______________________________
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -5240,7 +5781,7 @@ ______________________________
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """CISE depends on the theoretical backgrounds introduced in Section 3, namely the principles of compositionality and downward causation. The other conditions introduced in Section 4 are less strict and need a more careful investigation. In particular, while scholarly documents can be written in different natural languages, their main constituents common across the whole scholarly communication domain. Of course, the presentation of research articles can vary according to the particular domain – e.g. Life Sciences articles usually follow a well-defined structure, while Computer Science articles are usually organised in a less conservative way. However, they all follow generic underlying ways of organising the arguments supporting the research conclusions – even if some aspects are more commonly found in one domain rather than another (e.g. Life Science articles typically have a Background section, while Computer Science articles have a Related Works section, whose function, while similar, is different in important aspects). Nevertheless, my hypothesis (partially supported by existing studies, e.g. [26]) is that many of the ways of organising research articles are shared across the various research areas.""" .
+		c4o:hasContent """Furthermore, we were able to detect common cases in which none of the two forms of crowdsourcing we studied seem to be feasible. The most problematic task for the LD experts was the one about discerning whether a web page is related to an RDF resource. Although the experimental data does not provide insights into this behavior, we are inclined to believe that this is due to the relatively higher effort required by this specific type of task, which involves checking an additional site outside the TripleCheckMate tool. Although the crowd outperformed the experts in finding incorrect ‘interlinks’, the MTurk crowd is not sufficiently capable of assessing links that correspond to RDF resources. Furthermore, MTurk workers did not perform so well on tasks about datatypes where they recurrently confused numerical datatypes with time units.""" .
 }
 
 :provenance {
@@ -5249,7 +5790,7 @@ ______________________________
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -5272,7 +5813,7 @@ ______________________________
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """Future extensions and new implementations of CISE will permit me to study such intra- and inter-domain patterns and similarities, identifying which particular structures and semantic connotations are shared between different research areas, and determining how much argumentative information is hidden behind quite simple syntactic structures. From such analysis, it might be possible to identify particular patterns of organisation of document parts that characterize certain domains or particular the types of papers (research papers, reviews, letters, etc.).""" .
+		c4o:hasContent """The observed results suggest that LD experts and crowd workers offer complementary strengths that can be exploited not only in different assessment iterations or stages (RQ3) but also in particular subspaces of quality issues. LD experts exhibited a good performance when finding incorrect object values and datatypes (in particular, numerical datatypes). In turn, microtask crowdsourcing can be effectively applied to: i) verify whether objects values are incorrect, ii) verify literals annotated with language tags, and iii) find and verify incorrect links of RDF resources to web pages.""" .
 }
 
 :provenance {
@@ -5281,7 +5822,7 @@ ______________________________
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -5303,7 +5844,7 @@ ______________________________
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """It might also be possible to extend CISE to the remaining higher layers introduced in Section 3, each defined by a specific ontology: annotations about citation functions (target ontology: CiTO [32]), argumentative organisation (target ontology: AMO), article categorization (target ontology: FaBiO [32]), and discipline clustering (target ontology: DBpedia Ontology [23]).""" .
+		c4o:hasContent """One of the goals of our work is to investigate how the contributions of crowdsourcing approaches can be integrated into LD curation processes, by evaluating the performance of two crowdsourcing workflows in a cost-efficient way. In microtask settings, the first challenge is then to reduce the amount of tasks submitted to the crowd and the number of requested assign- ments (different answers), since both of these factors determine the overall cost of crowdsourcing projects. For the Find stage, Algorithm 1 generated 2, 339 HITs to crowdsource 68, 976 RDF triples, consistently with the property stated by Proposition 2. In our experiments, we approved a total of 2, 294 task solutions in the Find stage and, considering the payment per HIT (US$ 0.06), the total cost of this evaluation resulted in US$ 137.58. Furthermore, in the Verify stage, the cost of submitting to MTurk the problematic triples found by the experts was only US$ 43.""" .
 }
 
 :provenance {
@@ -5312,7 +5853,7 @@ ______________________________
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -5342,8 +5883,8 @@ ______________________________
 }
 
 :assertion {
-	:section a doco:Section, deo:Discussion, deo:FutureWork ;
-		po:containsAsHeader :section-future-work-title ;
+	:section a doco:Section, deo:Discussion ;
+		po:containsAsHeader :section-6-title ;
 		po:contains
 			p1:paragraph ,
 			p2:paragraph ,
@@ -5351,19 +5892,19 @@ ______________________________
 			p4:paragraph ,
 			p5:paragraph ;
 		co:firstItem [
-		co:itemContent :section-future-work-title ;
+		co:itemContent :section-6-title ;
 		co:nextItem [
-		      co:itemContent p1:paragraph ;
-		      co:nextItem [
-			co:itemContent p2:paragraph ;
-			co:nextItem [
-			  co:itemContent p3:paragraph ;
-			  co:nextItem [
-			    co:itemContent p4:paragraph ;
-			    co:nextItem [
-			      co:itemContent p5:paragraph ] ] ] ] ] ] .
-	:section-future-work-title a doco:SectionTitle ;
-		c4o:hasContent "Limitations and future directions" .
+      co:itemContent p1:paragraph ;
+      co:nextItem [
+				co:itemContent p2:paragraph ;
+				co:nextItem [
+				  co:itemContent p3:paragraph ;
+				  co:nextItem [
+				    co:itemContent p4:paragraph ;
+				    co:nextItem [
+				      co:itemContent p5:paragraph ] ] ] ] ] ] .
+	:section-6-title a doco:SectionTitle ;
+		c4o:hasContent "Final Discussions" .
 
 	p1: npx:introduces p1:paragraph .
 	p2: npx:introduces p2:paragraph .
@@ -5378,7 +5919,7 @@ ______________________________
 }
 
 :pubinfo {
-	: dc:created "2019-09-17T18:05:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
@@ -5401,7 +5942,7 @@ ______________________________
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """In this article, I have introduced the compositional and iterative semantic enhancement (CISE) approach for the automated enrichment of scholarly articles with meaningful semantic annotations by means of Semantic Publishing technologies. Taking inspiration from past approaches that rely on the principles of compositionality and downward causation, the CISE strategy enables the automatic enhancement of the various parts comprising a scholarly article by means of an iterative process, providing additional semantic descriptions by combining the enhancements obtained in previous executions of the approach.""" .
+		c4o:hasContent """Our work is situated at the intersection of the following research areas: Crowdsourcing Linked Data management and Web data quality assessment.""" .
 }
 
 :provenance {
@@ -5410,10 +5951,11 @@ ______________________________
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7_p2#> .
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -5432,7 +5974,7 @@ ______________________________
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """I have also discussed the outcomes of past CISE experimentations that my colleagues and I have developed for the automatic annotation of document components in scholarly articles according to particular structural patterns (inline, block, etc.), structural semantics (paragraph, section, figure, etc.), and rhetorical components (i.e. references), as introduced in Section 5. While these do not address all the layers of annotations sketched in Section 3, I think the outcomes described in Section 5 are acceptable pointers for claiming that some level of automatic semantic enhancement of scholarly articles is possible even in the presence of specific constraints such as the independence from the natural language used for writing such articles and the markup language used for storing their contents. Thus CISE provides at least a partial positive answer to the research question presented in Section 1: “Can the purely syntactic organisation of the various parts of a scholarly article convey something about its semantic and rhetorical representation, and to what extent?”. In the future, I plan to perform additional studies and experiments to further validate this claim.""" .
+		c4o:hasContent """""" .
 }
 
 :provenance {
@@ -5441,13 +5983,275 @@ ______________________________
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7#> .
-@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7_p1#> .
-@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """There is wide agreement in the community that specific aspects of Linked Data management are inher- ently human-driven [2]. This holds true most notably for those Linked Data tasks which require a substantial amount of domain knowledge or detailed, context-specific insight that go beyond the assumptions and natural limitations of algorithmic approaches.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Like any Web-centric community of its kind, Linked Data has had its share of volunteer initiatives, including the Linked Open Data Cloud itself and DBpe- dia [23], and competitions such as the yearly Semantic Web Challenge 20 and the European Data Innovator Award. 21""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """From a process point of view, [41] introduced a methodology for publishing Linked Data. They dis- cussed activities which theoretically could be subject to crowdsourcing, but did not discuss such aspects explicitly. Similarly, [25] tried to map ontology engineering methodologies to Linked Data practice, drawing on insights from interviews with practitioners and quantitative analysis. A more focused account of the use of human and crowd intelligence in Linked Data man- agement is offered in [36]. The authors investigated several technically oriented scenarios in order to identify lower-level tasks and analyze the extent to which they can be feasibly automated. In this context, feasibility referred primarily to the trade-off between the effort associated with the usage of a given tool targeting automation - including aspects such as getting familiar with the tool, but more importantly creating training data sets and examples, configuring the tool and validating (intermediary) results - and the quality of the outcomes. The fundamental question the work attempted to answer was related to ours, though not focused on quality assurance and repair – their aim was come up with patterns for human and machine-driven computation, which could service semantic data management scenarios effectively. This was also at the core of [35], which took the main findings of this analysis a step further and proposed a methodology to build incentivized Semantic Web applications, including guidelines for mechanism design which are compatible to our fix-find-verify workflow. They have also analyzed motivators and incentives for several types of Semantic Web tasks, from ontology population to se- mantic annotation.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """An important prerequisite to any participatory exercise is the ability of the crowd – experts of laymen – to engage with the given data management tasks. This has been subject to several user experience design studies [26,30,34,40,39], which informed the implementation of our crowdsourcing projects, both the contest, and the paid microtasks running on Mechanical Turk. For instance, microtasks have been used for entity link- ing [8] quality assurance, resource management [42] and ontology alignment [33].""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """At a more technical level, many Linked Data management tasks have already been subject to human computation, be that in the form of games with a purpose [27,38] or, closer to our work, paid microtasks. Games with a purpose, which capitalize on entertain- ment, intellectual challenge, competition, and reputation, offer another mechanism to engage with a broad user base. In the field of semantic technologies, the OntoGame series proposes several games that deal with the task of data interlinking, be that in its ontology alignment instance (SpotTheLink [38]) or multimedia interlinking (SeaFish [37]). Similar ideas are imple- mented in GuessWhat?!, a selection-agreement game which uses URIs from DBpedia, Freebase and OpenCyc as input to the interlinking process [27]. While OntoGame looks into game mechanics and game narratives and their applicability to finding similar enti- ties and other types of correspondences, our research studies an alternative crowdsourcing strategy that is based on financial rewards in a microtask platform. Most relevant for our work are the experiments comparing games with a purpose and paid microtasks, which showed the complementarity of the two forms of crowdsourcing [32,9].""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p6#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """A similar study is discussed in [28] for ontology alignment. McCann and colleagues studied mo- tivators and incentives in ontology alignment. They investigated a combination of volunteer and paid user involvement to validate automatically generated alignments formulated as natural-language questions. While this proposal shares many commonalities with the CrowdMap [33] approach, the evaluation of their solution is based on a much more constrained experiment that did not rely on a real-world labor market- place and associated work force.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p7#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Web data quality assessment. Existing frameworks for the quality assessment of the Web of Data can be broadly classified as automated (e.g. [15]), semiautomated (e.g. [11]) and manual (e.g.[4,29]). In particular, for the quality issues used in our experiments, [15] performs quality assessment on links but it fully automated and thus is limited as it does allow the user to choose the input dataset. Also, the incor- rect interlinks detected require human verification as they do not take the semantics into account. On the other hand, for detection of incorrect object values and datatypes and literals, the SWIQA framework [14] can be used by utilizing different outlier and clustering techniques. However, it lacks specific syntactical rules to detect all of the errors and requires knowledge of the underlying schema for the user to specify these rules. Other researchers analyzed the quality of Web [5] and RDF [17] data. The second study focuses on errors occurred during the publication of Linked Data sets. Recently, a study [18] looked into four million RD- F/XML documents to analyze Linked Data conformance. These studies performed large-scale quality assessment on LD but are often limited in their ability to produce interpretable results, demand user expertise or are bound to a given data set.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p8#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """SPARQL Inferencing Notation (SPIN) 22 is a W3C submission aiming at representing rules and constraints on Semantic Web models using SPARQL. The approach described in [13] advocates the use of SPARQL and SPIN for RDF data quality assessment. In a similar way, Fürber et al. [12] define a set of generic SPARQL queries to identify missing or illegal literal values and datatypes and functional dependency violations. Another related approach is the Pellet Integrity Constraint Validator ICV 23 . Pellet ICV translates OWL integrity constraints into SPARQL queries. A more lightweight RDF constraint syntax, decoupled from SPARQL, is offered from Shape Expressions (ShEx) [31] and IBM Resource Shapes 24 .""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p5#> .
+@prefix p6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p6#> .
+@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p7#> .
+@prefix p8: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p8#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -5468,22 +6272,46 @@ ______________________________
 }
 
 :assertion {
-	:section a doco:Section , deo:Conclusion ;
-		po:containsAsHeader :section-conclusion-title ;
+	:section a doco:Section ;
+		po:containsAsHeader :section-7.1-title ;
 		po:contains
 			p1:paragraph ,
-			p2:paragraph ;
+			p2:paragraph ,
+			p3:paragraph ,
+			p4:paragraph ,
+			p5:paragraph ,
+			p6:paragraph ,
+			p7:paragraph ,
+			p8:paragraph ;
 		co:firstItem [
-		co:itemContent :section-conclusion-title ;
+		co:itemContent :section-7.1-title ;
 		co:nextItem [
-			co:itemContent p1:paragraph ;
-			co:nextItem [
-			co:itemContent p2:paragraph ] ] ] .
-	:section-conclusion-title a doco:SectionTitle ;
-		c4o:hasContent "Conclusions" .
+	    co:itemContent p1:paragraph ;
+	    co:nextItem [
+				co:itemContent p2:paragraph ;
+				co:nextItem [
+					co:itemContent p3:paragraph ;
+					co:nextItem [
+						co:itemContent p4:paragraph ;
+						co:nextItem [
+							co:itemContent p5:paragraph ;
+							co:nextItem [
+								co:itemContent p6:paragraph ;
+								co:nextItem [
+									co:itemContent p7:paragraph ;
+									co:nextItem [
+										co:itemContent p8:paragraph ] ] ] ] ] ] ] ] ] .
+	:section-7.1-title a doco:SectionTitle ;
+		c4o:hasContent "Using Crowdsourcing in Linked Data Management" .
 
 	p1: npx:introduces p1:paragraph .
 	p2: npx:introduces p2:paragraph .
+	p3: npx:introduces p3:paragraph .
+	p4: npx:introduces p4:paragraph .
+	p5: npx:introduces p5:paragraph .
+	p6: npx:introduces p6:paragraph .
+	p7: npx:introduces p7:paragraph .
+	p8: npx:introduces p8:paragraph .
 }
 
 :provenance {
@@ -5492,10 +6320,285 @@ ______________________________
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7_p1#> .
+@prefix s7.1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section, deo:RelatedWork ;
+		po:containsAsHeader :section-7-title ;
+		po:contains
+			p1:paragraph ,
+			s7.1:section ;
+		co:firstItem [
+		co:itemContent :section-7-title ;
+		co:nextItem [
+			co:itemContent p1:paragraph ;
+			co:nextItem [
+				co:itemContent s7.1:section ] ] ] .
+	:section-7-title a doco:SectionTitle ;
+		c4o:hasContent "Related Work" .
+
+	p1: npx:introduces p1:paragraph .
+	s7.1: npx:introduces s7.1:section .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s8_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """In this paper, we proposed and compared crowdsourcing mechanisms to evaluate the quality of Linked Data (LD); the study was conducted in particular on the DBpedia dataset. Two different types of crowds and mechanisms were investigated for the initial detec- tion of quality issues: object value, datatype and language tags, and interlinks. We secondly focused on adapting the Find-Fix-Verify crowdsourcing pattern to exploit the strengths of experts and lay workers and leverage the results from the Find-only approaches.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s8_p2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """For the first part of our study, the Find stage was implemented using a contest-based format to engage with a community of LD experts in discovering and classifying quality issues of DBpedia resources. Contributions obtained through the contest (referring to flawed object values, incorrect datatypes and missing links) and were submitted to Amazon Mechanical Turk (MTurk), where we asked workers to Verify them. For the second part, only microtask crowdsourcing was used to perform the Find and Verify stages on the same set of DBpedia resources used in the first part.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s8_p3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """The evaluation of the results showed that it is feasible to crowdsource the detection of flaws in LD sets; in particular, the experiments revealed that (i) lay workers are in fact able to detect certain quality issues with satisfactory precision; that (ii) experts perform well in identifying triples with ‘object value’ or ‘datatype’ issues, and lastly, (iii) the two approaches reveal complementary strengths.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s8_p4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Our methodology is applicable to any LD set and can be easily expanded to cover different types of quality issues. Our findings could also inform the design of the DBpedia extraction tools and related community processes, which already make use of contributions from volunteers to define the underlying map- ping rules in different languages. Finally, as with any form of computing, our work will be most useful as part of a broader architecture, in which crowdsourcing is brought together with automatic quality assessment and repair components and integrated into existing data governance frameworks.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s8_p5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Future work will first focus on conducting new experiments to test the value of the crowd for further different types of quality problems as well as for different LD sets from other knowledge domains. In the longer term, we will also concern ourselves with the question of how to optimally integrate crowd contributions – by implementing the Fix stage – into curation processes and tools, in particular with respect to the trade-offs of costs and quality between manual and automatic ap- proaches. Another area of research is the integration of baseline approaches before the crowdsourcing step in order to filter out errors that can be detected automatically to further increase the productivity of both LD experts and crowd workers.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s8#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s8_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s8_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s8_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s8_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s8_p5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section, deo:Conclusion, deo:FutureWork ;
+		po:containsAsHeader :section-8-title ;
+		po:contains
+			p1:paragraph ,
+			p2:paragraph ,
+			p3:paragraph ,
+			p4:paragraph ,
+			p5:paragraph ;
+		co:firstItem [
+		co:itemContent :section-8-title ;
+		co:nextItem [
+      co:itemContent p1:paragraph ;
+      co:nextItem [
+				co:itemContent p2:paragraph ;
+				co:nextItem [
+				  co:itemContent p3:paragraph ;
+				  co:nextItem [
+				    co:itemContent p4:paragraph ;
+				    co:nextItem [
+				      co:itemContent p5:paragraph ] ] ] ] ] ] .
+	:section-8-title a doco:SectionTitle ;
+		c4o:hasContent "Conclusions and Future Work" .
+
+	p1: npx:introduces p1:paragraph .
+	p2: npx:introduces p2:paragraph .
+	p3: npx:introduces p3:paragraph .
+	p4: npx:introduces p4:paragraph .
+	p5: npx:introduces p5:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+_______
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#> .
 @prefix s1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1#> .
@@ -5561,6 +6664,6 @@ ______________________________
 }
 
 :pubinfo {
-	: dc:created "2019-10-30T12:34:11+01:00"^^xsd:dateTime ;
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
