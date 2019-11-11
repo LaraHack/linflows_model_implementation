@@ -16,7 +16,7 @@
 }
 
 :assertion {
-	:abstract a doco:Abstract ;
+	:abstract a doco:Paragraph, doco:Abstract ;
 		c4o:hasContent """In this paper we examine the use of crowdsourcing as a means to master Linked Data quality problems that are difficult to solve automatically. We base our approach on the analysis of the most common errors encountered in Linked Data sources, and a classification of these errors according to the extent to which they are likely to be amenable to crowdsourcing. We then propose and compare different crowdsourcing approaches to identify these Linked Data quality issues, employing the DBpedia dataset as our use case: (i) a contest targeting the Linked Data expert community, and (ii) paid microtasks published on Amazon Mechanical Turk. We secondly focus on adapting the Find-Fix-Verify crowdsourcing pattern to exploit the strengths of experts and lay workers. By testing two distinct Find-Verify workflows (lay users only and experts verified by lay users) we reveal how to best combine different crowds’ complementary aptitudes in quality issue detection. The results show that a combination of the two styles of crowdsourcing is likely to achieve more efficient results than each of them used in isolation, and that human computation is a promising and affordable way to enhance the quality of Linked Data.""" .
 }
 
@@ -6598,9 +6598,41 @@
 	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
-_______
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/acknowledgements#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph, deo:Acknowledgements ;
+		c4o:hasContent """This work was supported by grants from the European Union’s 7th Framework Programme provided for the projects GeoKnow (GA no. 318159), Aligned (GA no. 644055) and LOD2 (GA no. 257943).""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#> .
+@prefix abs: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/abstract#> .
 @prefix s1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1#> .
 @prefix s2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2#> .
 @prefix s3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3#> .
@@ -6608,6 +6640,8 @@ _______
 @prefix s5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#> .
 @prefix s6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6#> .
 @prefix s7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7#> .
+@prefix s8: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s8#> .
+@prefix ack: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/acknowledgements#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -6635,14 +6669,19 @@ _______
 	dcterms:creator <http://orcid.org/0000-0003-0530-4305> ; # add all authors
 	dcterms:language "en" ;
   po:contains
+		abs:abstract ,
     s1:section ,
     s2:section ,
     s3:section ,
     s4:section ,
 		s5:section ,
 		s6:section ,
-		s7:section ;
+		s7:section ,
+		s8:section ,
+		ack:acknowledgements;
   co:firstItem [
+	co:itemContent abs:abstract ;
+	co:nextItem [
     co:itemContent s1:section ;
     co:nextItem [
       co:itemContent s2:section ;
@@ -6655,7 +6694,22 @@ _______
             co:nextItem [
               co:itemContent s6:section ;
               co:nextItem [
-                co:itemContent s7:section ] ] ] ] ] ] ] .
+                co:itemContent s7:section ;
+								co:nextItem [
+	                co:itemContent s8:section ;
+									co:nextItem [
+		                co:itemContent ack:acknowledgements ] ] ] ] ] ] ] ] ] .
+
+		abs: npx:introduces abs:abstract .
+		s1: npx:introduces s1:section .
+		s2: npx:introduces s2:section .
+		s3: npx:introduces s3:section .
+		s4: npx:introduces s4:section .
+		s5: npx:introduces s5:section .
+		s6: npx:introduces s6:section .
+		s7: npx:introduces s7:section .
+		s8: npx:introduces s8:section .
+		ack: npx:introduces ack:acknowledgements .
 }
 
 :provenance {
