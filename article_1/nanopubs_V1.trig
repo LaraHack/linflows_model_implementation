@@ -870,8 +870,6 @@ prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p2#> .
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-####add here empty S3
-
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .

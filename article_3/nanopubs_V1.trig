@@ -509,7 +509,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """According to Studer, an ontology is a formal, ex- plicit specification of a shared conceptualization [37]. In other words, an ontology is a set of concepts and relations used to describe and represent an area of concern. Currently, ontologies are represented using OWL-2 language, which is the recommendation of the World Wide Web Consortium (W3C) [43]. Other recommended technologies/languages in the semantic web field are: RDF, used for representing information in the form of a graph composed of triples [45]; RDF Schema (RDFS), which provides a vocabulary for creating a hierarchy of classes and properties [3]; SPARQL 1 , used to query RDF data [44]; and the Semantic Web Rule Language (SWRL 2), which is used for extending the OWL model with rule axioms [18].""" .
+		c4o:hasContent """According to Studer, an ontology is a formal, explicit specification of a shared conceptualization [37]. In other words, an ontology is a set of concepts and relations used to describe and represent an area of concern. Currently, ontologies are represented using OWL-2 language, which is the recommendation of the World Wide Web Consortium (W3C) [43]. Other recommended technologies/languages in the semantic web field are: RDF, used for representing information in the form of a graph composed of triples [45]; RDF Schema (RDFS), which provides a vocabulary for creating a hierarchy of classes and properties [3]; SPARQL 1 , used to query RDF data [44]; and the Semantic Web Rule Language (SWRL 2), which is used for extending the OWL model with rule axioms [18].""" .
 }
 
 :provenance {
@@ -615,7 +615,7 @@
 }
 
 :assertion {
-	:section a doco:Section;
+	:section a doco:Section, deo:Background, deo:RelatedWork ;
 		po:containsAsHeader :section-2-title ;
 		po:contains
 			p1:paragraph ,
@@ -623,23 +623,29 @@
 			p3:paragraph ,
 			p4:paragraph ,
 			p5:paragraph ,
-			p6:paragraph ;
+			p6:paragraph ,
+			p7:paragraph ,
+			p8:paragraph ;
 		co:firstItem [
 		    co:itemContent :section-2-title ;
 		    co:nextItem [
 		      co:itemContent p1:paragraph ;
 		      co:nextItem [
-			co:itemContent p2:paragraph ;
-			co:nextItem [
-			  co:itemContent p3:paragraph ;
-			  co:nextItem [
-			    co:itemContent p4:paragraph ;
-			    co:nextItem [
-			      co:itemContent p5:paragraph ;
-			      co:nextItem [
-				co:itemContent p6:paragraph ] ] ] ] ] ] ] .
+						co:itemContent p2:paragraph ;
+						co:nextItem [
+						  co:itemContent p3:paragraph ;
+						  co:nextItem [
+						    co:itemContent p4:paragraph ;
+						    co:nextItem [
+						      co:itemContent p5:paragraph ;
+						      co:nextItem [
+										co:itemContent p6:paragraph ;
+								    co:nextItem [
+								      co:itemContent p7:paragraph ;
+								      co:nextItem [
+												co:itemContent p8:paragraph ] ] ] ] ] ] ] ] ] .
 	:section-2-title a doco:SectionTitle ;
-		c4o:hasContent "Linked Data Quality Issues" .
+		c4o:hasContent "Background and related work" .
 
 	p1: npx:introduces p1:paragraph .
 	p2: npx:introduces p2:paragraph .
@@ -647,6 +653,8 @@
 	p4: npx:introduces p4:paragraph .
 	p5: npx:introduces p5:paragraph .
 	p6: npx:introduces p6:paragraph .
+	p7: npx:introduces p6:paragraph .
+	p8: npx:introduces p7:paragraph .
 }
 
 :provenance {
@@ -659,7 +667,37 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-####add here empty S3
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """The WiseNET ontology is an OWL-2 ontology that incorporates a vast corpus of concepts in the domain of a Panoptes building. The ontology provides a vocabulary for combining, analysing and re-purposing the information coming from the smart camera network (SCN) deployed in a built environment. The main function of the WiseNET ontology is to perform real-time event/anomalies detection and initiate system reconfiguration.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.1_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -680,7 +718,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """The term crowdsourcing was first proposed by Howe [19] that consists on a problem-solving mechanism in which a task is performed by an “an undefined (and generally large) network of people in the form of an open call.” Nowadays, many different forms of crowdsourcing have emerged, e.g., microtask, contests, macrotask, crowdfunding, among others; each form of crowdsourcing is designed to target particular types of problems and reaching out to different crowds. In the following we briefly describe contest- based and microtask crowdsourcing, the two crowdsourcing methods studied in this work.""" .
+		c4o:hasContent """The goal for developing the WiseNET ontology was to create a shared understanding of the structure of information for a Panoptes building. The WiseNET developing process follows the Noy and McGuin- ness methodology for ontology development [27]. This methodology consists of seven steps which are: determine scope of the ontology, consider reuse, enumerate classes, define classes and properties, define constrains and create instances (ontology population shown on Sections 5 and 6).""" .
 }
 
 :provenance {
@@ -712,7 +750,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """A contest reaches out to a crowd to solve a given problem and rewards the best ideas. It exploits competition and intellectual challenge as main drivers for participation. The idea, originating from open innovation, has been employed in many domains, from creative industries to sciences, for tasks of varying complexity (from designing logos to building sophisticated algorithms). In particular, contests as means to successfully involve experts in advancing science have a long-standing tradition in research, e.g., the Darpa challenges 3 and NetFlix. 4 Usually, contests as crowdsourcing mechanisms are open for a medium to long period of time in order to attract high quality contributions. Contests may apply different reward models, but a common modality is to define one main prize for the contest winner.""" .
+		c4o:hasContent """To determine the scope of the ontology we need to think about the kind of knowledge that should be covered by the ontology and its use, i.e., its domain.""" .
 }
 
 :provenance {
@@ -744,7 +782,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """We applied this contest-based model to mobilize an expert crowd consisting of researchers and Linked Data enthusiasts to discover and classify quality issues in DBpedia. The reward mechanism applied in this contest was “one-participant gets it all”. The winner was the participant who covered the highest number of DBpedia resources.""" .
+		c4o:hasContent """Some competency questions were formulated to determine the focus of the ontology (Table 1). Those competency questions should be answered by the ontology and from them it can be extracted the different kind of knowledge that should be contained in the WiseNET ontology. Roughly, is knowledge about the environment, events, person, sensors and time..""" .
 }
 
 :provenance {
@@ -776,7 +814,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """This form of crowdsourcing is applied to problems which can be broken down into smaller units of work (called ‘microtasks’). Microtask crowdsourcing works best for tasks that rely primarily on basic human abilities, such as visual and audio cognition or natural language understanding, and less on acquired skills (such as subject-matter knowledge).""" .
+		c4o:hasContent """When developing a new ontology it is recommended to reuse existing ontologies as much as possible. In this way, one can focus on defining the specific knowledge of the application. The reuse of external ontologies, not only saves time but also gives the advantage of using mature and proved ontological resources that have been validated by their applications and (some) by the W3C.""" .
 }
 
 :provenance {
