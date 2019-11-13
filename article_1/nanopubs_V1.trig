@@ -3341,7 +3341,9 @@ prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s1_p2#> .
 		co:firstItem [
 		co:itemContent :section-5.1.2-title ;
 		co:nextItem [
-			co:itemContent p1:paragraph ] ] .
+			co:itemContent p1:paragraph ;
+			co:nextItem [
+				co:itemContent p2:paragraph ] ] ] .
 	:section-5.1.2-title a doco:SectionTitle ;
 		c4o:hasContent "Metrics" .
 
