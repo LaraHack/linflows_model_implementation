@@ -1931,7 +1931,314 @@ prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1_p2#> .
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-#### FILL IN S9
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """The integration of the extraction results into DBpedia requires their conversion to a suitable data model, i.e., RDF. Frames intrinsically bear N-ary relations through FEs, while RDF naturally represents binary relations. Hence, we need a method to express FEs relations in RDF, which we call reification. This can be achieved in multiple ways:""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """A recent overview [20] highlighted that all the mentioned strategies are similar with respect to query performance. Given as input n frames and m FEs, we argue that:""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """We opted for the less verbose strategy, namely N-ary relations. Given the running example sentence In Euro 1992, Germany reached the final, but lost 0–2 to Denmark, classified as a DEFEAT frame and embedding the FEs WINNER, LOSER, COMPETITION, SCORE, we generate RDF as per the following Turtle serialization:""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """We add an extra instance type triple to assign an ontology class to the reified frame, as well as a provenance triple to indicate the original sentence:""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """It is not trivial to decide on the subject of the main frame statement, since not all frames are meant to have exactly one core FE that would serve as a plausible logical subject candidate: most have many, e.g., FINISH_COMPETITION has COMPETITION, COMPETITOR and OPPONENT as core FEs in FrameNet. Therefore, we tackle this as per the following assumption: given the encyclopedic nature of our input corpus, both the logical and the topical subjects correspond in each document. Hence, each candidate sentence inherits the document subject. We acknowledge that such assumption strongly depends on the corpus: it applies to entity-centric documents, but will not perform well for general-purpose ones such as news articles. However, we believe it is still a valid in-scope solution fitting our scenario.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9.1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Besides the fact datasets, we also keep track of confidence scores and generate additional datasets accord- ingly. Therefore, it is possible to filter facts that are not considered as confident by setting a suitable threshold. When processing a sentence, our pipeline outputs two different scores for each FE, stemming from the entity linker and the supervised classifier. We merge both signals by calculating the F-score between them, as if they were representing precision and recall, in a fashion similar to the standard classification metrics. The final score can be then produced via an aggregation of the single FE scores in multiple ways, namely: (a) arithmetic mean; (b) weighted mean based on core FEs (i.e., they have a higher weight than extra ones); (c) harmonic mean, weighted on core FEs as well.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T12:34:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9.1#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9.1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-9.1-title ;
+		po:contains
+			p1:paragraph ;
+		co:firstItem [
+		co:itemContent :section-9.1-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph  ] ] .
+	:section-9.1-title a doco:SectionTitle ;
+		c4o:hasContent "Confidence Scores" .
+
+	p1: npx:introduces p1:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p5#> .
+@prefix s9.1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9.1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-9-title ;
+		po:contains
+			p1:paragraph ,
+			p2:paragraph ,
+			p3:paragraph ,
+			p4:paragraph ,
+			p5:paragraph ,
+			s9.1:section ;
+		co:firstItem [
+		co:itemContent :section-9-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ;
+	    co:nextItem [
+				co:itemContent p2:paragraph ;
+				co:nextItem [
+					co:itemContent p3:paragraph ;
+					co:nextItem [
+						co:itemContent p4:paragraph ;
+						co:nextItem [
+							co:itemContent p5:paragraph ;
+							co:nextItem [
+								co:itemContent s9.1:section ] ] ] ] ] ] ] .
+	:section-9-title a doco:SectionTitle ;
+		c4o:hasContent "Dataset Production" .
+
+	p1: npx:introduces p1:paragraph .
+	p2: npx:introduces p2:paragraph .
+	p3: npx:introduces p3:paragraph .
+	p4: npx:introduces p4:paragraph .
+	p5: npx:introduces p5:paragraph .
+	s9.1: npx:introduces s9.1:section .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s10_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
