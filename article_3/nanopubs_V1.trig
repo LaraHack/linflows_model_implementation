@@ -835,6 +835,16 @@
 		p2: npx:introduces p2:paragraph .
 }
 
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.1.2_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
@@ -977,6 +987,16 @@
 		p3: npx:introduces p3:paragraph .
 }
 
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.1.3_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
@@ -1117,6 +1137,16 @@
 		p1: npx:introduces p1:paragraph .
 		p2: npx:introduces p2:paragraph .
 		p3: npx:introduces p3:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.1#> .
@@ -1484,7 +1514,7 @@
 	:section-3-title a doco:SectionTitle ;
 		c4o:hasContent "Formal modeling" .
 
-	p1 npx:introduces p1:paragraph .
+	p1: npx:introduces p1:paragraph .
 	s3.1: npx:introduces s3.1:section .
 	s3.2: npx:introduces s3.2:section .
 }
@@ -3288,7 +3318,7 @@
 								co:nextItem [
 	                co:itemContent s8:section ;
 									co:nextItem [
-		                co:itemContent ack:acknowledgements ] ] ] ] ] ] ] ] ] .
+		                co:itemContent ack:acknowledgements ] ] ] ] ] ] ] ] ] ] .
 
 		abs: npx:introduces abs:abstract .
 		s1: npx:introduces s1:section .
