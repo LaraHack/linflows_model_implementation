@@ -1365,6 +1365,16 @@
 		p3: npx:introduces p3:paragraph .
 }
 
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2#> .
 @prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p1#> .
 @prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p2#> .
@@ -1957,6 +1967,16 @@
 	p2: npx:introduces p2:paragraph .
 	p3: npx:introduces p3:paragraph .
 	p4: npx:introduces p4:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p1#> .
@@ -5614,7 +5634,7 @@
 			co:nextItem [
 				co:itemContent s5.4.1:section ;
 				co:nextItem [
-					co:itemContent s5.4.2:section ] ] ] .
+					co:itemContent s5.4.2:section ] ] ] ].
 	:section-5.4-title a doco:SectionTitle ;
 		c4o:hasContent "Evaluation of Baseline Approaches" .
 
@@ -6703,7 +6723,7 @@
 								co:nextItem [
 	                co:itemContent s8:section ;
 									co:nextItem [
-		                co:itemContent ack:acknowledgements ] ] ] ] ] ] ] ] ] .
+		                co:itemContent ack:acknowledgements ] ] ] ] ] ] ] ] ] ] .
 
 		abs: npx:introduces abs:abstract .
 		s1: npx:introduces s1:section .
