@@ -2390,7 +2390,898 @@ prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1_p2#> .
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-#### FILL IN S10, S11, S12, S13
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """We assess our main research contributions through the analysis of the following aspects:""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Table 3 describes the overall performance of the baseline and the supervised system over a gold standard dataset. We randomly sampled 500 sentences containing at least one occurrence of our use case LU set from the input corpus. We first outsourced the annotation to the crowd as per the training set construction and the results were further manually validated twice by the authors. Measures are computed as follows: (1) a true positive is triggered if the predicted label is correct and the predicted text chunk at least partially matches the expected one; (2) chunks that should not be labeled are marked with a “O” and not explicitly counted as true or false positives.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1.1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Figure 4 and Figure 5 respectively display the FE and frame classification confusion matrices. First, since the “O” markers were discarded from the evaluation, all the respective performance measures amount to 0.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1.1_p2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Concerning FEs, we observe that COMPETIZIONE is frequently mistaken for PREMIO and ENTITÀ , while rarely for TEMPO and DURATA , or just missed. On the other hand, TEMPO is mistaken for COMPETIZIONE : our hypothesis is that competition mentions, such as World Cup 2014, are disambiguated as a whole entity by the linker, since a specific target Wikipedia article exists. However, it overlaps with a temporal expression, thus confusing the classifier. AGENTE is often mistaken for ENTITÀ , due to their equivalent semantic type, which is always a person. Finally, we notice that some FEs (i.e., SQUADRA_1, SQUADRA_2 and CLASSIFICA) did not appear in the training set, but did in the gold standard, and viceversa (i.e., ENTITÀ ).""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1.1_p3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """With respect to frames, we note that ATTIVITÀ is often mistaken for STATO or not classified at all: in fact, the difference between these two frames is quite subtle with respect to their sense. The former is more generic and could also be labeled as CAREER : if we viewed it in a frame hierarchy, it would serve as a superframe of the latter. The latter instead encodes the development modality of a soccer player’s career, e.g., when he remains unbound from some team due to contracting issues. Hence, we may conclude that distin- guishing between these frames is a challenge even for humans. Furthermore, frames with no FEs are classified as “O”, thus considered wrong despite the correct prediction. VITTORIA is almost never mistaken for TROFEO : this is positively surprising, since the FE COMPETIZIONE (frame VITTORIA) is often mistaken for PREMIO (frame TROFEO), but those FEs do not seem to affect the frame classification. Again, such FE distinction must take into account a delicate sense nuance, which is hard for humans as well. Due to an error in the training set crowdsourcing step, we lack of VITTORIA and PARTITA samples.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1.1_p4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Figure 6 and Figure 7 respectively plot the FE and frame classification performance, broken down to each label.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1.1#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1.1_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1.1_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1.1_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1.1_p4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-11.1.1-title ;
+		po:contains
+			p1:paragraph ,
+			p2:paragraph ,
+			p3:paragraph ,
+			p4:paragraph ;
+		co:firstItem [
+		co:itemContent :section-11.1.1-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ;
+	    co:nextItem [
+				co:itemContent p2:paragraph ;
+				co:nextItem [
+					co:itemContent p3:paragraph ;
+					co:nextItem [
+						co:itemContent p4:paragraph ] ] ] ] ] .
+	:section-11.1.1-title a doco:SectionTitle ;
+		c4o:hasContent "Supervised Classification Performance Breakdown" .
+
+	p1: npx:introduces p1:paragraph .
+	p2: npx:introduces p2:paragraph .
+	p3: npx:introduces p3:paragraph .
+	p4: npx:introduces p4:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1_p1#> .
+@prefix s11.1.1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1.1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-11.1-title ;
+		po:contains
+			p1:paragraph ,
+			s11.1.1:section ;
+		co:firstItem [
+		co:itemContent :section-11.1-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ;
+	    co:nextItem [
+				co:itemContent s11.1.1:section ] ] ] .
+	:section-11.1-title a doco:SectionTitle ;
+		c4o:hasContent "Classification Performance" .
+
+	p1: npx:introduces p1:paragraph .
+	s11.1.1: npx:introduces s11.1.1:section .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """One of our main objectives is to extend the target KB ontology with new properties on existing classes. We focus on the use case and argue that our approach will have a significant impact if we manage to identify non-existing properties. This would serve as a proof of concept which can ideally scale up to all kinds of input. In order to assess such potential impact in discovering new relations, we need to address the following question: which extractable relations are not already mapped in DBPO or do not even exist in the raw infobox properties datasets?. Table 4 illustrates an empirical lexicographical study gathered from the Italian Wikipedia soccer player subcorpus (circa 52,000 articles). It contains absolute occurrence frequencies of word stems (in descending order) that are likely to trigger domain-relevant frames, thus providing a rough overview of the extraction potential.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """The corpus analysis phase (cf. Section 5) yielded a ranking of LUs evoking the frames ACTIVITY, DEFEA, MATCH, TROPHY, STATUS, and VICTORY: these frames would serve as ontology property candidates, together with their embedded FEs. DBPO already has most of the classes that are needed to represent the main entities involved in the use case: SoccerPlayer, SoccerClub, SoccerManager, SoccerLeague, SoccerTournament, SoccerClubSeason, SoccerLeagueSeason, although some of them lack an exhaustive description (cf. SoccerClubSeason 26 and SoccerLeagueSeason). 27""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """For each of the aforementioned classes, we computed the amount and frequency of ontology and raw infobox properties via a query, with results in ascending order of frequency: Figure 8 illustrates their distribution. The horizontal axis stands for the normalized (log scale) frequency, encoding the current usage of properties in the target KB; the vertical axis represents the ratio (which we call coverage) between the position of the property in the ordered result set of the query and the total amount of distinct properties (i.e., the size of the result set). Properties with a null frequency are ignored.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """First, we observe a lack of ontology property usage in 4 out of 7 classes, probably due to missing mappings between Wikipedia template attributes and DBPO. On the other hand, the ontology properties have a more homogenous distribution compared to the raw ones: this serves as an expected proof of concept, since the main purpose of DBPO and the ontology mappings is to merge heterogenous and multilingual Wikipedia template attributes into a unique representation. In average, most raw properties are concentrated below coverage and frequency threshold values of 0.8 and 4 respectively: this means that roughly 80% of them have a significantly low usage, further highlighted by the log scale. While ontology properties are better distributed, most still do not reach a high coverage/frequency tradeoff, except for SoccerPlayer, which benefits from both rich data (cf. Section 3) and mappings. 28""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """On the light of the two analyses discussed above, it is clear that our approach would result in a larger variety and finer granularity of facts than those encoded into Wikipedia infoboxes and DBPO classes. Moreover, we believe the lack of dependence on infoboxes would enable more flexibility for future generalization to sources beyond Wikipedia.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p6#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Subsequent to the use case implementation, we manually identified the following mappings from frames and FEs to DBPO properties:""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p7#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """In conclusion, we claim that 3 out 6 frames and 12 out of 15 FEs represent novel T-Box properties.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p5#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p6#> .
+@prefix p7: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p7#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-11.2-title ;
+		po:contains
+			p1:paragraph ,
+			p2:paragraph ,
+			p3:paragraph ,
+			p4:paragraph ,
+			p5:paragraph ,
+			p6:paragraph ,
+			p7:paragraph ;
+		co:firstItem [
+		co:itemContent :section-11.2-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ;
+	    co:nextItem [
+				co:itemContent p2:paragraph ;
+				co:nextItem [
+					co:itemContent p3:paragraph ;
+					co:nextItem [
+						co:itemContent p4:paragraph ;
+						co:nextItem [
+							co:itemContent p5:paragraph ;
+							co:nextItem [
+								co:itemContent p6:paragraph ;
+								co:nextItem [
+									co:itemContent p7:paragraph ] ] ] ] ] ] ] ] .
+	:section-11.2-title a doco:SectionTitle ;
+		c4o:hasContent "T-Box Enrichment" .
+
+	p1: npx:introduces p1:paragraph .
+	p2: npx:introduces p2:paragraph .
+	p3: npx:introduces p3:paragraph .
+	p4: npx:introduces p4:paragraph .
+	p5: npx:introduces p5:paragraph .
+	p6: npx:introduces p6:paragraph .
+	p7: npx:introduces p7:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Our methodology enables a joint T-Box and A-Box augmentation: while frames and FEs serve as T-Box properties, the extracted facts feed the A-Box part. Out of 49, 063 input sentences, we generated a total of 213, 479 and 216, 451 triples (i.e., with a 4.35 and 4.41 ratio per sentence) from the supervised and the baseline classifiers respectively. 52% and 55% circa are considered confident, namely facts with confidence scores (cf. Section 9.1) above the dataset average threshold.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """To assess the domain coverage gain, we can exploit two signals: (a) the amount of produced novel data with respect to pre-existing T-Box properties and (b) the overlap with already extracted assertions, regardless of their origin (i.e., whether they stem from the raw infobox or the ontology-based extractors). Given the same Italian Wikipedia dump input dating 21 January 2015, we ran both the baseline and the supervised fact extraction, as well as the DBpedia extraction framework to produce an Italian DBpedia chapter release, thus enabling the coverage comparison.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Table 5 describes the analysis of signal (a) over the 3 frames that are mapped to DBPO properties. For each property and dataset, we computed the amount of available assertions and reported the gain relative to the fact extraction datasets. Although we considered the whole Italian DBpedia KB in these calculations, we observe that it has a generally low coverage with respect to the analysed properties, probably due to missing ontology mappings. For instance, the amount of assertions is always zero if we analyse the use case subset only, as no specific relevant mappings (e.g., Carriera_sportivo 29 to careerStation) currently exist. We view this as a major achievement, since our automatic approach also serves as a substitute for the manual mapping procedure.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Table 6 shows the results for signal (b). To obtain them, we proceeded as follows.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """The A-Box enrichment is clearly visible from the results, given the low overlap and high gain in all approaches, despite the rather large size of the DBpedia use case subset, namely 6, 167, 678 assertions.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p2#> .
+@prefix p3: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p3#> .
+@prefix p4: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p4#> .
+@prefix p5: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-11.3-title ;
+		po:contains
+			p1:paragraph ,
+			p2:paragraph ,
+			p3:paragraph ,
+			p4:paragraph ,
+			p5:paragraph ;
+		co:firstItem [
+		co:itemContent :section-11.3-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ;
+	    co:nextItem [
+				co:itemContent p2:paragraph ;
+				co:nextItem [
+					co:itemContent p3:paragraph ;
+					co:nextItem [
+						co:itemContent p4:paragraph ;
+						co:nextItem [
+							co:itemContent p5:paragraph ] ] ] ] ] ] .
+	:section-11.3-title a doco:SectionTitle ;
+		c4o:hasContent "A-Box Population" .
+
+	p1: npx:introduces p1:paragraph .
+	p2: npx:introduces p2:paragraph .
+	p3: npx:introduces p3:paragraph .
+	p4: npx:introduces p4:paragraph .
+	p5: npx:introduces p5:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11_p1#> .
+@prefix s11.1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1#> .
+@prefix s11.2: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2#> .
+@prefix s11.3: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section, deo:Evaluation ;
+		po:containsAsHeader :section-11-title ;
+		po:contains
+			p1:paragraph ,
+			s11.1:section ,
+			s11.2:section ,
+			s11.3:section ;
+		co:firstItem [
+		co:itemContent :section-11-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ;
+	    co:nextItem [
+				co:itemContent s11.1:section ;
+				co:nextItem [
+					co:itemContent s11.2:section ;
+					co:nextItem [
+						co:itemContent s11.3:section ] ] ] ] ] .
+	:section-11-title a doco:SectionTitle ;
+		c4o:hasContent "Evaluation" .
+
+	p1: npx:introduces p1:paragraph .
+	s11.1: npx:introduces s11.1:section .
+	s11.2: npx:introduces s11.2:section .
+	s11.3: npx:introduces s11.3:section .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+################## S12, S13 here
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s14_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -2549,7 +3440,7 @@ dbpedia:CareerStation_01
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """We have started to expand our approach under the Wikidata umbrella, where we feed the primary sources tool. The community is currently concerned by the trustworthiness of Wikidata assertions: in order to authenticate them, they should be validated against references to external Web sources. Under this perspective, the FACT EXTRACTOR can serve as a reference suggestion mechanism for statement validation. To achieve this, we have successfully managed to switch the input corpus from Wikipedia to third-party corpora and translated our output to fit the Wikidata data model. The soccer use case has already been partially implemented: we have ran the baseline classifier and generated a small demonstra- tive dataset, named FBK-STREPHIT-SOCCER , which has been uploaded to the primary sources tool back-end. We invite the reader to play with it, by following the instructions in the project page. 32""" .
+		c4o:hasContent """We have started to expand our approach under the Wikidata umbrella, where we feed the primary sources tool. The community is currently concerned by the trustworthiness of Wikidata assertions: in order to authenticate them, they should be validated against references to external Web sources. Under this perspective, the FACT EXTRACTOR can serve as a reference suggestion mechanism for statement validation. To achieve this, we have successfully managed to switch the input corpus from Wikipedia to third-party corpora and translated our output to fit the Wikidata data model. The soccer use case has already been partially implemented: we have ran the baseline classifier and generated a small demonstra- tive dataset, named FBK-STREPHIT-SOCCER, which has been uploaded to the primary sources tool back-end. We invite the reader to play with it, by following the instructions in the project page. 32""" .
 }
 
 :provenance {
