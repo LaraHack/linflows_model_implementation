@@ -4,8 +4,8 @@
 ./np help
 ./np op help
 ./np check nanopubs_V1.trig
-./np check trusty.nanopubs_V1.trig
 ./np mktrusty -r nanopubs_V1.trig
+./np check trusty.nanopubs_V1.trig
 
 2) Install Docker
 
