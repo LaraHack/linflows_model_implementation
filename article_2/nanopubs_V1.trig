@@ -3281,7 +3281,779 @@ prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1_p2#> .
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-################## S12, S13 here
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """First, we acknowledge that the use case frame repository is not exhaustive: LUs may have a higher ambiguity. For instance, giocare (to play) may trigger an additional frame depending on the context (as in the sentence to play as a defender); esordire (to start out) may also trigger the frame P ARTITA (match). Second, if a sentence is not in the gold standard, the supervised classifier should discard it (abstention). Third, the baseline approach may contain rules that are more harmful than beneficial, depending on the target KB reliability: for instance, the SportsEvent DBPO class leads to wrongly typed instances, due to the misuse of the template by Wikipedia editors. Finally, both the input corpus and the target KB originate from a relatively small Wikipedia chapter (i.e., Italian, with 1.23 million articles) if compared to the largest one (i.e., English, with almost 5 million articles). Therefore, we recognize that the T-Box and A-Box evaluation results may be proportionally different if obtained with English data.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12.1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Our approach has been tested on the Italian language, a specific domain, and with a small frame repository. Hence, we may consider the use case implementation as a monolingual closed-domain information extraction system. We outline below the points that need to be ad- dressed for scaling up to multilingual open information extraction:""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12.1#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12.1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-12.1-title ;
+		po:contains
+			p1:paragraph ;
+		co:firstItem [
+		co:itemContent :section-12.1-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ] ] .
+	:section-12.1-title a doco:SectionTitle ;
+		c4o:hasContent "Scaling Up" .
+
+	p1: npx:introduces p1:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12.2_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """We report below a list of technical improvements left for planned implementation:""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12.2#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12.2_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section, deo:FutureWork ;
+		po:containsAsHeader :section-12.2-title ;
+		po:contains
+			p1:paragraph ;
+		co:firstItem [
+		co:itemContent :section-12.2-title ;
+			co:nextItem [
+		  co:itemContent p1:paragraph ] ] .
+	:section-12.2-title a doco:SectionTitle ;
+		c4o:hasContent "Technical Future Work" .
+
+	p1: npx:introduces p1:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12_p1#> .
+@prefix s12.1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12.1#> .
+@prefix s12.2: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12.2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-12-title ;
+		po:contains
+			p1:paragraph ,
+			s11.1:section ,
+			s12.2:section ;
+		co:firstItem [
+		co:itemContent :section-12-title ;
+			co:nextItem [
+		  co:itemContent p1:paragraph ;
+				co:nextItem [
+				co:itemContent s11.1:section ;
+					co:nextItem [
+					co:itemContent s12.2:section ] ] ] ] .
+	:section-12-title a doco:SectionTitle ;
+		c4o:hasContent "Observations" .
+
+	p1: npx:introduces p1:paragraph .
+	s12.1: npx:introduces s12.1:section .
+	s12.2: npx:introduces s12.2:section .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """We locate our effort at the intersection of the following research areas:""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """Although the borders are blurred, nowadays we can distinguish two principal fields in Information Extraction, namely Relation Extraction (RE) and Open In- formation Extraction (OIE). While both aim at structuring information in the form of relations between items, their difference relies in the relations set size, either fixed or potentially infinite. It is commonly argued that the main OIE drawback is the generation of noisy data [11,32], while RE is usually more accurate, but requires expensive supervision in terms of language resources [2,30,32].""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1.1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """RE traditionally takes as input a finite set R of relations and a document d, and induces assertions in the form rel(subj, obj), where rel represent binary relations between a subject entity subj and an object entity obj mentioned in d. Hence, it may be viewed as a closed-domain paradigm. Recent efforts [3,2,30] have focused on alleviating the cost of full supervision via distant supervision. Distant supervision leverages available KBs to automatically annotate training data in the input documents. This is in contrast to our work, since we aim at enriching the target KB with external data, rather than using it as a source. Furthermore, our relatively cheap crowdsourcing technique serves as a substitute to distant supervision, while ensuring full supervision. Other approaches such as [7,33] instead leverage text that is not covered by the target KB, like we do.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1.1#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1.1_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-13.1.1-title ;
+		po:contains
+			p1:paragraph ;
+		co:firstItem [
+		co:itemContent :section-13.1.1-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ] ] .
+	:section-13.1.1-title a doco:SectionTitle ;
+		c4o:hasContent "Relation Extraction" .
+
+	p1: npx:introduces p1:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1.2_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """OIE is defined as a function f (d) over a document d, yielding a set of triples (np 1 , rel, np 2 ), where nps are noun phrases and rel is a relation between them. Known complete systems include OLLIE [25], REVERB [14], and NELL [9]. Recently, it has been discussed that cross-utterance processing can improve the performance through logical entailments [1]. This paradigm is called “open” since it is not constrained by any schemata, but rather attempts to learn them from unstructured data. In addition, it takes as input heterogeneous sources of information, typically from the Web.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1.2_p2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """In general, most efforts have focused on English, due to the high availability of language resources. Approaches such as [15] explore multilingual directions, by leveraging English as a source and applying statistical machine translation (SMT) for scaling up to target languages. Although the authors claim that their approach do not directly depend on language resources, we argue that SMT still heavily relies on them. Furthermore, all the above efforts concentrate on binary relations, while we generate n-ary ones: under this perspective, EXEMPLAR [10] is a rule-based system which is closely related to ours.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1.2#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1.2_p1#> .
+@prefix p2: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1.2_p2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-13.1.2-title ;
+		po:contains
+			p1:paragraph ,
+			p2:paragraph ;
+		co:firstItem [
+		co:itemContent :section-13.1.2-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ;
+	    co:nextItem [
+				co:itemContent p2:paragraph ] ] ] .
+	:section-13.1.2-title a doco:SectionTitle ;
+		c4o:hasContent "Open Information Extraction" .
+
+	p1: npx:introduces p1:paragraph .
+	p2: npx:introduces p2:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1_p1#> .
+@prefix s13.1.1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1.1#> .
+@prefix s13.1.2: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1.2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-13.1-title ;
+		po:contains
+			p1:paragraph ,
+			s13.1.1:section ,
+			s13.1.2:section ;
+		co:firstItem [
+			co:itemContent :section-13.1-title ;
+			co:nextItem [
+	    	co:itemContent p1:paragraph ;
+				co:nextItem [
+		    	co:itemContent s13.1.1:section ;
+					co:nextItem [
+			    	co:itemContent s13.1.2:section ] ] ] ] .
+	:section-13.1-title a doco:SectionTitle ;
+		c4o:hasContent "Information Extraction" .
+
+	p1: npx:introduces p1:paragraph .
+	s13.1.1: npx:introduces s13.1.1:section .
+	s13.1.2: npx:introduces s13.1.2:section .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.2_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """DBPEDIA [23], FREEBASE [8] and YAGO [21] represent the most mature approaches for automatically building KBs from Wikipedia. Despite its crowd- sourced nature (i.e., fully manual), WIKIDATA [31] benefits from a rapidly growing community of active users, who have developed several robots for automatic imports of Wikipedia and third-party data. The KNOWLEDGE VAULT [11] is an example of KB construction combining Web-scale textual corpora, as well as additional semi-structured Web data such as HTML tables. Although our system may potentially create a KB from scratch from an input corpus, we prefer to improve the quality of existing resources and integrate into them, rather than developing a standalone one.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.2#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.2_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-13.2-title ;
+		po:contains
+			p1:paragraph ;
+		co:firstItem [
+			co:itemContent :section-13.2-title ;
+			co:nextItem [
+	    	co:itemContent p1:paragraph ] ] .
+	:section-13.2-title a doco:SectionTitle ;
+		c4o:hasContent "Knowledge Base Construction" .
+
+	p1: npx:introduces p1:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.3_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Paragraph ;
+		c4o:hasContent """OIE output can indeed be considered structured data compared to free text, but it still lacks of a disambiguation facility: extracted facts generally do not employ unique identifiers (i.e., URIs), thus suffering from intrinsic natural language polysemy (e.g., Jaguar may correspond to the animal or a known car brand). To tackle the issue, [12] propose a framework that clusters OIE facts and maps them to elements of a target KB. Similarly to us, they leverage EL techniques for disambiguation and choose DBpedia as the target KB. Nevertheless, the authors focus on A-Box population, while we also cater for the T-Box part. Moreover, OIE systems are used as a black boxes, in contrast to our full implementation of the extraction pipeline. Finally, relations are still binary, instead of our n-ary ones. Taking as input Wikipedia articles, L EGALO [28] exploits page links manually inserted by editors and attempts to induce the relations between them via NLP. Again, the extracted relations are binary and are not mapped to a target KB for enrichment purposes.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.3#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.3_p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section ;
+		po:containsAsHeader :section-13.3-title ;
+		po:contains
+			p1:paragraph ;
+		co:firstItem [
+		co:itemContent :section-13.3-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ] ] .
+	:section-13.3-title a doco:SectionTitle ;
+		c4o:hasContent "Open Information Semantification" .
+
+	p1: npx:introduces p1:paragraph .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13#> .
+@prefix p1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13_p1#> .
+@prefix s13.1: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1#> .
+@prefix s13.2: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.2#> .
+@prefix s13.3: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:section a doco:Section, deo:RelatedWork ;
+		po:containsAsHeader :section-13-title ;
+		po:contains
+			p1:paragraph ,
+			s13.1:section ,
+			s13.2:section ,
+			s13.3:section ;
+		co:firstItem [
+		co:itemContent :section-13-title ;
+		co:nextItem [
+	    co:itemContent p1:paragraph ;
+	    co:nextItem [
+				co:itemContent s13.1:section ;
+				co:nextItem [
+					co:itemContent s13.2:section ;
+					co:nextItem [
+						co:itemContent s13.3:section ] ] ] ] ] .
+	:section-13-title a doco:SectionTitle ;
+		c4o:hasContent "Related Work" .
+
+	p1: npx:introduces p1:paragraph .
+	s13.1: npx:introduces s13.1:section .
+	s13.2: npx:introduces s13.2:section .
+	s13.3: npx:introduces s13.3:section .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-5456-7964> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
 
 @prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s14_p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .

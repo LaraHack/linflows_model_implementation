@@ -20,7 +20,7 @@
 		linkflows:refersTo doco:Article ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .
+		linkflows:hasCommentText """Major Revision""" .
 }
 
 :provenance {
@@ -55,7 +55,7 @@
 		linkflows:refersTo doco:Article ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .
+		linkflows:hasCommentText """In this paper, the authors present an ontology to serve as the backbone of an indoor CCTV system. The ontology integrates a number of well-established vocabularies and ontology models including the OWL representation of the widely-used Industry Foundation Classes model ifcOWL, in order to extend existing Building Information Models with dynamic surveillance data as a precursor to an 'intelligent' building.""" .
 }
 
 :provenance {
@@ -90,7 +90,7 @@
 		linkflows:refersTo doco:Article ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .
+		linkflows:hasCommentText """The overall quality of the writing and the organization of the paper is good, but somewhat verbose in certain sections (why is so much focus put onto the decidability if most of the inferences and queries are done in SPARQL?)""" .
 }
 
 :provenance {
@@ -125,7 +125,7 @@
 		linkflows:refersTo doco:Article ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .
+		linkflows:hasCommentText """The authors introduce a system called WiseNET, that "may overcome some limitations of computer vision (e.g., false detections and missed detections), some drawbacks of deep learning (e.g., the need of large amount of training and testing data) and limitations of multi-camera based system (presented in Section 1) while allowing real-time event/anomalies detection and system reconfiguration."""" .
 }
 
 :provenance {
@@ -160,7 +160,7 @@
 		linkflows:refersTo doco:Article ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .
+		linkflows:hasCommentText """The system is demonstrated by a minimal test case scenario of a single storey with two different rooms (hallway and 'space 303') that is accompanied by illustrational videos provided online, but is not further validated in reproducible settings and with data sets to back up the claims.""" .
 }
 
 :provenance {
@@ -192,10 +192,10 @@
 
 :assertion {
 	:comment-6 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo doco:Section ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .
+		linkflows:hasCommentText """While the instance data handled by the system focuses on high-level information that is combined with logic rules, it remains unclear how this information is propagated back to the SmartCameras doing the feature extraction of e.g. peoples autonomously and independently in order to "overcome some limitations of computer vision (e.g., false detections and missed detections)" . The back-propagation of context information to improve the detection accuracy is neither explained nor proven by data.""" .
 }
 
 :provenance {
@@ -227,10 +227,10 @@
 
 :assertion {
 	:comment-7 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .
+		linkflows:hasCommentText """While the extraction of spatial information from an underlying building model to set up topological relations seems sound, the use seems to be limited to an initial setup including the inference of room connectivity graphs (shared doors) and simple 'nearby' relations (Listings 1 and 2). While these basic relations might provide some degree of spatial context, their usefulness for real-world situations remain unclear.""" .
 }
 
 :provenance {
@@ -262,10 +262,10 @@
 
 :assertion {
 	:comment-8 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .
+		linkflows:hasCommentText """The usefulness introduction of the suggested user interface mockup in fig. 5 is questionable without further usability testing and evaluation.""" .
 }
 
 :provenance {
@@ -297,10 +297,10 @@
 
 :assertion {
 	:comment-9 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .
+		linkflows:hasCommentText """The scalability of the dynamic population (section 6.2) is unclear (how are SWRL(?) inferences performing on real world buildings with hundreds of rooms and cameras etc.).""" .
 }
 
 :provenance {
@@ -332,10 +332,10 @@
 
 :assertion {
 	:comment-10 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .
+		linkflows:hasCommentText """The usability of providing the bounding box descriptions "xywh" without projecting them into 3D-space and the intention of the RGB values in "visualDescription" is unclear.""" .
 }
 
 :provenance {
@@ -367,10 +367,10 @@
 
 :assertion {
 	:comment-11 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .
+		linkflows:hasCommentText """The temporal events of persons being detected at certain moments in time is not further used in any of the demonstration queries and their relation to the spatial configuration of the building is not shown.""" .
 }
 
 :provenance {
@@ -402,10 +402,10 @@
 
 :assertion {
 	:comment-12 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .
+		linkflows:hasCommentText """Listing 6 is referred to but misses a label on page 15, as do other listings on e.g. page 11""" .
 }
 
 :provenance {
@@ -438,10 +438,10 @@
 
 :assertion {
 	:comment-13 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .ns born a long time ago, simply because their birthdate is not known.""" .
+		linkflows:hasCommentText """The listings in tables 3-5 seem overly extensive and could go into a (digital) appendix.""" .
 }
 
 :provenance {
@@ -473,10 +473,10 @@
 
 :assertion {
 	:comment-14 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .correctness of an RDF triple.""" .
+		linkflows:hasCommentText """Many of the 'competency questions' in Table 1 are limited to static building data that could be answered from the original ifcOWL model data even if the semantic shortcuts bring some improvements regarding the reduction of complexity of queries (which are hidden from end users anyways)""" .
 }
 
 :provenance {
@@ -511,7 +511,7 @@
 		linkflows:refersTo doco:Article ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .h the same name, but synonyms and pronouns are used instead.""" .
+		linkflows:hasCommentText """I would like to strongly encourage the authors to continue this interesting line of work by introducing generic, reusable concepts pertaining to notions of 'virtual spaces' e.g. by camera FOV superimposed on the physical spaces of e.g. rooms.""" .
 }
 
 :provenance {
@@ -547,7 +547,7 @@
 		linkflows:refersTo doco:Article ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" ."" .
+		linkflows:hasCommentText """In a revision, statistical data of the validation and use case should be presented and the data sets should be made available to the reader.""" .
 }
 
 :provenance {
@@ -580,10 +580,10 @@
 
 :assertion {
 	:comment-17 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo doco:Section ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """""" .hnology and Smart Education (ITSE), Emerald Group, Bingley (UK), Vol. 8, 2011 (3).""" .
+		linkflows:hasCommentText """An interesting addition to the current state of the art would be the extension of an ontology with modeling the precise fields of views of all cameras to allow a detailed calculations of camera coverage through e.g. overlapping FOV volumes. This would require the development of a spatial calculus that could be represented in the ontology in either static (immovable cameras) or dynamic spatio-temporal configurations (when is a feature detected in e.g. rotating cameras). For this, the notion of 'space' must be extended beyond the mere physical spaces from a static building models.""" .
 }
 
 :provenance {
