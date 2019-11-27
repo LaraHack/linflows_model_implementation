@@ -24,7 +24,7 @@
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
+	:assertion prov:wasAttributedTo linkflows:sample-paper-3-anonymous-reviewer-2 ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
 }
 

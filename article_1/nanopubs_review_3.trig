@@ -1634,7 +1634,7 @@
 		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 23, 1st column: I didn't get what the following consideration refers to: "workers were exceptionally good and efficient at performing comparisons between data entries, specially when some contextual information is provided"""" .
+		linkflows:hasCommentText """Some relatively minor remarks: - page 23, 1st column: I didn't get what the following consideration refers to: "workers were exceptionally good and efficient at performing comparisons between data entries, specially when some contextual information is provided" """ .
 }
 
 :provenance {

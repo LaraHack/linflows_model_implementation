@@ -583,7 +583,7 @@
 		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """-- MINOR COMMENTS * page 2: to "to CREDIBLE (thus high-quality)" -> "to RELIABLE (thus high-quality)"""" .
+		linkflows:hasCommentText """-- MINOR COMMENTS * page 2: to "to CREDIBLE (thus high-quality)" -> "to RELIABLE (thus high-quality)" """ .
 }
 
 :provenance {
@@ -619,7 +619,7 @@
 		linkflows:refersTo doco:paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """-- MINOR COMMENTS * page 2: "from raw text and produces e.g, " -> "from raw text and produces, e.g, """" .
+		linkflows:hasCommentText """-- MINOR COMMENTS * page 2: "from raw text and produces e.g, " -> "from raw text and produces, e.g, " """ .
 }
 
 :provenance {
@@ -654,7 +654,7 @@
 		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """-- MINOR COMMENTS * page 6: "The selected LUs comply to" -> "The selected LUs comply WITH"""" .
+		linkflows:hasCommentText """-- MINOR COMMENTS * page 6: "The selected LUs comply to" -> "The selected LUs comply WITH" """ .
 }
 
 :provenance {
@@ -724,7 +724,7 @@
 		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """-- MINOR COMMENTS  page 9: "which we call reification". I would say "called reification"""" .
+		linkflows:hasCommentText """-- MINOR COMMENTS  page 9: "which we call reification". I would say "called reification" """ .
 }
 
 :provenance {
@@ -759,7 +759,7 @@
 		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """-- MINOR COMMENTS * page 13/14: "In avevage, most raw properties" -> "ON avevage, most raw properties"""" .
+		linkflows:hasCommentText """-- MINOR COMMENTS * page 13/14: "In avevage, most raw properties" -> "ON avevage, most raw properties" """ .
 }
 
 :provenance {

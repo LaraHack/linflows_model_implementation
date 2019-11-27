@@ -160,9 +160,9 @@
 		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """"1) In the end of the introduction (p.3) the limitations of automated methods for Linked Data quality assurance are mentioned with referring to checking ontological inconsistencies only. Besides, there also exist approached based on statistics (as e.g. outlier detection, etc.) which should not be neglected or at least mentioned as such in the related work section.[1,2,3] [1] Heiko Paulheim and Christian Bizer. 2014. Improving the Quality of Linked Data Using Statistical Distributions. Int. J. Semant. Web Inf. Syst. 10, 2 (April 2014), pp. 63-86.
+		linkflows:hasCommentText """1) In the end of the introduction (p.3) the limitations of automated methods for Linked Data quality assurance are mentioned with referring to checking ontological inconsistencies only. Besides, there also exist approached based on statistics (as e.g. outlier detection, etc.) which should not be neglected or at least mentioned as such in the related work section.[1,2,3] [1] Heiko Paulheim and Christian Bizer. 2014. Improving the Quality of Linked Data Using Statistical Distributions. Int. J. Semant. Web Inf. Syst. 10, 2 (April 2014), pp. 63-86.
 [2] Didier Cherix, Ricardo Usbeck, Andreas Both, Jens Lehmann. 2014. CROCUS: Cluster-based Ontology Data Cleansing. WASABI 2014 at Extended Semantic Web Conference 2014.
-[3] Daniel Fleischhacker, Heiko Paulheim, Volha Bryl, Johanna Völker, and Christian Bizer. 2014. Detecting Errors in Numerical Linked Data Using Cross-Checked Outlier Detection. In Proc. 13th Int. Semantic Web Conference (ISWC '14), pp. 357-372."""" .
+[3] Daniel Fleischhacker, Heiko Paulheim, Volha Bryl, Johanna Völker, and Christian Bizer. 2014. Detecting Errors in Numerical Linked Data Using Cross-Checked Outlier Detection. In Proc. 13th Int. Semantic Web Conference (ISWC '14), pp. 357-372.""" .
 }
 
 :provenance {
@@ -621,8 +621,8 @@
 		linkflows:refersTo doco:Paragraph ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """"14) Also in the related work section (p. 25), Tools for Linked Data Quality Assessment that are able to automatically extract/create ontology constraints from available data, to further use these constraints to assess the quality of the remaining data have been neglected.[5,6] [5] Jens Lehmann, Lorenz Bühmann: ORE - A Tool for Repairing and Enriching Knowledge Bases"", Proc. of the 9th Int. Semantic Web Conference 2010, Lecture Notes in Computer Science, Springer, 2010
-[6] G. Töpper, M. Knuth, and H. Sack: DBpedia ontology enrichment for inconsistency detection. In Proc. of the 8th Int. Conf. on Semantic Systems (I-SEMANTICS '12). ACM, New York, NY, USA, pp. 33-40."""" .
+		linkflows:hasCommentText """14) Also in the related work section (p. 25), Tools for Linked Data Quality Assessment that are able to automatically extract/create ontology constraints from available data, to further use these constraints to assess the quality of the remaining data have been neglected.[5,6] [5] Jens Lehmann, Lorenz Bühmann: ORE - A Tool for Repairing and Enriching Knowledge Bases, Proc. of the 9th Int. Semantic Web Conference 2010, Lecture Notes in Computer Science, Springer, 2010
+[6] G. Töpper, M. Knuth, and H. Sack: DBpedia ontology enrichment for inconsistency detection. In Proc. of the 8th Int. Conf. on Semantic Systems (I-SEMANTICS '12). ACM, New York, NY, USA, pp. 33-40.""" .
 }
 
 :provenance {

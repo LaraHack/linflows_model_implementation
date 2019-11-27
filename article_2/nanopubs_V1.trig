@@ -62,7 +62,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1_p2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1_p2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1689,9 +1689,7 @@ prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1_p2#> .
 		co:firstItem [
 		co:itemContent :section-7.3-title ;
 		co:nextItem [
-	    co:itemContent p1:paragraph ;
-			co:nextItem [
-		    co:itemContent s7.3:section ] ] ] .
+	    co:itemContent p1:paragraph ] ] .
 	:section-7.3-title a doco:SectionTitle ;
 		c4o:hasContent "Frame Classification: Features" .
 

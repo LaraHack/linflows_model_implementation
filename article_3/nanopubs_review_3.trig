@@ -125,7 +125,7 @@
 		linkflows:refersTo doco:Article ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """The authors introduce a system called WiseNET, that "may overcome some limitations of computer vision (e.g., false detections and missed detections), some drawbacks of deep learning (e.g., the need of large amount of training and testing data) and limitations of multi-camera based system (presented in Section 1) while allowing real-time event/anomalies detection and system reconfiguration."""" .
+		linkflows:hasCommentText """The authors introduce a system called WiseNET, that "may overcome some limitations of computer vision (e.g., false detections and missed detections), some drawbacks of deep learning (e.g., the need of large amount of training and testing data) and limitations of multi-camera based system (presented in Section 1) while allowing real-time event/anomalies detection and system reconfiguration." """ .
 }
 
 :provenance {
