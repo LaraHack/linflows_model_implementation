@@ -1,0 +1,2041 @@
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-1 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Article ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Generally speaking, I like the paper and its topic and I think that it could worth publishing in SWJ, because it is strongly in line with the special issue CfP.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-2 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Article ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Still, I have some major remarks that should be addressed before acceptance. My observations are mainly related to two aspects: the global scope of the paper and of the presented results, and the experiments design.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-3 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Article ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Regarding the paper scope, I am not convinced that the authors provided results that can be considered valid for Linked Data at large, nor for LD quality issues of any kind. This is quite adequately indicated in the paper title, but it is not fully reflected in the paper text itself.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-4 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """The authors stated that they focused on DBpedia "as a representative data set for the broader Web of Data"; I largely disagree with that for the following reasons: (1) not all LD sources are produced by following a transformation/mapping process like DBpedia one, and the types of errors that happen in a specific LD source heavily depend both on the intrinsic quality of the source and on the possible translation process to RDF; (2) DBpedia is very general in coverage of topics, while LD sources (and their possible quality issues) can be very specific to a given domain; as a consequence, the capability of an experts' or workers' crowd to identify and assess LD quality issues is highly influenced by the domain/coverage of the source. Therefore, I'd recommend to soften the claims of generality of the presented results and to clearly state that they are "proved" only on DBpedia. I'm sure the authors can speculate to what extent those results can be considered general, but at the present moment I believe they cannot affirm that they fully addressed the research questions as they are introduced.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-5 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Furthermore, the experiments were focused on some specific LD quality issues and not to the whole list of possible issues (which are comprehensively listed in the authors' previous works). While this is fine per se - I didn't expect the authors to make experiments on the whole set of issues - it makes the presented results even less general. It should be also valuable if the authors add an explanation on why those specific quality issues (instead of others) were selected for the experiments.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c6#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-6 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Article ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """As a global recommendation, I suggest the authors to honestly rephrase the parts of the paper that would try to convince the readers about a possible general validity of the paper results for any LD source and/or for any LD quality issue.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c7#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-7 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Regarding the experiments design, my impression is that a number of results are not fully related to the intended characteristics of the experiments (expert vs. laymen crowdsourcing, find vs. verify stage, etc.) but are the collateral effect of non-optimal design choices, in terms of (1) choice of triples/data and quality issues to be tested, (2) user interface and support information provided to participants and (3) reported indicators and baselines.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c8#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-8 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Apart from the already provided considerations on DBpedia as above, I have a number of concerns on the employed triples. The experts were given the opportunity to find quality issues in triples that were (i) random, (ii) instances of some class or (iii) manually selected; while this can appear reasonable, the effects are that the workers' crowds (in both experimental workflows) were presented with information "chosen" by somebody else, thus possibly making the task hard or even impossible because of the triples' domain. I would have expected the authors to make a *controlled experiment*, i.e. selecting a general-purpose subset of DBpedia that - at least from the point of view of the content - was at the same "difficulty" level for all the involved crowds.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c9#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-9 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Furthermore, also restricting to a set of selected subjects, I think that not all triples were suitable for the intended experiments; indeed, some specific cases emerged that are not related to the intrinsic characteristics of quality assurance; while it is generally ok to let the experimenters find out problems, it is also reasonable to think that, when preparing an experiment, the obvious things that can lead to problems are avoided. Some examples: - specific datatype objects (like dates vs. numbers, which are definitely ok to be mistaken) - owl:sameAs links (which maybe were interpreted in a "purist" way by LD experts who can be careful in accepting those triples because of their logical implications) - rdf:type triples among the incorrect link issues (apparently unclear for the MTurk workers, but partially also to me: why did rdf:type triples were considered among the "links" instead of the "values"?) - DBpedia translation-specific triples (which do not make any sense in such an evaluation setting, and should have been filtered out in the first place).""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c10#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-10 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Another fact to support this criticism is that the two authors who created the "ground truth" got quite low values of inter-rater agreement.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c11#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-11 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Also the tested quality issues are somehow unbalanced: while the incorrect object extraction or the incorrect links can be related to the entities' "meaning", the incorrect datatypes or language tags are more "structural" mistakes; as a consequence, it is not surprising that the latter is the case in which the paid workers performed worst.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c12#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-12 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some experiment design flaws come also from the user interface and the information provided to the involved crowds.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c13#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-13 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """First of all, the quality issues to be identified are not presented with the same granularity level to experts and laymen, since the experts got quite a detailed taxonomy of issues, while the MTurk users only three possibilities.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c14#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-14 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Regarding the MTurk-based Find stage, I personally find the screenshot in Figure 3 very confusing, since it seems that the Wikipedia column (which should provide the "human readable" information) is less complete that the DBpedia column: how were the workers expected to interpret this fact? were they instructed to click on the Wikipedia page link (if provided) to check?""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c15#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-15 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Regarding the MTurk-based Verify stage, Figure 5 is also problematic since it doesn't display the Wikipedia preview (explained in the text) and seems anyway to require quite an effort or some knowledge to be judged; it would have been interesting to know if the authors were able to trace if and how many times the workers actually clicked on the Wikipedia link or how much time it took to them to make a decision.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c16#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-16 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Also some of the examples given in the text are misleading and therefore not fully suitable to be offered to the crowds as explanations (if they were); e.g. is Elvis Presley's name language-dependent?""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c17#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-17 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """I also have some doubts about the choice of evaluation metrics.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c18#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-18 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Regarding the tables, the authors would have better used sensitivity and specificity rather than TP and FP, because rates are more easily compared and interpreted than counts. This last comment also applies to bar charts, which are hard to judge because of the different value ranges: using rates would improve readability and better convey the message.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c19#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-19 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Furthermore, I am not at all convinced about the significance of keeping track of the first answer, even less of the comparison between the first answer and the majority voting: while I understand the cost consideration, it would have been more meaningful to compare 3-worker majority voting vs. 5-worker majority voting, since 1 single worker cannot express any kind of answer "agreement" or "variance".""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c20#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-20 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Finally, I found the baseline section quite weird, since the authors describe the interlinks approach that perfectly makes sense (even if it regards only one of the tested quality issues), but they also introduce the TDQA assessment which cannot be compared to the experiment results (and thus cannot be considered a baseline approach). The authors would better create a baseline (e.g. by using SPIN or ShEx-based constraint checks) to try to identify datatype/language and object values issues (w.r.t. all those cases in which such checks can be implemented, of course); that would be a reasonable baseline to compare to.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c21#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-21 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """In any case, I would suggest the authors to make a final summary table that compares the two workflows as well as the comparable baselines, so to support the final discussion.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c22#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-22 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 4, 1st column, postal code example: in some countries postal codes contain letters, so it is not necessarily true that it should be an integer""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c23#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-23 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - sections 3.1.1 and 3.1.2 do not provide any reference""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c24#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-24 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - section 3.2 is clearly related to reference [3], so there is no need to include the citation several times""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c25#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-25 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 6, definition 1: why is it 2^Q? can all the quality issues happen at the same time?""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c26#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-26 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 6, beginning of 2nd column: this is very specific to DBpedia, so it is in contradiction to the generality claims of the paper""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c27#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-27 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 8, end of section 4.1: the authors explain the redundancy during the Find stage by experts; if an agreement is already achieved, is the Verify stage useful at all?""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c28#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-28 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 9, 1st column: it seems that the prune step is specific to the experimental setting, rather than to the general case (non-dereferenceable URIs should have been discarded in the first place...)""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c29#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-29 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 9, 2nd column: reference to Figure 1 should probably be Figure 3""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c30#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-30 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 10, footnote 8: it is not simply for sake of simplicity, since datatype and language tag cannot happen together; furthermore, for the laymen probably there is not much difference between "value" and "link" either""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c31#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-31 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:section ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - section 4.4 is not completely necessary in the paper""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c32#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-32 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 15, end of 1st column: why were the DBpedia Flickr links filtered out? if there was some doubt about their validity or relevance to the tests, why not filtering them out before the Find stage?""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c33#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-33 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 15, section 5.2.4: the example triple is totally unclear, what does it mean? why is is correct?""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c34#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-34 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - table 3: from the text 1512 seems to be the number of the "marked" triples rather than the evaluated ones""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c35#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-35 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - table 4: the caption does not explain that the results refer to the "ground truth" sample (same for table 6); why the LD expert inter-rater agreement was computed for all the triples together?""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c36#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-36 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 16, beginning of 1st column: the need for specific technical knowledge about datatypes seems to be yet another experiment design flaw""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c37#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-37 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 17, list in the 1st column: what are Wikipedia-upload entries? what does it mean w.r.t. the misclassification discussion?""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c38#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-38 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 18, section 5.3.2: the text says 30k triples while table 5 almost 70k triples, so what's the correct number? why was the sample selected on the basis of "at least two workers" and not by majority voting? the sample contains the "exact same number of triples" or exactly the same triples? why did this Verify stage take more time than in the case of the other workflow?""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c39#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-39 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 18, end of 2nd column: the geo-coordinates example seems yet another symptom of an ill-designed experiment""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c40#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-40 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - table 5: the sample used for the Verify task does not have the same distribution of triples for the quality issues than the Find stage; can the authors elaborate of the possible effects of those different proportions in terms of loss of information?""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c41#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-41 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 19, 2nd column: the problem with non-UTF8 characters seems another sign of sub-optimal design of the user interface for the experiments""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c42#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-42 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 20, 2nd column: possible design flaw also in the case of proper nouns""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c43#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-43 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - figure 7(b): TP+TN are complementary w.r.t. FP+FN; rates would be more meaningful than total counts""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c44#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-44 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 21, 1st column: there are a couple of "Find" that are more probably "Verify"; it would be interesting to know if the rdf:type triples correctly classified were done by the same worker(s)""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c45#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-45 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 21, 2nd column: it is not clear on how many triples the 5146 tests were run, on the 509 "ground truth" triples? what exactly is a success/failure in the tests?""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c46#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-46 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 22, 2nd column: were only the foaf:name links used or also the rdfs:label ones? the listing is somewhat useless, the text was clear enough; also clear it is unclear what the "triples subject to crowdsourcing" were, since different datasets were used in the previous tests""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c47#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-47 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 23, 1st column: I didn't get what the following consideration refers to: "workers were exceptionally good and efficient at performing comparisons between data entries, specially when some contextual information is provided"""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c48#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-48 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 24, footnote 21: the link is broken""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c49#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-49 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 24, 2nd column: "fix-find-verify workflow" is probably Find-Verify""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c50#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-50 a linkflows:ReviewComment ;
+		linkflows:refersTo doco:Paragraph ;
+		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
+		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Some relatively minor remarks: - page 25, end of 1st column: the authors write "Recently, a study [18]..." but the paper was published in 2012""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3#> .
+@prefix c1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c1#> .
+@prefix c2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c2#> .
+@prefix c3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c3#> .
+@prefix c4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c4#> .
+@prefix c5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c5#> .
+@prefix c6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c6#> .
+@prefix c7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c7#> .
+@prefix c8: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c8#> .
+@prefix c9: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c9#> .
+@prefix c10: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c10#> .
+@prefix c11: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c11#> .
+@prefix c12: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c12#> .
+@prefix c13: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c13#> .
+@prefix c14: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c14#> .
+@prefix c15: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c15#> .
+@prefix c16: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c16#> .
+@prefix c17: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c17#> .
+@prefix c18: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c18#> .
+@prefix c19: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c19#> .
+@prefix c20: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c20#> .
+@prefix c21: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c21#> .
+@prefix c22: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c22#> .
+@prefix c23: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c23#> .
+@prefix c24: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c24#> .
+@prefix c25: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c25#> .
+@prefix c26: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c26#> .
+@prefix c27: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c27#> .
+@prefix c28: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c28#> .
+@prefix c29: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c29#> .
+@prefix c30: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c30#> .
+@prefix c31: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c31#> .
+@prefix c32: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c32#> .
+@prefix c33: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c33#> .
+@prefix c34: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c34#> .
+@prefix c35: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c35#> .
+@prefix c36: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c36#> .
+@prefix c37: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c37#> .
+@prefix c38: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c38#> .
+@prefix c39: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c39#> .
+@prefix c40: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c40#> .
+@prefix c41: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c41#> .
+@prefix c42: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c42#> .
+@prefix c43: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c43#> .
+@prefix c44: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c44#> .
+@prefix c45: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c45#> .
+@prefix c46: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c46#> .
+@prefix c47: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c47#> .
+@prefix c48: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c48#> .
+@prefix c49: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c49#> .
+@prefix c50: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c50#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix fr: <http://fairreviews.linkeddata.es/def/core/index.html#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:review-3 a fr:Review  ;
+		dcterms:creator <https://orcid.org/0000-0001-9962-7193> ;
+		fr:isReviewOf <http://dx.doi.org/10.3233/sw-160239> ;
+		po:contains
+			c1:ReviewComment ,
+			c2:ReviewComment ,
+			c3:ReviewComment ,
+			c4:ReviewComment ,
+			c5:ReviewComment ,
+			c6:ReviewComment ,
+			c7:ReviewComment ,
+			c8:ReviewComment ,
+			c9:ReviewComment ,
+			c10:ReviewComment ,
+			c11:ReviewComment ,
+			c12:ReviewComment ,
+			c13:ReviewComment ,
+			c14:ReviewComment ,
+			c15:ReviewComment ,
+			c16:ReviewComment ,
+			c17:ReviewComment ,
+			c18:ReviewComment ,
+			c19:ReviewComment ,
+			c20:ReviewComment ,
+			c21:ReviewComment ,
+			c22:ReviewComment ,
+			c23:ReviewComment ,
+			c24:ReviewComment ,
+			c25:ReviewComment ,
+			c26:ReviewComment ,
+			c27:ReviewComment ,
+			c28:ReviewComment ,
+			c29:ReviewComment ,
+			c30:ReviewComment ,
+			c31:ReviewComment ,
+			c32:ReviewComment ,
+			c33:ReviewComment ,
+			c34:ReviewComment ,
+			c35:ReviewComment ,
+			c36:ReviewComment ,
+			c37:ReviewComment ,
+			c38:ReviewComment ,
+			c39:ReviewComment ,
+			c40:ReviewComment ,
+			c41:ReviewComment ,
+			c42:ReviewComment ,
+			c43:ReviewComment ,
+			c44:ReviewComment ,
+			c45:ReviewComment ,
+			c46:ReviewComment ,
+			c47:ReviewComment ,
+			c48:ReviewComment ,
+			c49:ReviewComment ,
+			c50:ReviewComment ;
+		  co:firstItem [
+	      co:itemContent c1:ReviewComment ;
+	      co:nextItem [
+					co:itemContent c2:ReviewComment ;
+					co:nextItem [
+		  			co:itemContent c3:ReviewComment ;
+		  			co:nextItem [
+		    			co:itemContent c4:ReviewComment ;
+		    			co:nextItem [
+		      			co:itemContent c5:ReviewComment ;
+		      			co:nextItem [
+									co:itemContent c6:ReviewComment ;
+									co:nextItem [
+			  						co:itemContent c7:ReviewComment ;
+			  						co:nextItem [
+			    						co:itemContent c8:ReviewComment ;
+			    						co:nextItem [
+			      						co:itemContent c9:ReviewComment ;
+												co:nextItem [
+			      							co:itemContent c10:ReviewComment ;
+													co:nextItem [
+				      							co:itemContent c11:ReviewComment ;
+														co:nextItem [
+					      							co:itemContent c12:ReviewComment ;
+															co:nextItem [
+						      							co:itemContent c13:ReviewComment ;
+																co:nextItem [
+							      							co:itemContent c14:ReviewComment ;
+																	co:nextItem [
+								      							co:itemContent c15:ReviewComment ;
+																		co:nextItem [
+									      							co:itemContent c16:ReviewComment ;
+																			co:nextItem [
+										      							co:itemContent c17:ReviewComment ;
+																				co:nextItem [
+											      							co:itemContent c18:ReviewComment ;
+																					co:nextItem [
+																					 co:itemContent c19:ReviewComment ;
+																					 co:nextItem [
+																						 co:itemContent c20:ReviewComment ;
+																						 co:nextItem [
+																							 co:itemContent c21:ReviewComment ;
+																							 co:nextItem [
+																								 co:itemContent c22:ReviewComment ;
+																								 co:nextItem [
+																									 co:itemContent c23:ReviewComment ;
+																									 co:nextItem [
+																										 co:itemContent c24:ReviewComment ;
+																										 co:nextItem [
+																											 co:itemContent c25:ReviewComment ;
+																											 co:nextItem [
+																												 co:itemContent c26:ReviewComment ;
+																												 co:nextItem [
+																													 co:itemContent c27:ReviewComment ;
+																													 co:nextItem [
+																														 co:itemContent c28:ReviewComment ;
+																														 co:nextItem [
+																															 co:itemContent c29:ReviewComment ;
+																															 co:nextItem [
+																																 co:itemContent c30:ReviewComment ;
+																																 co:nextItem [
+																																	 co:itemContent c31:ReviewComment ;
+																																	 co:nextItem [
+																																		 co:itemContent c32:ReviewComment ;
+																																		 co:nextItem [
+																																			 co:itemContent c33:ReviewComment ;
+																																			 co:nextItem [
+																																				 co:itemContent c34:ReviewComment ;
+																																				 co:nextItem [
+																																					 co:itemContent c35:ReviewComment ;
+																																					 co:nextItem [
+																																						 co:itemContent c36:ReviewComment ;
+																																						 co:nextItem [
+																																							 co:itemContent c37:ReviewComment ;
+																																							 co:nextItem [
+																																								 co:itemContent c38:ReviewComment ;
+																																								 co:nextItem [
+																																									 co:itemContent c39:ReviewComment ;
+																																									 co:nextItem [
+																																										 co:itemContent c40:ReviewComment ;
+																																										 co:nextItem [
+																																											 co:itemContent c41:ReviewComment ;
+																																											 co:nextItem [
+																																												 co:itemContent c42:ReviewComment ;
+																																												 co:nextItem [
+																																													 co:itemContent c43:ReviewComment ;
+																																													 co:nextItem [
+																																														 co:itemContent c44:ReviewComment ;
+																																														 co:nextItem [
+																																															 co:itemContent c45:ReviewComment ;
+																																															 co:nextItem [
+																																																 co:itemContent c46:ReviewComment ;
+																																																 co:nextItem [
+																																																	 co:itemContent c47:ReviewComment ;
+																																																	 co:nextItem [
+																																																		 co:itemContent c48:ReviewComment ;
+																																																		 co:nextItem [
+																																																			 co:itemContent c49:ReviewComment ;
+																																																			 co:nextItem [
+																																																				co:itemContent c50:ReviewComment ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] .
+
+	c1: npx:introduces c1:ReviewComment .
+	c2: npx:introduces c2:ReviewComment .
+	c3: npx:introduces c3:ReviewComment .
+	c4: npx:introduces c4:ReviewComment .
+	c5: npx:introduces c5:ReviewComment .
+	c6: npx:introduces c6:ReviewComment .
+	c7: npx:introduces c7:ReviewComment .
+	c8: npx:introduces c8:ReviewComment .
+	c9: npx:introduces c9:ReviewComment .
+	c10: npx:introduces c10:ReviewComment .
+	c11: npx:introduces c11:ReviewComment .
+	c12: npx:introduces c12:ReviewComment .
+	c13: npx:introduces c13:ReviewComment .
+	c14: npx:introduces c14:ReviewComment .
+	c15: npx:introduces c15:ReviewComment .
+	c16: npx:introduces c16:ReviewComment .
+	c17: npx:introduces c17:ReviewComment .
+	c18: npx:introduces c18:ReviewComment .
+	c19: npx:introduces c19:ReviewComment .
+	c20: npx:introduces c20:ReviewComment .
+	c21: npx:introduces c21:ReviewComment .
+	c22: npx:introduces c22:ReviewComment .
+	c23: npx:introduces c23:ReviewComment .
+	c24: npx:introduces c24:ReviewComment .
+	c25: npx:introduces c25:ReviewComment .
+	c26: npx:introduces c26:ReviewComment .
+	c27: npx:introduces c27:ReviewComment .
+	c28: npx:introduces c28:ReviewComment .
+	c29: npx:introduces c29:ReviewComment .
+	c30: npx:introduces c30:ReviewComment .
+	c31: npx:introduces c31:ReviewComment .
+	c32: npx:introduces c32:ReviewComment .
+	c33: npx:introduces c33:ReviewComment .
+	c34: npx:introduces c34:ReviewComment .
+	c35: npx:introduces c35:ReviewComment .
+	c36: npx:introduces c36:ReviewComment .
+	c37: npx:introduces c37:ReviewComment .
+	c38: npx:introduces c38:ReviewComment .
+	c39: npx:introduces c39:ReviewComment .
+	c40: npx:introduces c40:ReviewComment .
+	c41: npx:introduces c41:ReviewComment .
+	c42: npx:introduces c42:ReviewComment .
+	c43: npx:introduces c43:ReviewComment .
+	c44: npx:introduces c44:ReviewComment .
+	c45: npx:introduces c45:ReviewComment .
+	c46: npx:introduces c46:ReviewComment .
+	c47: npx:introduces c47:ReviewComment .
+	c48: npx:introduces c48:ReviewComment .
+	c49: npx:introduces c49:ReviewComment .
+	c50: npx:introduces c50:ReviewComment .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
