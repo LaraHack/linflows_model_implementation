@@ -6,7 +6,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -41,7 +41,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -76,7 +76,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -111,7 +111,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -146,7 +146,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -181,7 +181,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -216,7 +216,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -251,7 +251,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -286,7 +286,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -321,7 +321,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -356,7 +356,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -391,7 +391,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix npx: <http://purl.org/nanopub/x/> .
 @prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -442,7 +442,7 @@
 @prefix co: <http://purl.org/co/> .
 @prefix fr: <http://fairreviews.linkeddata.es/def/core/index.html#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 :Head {
 	: np:hasAssertion :assertion ;
