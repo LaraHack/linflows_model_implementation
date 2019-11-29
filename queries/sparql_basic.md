@@ -13,6 +13,19 @@ WHERE {
 }
 ```
 
+### get list of all papers
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT *
+WHERE {
+  ?article a doco:Article ;
+  ?article dcterms:title ?title .
+}
+```
+
 
 ### get total number of paragraphs/sections
 
@@ -35,6 +48,19 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 SELECT (COUNT(*) as ?reviewComments)
 WHERE {
   ?s ?p linkflows:ReviewComment
+}
+```
+
+### get total number of review comments per article
+
+output: 132/39
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+
+SELECT (COUNT(*) as ?o)
+WHERE {
+  ?s ?p doco:Paragraph #doco:Section
 }
 ```
 
