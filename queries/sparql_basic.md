@@ -299,9 +299,7 @@ WHERE {
 } GROUP BY ?article ?part ORDER BY ?article ?part
 ```
 
-### 6. {How many high impact comments that needed to be addressed were not addressed?}
-
-### 7. What are important points that need fixing?
+### 6. What are important points that need fixing?
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
