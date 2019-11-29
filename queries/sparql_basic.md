@@ -65,7 +65,7 @@ WHERE {
 }
 ```
 
-### distribution of review comments per part that they target per article
+### review comments per article
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
@@ -76,8 +76,25 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 SELECT *
 WHERE {
   <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1>
-    (po:contains)* ?section ;
-    dcterms:title ?title .
+    (po:contains)* ?section .
+
+  ?reviewComment a linkflows:ReviewComment .
+  ?reviewComment linkflows:refersTo  ?section .
+}
+```
+
+### distribution of review comments per article depending on the part of article they target
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT *
+WHERE {
+  <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1>
+    (po:contains)* ?section .
 
   ?reviewComment a linkflows:ReviewComment .
   ?reviewComment linkflows:refersTo  ?section .
