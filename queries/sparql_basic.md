@@ -83,7 +83,9 @@ WHERE {
 }
 ```
 
-### distribution of review comments per article depending on the part of article they target
+### distribution of review comments
+
+Distribution of part that they target per article:
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
@@ -98,6 +100,32 @@ WHERE {
 
   ?reviewComment a linkflows:ReviewComment .
   ?reviewComment linkflows:refersTo  ?section .
+}
+```
+
+Distribution of positivity:
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT (count(?pos) as ?poscount) (count(?neutr) as ?neutrcount) (count(?neg) as ?negcount)
+WHERE {
+  <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1>
+    (po:contains)* ?part .
+
+  {
+    ?pos linkflows:refersTo  ?part .
+    ?pos a linkflows:PositiveComment .
+  } UNION {
+    ?neutr linkflows:refersTo  ?part .
+    ?neutr a linkflows:NeutralComment .
+  } UNION {
+    ?neg linkflows:refersTo  ?part .
+    ?neg a linkflows:NegativeComment .
+  }
 }
 ```
 
