@@ -17,7 +17,7 @@
 
 :assertion {
 	:comment-1 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/v1#articleVersion1>  ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1>  ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """This manuscript was submitted as 'full paper' and should be reviewed along the usual dimensions for research contributions which include (1) originality, (2) significance of the results, and (3) quality of writing.""" .
@@ -52,7 +52,7 @@
 
 :assertion {
 	:comment-2 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/v1#articleVersion1>  ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1>  ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "5"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The authors present a study where they examine the applicability of crowdsourcing to Linked Data Quality problems with DBpedia as an example. They show the general feasibility of the approach and continue to investigate whether and for which tasks in particular unskilled laymen instead of experts can also be employed to solve LDQ problems. Furthermore, they address the problem of optimal or better crowdsourcing workflows tom employ experts and laymen for Linked Data curation.""" .
@@ -87,7 +87,7 @@
 
 :assertion {
 	:comment-3 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/v1#articleVersion1>  ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1>  ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "5"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The problem addressed is a rather interesting one, giving first insights in how to adapt crowdsourcing to LDQ issues. From my point of view, I would have liked to see a more concise comparison of the two crowdsourcing approaches also with the sophisticated state-of-the-art automated tools. """ .

@@ -6853,8 +6853,8 @@ sub:pubinfo {
   this: dcterms:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAZ3VvDsjhKGymLf_TUjwjrKILuzNiIyM9vSBECt400Ig> .
-@prefix sub: <http://purl.org/np/RAZ3VvDsjhKGymLf_TUjwjrKILuzNiIyM9vSBECt400Ig#> .
+@prefix this: <http://purl.org/np/RAPks6xr7EKz0-3vhhAQSPUdWilmOkXCtpILt0Sm6hpQw> .
+@prefix sub: <http://purl.org/np/RAPks6xr7EKz0-3vhhAQSPUdWilmOkXCtpILt0Sm6hpQw#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -6874,7 +6874,7 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "This manuscript was submitted as 'full paper' and should be reviewed along the usual dimensions for research contributions which include (1) originality, (2) significance of the results, and (3) quality of writing.";
     linkflows:hasImpact "0"^^xsd:positiveInteger;
-    linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/v1#articleVersion1> .
+    linkflows:refersTo <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1> .
 }
 
 sub:provenance {
@@ -6886,8 +6886,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA3vK9Gjm7IFrnyZCFWllgSybD3qoHTdXFUkeDRwDV_H4> .
-@prefix sub: <http://purl.org/np/RA3vK9Gjm7IFrnyZCFWllgSybD3qoHTdXFUkeDRwDV_H4#> .
+@prefix this: <http://purl.org/np/RAMPL4840s52rXsQNXyyXGlHUhIJCjoK4LLPDJZYBWvZw> .
+@prefix sub: <http://purl.org/np/RAMPL4840s52rXsQNXyyXGlHUhIJCjoK4LLPDJZYBWvZw#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -6907,7 +6907,7 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "The authors present a study where they examine the applicability of crowdsourcing to Linked Data Quality problems with DBpedia as an example. They show the general feasibility of the approach and continue to investigate whether and for which tasks in particular unskilled laymen instead of experts can also be employed to solve LDQ problems. Furthermore, they address the problem of optimal or better crowdsourcing workflows tom employ experts and laymen for Linked Data curation.";
     linkflows:hasImpact "5"^^xsd:positiveInteger;
-    linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/v1#articleVersion1> .
+    linkflows:refersTo <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1> .
 }
 
 sub:provenance {
@@ -6919,8 +6919,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAjSOQK7zaxTaMa4QIBH9nJF971_r7sMzZ92ZX996Vylo> .
-@prefix sub: <http://purl.org/np/RAjSOQK7zaxTaMa4QIBH9nJF971_r7sMzZ92ZX996Vylo#> .
+@prefix this: <http://purl.org/np/RAI6-KSKeotKmJiW4YuneVa5lgYe4WsFfQRiNZRew-T8M> .
+@prefix sub: <http://purl.org/np/RAI6-KSKeotKmJiW4YuneVa5lgYe4WsFfQRiNZRew-T8M#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -6940,7 +6940,7 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "The problem addressed is a rather interesting one, giving first insights in how to adapt crowdsourcing to LDQ issues. From my point of view, I would have liked to see a more concise comparison of the two crowdsourcing approaches also with the sophisticated state-of-the-art automated tools. ";
     linkflows:hasImpact "5"^^xsd:positiveInteger;
-    linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/v1#articleVersion1> .
+    linkflows:refersTo <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1> .
 }
 
 sub:provenance {
@@ -7187,8 +7187,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA4ylWPvxyCI3C5mXJhHjSac2jZKUP2ubEk0zMmXYh2G4> .
-@prefix sub: <http://purl.org/np/RA4ylWPvxyCI3C5mXJhHjSac2jZKUP2ubEk0zMmXYh2G4#> .
+@prefix this: <http://purl.org/np/RAFC4apsGmNCytwXYH7yiPUiFL42S_c36_M39wIbmBJpI> .
+@prefix sub: <http://purl.org/np/RAFC4apsGmNCytwXYH7yiPUiFL42S_c36_M39wIbmBJpI#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -7208,7 +7208,7 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "7) Also in your evaluation, p.21, section 5.3.5, you claimed that rdf:type information could not be evaluated correctly by users because yago classes do not provide self-speaking labels or other textual information. But, the URI of yago classes usually consists of a self-speaking name and some numerical information, such as e.g. yago:AerospaceEngineer109776079 , which is perfectly readable for humans.";
     linkflows:hasImpact "3"^^xsd:positiveInteger;
-    linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3.5_p1#section> .
+    linkflows:refersTo <http://purl.org/np/RAbdeTk0N4JE9EiCBShLuqXTiHGHIBvWDSlgyR19FI8rc#paragraph> .
 }
 
 sub:provenance {
@@ -7220,8 +7220,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAYXTqT7ORiAszNMu7c01fEMZiJGqEikaeUnKPlRmBrd4> .
-@prefix sub: <http://purl.org/np/RAYXTqT7ORiAszNMu7c01fEMZiJGqEikaeUnKPlRmBrd4#> .
+@prefix this: <http://purl.org/np/RAsOHPkMaqvdz3c3btFYThdoWbpqSwYO43k_5kdwGvIg0> .
+@prefix sub: <http://purl.org/np/RAsOHPkMaqvdz3c3btFYThdoWbpqSwYO43k_5kdwGvIg0#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -7241,7 +7241,7 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "8) Why don't you consider (also) the Open World Assumption (p.21) for your baseline approach. Please explain.";
     linkflows:hasImpact "3"^^xsd:positiveInteger;
-    linkflows:refersTo <http://purl.org/np/RAYC2RtIuKVOsDCv5qXyG0WzJSDBx2rebnRD5Ot95VKVs> .
+    linkflows:refersTo <http://purl.org/np/RAYC2RtIuKVOsDCv5qXyG0WzJSDBx2rebnRD5Ot95VKVs#section> .
 }
 
 sub:provenance {
@@ -7286,8 +7286,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAVSRZiURn3w6E3CO0F5eQ3QemART8TXbHiq-9KCvS0aA> .
-@prefix sub: <http://purl.org/np/RAVSRZiURn3w6E3CO0F5eQ3QemART8TXbHiq-9KCvS0aA#> .
+@prefix this: <http://purl.org/np/RAscXZm3LvLXsN2z98xDrEUL20XcDZmp5EQ6eW95m3sU8> .
+@prefix sub: <http://purl.org/np/RAscXZm3LvLXsN2z98xDrEUL20XcDZmp5EQ6eW95m3sU8#> .
 @prefix s5: <http://purl.org/np/RABPtiYSpvfoN_7DcEdWWIjoS3sqQBSiSOXZc0qJkz954> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -7308,7 +7308,7 @@ sub:assertion {
       linkflows:SuggestionComment;
     linkflows:hasCommentText "10) In your experiments you should give the LD experts always full schema/ontology information to consider the correctness of an RDF triple.";
     linkflows:hasImpact "3"^^xsd:positiveInteger;
-    linkflows:refersTo s5: .
+    linkflows:refersTo s5:\#section .
 }
 
 sub:provenance {
@@ -7353,8 +7353,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAy33xmn4qOODNnimAcoiEluyOmEltLK7YrXlRY5u331M> .
-@prefix sub: <http://purl.org/np/RAy33xmn4qOODNnimAcoiEluyOmEltLK7YrXlRY5u331M#> .
+@prefix this: <http://purl.org/np/RAs7Jc2JHUvuX4RBJ5zxq-xVi2iL9RKKlkZCyiOa999jU> .
+@prefix sub: <http://purl.org/np/RAs7Jc2JHUvuX4RBJ5zxq-xVi2iL9RKKlkZCyiOa999jU#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -7374,7 +7374,7 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "12) In p.23, table 9: I doubt the ability of the baseline to detect, whether the baseline is able to identify if a \"thumbnail\" or a \"depiction\" refers to the correct image for this entity. Please justify and explain how you ensure this.";
     linkflows:hasImpact "3"^^xsd:positiveInteger;
-    linkflows:refersTo <http://purl.org/np/RA62TOYSetjn1kOnUY7lTzf5_d7jyM352EacuMIFt3MDM> .
+    linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/t9#table> .
 }
 
 sub:provenance {
@@ -7454,11 +7454,11 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAW01nunBmp1VwmYrOK8Y7N6uq13YCgwiG4AMg15vNtYU> .
-@prefix sub: <http://purl.org/np/RAW01nunBmp1VwmYrOK8Y7N6uq13YCgwiG4AMg15vNtYU#> .
-@prefix c1: <http://purl.org/np/RAZ3VvDsjhKGymLf_TUjwjrKILuzNiIyM9vSBECt400Ig> .
-@prefix c2: <http://purl.org/np/RA3vK9Gjm7IFrnyZCFWllgSybD3qoHTdXFUkeDRwDV_H4> .
-@prefix c3: <http://purl.org/np/RAjSOQK7zaxTaMa4QIBH9nJF971_r7sMzZ92ZX996Vylo> .
+@prefix this: <http://purl.org/np/RAU3X11Z1vHB1ThQ5LI774V2kC-TN2q_RXRB-hQPJXKMI> .
+@prefix sub: <http://purl.org/np/RAU3X11Z1vHB1ThQ5LI774V2kC-TN2q_RXRB-hQPJXKMI#> .
+@prefix c1: <http://purl.org/np/RAPks6xr7EKz0-3vhhAQSPUdWilmOkXCtpILt0Sm6hpQw> .
+@prefix c2: <http://purl.org/np/RAMPL4840s52rXsQNXyyXGlHUhIJCjoK4LLPDJZYBWvZw> .
+@prefix c3: <http://purl.org/np/RAI6-KSKeotKmJiW4YuneVa5lgYe4WsFfQRiNZRew-T8M> .
 @prefix c4: <http://purl.org/np/RAY9LrFVM30xFG9litNvLnZRElEGVs87CllSJlmem_nDg> .
 @prefix c5: <http://purl.org/np/RAiF_N9vQe11Tv8fZDW51-FxGLWP7H_UHYyirSTSzXgko> .
 @prefix c6: <http://purl.org/np/RA8unqTPYRgVKnQ5-8ohCrNKviqN03VSNKEzEKX0gb24w> .
@@ -7466,12 +7466,12 @@ sub:pubinfo {
 @prefix c8: <http://purl.org/np/RAcBstkhgzkjTar9i_QAGc7m9AavyTskmpRNAdB6CzN-U> .
 @prefix c9: <http://purl.org/np/RANx5cBnp_n71iRztTv-QlCfVqB41bNpX6qo00SvCJgSQ> .
 @prefix c10: <http://purl.org/np/RAJzxk6x8wIWyOqKo-9akIrxmUjUJUSzdWdPdmPYPDj1Q> .
-@prefix c11: <http://purl.org/np/RA4ylWPvxyCI3C5mXJhHjSac2jZKUP2ubEk0zMmXYh2G4> .
-@prefix c12: <http://purl.org/np/RAYXTqT7ORiAszNMu7c01fEMZiJGqEikaeUnKPlRmBrd4> .
+@prefix c11: <http://purl.org/np/RAFC4apsGmNCytwXYH7yiPUiFL42S_c36_M39wIbmBJpI> .
+@prefix c12: <http://purl.org/np/RAsOHPkMaqvdz3c3btFYThdoWbpqSwYO43k_5kdwGvIg0> .
 @prefix c13: <http://purl.org/np/RAseemWR6mZo5_HFNVEAYMXYrLucNNkhuvTOyTUINdekM> .
-@prefix c14: <http://purl.org/np/RAVSRZiURn3w6E3CO0F5eQ3QemART8TXbHiq-9KCvS0aA> .
+@prefix c14: <http://purl.org/np/RAscXZm3LvLXsN2z98xDrEUL20XcDZmp5EQ6eW95m3sU8> .
 @prefix c15: <http://purl.org/np/RA-jtaWjf_U1BC_K49X-RCULpEixGYE0RKczenn22w4Ys> .
-@prefix c16: <http://purl.org/np/RAy33xmn4qOODNnimAcoiEluyOmEltLK7YrXlRY5u331M> .
+@prefix c16: <http://purl.org/np/RAs7Jc2JHUvuX4RBJ5zxq-xVi2iL9RKKlkZCyiOa999jU> .
 @prefix c17: <http://purl.org/np/RAeiXr_xXVmIcRQAtRm5XXTIGOE-6wwFnjtLwb0N27YnM> .
 @prefix c18: <http://purl.org/np/RAqBo0VVaPi_ZYZMyK6fz7cEphu5PLduKKQP1BLzgCC6k> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -7496,17 +7496,19 @@ sub:assertion {
   
   c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c15#ReviewComment> .
   
-  c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c2#ReviewComment> .
+  c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c6#ReviewComment> .
   
   c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c11#ReviewComment> .
   
-  c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c6#ReviewComment> .
+  c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c3#ReviewComment> .
   
   c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c10#ReviewComment> .
   
+  c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c2#ReviewComment> .
+  
   c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c9#ReviewComment> .
   
-  c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c14#ReviewComment> .
+  c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c1#ReviewComment> .
   
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c1#ReviewComment>;
     co:nextItem sub:_2 .
@@ -7578,23 +7580,21 @@ sub:assertion {
   
   c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c4#ReviewComment> .
   
-  c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c12#ReviewComment> .
-  
-  c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c1#ReviewComment> .
-  
   c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c8#ReviewComment> .
   
   c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c17#ReviewComment> .
   
   c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c5#ReviewComment> .
   
-  c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c3#ReviewComment> .
-  
   c18: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c18#ReviewComment> .
   
-  c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c13#ReviewComment> .
-  
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c16#ReviewComment> .
+  
+  c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c12#ReviewComment> .
+  
+  c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c14#ReviewComment> .
+  
+  c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c13#ReviewComment> .
 }
 
 sub:provenance {
@@ -23822,5 +23822,3391 @@ sub:provenance {
 
 sub:pubinfo {
   this: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAmyxHzPKLQoJa696NjK04IyI2v5tlXGGBnoblNqVAQLA> .
+@prefix sub: <http://purl.org/np/RAmyxHzPKLQoJa696NjK04IyI2v5tlXGGBnoblNqVAQLA#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:abstract c4o:hasContent "The contextual information in the built environment is highly heterogeneous, it goes from static information (e.g., information about the building structure) to dynamic information (e.g., user’s space-time information, sensors detections and events that occurred). This paper proposes to semantically fuse the building contextual information with data coming from a smart camera network by using ontologies and semantic web technologies. The ontology developed allows interoperability between the different contextual data and enables, without human interaction, real-time event detections to be performed and system reconfigurations. The use of semantic knowledge in multi-camera monitoring systems guarantees the protection of the user’s privacy by not sending nor saving any image, just extracting the knowledge from them. This paper presents a new approach to develop a \"all-seeing\" smart building, where the global system is the first step to attempt to provide Artificial Intelligence (AI) to a building. More details of the system and future works can be found at the following website: http://wisenet.checksem.fr/ .";
+    a doco:Abstract, doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAJi55SDbtO-noKAGEXbQq4ayttcdaVCWxQr9JDDV-fNs> .
+@prefix sub: <http://purl.org/np/RAJi55SDbtO-noKAGEXbQq4ayttcdaVCWxQr9JDDV-fNs#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "In Greek mythology, Argus Panoptes was a giant with a hundred eyes. It was impossible to deceive his vigilance, for only some of his eyes slept while the rest were awake. Argus was the servant of Hera. At his death, Hera rewarded the giant’s fidelity by trans- ferring his eyes to the feathers of the peacock, his favorite animal. \"To have the eyes of Argus\" is a popular expression which means to be lucid and vigilant. The term Panoptes means \"all-seeing\". Within the built en- vironment the term \"all-seeing\" is a quest in terms of access control, flow control and activities. In that context, a Panoptes building would characterize a smart building equipped with a network of cameras which could, in real-time, combine the different information seen and deduce the triggering of actions. In classical multi-camera based systems there is a monitor room with a central processing server where all the information is collected and analyzed in real-time by a human operator (or a set of them). However, as the size of the network increases, it becomes more difficult (or even impossible) for the human operator to monitor all the video streams at the same time and to identify events. Furthermore, having a large amount of infor- mation makes it infeasible to create a relation between actions that happened in the past and current actions.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAGhQwpEIlW9q2ZyWep_f4NlH5vS4brXyUPsMu9s8WAVw> .
+@prefix sub: <http://purl.org/np/RAGhQwpEIlW9q2ZyWep_f4NlH5vS4brXyUPsMu9s8WAVw#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Based on our experience, some issues and limitations of multi-camera based system deployed in built environments have been identified, such as:";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA4tNKUpleILOhPJkjnvXrfy7sQrJ0w5UFNhz5qXwZaew> .
+@prefix sub: <http://purl.org/np/RA4tNKUpleILOhPJkjnvXrfy7sQrJ0w5UFNhz5qXwZaew#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Many efforts have being devoted to deal with the aforesaid limitations of the multi-camera based sys- tem. The most prominent one is to rely on smart cameras to perform visual tasks semi-autonomously (with minimal human interaction). Smart cameras are specialized cameras that contain not only the image sen- sor but also a processing unit and some communication interfaces. In a few words, smart cameras are a self-contained vision systems [24,42]. The use of smart cameras in the built environment has become a growing trend due to the rich contextual data provided.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAqS5vYWNTj0RsK-6ln2QmoN6t4eAaiKaFLWrQokCf9rI> .
+@prefix sub: <http://purl.org/np/RAqS5vYWNTj0RsK-6ln2QmoN6t4eAaiKaFLWrQokCf9rI#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "In the built environment, context is an essential factor since it provides information about the current status of users, places, objects, sensors and events. We assume that a smart building is a context-aware system because it extracts, interprets and uses the contextual information to automatically adapt its functionality according to the contextual changes.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAOtHYZ9dRTa8uu35wRbrY5ZKZLKGYYzKuGMKgpvXC2Lc> .
+@prefix sub: <http://purl.org/np/RAOtHYZ9dRTa8uu35wRbrY5ZKZLKGYYzKuGMKgpvXC2Lc#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "A Panoptes building is a type of smart building that uses only smart cameras sensors and its main purpose is monitoring the different activities that occur in the built environment; in contrast to the smart building which uses different types of sensors and which mainly focuses on managing/monitoring the energy consumption. The creation of a Panoptes building is a complicate task due to the integration of data coming from different domains around the knowledge of the building composition. Many works have been done using semantic web standards such as Resource Description Framework (RDF) and Web Ontology Language (OWL) to represent contextual data [16]. On those systems, the ontology plays a crucial role in enabling the processing and sharing of information and knowledge, i.e., the use of an ontology allows interoperability between different domains.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA1GTTS2aiJ-NhVEH90hUrqn2SuG4KGUJuTvZggu3wdiQ> .
+@prefix sub: <http://purl.org/np/RA1GTTS2aiJ-NhVEH90hUrqn2SuG4KGUJuTvZggu3wdiQ#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "This paper proposes an ontology for a Panoptes building that repurposes and integrates information about different domains composing the built context. The proposed ontology is the kernel of the WiseNET (Wise NETwork) system, which is a context-aware system whose main function is to perform reasoning about heterogeneous sources of information. Explicitly, the WiseNET system enhances the information of a smart camera network (SCN) with contextual information to allow autonomously real-time event/anomalies detection and system reconfiguration. The main contribution of this paper is the semantic fusion of Industry Foundations Classes (IFC) data with sensor information and other domain information in the Panoptes context, by using semantic web technologies. A semantic-based system is presented as well, which allows to overcome the multi-camera based system limitations and some computer vision problems, specially the privacy protection which nowadays is an important factor to consider..";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAxfCqd3Fkn1dcQbuQEO2PFm3q01WceqHj5T6vB4nh0_Y> .
+@prefix sub: <http://purl.org/np/RAxfCqd3Fkn1dcQbuQEO2PFm3q01WceqHj5T6vB4nh0_Y#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Given these insights, RQ3 was formulated: How can we design better crowdsourcing workflows using lay users or experts for curating LD sets, beyond one-step solutions for pointing out quality flaws? To do so, we adapted the crowdsourcing pattern known as Find-Fix- Verify, which has been originally proposed by Bern- stein et al. in [3]. Specifically, we wanted to know: can (i) we enhance the results of the LD quality issue de- tection through lay users by adding a subsequent step of cross-checking (Verify) to the initial Find stage? Or is it (ii) even more promising to combine experts and lay workers by letting the latter Verify the results of the experts’ Find step, hence drawing on the crowds’ complementary skills for deficiency identification we recognized before?”";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAivwmIrqPeep9BMOoj-0Dnhe9GOh5M1HahKwokTvJwnk> .
+@prefix sub: <http://purl.org/np/RAivwmIrqPeep9BMOoj-0Dnhe9GOh5M1HahKwokTvJwnk#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAJi55SDbtO-noKAGEXbQq4ayttcdaVCWxQr9JDDV-fNs> .
+@prefix p2: <http://purl.org/np/RAGhQwpEIlW9q2ZyWep_f4NlH5vS4brXyUPsMu9s8WAVw> .
+@prefix p3: <http://purl.org/np/RA4tNKUpleILOhPJkjnvXrfy7sQrJ0w5UFNhz5qXwZaew> .
+@prefix p4: <http://purl.org/np/RAqS5vYWNTj0RsK-6ln2QmoN6t4eAaiKaFLWrQokCf9rI> .
+@prefix p5: <http://purl.org/np/RAOtHYZ9dRTa8uu35wRbrY5ZKZLKGYYzKuGMKgpvXC2Lc> .
+@prefix p6: <http://purl.org/np/RA1GTTS2aiJ-NhVEH90hUrqn2SuG4KGUJuTvZggu3wdiQ> .
+@prefix p7: <http://purl.org/np/RAxfCqd3Fkn1dcQbuQEO2PFm3q01WceqHj5T6vB4nh0_Y> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p6: npx:introduces p6:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-introduction-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5:\#paragraph;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent p6:\#paragraph;
+    co:nextItem sub:_8 .
+  
+  sub:_8 co:itemContent p7:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p6:\#paragraph, p3:\#paragraph, p2:\#paragraph, p1:\#paragraph, p5:\#paragraph,
+      p4:\#paragraph, p7:\#paragraph;
+    po:containsAsHeader sub:section-introduction-title;
+    a deo:Introduction, doco:Section .
+  
+  sub:section-introduction-title c4o:hasContent "Introduction";
+    a doco:SectionTitle .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  p7: npx:introduces p7:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RApD2HteJsm_S0AyxLf9EyOD0XSkPAwzOxx4uB_Q4yeqg> .
+@prefix sub: <http://purl.org/np/RApD2HteJsm_S0AyxLf9EyOD0XSkPAwzOxx4uB_Q4yeqg#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Nowadays, multi-camera based systems have become a part of our daily life. They can be found in cities, commercial centers, supermarkets, offices, and even in houses. The advances in image sensor technology allow us to have smart cameras, which are low-cost and low-power systems that capture high-level description of a scene and analyze it in real-time [42]. These smart cameras can extract necessary/pertinent information from different images/video by employing different image processing algorithms such as face detection [47], person detection [8], people tracking [13], fall detection [35], object detection [33], etc.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA8SPWuTv722WAomGUHCewtV2XU2Vt0bKW2pNw046mtT8> .
+@prefix sub: <http://purl.org/np/RA8SPWuTv722WAomGUHCewtV2XU2Vt0bKW2pNw046mtT8#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Smart camera networks have been used in the built environment for a long time. The main applications focus on the following problematics:";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAgS0LD7H6DZVVevjYlb0EdAASHY1T_cwd6-SJi4y_MP8> .
+@prefix sub: <http://purl.org/np/RAgS0LD7H6DZVVevjYlb0EdAASHY1T_cwd6-SJi4y_MP8#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Most of the previous applications use a SCN de-ployed in a built environment to obtain and analyze different type of information. Therefore, they might be considered as Panoptes building applications. The main function of a Panoptes building is to combine the different information obtained by the SCN and to deduce the triggering of actions/events in real-time. In that context, Panoptes building applications should un- derstand the static building information as well as perceive (accurately) the dynamic and evolving data, i.e., they should be aware of their context. A context-aware system in the built environment is a complex task; it requires information from different domains such as environment data, sensing devices, spatio-temporal facts and details about the different events that may occur. For example, the required event information could be a set of concepts and relations concerning the different events that may occur in a built environment, their location, the time they occurred, the agents involved, the relation to other events and their consequences. In the case of the sensor information, the required data could be the description of the different sensing devices, the process implemented on them and their results. Regarding the environment, the required data could be the structure of the building, its topology and the different elements contained in a space.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAH79PlKS0afHOGuS2AxyxugfvdzGgIr1lwNeQCN7tmw8> .
+@prefix sub: <http://purl.org/np/RAH79PlKS0afHOGuS2AxyxugfvdzGgIr1lwNeQCN7tmw8#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The built environment data can be obtained using the Building Information Modeling (BIM) of a building. BIM becomes a general term designing the set of numerical data, objects and processes appended during the life-cycle of a building [11]. From the designing, construction and facility management steps, the BIM allows practitioners and managers to exchange data in a uniform way using the IFC standard [40]. The IFC standard gives the base of description, both semantic and graphic of all elements making the building [20]. This allows to aggregate all heterogeneous software dedicated to the built environment on an interoperability way. In the domain of interoperability three levels are described: technical, organizational and semantics [21]. The IFC aims the technical interoperability level [9]. The organizational level is in charge of the practitioners according to the law of each country and the rules of each enterprise. The semantics level aims to clearly specify the meaning of each element making the BIM.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RADux7MSCU75wL2ZoZGIIUNNRE-iaWd_KNvmdvuvDZ7hE> .
+@prefix sub: <http://purl.org/np/RADux7MSCU75wL2ZoZGIIUNNRE-iaWd_KNvmdvuvDZ7hE#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "An important work was made to bring the IFC EXPRESS schema into the semantic web world using OWL as the schema modeling language. Dibley et al. compared different frameworks that tried to achieve this goal [10]. The result is the ifcowl ontology whose main objective is to convert the IFC concepts and instances data into equivalent RDF data. The conversion procedure from EXPRESS to OWL can be found in [30].";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAz6col2Nd2rnioq3JOqnKCcdpJ_Y166v9xSdvr4Gbkro> .
+@prefix sub: <http://purl.org/np/RAz6col2Nd2rnioq3JOqnKCcdpJ_Y166v9xSdvr4Gbkro#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "According to Studer, an ontology is a formal, explicit specification of a shared conceptualization [37]. In other words, an ontology is a set of concepts and relations used to describe and represent an area of concern. Currently, ontologies are represented using OWL-2 language, which is the recommendation of the World Wide Web Consortium (W3C) [43]. Other recommended technologies/languages in the semantic web field are: RDF, used for representing information in the form of a graph composed of triples [45]; RDF Schema (RDFS), which provides a vocabulary for creating a hierarchy of classes and properties [3]; SPARQL 1 , used to query RDF data [44]; and the Semantic Web Rule Language (SWRL 2), which is used for extending the OWL model with rule axioms [18].";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAl3BDIa5rL7hDFsh5Xt1smrMJEFlcWnFL4M-bZE-VjVs> .
+@prefix sub: <http://purl.org/np/RAl3BDIa5rL7hDFsh5Xt1smrMJEFlcWnFL4M-bZE-VjVs#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "One important application of ontology is for semantic fusion, which consists on integrating and organiz- ing data and knowledge coming from multiple heterogeneous sources and to unified them into a consistent representation. There have being many works that combine semantic information coming from different sources in an ontology. Hong et al. presented some context-aware systems were the ontology plays a central role for enabling interoperability between devices and agents which are not designed to work together [16]. Dibley et al. developed an ontology framework that combines a sensor ontology with a building ontology and others supporting ontologies [10]. Other works have focused on using ontologies for combining computer vision with different kinds of information such as SanMiguel et al. which created an ontology composed mainly of knowledge about objects, events and image processing algorithms [34]; Chaochaisit et al. presented a semantic connection between sensor specification, localization methods and contextual in- formation [5]; and Town which presented an ontology that fusion multiple computer vision stages with con- text information for image retrieval and event detections [39]. The use of ontologies as an interoperability agent warranties the information fusion. Consequently, we propose the creation of an ontology to combine and re-purpose the different types of information required by a Panoptes building.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAzkKz6HWQqBjlfkoO7XrTQ7KJrYKj7FMhjcWx_MNL5Jc> .
+@prefix sub: <http://purl.org/np/RAzkKz6HWQqBjlfkoO7XrTQ7KJrYKj7FMhjcWx_MNL5Jc#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Our approach differs from classical computer vision which deals with algorithm improvements [46] and signal processing problems [35], by dealing with a meaning problem in computer vision [39], where the observation of the smart camera is improved by semantically fusing it with contextual information (e.g., position of the sensors, position of the users, spaces in the environment and events that have occurred).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA5_RNj_UelPyzdiqjOKl4MPwCp1U0VSs9GG7f7IDbu2Y> .
+@prefix sub: <http://purl.org/np/RA5_RNj_UelPyzdiqjOKl4MPwCp1U0VSs9GG7f7IDbu2Y#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RApD2HteJsm_S0AyxLf9EyOD0XSkPAwzOxx4uB_Q4yeqg> .
+@prefix p2: <http://purl.org/np/RA8SPWuTv722WAomGUHCewtV2XU2Vt0bKW2pNw046mtT8> .
+@prefix p3: <http://purl.org/np/RAgS0LD7H6DZVVevjYlb0EdAASHY1T_cwd6-SJi4y_MP8> .
+@prefix p4: <http://purl.org/np/RAH79PlKS0afHOGuS2AxyxugfvdzGgIr1lwNeQCN7tmw8> .
+@prefix p5: <http://purl.org/np/RADux7MSCU75wL2ZoZGIIUNNRE-iaWd_KNvmdvuvDZ7hE> .
+@prefix p6: <http://purl.org/np/RAz6col2Nd2rnioq3JOqnKCcdpJ_Y166v9xSdvr4Gbkro> .
+@prefix p7: <http://purl.org/np/RAl3BDIa5rL7hDFsh5Xt1smrMJEFlcWnFL4M-bZE-VjVs> .
+@prefix p8: <http://purl.org/np/RAzkKz6HWQqBjlfkoO7XrTQ7KJrYKj7FMhjcWx_MNL5Jc> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:_1 co:itemContent sub:section-2-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5:\#paragraph;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent p6:\#paragraph;
+    co:nextItem sub:_8 .
+  
+  sub:_8 co:itemContent p7:\#paragraph;
+    co:nextItem sub:_9 .
+  
+  sub:_9 co:itemContent p8:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p2:\#paragraph, p5:\#paragraph, p4:\#paragraph, p3:\#paragraph, p7:\#paragraph,
+      p1:\#paragraph, p6:\#paragraph, p8:\#paragraph;
+    po:containsAsHeader sub:section-2-title;
+    a deo:Background, deo:RelatedWork, doco:Section .
+  
+  sub:section-2-title c4o:hasContent "Background and related work";
+    a doco:SectionTitle .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  p7: npx:introduces p6:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p6: npx:introduces p6:\#paragraph .
+  
+  p8: npx:introduces p7:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAim1h2YnyYx2qsbm9Qe8xcm6gSEjyRQa7OWeiWxAB8gY> .
+@prefix sub: <http://purl.org/np/RAim1h2YnyYx2qsbm9Qe8xcm6gSEjyRQa7OWeiWxAB8gY#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The WiseNET ontology is an OWL-2 ontology that incorporates a vast corpus of concepts in the domain of a Panoptes building. The ontology provides a vocabulary for combining, analysing and re-purposing the information coming from the smart camera network (SCN) deployed in a built environment. The main function of the WiseNET ontology is to perform real-time event/anomalies detection and initiate system reconfiguration.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAe95vZF3pVeOlOsLg8ZU1WZW58LghOe64f2f_tqTNpMY> .
+@prefix sub: <http://purl.org/np/RAe95vZF3pVeOlOsLg8ZU1WZW58LghOe64f2f_tqTNpMY#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The goal for developing the WiseNET ontology was to create a shared understanding of the structure of information for a Panoptes building. The WiseNET developing process follows the Noy and McGuin- ness methodology for ontology development [27]. This methodology consists of seven steps which are: determine scope of the ontology, consider reuse, enumerate classes, define classes and properties, define constrains and create instances (ontology population shown on Sections 5 and 6).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAmoJM930gb3mxutTKDM8WzooEPhHctaXaxz77CswC1iE> .
+@prefix sub: <http://purl.org/np/RAmoJM930gb3mxutTKDM8WzooEPhHctaXaxz77CswC1iE#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "To determine the scope of the ontology we need to think about the kind of knowledge that should be covered by the ontology and its use, i.e., its domain.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAb7YtS7CT2vS18qYbFR7jd5aIFmmTHbLAecJZ2ac-NT0> .
+@prefix sub: <http://purl.org/np/RAb7YtS7CT2vS18qYbFR7jd5aIFmmTHbLAecJZ2ac-NT0#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Some competency questions were formulated to determine the focus of the ontology (Table 1). Those competency questions should be answered by the ontology and from them it can be extracted the different kind of knowledge that should be contained in the WiseNET ontology. Roughly, is knowledge about the environment, events, person, sensors and time..";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAhvO8gnCQGssiubMLMHEvNr3g7SdptZ3k3sFE8yD0gGM> .
+@prefix sub: <http://purl.org/np/RAhvO8gnCQGssiubMLMHEvNr3g7SdptZ3k3sFE8yD0gGM#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAmoJM930gb3mxutTKDM8WzooEPhHctaXaxz77CswC1iE> .
+@prefix p2: <http://purl.org/np/RAb7YtS7CT2vS18qYbFR7jd5aIFmmTHbLAecJZ2ac-NT0> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p2: npx:introduces p2:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-3.1.1-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p2:\#paragraph, p1:\#paragraph;
+    po:containsAsHeader sub:section-3.1.1-title;
+    a doco:Section .
+  
+  sub:section-3.1.1-title c4o:hasContent "Scope of the ontology";
+    a doco:SectionTitle .
+  
+  p1: npx:introduces p1:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAvcgCm08lXVYMvWjMJS6boLEuQ1l3_dESF-Yyf3EyfNE> .
+@prefix sub: <http://purl.org/np/RAvcgCm08lXVYMvWjMJS6boLEuQ1l3_dESF-Yyf3EyfNE#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "When developing a new ontology it is recommended to reuse existing ontologies as much as possible. In this way, one can focus on defining the specific knowledge of the application. The reuse of external ontologies, not only saves time but also gives the advantage of using mature and proved ontological resources that have been validated by their applications and (some) by the W3C.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAF5HikWj1QTmEd8fRgxXxFtCPDVgPbRjc3PocNPZg6ks> .
+@prefix sub: <http://purl.org/np/RAF5HikWj1QTmEd8fRgxXxFtCPDVgPbRjc3PocNPZg6ks#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The WiseNET ontology reuses resources from many different ontologies (see Table 2). However, there are six key ontologies that cover most of the required concepts of the different domains, those are:";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAmMouylWFTUmXLZhywxN3MT2E_B91wJz7xfWlEh1hxFo> .
+@prefix sub: <http://purl.org/np/RAmMouylWFTUmXLZhywxN3MT2E_B91wJz7xfWlEh1hxFo#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Figure 1 shows the primary classes and properties reused by the WiseNET ontology. The external ontologies were not imported, from most of them only some concepts are reused, except from the ifcowl from which some instances are also considered. Not importing the external ontologies gives two main benefits: easing the ontology maintenance and improving the performance. The performance improvement is a very important factor due to the goal of the WiseNET ontology is to perform real-time reasoning.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA38HDMaaKFnHrqCpX4LaXZ_DnBuGpF8yN1-RJmyPjB4E> .
+@prefix sub: <http://purl.org/np/RA38HDMaaKFnHrqCpX4LaXZ_DnBuGpF8yN1-RJmyPjB4E#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAvcgCm08lXVYMvWjMJS6boLEuQ1l3_dESF-Yyf3EyfNE> .
+@prefix p2: <http://purl.org/np/RAF5HikWj1QTmEd8fRgxXxFtCPDVgPbRjc3PocNPZg6ks> .
+@prefix p3: <http://purl.org/np/RAmMouylWFTUmXLZhywxN3MT2E_B91wJz7xfWlEh1hxFo> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:_1 co:itemContent sub:section-3.1.2-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p2:\#paragraph, p3:\#paragraph, p1:\#paragraph;
+    po:containsAsHeader sub:section-3.1.2-title;
+    a doco:Section .
+  
+  sub:section-3.1.3-title c4o:hasContent "Links to existing ontologies";
+    a doco:SectionTitle .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAOy4cIIsRc-yZS7--QuReso-zlOaoIG5xlINHwCf-qi8> .
+@prefix sub: <http://purl.org/np/RAOy4cIIsRc-yZS7--QuReso-zlOaoIG5xlINHwCf-qi8#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Many of the competency questions involves more than one type of knowledge. Hence, the WiseNET ontology should be able to collect and combine the information from those different domains. In that context, it is necessary to define new concepts (classes and properties) that will allow us to: complete the information from the different domains, to describe attributes of instances according to our needs and, more importantly, to relate (i.e., link) the different domains.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAkTS9IsKpbKhqgY3aEO5AzAMc1mnu7SQvDHjLRrfqBS4> .
+@prefix sub: <http://purl.org/np/RAkTS9IsKpbKhqgY3aEO5AzAMc1mnu7SQvDHjLRrfqBS4#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The Tables 3 and 4 present some selected classes and properties with emphasis on built environment information. We propose to enhance the IFC information by adding functional facts to the spaces, i.e., information about the space usage (if it is a corridor, a reception, a coworking space, etc). Additionally, we propose to add information about the different types of alarm and security systems present in the built environment, specifically the security systems of the doors (e.g., key-lock system, card reader system and biometric system). This can allow the deduction of knowledge regarding the security restrictions of a space.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAUt5VyIPb6Cvp-_e2Z82aa81OHHP6GbJFP3SqHJQInc8> .
+@prefix sub: <http://purl.org/np/RAUt5VyIPb6Cvp-_e2Z82aa81OHHP6GbJFP3SqHJQInc8#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "After having the complete terminology of the ontology, some constraints and characteristics of the class expressions and the property axioms need to be defined. Axioms are a set of formulas taken to be true and that every assignment of values should satisfied. Those constraints and characteristics will determine the expressiveness and decidability of the ontology, and their definition will depend on the description logic used.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAh7j8dWZ5NEwYFW_wnkfoUtqZucVotMx1TzSMlmsXSyY> .
+@prefix sub: <http://purl.org/np/RAh7j8dWZ5NEwYFW_wnkfoUtqZucVotMx1TzSMlmsXSyY#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAOy4cIIsRc-yZS7--QuReso-zlOaoIG5xlINHwCf-qi8> .
+@prefix p2: <http://purl.org/np/RAkTS9IsKpbKhqgY3aEO5AzAMc1mnu7SQvDHjLRrfqBS4> .
+@prefix p3: <http://purl.org/np/RAUt5VyIPb6Cvp-_e2Z82aa81OHHP6GbJFP3SqHJQInc8> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p1: npx:introduces p1:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-3.1.3-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p1:\#paragraph, p3:\#paragraph, p2:\#paragraph;
+    po:containsAsHeader sub:section-3.1.3-title;
+    a doco:Section .
+  
+  sub:section-3.1.3-title c4o:hasContent "Classes and properties of WiseNET";
+    a doco:SectionTitle .
+  
+  p2: npx:introduces p2:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RASh07-PQUTdlaUPw9-iGRFdjcBxT0LnQ_5e7QotkoEn8> .
+@prefix sub: <http://purl.org/np/RASh07-PQUTdlaUPw9-iGRFdjcBxT0LnQ_5e7QotkoEn8#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAe95vZF3pVeOlOsLg8ZU1WZW58LghOe64f2f_tqTNpMY> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.1.1#:> npx:introduces
+      <http://purl.org/np/RAhvO8gnCQGssiubMLMHEvNr3g7SdptZ3k3sFE8yD0gGM#section> .
+  
+  <http://purl.org/np/RA38HDMaaKFnHrqCpX4LaXZ_DnBuGpF8yN1-RJmyPjB4E> npx:introduces
+      <http://purl.org/np/RA38HDMaaKFnHrqCpX4LaXZ_DnBuGpF8yN1-RJmyPjB4E#section> .
+  
+  sub:_1 co:itemContent sub:section-3.1-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent <http://purl.org/np/RAhvO8gnCQGssiubMLMHEvNr3g7SdptZ3k3sFE8yD0gGM#section>;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent <http://purl.org/np/RA38HDMaaKFnHrqCpX4LaXZ_DnBuGpF8yN1-RJmyPjB4E#section>;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent <http://purl.org/np/RAh7j8dWZ5NEwYFW_wnkfoUtqZucVotMx1TzSMlmsXSyY#section> .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains <http://purl.org/np/RA38HDMaaKFnHrqCpX4LaXZ_DnBuGpF8yN1-RJmyPjB4E#section>,
+      p1:\#paragraph, <http://purl.org/np/RAh7j8dWZ5NEwYFW_wnkfoUtqZucVotMx1TzSMlmsXSyY#section>,
+      <http://purl.org/np/RAhvO8gnCQGssiubMLMHEvNr3g7SdptZ3k3sFE8yD0gGM#section>;
+    po:containsAsHeader sub:section-3.1-title;
+    a doco:Section .
+  
+  sub:section-3.1-title c4o:hasContent "Ontology development";
+    a doco:SectionTitle .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  <http://purl.org/np/RAh7j8dWZ5NEwYFW_wnkfoUtqZucVotMx1TzSMlmsXSyY> npx:introduces
+      <http://purl.org/np/RAh7j8dWZ5NEwYFW_wnkfoUtqZucVotMx1TzSMlmsXSyY#section> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAKNTsKC_8yEfF984-ezD3GP9Ty-lnSvwp8EUbMZrMNfI> .
+@prefix sub: <http://purl.org/np/RAKNTsKC_8yEfF984-ezD3GP9Ty-lnSvwp8EUbMZrMNfI#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Description logics (DLs) are a family of formalism for representing knowledge [1]. The most no- table applications for the DLs is to provide the logical formalism for ontologies languages such as OWL. OWL-2, the current W3C ontology language recom-mendation, is based on the expressive description logic SROIQ(D) [17]. SROIQ(D) extends the well known description logic SHOIN (D) by including: a role constructor by general inclusion (R) and a qualified number restriction (Q). SROIQ(D) provides high expressive power with high computational cost of reasoning. Hence, to meet a more suitable compromise between the expressive power and the computational cost, the WiseNET ontology was defined using the SHOIQ(D) language which is more expressive than SHOIN (D) yet less expressive than SROIQ(D) and less computational complex [22]. A definition of the SHOIQ(D) constructors and some examples referencing the WiseNET ontology can be found in the Table 5.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAH9XwS9HzJX6W85YMEXjW1g2n_BdIdVw3-8Fa50ahKSs> .
+@prefix sub: <http://purl.org/np/RAH9XwS9HzJX6W85YMEXjW1g2n_BdIdVw3-8Fa50ahKSs#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Horrocks and Sattler presented a tableau decision procedure for SHOIQ(D) that solves the ontology consistency problem and allows the use of reasoning services, thus demonstrating the decidability of SHOIQ(D) [19]. One of the few requirements to preserve the decidability in SHOIQ(D) is to restrict the application of the qualified number restriction to simple roles, i.e., roles that are neither transitive nor have a transitive subrole [19]. This restriction is satisfy in the WiseNET ontology.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAoPBfkJJcLcZq1pLT6XBfwlstCEXIzxdGgLVWVt1kZS0> .
+@prefix sub: <http://purl.org/np/RAoPBfkJJcLcZq1pLT6XBfwlstCEXIzxdGgLVWVt1kZS0#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "However, knowledge representation formalisms of the semantic web (such as DLs) have expressive limitations, for example composition of complex classes from classes and properties. Those limitations can be overcome by rule-based knowledge, specifically by using SWRL (Semantic Web Rule Language) rules [18]. SWRL rules are represented as implication of an antecedent (Body) and a consequent (Head):";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAAO434XLpqIYczgMcmn9DwSj6TdFbd5QE66UpexgbI9M> .
+@prefix sub: <http://purl.org/np/RAAO434XLpqIYczgMcmn9DwSj6TdFbd5QE66UpexgbI9M#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Reasoning becomes undecidable for the combination of OWL + SWRL, therefore the expressivity of SWRL needs to be reduced in order to assure decidability. Although many procedures exists to guarantee decidability of SWRL, the DL-safe rules was adapted [25]. This procedure consists on restricting the number of possible variables assignments, i.e., restricting the application of rules only to known OWL individuals (named individuals).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAU89ViUgld7M409ZNbj_x8nd7pwtLKsDgqAy0syR05aU> .
+@prefix sub: <http://purl.org/np/RAU89ViUgld7M409ZNbj_x8nd7pwtLKsDgqAy0syR05aU#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Examples of DL-safe rules implemented in the WiseNET ontology are presented in Listing 1 and Listing 2. The first one states that if there are two spaces ’x’ and ’y’, and both contain the door ’d’, then those spaces are connected to each other. The second one states that if there are two spaces ’x’ and ’y’, and two smart cameras ’s1’ and ’s2’, and ’x’ is connected to ’y’, and ’s1’ is located in ’x’ and ’s2’ is located in ’y’, then those smart cameras are nearby each other.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAoF3OmfYqhQQBpZ1-t-vVS7evDyLlo4db3ZGRpcYt1I4> .
+@prefix sub: <http://purl.org/np/RAoF3OmfYqhQQBpZ1-t-vVS7evDyLlo4db3ZGRpcYt1I4#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "To recapitulate, the WiseNET ontology decidability was insured by restricting the application of the qualified number restriction and by using DL-safe rules. As a result, a semantic reasoner can be employed for inferring logical consequences from a set of asserted facts or axioms. After finishing the formalization of the ontology the next step is to connect it to an operational architecture that enables the insertion of the required facts.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-07T12:47:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAAh8drcoiyg2uoWDSKmmZjsV7ORI-uYRWanyDojN7vjo> .
+@prefix sub: <http://purl.org/np/RAAh8drcoiyg2uoWDSKmmZjsV7ORI-uYRWanyDojN7vjo#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAKNTsKC_8yEfF984-ezD3GP9Ty-lnSvwp8EUbMZrMNfI> .
+@prefix p2: <http://purl.org/np/RAH9XwS9HzJX6W85YMEXjW1g2n_BdIdVw3-8Fa50ahKSs> .
+@prefix p3: <http://purl.org/np/RAoPBfkJJcLcZq1pLT6XBfwlstCEXIzxdGgLVWVt1kZS0> .
+@prefix p4: <http://purl.org/np/RAAO434XLpqIYczgMcmn9DwSj6TdFbd5QE66UpexgbI9M> .
+@prefix p5: <http://purl.org/np/RAU89ViUgld7M409ZNbj_x8nd7pwtLKsDgqAy0syR05aU> .
+@prefix p6: <http://purl.org/np/RAoF3OmfYqhQQBpZ1-t-vVS7evDyLlo4db3ZGRpcYt1I4> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p4: npx:introduces p4:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-3.2-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5:\#paragraph;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent p6:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p4:\#paragraph, p2:\#paragraph, p1:\#paragraph, p5:\#paragraph, p6:\#paragraph,
+      p3:\#paragraph;
+    po:containsAsHeader sub:section-3.2-title;
+    a doco:Section .
+  
+  sub:section-3.2-title c4o:hasContent "Ontology decidability";
+    a doco:SectionTitle .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
+  p6: npx:introduces p6:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAfsaDMapaGDQFD0YscJN_xgf9WAZAHpSn5PJ2RFDIhNg> .
+@prefix sub: <http://purl.org/np/RAfsaDMapaGDQFD0YscJN_xgf9WAZAHpSn5PJ2RFDIhNg#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAim1h2YnyYx2qsbm9Qe8xcm6gSEjyRQa7OWeiWxAB8gY> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <http://purl.org/np/RAAh8drcoiyg2uoWDSKmmZjsV7ORI-uYRWanyDojN7vjo> npx:introduces
+      <http://purl.org/np/RAAh8drcoiyg2uoWDSKmmZjsV7ORI-uYRWanyDojN7vjo#section> .
+  
+  <http://purl.org/np/RASh07-PQUTdlaUPw9-iGRFdjcBxT0LnQ_5e7QotkoEn8> npx:introduces
+      <http://purl.org/np/RASh07-PQUTdlaUPw9-iGRFdjcBxT0LnQ_5e7QotkoEn8#section> .
+  
+  sub:_1 co:itemContent sub:section-3-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent <http://purl.org/np/RASh07-PQUTdlaUPw9-iGRFdjcBxT0LnQ_5e7QotkoEn8#section>;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent <http://purl.org/np/RAAh8drcoiyg2uoWDSKmmZjsV7ORI-uYRWanyDojN7vjo#section> .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains <http://purl.org/np/RAAh8drcoiyg2uoWDSKmmZjsV7ORI-uYRWanyDojN7vjo#section>,
+      <http://purl.org/np/RASh07-PQUTdlaUPw9-iGRFdjcBxT0LnQ_5e7QotkoEn8#section>, p1:\#paragraph;
+    po:containsAsHeader sub:section-3-title;
+    a doco:Section .
+  
+  sub:section-3-title c4o:hasContent "Formal modeling";
+    a doco:SectionTitle .
+  
+  p1: npx:introduces p1:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAwc0PTBeHZ3yFyBDH8ByOK6eO_NSofvOS697itt_njoM> .
+@prefix sub: <http://purl.org/np/RAwc0PTBeHZ3yFyBDH8ByOK6eO_NSofvOS697itt_njoM#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The WiseNET ontology is the kernel of the WiseNET system. WiseNET is a semantic-based system that fuses heterogeneous sources of data such as data coming from sensors and the different contextual information. Due to the application of the paper (Panoptes building), we will focus in a specific type of sensor: smart cameras; however, the system is defined to include other type of sensors such as temperature, humidity, depth sensor, etc. The main goal of WiseNET is to improve classical computer vision and deep learning systems by considering the contextual information of the environment and by performing real-time reasoning. As a result, WiseNET may overcome some limitations of computer vision (e.g., false detections and missed detections), some drawbacks of deep learning (e.g., the need of large amount of training and test- ing data) and limitations of multi-camera based system (presented in Section 1) while allowing real-time event/anomalies detection and system reconfiguration.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAwqRsp6-rqsNpYRxE0WeXwFXAww9WmhNMx6A3N3gGlHY> .
+@prefix sub: <http://purl.org/np/RAwqRsp6-rqsNpYRxE0WeXwFXAww9WmhNMx6A3N3gGlHY#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Figure 2 illustrates the architecture of the WiseNET system. The system is articulated in three sections: the smart camera network, the central unit and the monitor unit. The SCN is a set of smart cameras distributed in an environment. The main functions of the SCN, in the WiseNET system, is to extract low-level features from a scene (such as person detection as shown in blue and green in the right side of the Figure 2), to convert the extracted data into knowledge and then to send it to the central unit. More information regarding the type of smart cameras used can be found in [23]. The central unit is composed of two elements the central API and the WiseNET ontology. The central API is in charge of the management of the ontology, for example: capturing the knowledge coming from the SCN and insert it to the ontology, retrieving inferred knowledge from the ontology, transferring data to the monitor unit, sending new configurations to the smart cameras, and other services. The WiseNET ontology is responsible of enabling interoperability between the incoming knowledge streams and the contextual data (e.g., environment information, previous knowledge and sensor in- formation) in order to deduce new knowledge and detect events/anomalies based on the history of activities. The central unit is also in charge of re-identifying people in the system by using their visual features extracted by the SCN. Eventually, the central unit could request extra information to the SCN. The monitor unit has as main function the visualization of the static and dynamic information; this unit will automatically retrieve information and will present it in a graphical manner, for example an occupancy map (as shown at the center of Figure 2). The monitor unit implements some queries to answer questions such as: how many people is in a room? what is the location of a person? and many others (see Table 1).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAddoAfDWi1XRY6UGp_7Kh8ft_2omnURtnGI3qZ3miiLI> .
+@prefix sub: <http://purl.org/np/RAddoAfDWi1XRY6UGp_7Kh8ft_2omnURtnGI3qZ3miiLI#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The proposed system is context-aware and combines the information extracted by the SCN with logic rules and knowledge of what the camera observes, building information and events that may occurred. Our system differs from other computer vision systems mainly by three factors. First, no images are sent, the smart cameras extract the knowledge from the images and then this knowledge is sent to the central unit (for more details see Section 6.1). Second, the WiseNET system combines context information with the camera information to improve the detections, in this way, it can overcome missed detections or non-detectable in- formation (e.g., people out of sight of a camera). Third, the system uses an ontology to fusion the different kinds of information presented in a Panoptes building, such as: information of the environment, time, smart cameras, events, detectable objects, etc.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAuUAaNjecHflj3-ocVk2FV9lCBdX54GDSJi9dKTmCAiM> .
+@prefix sub: <http://purl.org/np/RAuUAaNjecHflj3-ocVk2FV9lCBdX54GDSJi9dKTmCAiM#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Notice that the architecture shown in Figure 2 presents the WiseNET system as a centralize system where there is no communication between the smart cameras, however the system could also be deployed in a distributed manner as presented in [2].";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAXdNfUPenHrJ-2tlg_zmo_mrxI6WMogaAHBdRkXUU5J8> .
+@prefix sub: <http://purl.org/np/RAXdNfUPenHrJ-2tlg_zmo_mrxI6WMogaAHBdRkXUU5J8#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Once the ontology is formally defined and implemented in a triplestore (a database for the storage of triples), the last step of the ontology development (as stated in Section 3) is to populate it. The next two sections will present the population from the IFC file and from the sensors respectively. Note that the second one consists of two parts. Firstly, the initialization of the sensors is populated, consisting on the description of the sensors and their relation to the built environment. Secondly, an ongoing population is performed each time the smart cameras detect a person in the building.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAzxb9UNEs-ID4TNsHd6Nvn6Gf6N1sRECvt0XLkLIliJA> .
+@prefix sub: <http://purl.org/np/RAzxb9UNEs-ID4TNsHd6Nvn6Gf6N1sRECvt0XLkLIliJA#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAwc0PTBeHZ3yFyBDH8ByOK6eO_NSofvOS697itt_njoM> .
+@prefix p2: <http://purl.org/np/RAwqRsp6-rqsNpYRxE0WeXwFXAww9WmhNMx6A3N3gGlHY> .
+@prefix p3: <http://purl.org/np/RAddoAfDWi1XRY6UGp_7Kh8ft_2omnURtnGI3qZ3miiLI> .
+@prefix p4: <http://purl.org/np/RAuUAaNjecHflj3-ocVk2FV9lCBdX54GDSJi9dKTmCAiM> .
+@prefix p5: <http://purl.org/np/RAXdNfUPenHrJ-2tlg_zmo_mrxI6WMogaAHBdRkXUU5J8> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p5: npx:introduces p5:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-4-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p5:\#paragraph, p3:\#paragraph, p4:\#paragraph, p1:\#paragraph, p2:\#paragraph;
+    po:containsAsHeader sub:section-4-title;
+    a doco:Section .
+  
+  sub:section-4-title c4o:hasContent "Operational modeling";
+    a doco:SectionTitle .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAOLBNFSUSL2I7429DBAE_NFJy4XFVQ8KNufEva2992cM> .
+@prefix sub: <http://purl.org/np/RAOLBNFSUSL2I7429DBAE_NFJy4XFVQ8KNufEva2992cM#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "After inserting the WiseNET ontology in the system, the a priori information about the built environment needs to be populated (inserted). The required information can be extracted from the IFC file of the environment. This population will be performed only once at the initialization of the system, therefore is considered as a static population.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAq1zz6JWGQi-m6F9aIDr_fHgNnwxndj6tjnSazX2i9GU> .
+@prefix sub: <http://purl.org/np/RAq1zz6JWGQi-m6F9aIDr_fHgNnwxndj6tjnSazX2i9GU#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The I3M (Institut Marey et Maison de la Métallurgie) building located in Dijon (France), will be used as an example for this section. The I3M building is composed of three building storeys from which we will focus on the third storey where a SCN has been deployed.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAhZVavAZPl4u4UQw04owgX-MQ8OFZ_0ODNa1WeXgDvYo> .
+@prefix sub: <http://purl.org/np/RAhZVavAZPl4u4UQw04owgX-MQ8OFZ_0ODNa1WeXgDvYo#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "An IFC2x3 file, describing all the elements compos- ing the I3M building, was used in this project. It was obtained from the company in charge of the construction of this building and it was generated using the Revit CAD software 3 . Only a small portion of the IFC file is needed in the WiseNET system. Therefore, to improve the ontology performance, only the required information will be extracted from the IFC file and populated in the ontology.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAB2AiKsRW2rF0gLNypBibj01_qISwtvA-ZDVdp7d3wNU> .
+@prefix sub: <http://purl.org/np/RAB2AiKsRW2rF0gLNypBibj01_qISwtvA-ZDVdp7d3wNU#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Figure 3 shows, in the form of a graph, the main classes and properties required to be extracted from an IFC file and populated on the ontology. The extracted/populated data consists on information about the building, building storeys, spaces and elements contained on those spaces (such as doors, windows, walls). Furthermore, the topology of the building is also required, i.e., the relation between the building and the building storeys, between the building storeys and the spaces, between the spaces and the different elements (doors, windows and walls) and the relations between two spaces. We assume that two spaces are connected if and only if they share a door.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAI5nscAWN2XRdUJD5M7HeyZwaG3kkVcsqHD0WcBsTkOM> .
+@prefix sub: <http://purl.org/np/RAI5nscAWN2XRdUJD5M7HeyZwaG3kkVcsqHD0WcBsTkOM#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "A framework was developed for extracting and populating the required IFC data into the WiseNET ontology (see Figure 4). The extraction/population framework employs semantic web technologies and it consists mainly of four processes: a compliance check of the IFC, a conversion of the IFC into ifcowl, the extraction of the pertinent instances from the ifcowl and finally, the population of the extracted instances and their relating properties into the WiseNET ontology.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAe2drz2MOCFoEtvHmK1nJ2zEQA21EVgBkt5YMBTxUm78> .
+@prefix sub: <http://purl.org/np/RAe2drz2MOCFoEtvHmK1nJ2zEQA21EVgBkt5YMBTxUm78#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The framework starts with an IFC file of a built environment, in this case the I3M building. The requirements of the IFC is to contain the following entities: IfcBuildingStorey, IfcRelSpaceBoundary, IfcRelDecomposes, IfcBuilding, IfcDoor, IfcWindow, IfcWall, and IfcSpace. The compliance check will verify the fulfillment of those requirements. Afterwards, the IFC is converted to RDF by using the IFC-to-RDF converter by Pauwels and Oraskari [29]. The result of the conversion is the ifcowl ontology with instances of the I3M building.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAyEq92Zenh1nk5TzAutnxMqjvOUTNbua8-f_ZAkYGUzs> .
+@prefix sub: <http://purl.org/np/RAyEq92Zenh1nk5TzAutnxMqjvOUTNbua8-f_ZAkYGUzs#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The ifcowl will be queried using SPARQL in order to extract the pertinent instances. The Listing 3 shows the SPARQL code used for the extraction. Line 4 obtains the building instance by using its class. Line 7 acquires the array of building storeys that decompose the building; and line 8 obtains the storeys inside that array. The same is done for the spaces that decompose the storeys on lines 11-12. Lines 15-16 obtain the ele- ments that are contained in a space. Lines 19-22 filter out the undesired elements just leaving the doors, windows and walls. Finally, line 25 saves all the classes of the elements. The result of the extraction query is a table where the columns corresponds to the variables used with the SELECT operator (line 1). This table is called the extracted table.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAiMqcDDdbyaQRu6m_ZLVRCc6bXy3ZxpUVDzWXbQYjXKg> .
+@prefix sub: <http://purl.org/np/RAiMqcDDdbyaQRu6m_ZLVRCc6bXy3ZxpUVDzWXbQYjXKg#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAyEq92Zenh1nk5TzAutnxMqjvOUTNbua8-f_ZAkYGUzs> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:_1 co:itemContent sub:section-5.1-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p1:\#paragraph;
+    po:containsAsHeader sub:section-5.1-title;
+    a doco:Section .
+  
+  sub:section-5.1-title c4o:hasContent "Extraction query";
+    a doco:SectionTitle .
+  
+  p1: npx:introduces p1:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAsF6FkbxGNWxMLSs72dB0QE7qZL69ECa4N_PeG1AmTW8> .
+@prefix sub: <http://purl.org/np/RAsF6FkbxGNWxMLSs72dB0QE7qZL69ECa4N_PeG1AmTW8#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The extracted table contains a set of instances without any relations between them. That is why, the population query will create those relations using the WiseNET properties and then will insert them to the WiseNET ontology. To accomplish this, the population query will process row by row the extracted table. For exemplification, lets assume that the first row of the extracted table has the following values:";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RABnLeRKGos5gdLnpxtIIWbqlP9C_9UJ4eCHAyPp5zxF0> .
+@prefix sub: <http://purl.org/np/RABnLeRKGos5gdLnpxtIIWbqlP9C_9UJ4eCHAyPp5zxF0#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "As aforesaid, we assumed that two spaces are connected if and only if they share a door. This property spaceConnectedTo could be obtained from queries but its quite complex, therefore it was decided to formulate a rule to obtain this property (see Listing 1).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAbPHywhG8BRW0_gnJPTIzNrPX09gG3HIqU8Yc9GoBNMM> .
+@prefix sub: <http://purl.org/np/RAbPHywhG8BRW0_gnJPTIzNrPX09gG3HIqU8Yc9GoBNMM#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "To summarize, in order to populate the WiseNET ontology with the a priori environment knowledge, the relevant information from the IFC file needs to be extracted, then share it and connect it to the WiseNET ontology using queries, rules and linked data techniques such as Uniform Resource Identifiers (URIs) and RDF. Linked data technology connects data from one data-source to other data-sources, in our case, linked data allows the WiseNET ontology to obtain extra information from the ifcowl if required (e.g., the dimensions of a door, its material and the dimensions of a wall).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA1tzROFknkP13TpZDRrX7nXuQDTrt-4U07kMdikPiJ8g> .
+@prefix sub: <http://purl.org/np/RA1tzROFknkP13TpZDRrX7nXuQDTrt-4U07kMdikPiJ8g#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAsF6FkbxGNWxMLSs72dB0QE7qZL69ECa4N_PeG1AmTW8> .
+@prefix p2: <http://purl.org/np/RABnLeRKGos5gdLnpxtIIWbqlP9C_9UJ4eCHAyPp5zxF0> .
+@prefix p3: <http://purl.org/np/RAbPHywhG8BRW0_gnJPTIzNrPX09gG3HIqU8Yc9GoBNMM> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:_1 co:itemContent sub:section-5.2-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p2:\#paragraph, p3:\#paragraph, p1:\#paragraph;
+    po:containsAsHeader sub:section-5.2-title;
+    a doco:Section .
+  
+  sub:section-5.2-title c4o:hasContent "Population query";
+    a doco:SectionTitle .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAM-yH09ej0-6nTAW7LqZ_RrkMgnmB2jZLoo4YjKwVUAQ> .
+@prefix sub: <http://purl.org/np/RAM-yH09ej0-6nTAW7LqZ_RrkMgnmB2jZLoo4YjKwVUAQ#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAOLBNFSUSL2I7429DBAE_NFJy4XFVQ8KNufEva2992cM> .
+@prefix p2: <http://purl.org/np/RAq1zz6JWGQi-m6F9aIDr_fHgNnwxndj6tjnSazX2i9GU> .
+@prefix p3: <http://purl.org/np/RAhZVavAZPl4u4UQw04owgX-MQ8OFZ_0ODNa1WeXgDvYo> .
+@prefix p4: <http://purl.org/np/RAB2AiKsRW2rF0gLNypBibj01_qISwtvA-ZDVdp7d3wNU> .
+@prefix p5: <http://purl.org/np/RAI5nscAWN2XRdUJD5M7HeyZwaG3kkVcsqHD0WcBsTkOM> .
+@prefix p6: <http://purl.org/np/RAe2drz2MOCFoEtvHmK1nJ2zEQA21EVgBkt5YMBTxUm78> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <http://purl.org/np/RA1tzROFknkP13TpZDRrX7nXuQDTrt-4U07kMdikPiJ8g> npx:introduces
+      <http://purl.org/np/RA1tzROFknkP13TpZDRrX7nXuQDTrt-4U07kMdikPiJ8g#section> .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-5-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5:\#paragraph;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent p6:\#paragraph;
+    co:nextItem sub:_8 .
+  
+  sub:_8 co:itemContent <http://purl.org/np/RAiMqcDDdbyaQRu6m_ZLVRCc6bXy3ZxpUVDzWXbQYjXKg#section>;
+    co:nextItem sub:_9 .
+  
+  sub:_9 co:itemContent <http://purl.org/np/RA1tzROFknkP13TpZDRrX7nXuQDTrt-4U07kMdikPiJ8g#section> .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains <http://purl.org/np/RA1tzROFknkP13TpZDRrX7nXuQDTrt-4U07kMdikPiJ8g#section>,
+      p4:\#paragraph, p5:\#paragraph, p1:\#paragraph, p6:\#paragraph, p3:\#paragraph, <http://purl.org/np/RAiMqcDDdbyaQRu6m_ZLVRCc6bXy3ZxpUVDzWXbQYjXKg#section>,
+      p2:\#paragraph;
+    po:containsAsHeader sub:section-5-title;
+    a doco:Section .
+  
+  sub:section-5-title c4o:hasContent "Ontology population from IFC";
+    a doco:SectionTitle .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p6: npx:introduces p6:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  <http://purl.org/np/RAiMqcDDdbyaQRu6m_ZLVRCc6bXy3ZxpUVDzWXbQYjXKg> npx:introduces
+      <http://purl.org/np/RAiMqcDDdbyaQRu6m_ZLVRCc6bXy3ZxpUVDzWXbQYjXKg#section> .
+  
+  p2: npx:introduces p2:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAJ2VaTw0-jVVWRdxBs4Lf1rEJm07Qfeq4DfVpXOGOMJc> .
+@prefix sub: <http://purl.org/np/RAJ2VaTw0-jVVWRdxBs4Lf1rEJm07Qfeq4DfVpXOGOMJc#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The built information has already been added to the WiseNET ontology, the next step is to populate the information about the sensors. A complete smart camera network has been installed in the third storey of the I3M building. The smart cameras are based on the Raspberry Pi 3 system [23] 4 .";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAGQEGUnJLRKljZQURsZXDgJdvp4RuXlqZU3rdH8054c4> .
+@prefix sub: <http://purl.org/np/RAGQEGUnJLRKljZQURsZXDgJdvp4RuXlqZU3rdH8054c4#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "There are two types of information that needs to be populated concerning the smart cameras. Firstly, there is the smart camera setup information, which consist on describing the smart cameras and their relation to the built environment. Secondly, there is the detection information, which occurs each time the smart cameras performs a detection. The first one will be populated once, at the system initialization, therefore is considered as a static population. The second one will be populated multiple times (each time there is a detection), therefore it will be considered as a dynamic population.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RANn5ksEYgRO0PJrLa2IhcVsos68qXK3bp2ITe0kMCzJc> .
+@prefix sub: <http://purl.org/np/RANn5ksEYgRO0PJrLa2IhcVsos68qXK3bp2ITe0kMCzJc#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Figure 5 presents the user interface of the software developed for adding and setting up smart cameras in the system. The software helps to perform the following tasks:";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAKaujdeawY4VR58XD8WDDIUR_asfUigQkNfS_kNL3kjM> .
+@prefix sub: <http://purl.org/np/RAKaujdeawY4VR58XD8WDDIUR_asfUigQkNfS_kNL3kjM#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "There is optional information that may be added using the setup software, such as:";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA7C2YXWrwIQqjXDQIcTbwPk6K71lm2OkyIKiYGvZHtk4> .
+@prefix sub: <http://purl.org/np/RA7C2YXWrwIQqjXDQIcTbwPk6K71lm2OkyIKiYGvZHtk4#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The information concerning the restriction of a space is deduced by adding a rule stating: if a space has a door with a security system different than keylock then that space is a restricted area. A space with doors that have keylock system could also be a restricted space but it needs to be stated directly.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAXTkl57JStcveM-XJRBCadSBAJzAm2KaQReNufJeDbIU> .
+@prefix sub: <http://purl.org/np/RAXTkl57JStcveM-XJRBCadSBAJzAm2KaQReNufJeDbIU#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The WiseNET smart camera setup software is connected to a SPARQL endpoint that inserts the information set by the user by running the query shown in the Listing 5. This step can be seen as a soft camera calibration that requires only the location of the cameras in the building. This differs from many multi-camera based systems, that required overlapping between the fields of views of the cameras and their orientation, leading to a time-consuming and skill-dependent calibration process [36]. An important contribution of using an ontology during the smart camera setup is the automatic suggestion of pertinent elements according to the space. This is achieved by using the static population of the building information.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAreDixX6cET2pyhQSKGJRdTI63jaZoCnUhXl_Zz0iSJE> .
+@prefix sub: <http://purl.org/np/RAreDixX6cET2pyhQSKGJRdTI63jaZoCnUhXl_Zz0iSJE#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RANn5ksEYgRO0PJrLa2IhcVsos68qXK3bp2ITe0kMCzJc> .
+@prefix p2: <http://purl.org/np/RAKaujdeawY4VR58XD8WDDIUR_asfUigQkNfS_kNL3kjM> .
+@prefix p3: <http://purl.org/np/RA7C2YXWrwIQqjXDQIcTbwPk6K71lm2OkyIKiYGvZHtk4> .
+@prefix p4: <http://purl.org/np/RAXTkl57JStcveM-XJRBCadSBAJzAm2KaQReNufJeDbIU> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p3: npx:introduces p3:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-6.1-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p3:\#paragraph, p2:\#paragraph, p1:\#paragraph, p4:\#paragraph;
+    po:containsAsHeader sub:section-6.1-title;
+    a doco:Section .
+  
+  sub:section-6.1-title c4o:hasContent "Static population";
+    a doco:SectionTitle .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA5aTBlD2U6iV8O4gD3Do0u-9W-SFR0gZJhf00UmMMEWo> .
+@prefix sub: <http://purl.org/np/RA5aTBlD2U6iV8O4gD3Do0u-9W-SFR0gZJhf00UmMMEWo#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "As aforementioned, the main functions of the smart cameras is to firstly detect pertinent information using different image processing algorithms and secondly to extract the knowledge from the images and to send it to the central unit.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA0QSup96jOABHf02KSl3ZJSAr98j4gU7_YLzkbHspdKs> .
+@prefix sub: <http://purl.org/np/RA0QSup96jOABHf02KSl3ZJSAr98j4gU7_YLzkbHspdKs#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "For the Panoptes building application the main detectable object of the smart cameras is the person. Therefore, three different image processing algorithms have been implemented, person detection, face detection and fall detection 5. After detecting some pertinent information, the smart camera describes what it \"observes\" by using the vocabulary defined in the WiseNET ontology, i.e., the smart camera extracts the knowledge of the scene. This addition of semantic meaning to what the camera \"observes\" is a problem known as semantic gap [39].";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAhLLZkpbYRmybhQ6e2T81As9ZLXxpyLdWk-MNafwnLCU> .
+@prefix sub: <http://purl.org/np/RAhLLZkpbYRmybhQ6e2T81As9ZLXxpyLdWk-MNafwnLCU#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent """For instance, consider the scene \"observed\" by the smart camera Camera_5 (top-right image in the Figure 2) where a person is being detected in the region of interest Roi_5. The smart camera will describe that scene in the following form:
+		cameraID: \"Camera_5\",
+		ImageAlgorithm: \"Person Detection\",
+		RegionOfInterest: \"Roi_5\",
+		xywh: \"107,20,30,50\",
+		visualDescriptors: \"29,31,45\",
+		where all the variables corresponds to terms defined in the WiseNET ontology (see Tables 3 and 4). The xywh are the coordinates of the detection box (green bounding box in Figure 2). The visual descriptors of the detection box were obtained by using the RGB histogram method. This is a classic image processing method that consist on taking the most preeminent color tone for each channel (R (red), G (green), B (blue)). It is possible to use different visual descriptors such as different color space or even physical characteristics (e.g., height, head size and shoulder width) [4]. After describing the scene, the smart camera sends that knowledge to the central unit by using web services. Moreover, when a person is detected an instant event is created. An instant event is a type of event that occurs in an specific point in time/space. If it is the first time a person is detected in a specific space, then the event ’person in space’ is also created. This is an interval event and, as its name indicates, it occurs in a time interval (i.e., it has a starting and an end time). The ’person in space’ event is an array containing the detections of a person in an specific space. Finally, the central API will dynamically insert this knowledge into the ontology. The central API has many functions such as performing the statics and dynamic population and managing the system reconfiguration. Currently, the reconfiguration task is in development process.""";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAEKpzCvcb4Ym5OyJrMVzpnZph7cF6iriw55aWpi4GsIc> .
+@prefix sub: <http://purl.org/np/RAEKpzCvcb4Ym5OyJrMVzpnZph7cF6iriw55aWpi4GsIc#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RA5aTBlD2U6iV8O4gD3Do0u-9W-SFR0gZJhf00UmMMEWo> .
+@prefix p2: <http://purl.org/np/RA0QSup96jOABHf02KSl3ZJSAr98j4gU7_YLzkbHspdKs> .
+@prefix p3: <http://purl.org/np/RAhLLZkpbYRmybhQ6e2T81As9ZLXxpyLdWk-MNafwnLCU> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p2: npx:introduces p2:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-6.2-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p2:\#paragraph, p1:\#paragraph, p3:\#paragraph;
+    po:containsAsHeader sub:section-6.2-title;
+    a doco:Section .
+  
+  sub:section-6.2-title c4o:hasContent "Dynamic population";
+    a doco:SectionTitle .
+  
+  p3: npx:introduces p3:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAfsVk-NdegfjJjeWjvBdj1iE6IWGB42-X4_QFYANrznk> .
+@prefix sub: <http://purl.org/np/RAfsVk-NdegfjJjeWjvBdj1iE6IWGB42-X4_QFYANrznk#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAJ2VaTw0-jVVWRdxBs4Lf1rEJm07Qfeq4DfVpXOGOMJc> .
+@prefix p2: <http://purl.org/np/RAGQEGUnJLRKljZQURsZXDgJdvp4RuXlqZU3rdH8054c4> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <http://purl.org/np/RAEKpzCvcb4Ym5OyJrMVzpnZph7cF6iriw55aWpi4GsIc> npx:introduces
+      <http://purl.org/np/RAEKpzCvcb4Ym5OyJrMVzpnZph7cF6iriw55aWpi4GsIc#section> .
+  
+  p2: npx:introduces p2:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-6-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent <http://purl.org/np/RAreDixX6cET2pyhQSKGJRdTI63jaZoCnUhXl_Zz0iSJE#section>;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent <http://purl.org/np/RAEKpzCvcb4Ym5OyJrMVzpnZph7cF6iriw55aWpi4GsIc#section> .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains <http://purl.org/np/RAEKpzCvcb4Ym5OyJrMVzpnZph7cF6iriw55aWpi4GsIc#section>,
+      p2:\#paragraph, p1:\#paragraph, <http://purl.org/np/RAreDixX6cET2pyhQSKGJRdTI63jaZoCnUhXl_Zz0iSJE#section>;
+    po:containsAsHeader sub:section-6-title;
+    a doco:Section .
+  
+  sub:section-6-title c4o:hasContent "Ontology population from smart cameras";
+    a doco:SectionTitle .
+  
+  <http://purl.org/np/RAreDixX6cET2pyhQSKGJRdTI63jaZoCnUhXl_Zz0iSJE> npx:introduces
+      <http://purl.org/np/RAreDixX6cET2pyhQSKGJRdTI63jaZoCnUhXl_Zz0iSJE#section> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAW1980jdGt5mdT8C_wPM6DBJSrRvCnI3SNMKLJW3uyLE> .
+@prefix sub: <http://purl.org/np/RAW1980jdGt5mdT8C_wPM6DBJSrRvCnI3SNMKLJW3uyLE#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "This paper focused on creating an ontology model to fusion and re-purpose the different types of information required by a Panoptes building. Once the model is assembled it needs to be evaluated to verify if it satisfy its intent.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAxmqUvvyyPY-yT-EbrDiQdTsvUJMXQlgWkiQZMNl0hqE> .
+@prefix sub: <http://purl.org/np/RAxmqUvvyyPY-yT-EbrDiQdTsvUJMXQlgWkiQZMNl0hqE#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Currently, the smart camera network (SCN) has already been deployed and the image processing algorithms have been embedded on it. However, the central API is in development process, therefore it is not possible to perform an evaluation of the complete system. Moreover, the WiseNET ontology may be evaluated. According to Hitzler et al. the accuracy criteria is a central requirement for ontology evaluation [14]. This criteria consists on verifying if the ontology accurately captures the aspects of the modeled domain for which it has designed for. The WiseNET ontology development was based on some competency questions (see Table 1), therefore the evaluation consists on showing that those questions can be answered by the ontology. Listing 6 presents the queries to answer some competency questions. Those questions were selected because they involve aspects which are important in a Panoptes building such as: knowing how many spaces there are in the storeys, which doors a smart camera monitors, how many people are in a space, at what time a person enter/leave a space and how much time a person stayed on a space. Question 1 (of Listing 6) was answered by getting all the elements aggregated by the building storeys. For answering question 2, the regions of interest (ROIs) in a camera’s field of view and their physical representation are obtained. Question 3 was answered by counting the number of ’person in space’ events in the specific space. Question 4 and 5 were answered by using the time interval entity of the event ’person in space’. The time interval entity has a be- ginning, end and duration (the duration is giving in a temporal unit).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RASHFRx9ZZqkWxMp8Al-xKxen-AnotMZ5Ibp5fulVEzos> .
+@prefix sub: <http://purl.org/np/RASHFRx9ZZqkWxMp8Al-xKxen-AnotMZ5Ibp5fulVEzos#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Regarding the built environment, in this paper the definition of a Panoptes building was given, as well as its formalization by using an ontology. Also, two types of populations in the Panoptes environment were defined, static and dynamic. Furthermore, we believe that a classification of smart building should be done due to the generality of the actual definition of smart building. This classification may be created by considering: the functionalities of the smart building, the devices utilize, or a combination of both. The third type of classification was applied by defining a Panoptes building as a smart building using only cameras and focusing in monitoring the activities of people. Moreover, we considered that applications concerning smart buildings should exploit the built environment information, specially the data obtained from the IFC. We also proposed to enhance the IFC information by adding functional facts to the spaces and information about the security systems in the built environment.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAVf0iF-Qje6hHoYIQLMpBQH-WMDFtplZc8nuL1dhZ4Ek> .
+@prefix sub: <http://purl.org/np/RAVf0iF-Qje6hHoYIQLMpBQH-WMDFtplZc8nuL1dhZ4Ek#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Concerning the WiseNET system, we believe that a semantic-based system may present great advantages over the classical computer vision and deep learning systems. First of all, the WiseNET system does not needs training and testing data like the other systems. Secondly, by sending only the extracted knowledge of the image the amount of data transmitted through the network is lower than the other systems. Furthermore, a semantic-based system allow us to efficiently fusion different type of information (as shown in this paper), specially environmental information, which gives advantages over other type of systems. Those and other advantages will be studied in future work.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAPWMBjCkWLnnviNJZ4MmjBRZ0HZUf479JHrPxGFSqwu4> .
+@prefix sub: <http://purl.org/np/RAPWMBjCkWLnnviNJZ4MmjBRZ0HZUf479JHrPxGFSqwu4#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "Regarding the privacy protection, it is important to remark that the SCN used in the WiseNET system do not send or save any image, in that way the privacy of the individuals is protected. However, one exception could be done if the ontology infers that an illegal act is occurring, in that case, the central API can use that inferred knowledge to send a message to the smart camera telling it to start recording and to save the images locally (to have them as a proof). Even in that special case no images are send through the network, in this way the system is more secured.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAvyXHXBN639RDnDSXF4Mvbb0bjA4mn7_V6TXoRQIKQeU> .
+@prefix sub: <http://purl.org/np/RAvyXHXBN639RDnDSXF4Mvbb0bjA4mn7_V6TXoRQIKQeU#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The queries shown in Listing 6 could be extended to obtain information that enables the reconfigure the SCN. The bi-directionality between the SCN and the central unit is a novelty in the semantic web domain. Specifically, the mechanism of using the ontology to interact with external devices. In general, the ontologies are not designed to be used in that way, therefore a central API is needed to be designed to perform two main tasks. Firstly, to receive all the messages from the SCN, synchronize them (by using timestamps) and then populate the ontology. Secondly, to check the ontology inferred knowledge and to use it for reconfigure the SCN by triggering a specific action (e.g., recording and triggering an alarm), changing the image pro- cessing algorithm or by saying to the smart camera to focus on a specific ROI. The dependency on the central API leaves an open question about the automatic externalization of the ontology knowledge, i.e., making the ontology to automatically output the inferred knowledge.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RABP2CIs91mRpYHo6YgWXo_AKxnG6lC6pg-THckri2Tg4> .
+@prefix sub: <http://purl.org/np/RABP2CIs91mRpYHo6YgWXo_AKxnG6lC6pg-THckri2Tg4#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAW1980jdGt5mdT8C_wPM6DBJSrRvCnI3SNMKLJW3uyLE> .
+@prefix p2: <http://purl.org/np/RAxmqUvvyyPY-yT-EbrDiQdTsvUJMXQlgWkiQZMNl0hqE> .
+@prefix p3: <http://purl.org/np/RASHFRx9ZZqkWxMp8Al-xKxen-AnotMZ5Ibp5fulVEzos> .
+@prefix p4: <http://purl.org/np/RAVf0iF-Qje6hHoYIQLMpBQH-WMDFtplZc8nuL1dhZ4Ek> .
+@prefix p5: <http://purl.org/np/RAPWMBjCkWLnnviNJZ4MmjBRZ0HZUf479JHrPxGFSqwu4> .
+@prefix p6: <http://purl.org/np/RAvyXHXBN639RDnDSXF4Mvbb0bjA4mn7_V6TXoRQIKQeU> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:_1 co:itemContent sub:section-7-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent p4:\#paragraph;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent p5:\#paragraph;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent p6:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p5:\#paragraph, p3:\#paragraph, p4:\#paragraph, p1:\#paragraph, p6:\#paragraph,
+      p2:\#paragraph;
+    po:containsAsHeader sub:section-7-title;
+    a deo:Discussion, doco:Section .
+  
+  sub:section-7-title c4o:hasContent "Discussion";
+    a doco:SectionTitle .
+  
+  p5: npx:introduces p5:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+  
+  p4: npx:introduces p4:\#paragraph .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p6: npx:introduces p6:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-08T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAU_F9y6LKCup5ZhPtenNpcLm2xIyoFs0FwDqv6GUH7Xo> .
+@prefix sub: <http://purl.org/np/RAU_F9y6LKCup5ZhPtenNpcLm2xIyoFs0FwDqv6GUH7Xo#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "According to the legend of Argus we tried to develop a \"all-seeing\" smart building, which we have called Panoptes building. With that motivation, the WiseNET ontology was developed. Its main goal is to fusions the different built environment contextual information with information coming from the smart camera network and other domain information, to allow real-time event detections and system reconfiguration. The purpose of the developed ontology is to create a kernel of a Panoptes building system (i.e., the WiseNET system), rather than working towards publishing another generic ontology. The ontology development procedure was performed using different semantic technologies, and it consisted of: defining a set of questions that the ontology should answer (competency questions); reusing different domain on- tologies (DUL, event, ifcowl, person and ssn); creating a set of classes and properties to connect the different domain ontologies and to complete the application knowledge; defining a set of constrains and extending the expressiveness by using logic rules; and finally, populating the ontology with static information (built environment and smart camera setup) and dynamic information (smart camera detections).";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RA1cDCt1Dw40M6gkqf5xMlBz4FbpfZ315B4JftJarNwnI> .
+@prefix sub: <http://purl.org/np/RA1cDCt1Dw40M6gkqf5xMlBz4FbpfZ315B4JftJarNwnI#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The WiseNET system is a semantic-based real-time reasoning system, that fuses different sources of data and is expected to overcomes limitations of multi-camera based system. The WiseNET system selects relevant information from the video streams and adds contextual information to overcome problems of miss- ing information due to false/missed detections. Ad- ditionally, it relates events that occurred at different times, without human interaction. It also protects the user’s privacy by not sending nor saving any image, just extracting the knowledge from them. It may as well, reconfigure the smart camera network according to the inferred knowledge. In few words, the WiseNET system enables interoperability of information from different domains such as the built environment, event information and information coming from the smart camera network. A future goal of the WiseNET system is to offer services to building users according to information coming from a network of sensors deployed on the built environment and contextual information. This is a highly complex task due to the large scope of the building system, that goes from the static physical structure of the built environment to the internal envi- ronment in terms of the dynamic building users and the way how they interact with the building facilities.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAWbD95QmK0qpFs9eGT7qBaw1-yse_Ur-MWPyUNxdMkR4> .
+@prefix sub: <http://purl.org/np/RAWbD95QmK0qpFs9eGT7qBaw1-yse_Ur-MWPyUNxdMkR4#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The future works will focus on completing the externalization of the ontology knowledge using the central API and on properly evaluate and compare the semantic-based system against a classical computer vision system and a deep learning system.";
+    a doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAPh8F_N9Fo2awHvqzHm67LDY2cLjI3V6LnAzzBK6kQDQ> .
+@prefix sub: <http://purl.org/np/RAPh8F_N9Fo2awHvqzHm67LDY2cLjI3V6LnAzzBK6kQDQ#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAU_F9y6LKCup5ZhPtenNpcLm2xIyoFs0FwDqv6GUH7Xo> .
+@prefix p2: <http://purl.org/np/RA1cDCt1Dw40M6gkqf5xMlBz4FbpfZ315B4JftJarNwnI> .
+@prefix p3: <http://purl.org/np/RAWbD95QmK0qpFs9eGT7qBaw1-yse_Ur-MWPyUNxdMkR4> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  p2: npx:introduces p2:\#paragraph .
+  
+  sub:_1 co:itemContent sub:section-8-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent p3:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p2:\#paragraph, p1:\#paragraph, p3:\#paragraph;
+    po:containsAsHeader sub:section-8-title;
+    a deo:Conclusion, doco:Section .
+  
+  sub:section-8-title c4o:hasContent "Conclusion and prospectives";
+    a doco:SectionTitle .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p3: npx:introduces p3:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAS9Ycfx8nkUkTzP7miw7zB8unW1B0_ImCc5kLu41f89g> .
+@prefix sub: <http://purl.org/np/RAS9Ycfx8nkUkTzP7miw7zB8unW1B0_ImCc5kLu41f89g#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "The authors thank the Conseil Régional de Bourgogne Franche Comté and the french government for their fundings.";
+    a deo:Acknowledgements, doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAoKPah-1um0lojfA-xq5ONjOWYDdIUT3ErwLt41V6a60> .
+@prefix sub: <http://purl.org/np/RAoKPah-1um0lojfA-xq5ONjOWYDdIUT3ErwLt41V6a60#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:paragraph c4o:hasContent "We would also like to thank Ali Douiyek and Arnaud Rolet for the technical assistance and management of the technical team. As well as E.Grillet, A.Goncalves, D.Barquilla, E.Menassol, L.Lamarque, G.Kasperek and M.Le Goff for their help in the development of the 3D visualization tools of the building.";
+    a deo:Acknowledgements, doco:Paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RALVkiZGhhpuPCTrx3_S0RfDGRJO3ORUzMT2-Wh7xXypM> .
+@prefix sub: <http://purl.org/np/RALVkiZGhhpuPCTrx3_S0RfDGRJO3ORUzMT2-Wh7xXypM#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix p1: <http://purl.org/np/RAS9Ycfx8nkUkTzP7miw7zB8unW1B0_ImCc5kLu41f89g> .
+@prefix p2: <http://purl.org/np/RAoKPah-1um0lojfA-xq5ONjOWYDdIUT3ErwLt41V6a60> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:_1 co:itemContent sub:section-8-title;
+    co:nextItem sub:_2 .
+  
+  sub:_2 co:itemContent p1:\#paragraph;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent p2:\#paragraph .
+  
+  sub:section co:firstItem sub:_1;
+    po:contains p1:\#paragraph, p2:\#paragraph;
+    po:containsAsHeader sub:section-acknowledgements-title;
+    a deo:Acknowledgements, doco:Section .
+  
+  sub:section-acknowledgements-title c4o:hasContent "Acknowledgements";
+    a doco:SectionTitle .
+  
+  p1: npx:introduces p1:\#paragraph .
+  
+  p2: npx:introduces p2:\#paragraph .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-12T18:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
+@prefix this: <http://purl.org/np/RAPIh99gAOR2pEYfckdbwPKGH5Q44nFhKUSOeY-FOKyQo> .
+@prefix sub: <http://purl.org/np/RAPIh99gAOR2pEYfckdbwPKGH5Q44nFhKUSOeY-FOKyQo#> .
+@prefix abs: <http://purl.org/np/RAmyxHzPKLQoJa696NjK04IyI2v5tlXGGBnoblNqVAQLA> .
+@prefix s1: <http://purl.org/np/RAivwmIrqPeep9BMOoj-0Dnhe9GOh5M1HahKwokTvJwnk> .
+@prefix s2: <http://purl.org/np/RA5_RNj_UelPyzdiqjOKl4MPwCp1U0VSs9GG7f7IDbu2Y> .
+@prefix s3: <http://purl.org/np/RAfsaDMapaGDQFD0YscJN_xgf9WAZAHpSn5PJ2RFDIhNg> .
+@prefix s4: <http://purl.org/np/RAzxb9UNEs-ID4TNsHd6Nvn6Gf6N1sRECvt0XLkLIliJA> .
+@prefix s5: <http://purl.org/np/RAM-yH09ej0-6nTAW7LqZ_RrkMgnmB2jZLoo4YjKwVUAQ> .
+@prefix s6: <http://purl.org/np/RAfsVk-NdegfjJjeWjvBdj1iE6IWGB42-X4_QFYANrznk> .
+@prefix s7: <http://purl.org/np/RABP2CIs91mRpYHo6YgWXo_AKxnG6lC6pg-THckri2Tg4> .
+@prefix s8: <http://purl.org/np/RAPh8F_N9Fo2awHvqzHm67LDY2cLjI3V6LnAzzBK6kQDQ> .
+@prefix ack: <http://purl.org/np/RALVkiZGhhpuPCTrx3_S0RfDGRJO3ORUzMT2-Wh7xXypM> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  s2: npx:introduces s2:\#section .
+  
+  s7: npx:introduces s7:\#section .
+  
+  ack: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/acknowledgements#acknowledgements> .
+  
+  s5: npx:introduces s5:\#section .
+  
+  sub:_1 co:itemContent abs:\#abstract;
+    co:nextItem sub:_2 .
+  
+  sub:_10 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/acknowledgements#acknowledgements> .
+  
+  sub:_2 co:itemContent s1:\#section;
+    co:nextItem sub:_3 .
+  
+  sub:_3 co:itemContent s2:\#section;
+    co:nextItem sub:_4 .
+  
+  sub:_4 co:itemContent s3:\#section;
+    co:nextItem sub:_5 .
+  
+  sub:_5 co:itemContent s4:\#section;
+    co:nextItem sub:_6 .
+  
+  sub:_6 co:itemContent s5:\#section;
+    co:nextItem sub:_7 .
+  
+  sub:_7 co:itemContent s6:\#section;
+    co:nextItem sub:_8 .
+  
+  sub:_8 co:itemContent s7:\#section;
+    co:nextItem sub:_9 .
+  
+  sub:_9 co:itemContent s8:\#section;
+    co:nextItem sub:_10 .
+  
+  sub:articleVersion1 co:firstItem sub:_1;
+    dc:creator <https://orcid.org/0000-0002-8429-8208>;
+    dc:language "en";
+    dc:title "Ontology for a Panoptes building: exploiting contextual information and smart camera network";
+    po:contains <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/acknowledgements#acknowledgements>,
+      s2:\#section, s7:\#section, s5:\#section, s8:\#section, s6:\#section, s3:\#section,
+      s1:\#section, abs:\#abstract, s4:\#section;
+    a doco:Article .
+  
+  s8: npx:introduces s8:\#section .
+  
+  s6: npx:introduces s6:\#section .
+  
+  s3: npx:introduces s3:\#section .
+  
+  s1: npx:introduces s1:\#section .
+  
+  abs: npx:introduces abs:\#abstract .
+  
+  s4: npx:introduces s4:\#section .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298>;
+    prov:wasAttributedTo <https://orcid.org/0000-0002-8429-8208> .
+}
+
+sub:pubinfo {
+  this: dc:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
