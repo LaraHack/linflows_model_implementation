@@ -510,9 +510,9 @@
 
 :assertion {
 	:comment-15 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4#section> ;
+		a linkflows:StyleComment, linkflows:NegativeComment, linkflows:SuggestionComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Detailed comments: - Probably section 5.4 could be presented before the proposed approaches instead of after them. """ .
 }
 
