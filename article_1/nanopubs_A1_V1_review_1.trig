@@ -369,7 +369,7 @@
 
 :assertion {
 	:comment-11 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3.5_p1#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3.5_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """7) Also in your evaluation, p.21, section 5.3.5, you claimed that rdf:type information could not be evaluated correctly by users because yago classes do not provide self-speaking labels or other textual information. But, the URI of yago classes usually consists of a self-speaking name and some numerical information, such as e.g. yago:AerospaceEngineer109776079 , which is perfectly readable for humans.""" .
@@ -404,7 +404,7 @@
 
 :assertion {
 	:comment-12 a linkflows:ReviewComment ;
-		linkflows:refersTo  <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4#>  ;
+		linkflows:refersTo  <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4#section>  ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """8) Why don't you consider (also) the Open World Assumption (p.21) for your baseline approach. Please explain.""" .
@@ -475,7 +475,7 @@
 
 :assertion {
 	:comment-14 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:SuggestionComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """10) In your experiments you should give the LD experts always full schema/ontology information to consider the correctness of an RDF triple.""" .
@@ -546,7 +546,7 @@
 
 :assertion {
 	:comment-16 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/t9#> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/t9#table> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """12) In p.23, table 9: I doubt the ability of the baseline to detect, whether the baseline is able to identify if a "thumbnail" or a "depiction" refers to the correct image for this entity. Please justify and explain how you ensure this.""" .
