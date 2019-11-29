@@ -281,6 +281,24 @@ WHERE {
 
 ### 5. Which part is most (positively/negatively) commented?
 
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?article ?part (COUNT(DISTINCT ?c) AS ?commentcount)
+WHERE {
+  ?article a doco:Article ;
+    (po:contains)* ?part .
+  ?part (po:contains)* ?subpart .
+  ?c linkflows:refersTo ?subpart .
+  # ?part a doco:Section .
+
+} GROUP BY ?article ?part ORDER BY ?article ?part
+```
+
 ### 6. {How many high impact comments that needed to be addressed were not addressed?}
 
 ### 7. What are important points that need fixing?
