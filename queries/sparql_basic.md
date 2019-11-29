@@ -208,14 +208,22 @@ WHERE {
 ### 2. How many negative review comments had an impact higher than 3?
 
 ```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
 
-SELECT ?reviewComment
+SELECT ?article ?reviewer (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  ?reviewComment a linkflows:NegativeComment .
-  ?reviewComment linkflows:hasImpact ?impact .
+  ?article a doco:Article ;
+    (po:contains)* ?part .
+  ?c linkflows:refersTo ?part .
+
+  GRAPH ?assertion { ?c a linkflows:NegativeComment ; linkflows:hasImpact ?impact . }
   FILTER (?impact > "3"^^xsd:positiveInteger) .
-}
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?article ?reviewer ORDER BY ?article ?reviewer
 ```
 
 ### 3. Which reviewer focused more on content/style/syntax?

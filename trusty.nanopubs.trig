@@ -8076,14 +8076,13 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAsN1jQXQTXKSMtfKCG8wz2HSG7fTq5A167kc9_TlgLn0> .
-@prefix sub: <http://purl.org/np/RAsN1jQXQTXKSMtfKCG8wz2HSG7fTq5A167kc9_TlgLn0#> .
+@prefix this: <http://purl.org/np/RAMREsC_3xvtfyusKcLQNgN8_4ewNRocsrYUJOidpTRhM> .
+@prefix sub: <http://purl.org/np/RAMREsC_3xvtfyusKcLQNgN8_4ewNRocsrYUJOidpTRhM#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
 @prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 sub:Head {
@@ -8094,11 +8093,11 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-15 a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment,
-      linkflows:ReviewComment;
+  sub:comment-15 a linkflows:NegativeComment, linkflows:ReviewComment, linkflows:StyleComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "Detailed comments: - Probably section 5.4 could be presented before the proposed approaches instead of after them. ";
-    linkflows:hasImpact "0"^^xsd:positiveInteger;
-    linkflows:refersTo doco:Section .
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
+    linkflows:refersTo <http://purl.org/np/RAYC2RtIuKVOsDCv5qXyG0WzJSDBx2rebnRD5Ot95VKVs#section> .
 }
 
 sub:provenance {
@@ -8178,8 +8177,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAdqeNvMGkrkU955TLl4LsnMsn7Zmy3e_khdiopF2vJE4> .
-@prefix sub: <http://purl.org/np/RAdqeNvMGkrkU955TLl4LsnMsn7Zmy3e_khdiopF2vJE4#> .
+@prefix this: <http://purl.org/np/RAMsuDpMpiMGS_X5YHc1VjHshCOCfVjjKAwL4gOz-tS_E> .
+@prefix sub: <http://purl.org/np/RAMsuDpMpiMGS_X5YHc1VjHshCOCfVjjKAwL4gOz-tS_E#> .
 @prefix c1: <http://purl.org/np/RAlW_7eNkN2dTX4WKp10fk-lKkrG9rwyPWBaJaHVc_Oj0> .
 @prefix c2: <http://purl.org/np/RArrq4KYWmBAP-t_hEQb0v2VYco5igefyUdMpwzz1E9_M> .
 @prefix c3: <http://purl.org/np/RAlHQUk4660kIujfQqRWg7_wperQp_3x2uB1EGIk5Gu0c> .
@@ -8194,7 +8193,7 @@ sub:pubinfo {
 @prefix c12: <http://purl.org/np/RAiaVWaDw6NVRSGs-8Fyht87L1YH85_xB3nM4ve6Ghzaw> .
 @prefix c13: <http://purl.org/np/RAq75qaNCxDMJ7QMwfepcAHk9c8eN8KYJqKiZqJOgw2yc> .
 @prefix c14: <http://purl.org/np/RAW6AH-qdBWxSiTfe4-fEs0ddItBTl437WVjOKuiGjd3Y> .
-@prefix c15: <http://purl.org/np/RAsN1jQXQTXKSMtfKCG8wz2HSG7fTq5A167kc9_TlgLn0> .
+@prefix c15: <http://purl.org/np/RAMREsC_3xvtfyusKcLQNgN8_4ewNRocsrYUJOidpTRhM> .
 @prefix c16: <http://purl.org/np/RAG9fSXt7gAHc3vBfWinjj1tlXhMCkltCZ_DP3oQWcxFA> .
 @prefix c17: <http://purl.org/np/RA9HyCqFmT921eBL8qVFNzI14qPdQtbGSd8oUtEu3Ttb0> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8221,15 +8220,7 @@ sub:assertion {
   
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c16#ReviewComment> .
   
-  c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c9#ReviewComment> .
-  
-  c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c14#ReviewComment> .
-  
-  c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c8#ReviewComment> .
-  
-  c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c6#ReviewComment> .
-  
-  c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c11#ReviewComment> .
+  c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c15#ReviewComment> .
   
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c1#ReviewComment>;
     co:nextItem sub:_2 .
@@ -8295,6 +8286,16 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c8#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c9#ReviewComment>;
     a fr:Review .
   
+  c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c9#ReviewComment> .
+  
+  c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c14#ReviewComment> .
+  
+  c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c8#ReviewComment> .
+  
+  c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c6#ReviewComment> .
+  
+  c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c11#ReviewComment> .
+  
   c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c5#ReviewComment> .
   
   c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c12#ReviewComment> .
@@ -8306,8 +8307,6 @@ sub:assertion {
   c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c13#ReviewComment> .
   
   c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c2#ReviewComment> .
-  
-  c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c15#ReviewComment> .
   
   c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c7#ReviewComment> .
   
