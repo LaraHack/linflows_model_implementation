@@ -21,11 +21,10 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 
 SELECT *
 WHERE {
-  ?article a doco:Article ;
+  ?article a doco:Article .
   ?article dcterms:title ?title .
 }
 ```
-
 
 ### get total number of paragraphs/sections
 

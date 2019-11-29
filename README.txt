@@ -80,4 +80,4 @@ And login with "dba" and password "admin"
 
 In case you want to delete the triples in the store:
   SQL> log_enable(3,1);
-  SQL> DELETE FROM rdf_quad WHERE g = iri_to_id ('http://mygraph.org');
+  SQL> DELETE FROM rdf_quad WHERE g = iri_to_id ('http://example.com');
