@@ -39,6 +39,23 @@ WHERE {
 }
 ```
 
+### get total number of paragraphs/sections per article
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+
+SELECT *
+WHERE {
+?article a doco:Article ;
+  po:contains ?section .
+  #?section a doco:Section .
+}
+```
+
+
+
 ### total number of review comments
 
 ```
