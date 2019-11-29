@@ -259,6 +259,26 @@ WHERE {
 
 ### 4. Comparing papers: which of the papers was more controversial?
 
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?article ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
+WHERE {
+  ?article a doco:Article ;
+    (po:contains)* ?part .
+  ?c linkflows:refersTo ?part .
+
+  VALUES ?type { linkflows:PositiveComment linkflows:NegativeComment }
+  GRAPH ?assertion { ?c a ?type ; linkflows:hasImpact ?impact . }
+  FILTER (?impact > "3"^^xsd:positiveInteger) .
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?article ?reviewer ?type ORDER BY ?article ?reviewer ?type
+```
+
 ### 5. Which part is most (positively/negatively) commented?
 
 ### 6. {How many high impact comments that needed to be addressed were not addressed?}
