@@ -63,21 +63,27 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT (COUNT(*) as ?reviewComments)
 WHERE {
-  ?s ?p linkflows:ReviewComment
+  ?s ?p linkflows:ReviewComment .
 }
 ```
 
 ### get total number of review comments per article
 
-output: 132/39
-
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
 
-SELECT (COUNT(*) as ?o)
+SELECT ?title, (COUNT(*) as ?sections), (COUNT(*) as ?paragraphs), (COUNT(*) as ?reviewComments)
 WHERE {
-  ?s ?p doco:Paragraph #doco:Section
-}
+  ?article a doco:Article ;
+    (po:contains)* ?section ;
+    dcterms:title ?title .
+
+  ?reviewComment a linkflows:ReviewComment .
+  ?reviewComment linkflows:refersTo  ?section .
+} GROUP BY ?title
 ```
 
 ## Queries for Competency Questions
