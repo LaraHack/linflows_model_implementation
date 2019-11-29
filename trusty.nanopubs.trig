@@ -10225,8 +10225,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-10T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAK6bRqsJZJejDuDOOYXV0mPBv-fFD5C7L4jvsij0an24> .
-@prefix sub: <http://purl.org/np/RAK6bRqsJZJejDuDOOYXV0mPBv-fFD5C7L4jvsij0an24#> .
+@prefix this: <http://purl.org/np/RAuoe4ULqAhykbvwSwB-wskCRa4Pb49oLI1TiMvuIJ7G8> .
+@prefix sub: <http://purl.org/np/RAuoe4ULqAhykbvwSwB-wskCRa4Pb49oLI1TiMvuIJ7G8#> .
 @prefix abs: <http://purl.org/np/RAzgOSS4YGdsTkIFpxxAi6cAYeKJeBrj2u5xHRu1bGAD4> .
 @prefix s1: <http://purl.org/np/RAhQTR7Dw362YCQtTMKQIlvw3V6ao66ZX668mzsO5OaB4> .
 @prefix s2: <http://purl.org/np/RAZ-5BH2IwShbiXCXQHsLT3F6HEMWtxu3f72Y2PfM0tHY> .
@@ -10260,6 +10260,18 @@ sub:assertion {
   s6: npx:introduces s6:\#section .
   
   s8: npx:introduces s8:\#section .
+  
+  s4: npx:introduces s4:\#section .
+  
+  s5: npx:introduces s5:\#section .
+  
+  s2: npx:introduces s2:\#section .
+  
+  s1: npx:introduces s1:\#section .
+  
+  s3: npx:introduces s3:\#section .
+  
+  s7: npx:introduces s7:\#section .
   
   sub:_1 co:itemContent abs:\#abstract;
     co:nextItem sub:_2 .
@@ -10297,20 +10309,7 @@ sub:assertion {
     po:contains <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/acknowledgements#acknowledgements>,
       s6:\#section, s8:\#section, s4:\#section, s5:\#section, s2:\#section, s1:\#section,
       s3:\#section, s7:\#section, abs:\#abstract;
-    po:containsAsHeader sub:section-8-title;
     a doco:Article .
-  
-  s4: npx:introduces s4:\#section .
-  
-  s5: npx:introduces s5:\#section .
-  
-  s2: npx:introduces s2:\#section .
-  
-  s1: npx:introduces s1:\#section .
-  
-  s3: npx:introduces s3:\#section .
-  
-  s7: npx:introduces s7:\#section .
   
   abs: npx:introduces abs:\#abstract .
 }
