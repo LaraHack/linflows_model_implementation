@@ -103,7 +103,7 @@ WHERE {
 }
 ```
 
-Distribution of positivity:
+Distribution of positivity using UNION:
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
@@ -128,6 +128,48 @@ WHERE {
   }
 }
 ```
+
+Distribution of positivity using VALUES:
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer ?type (count(?c) AS ?typecount)
+WHERE {
+  <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1>
+    (po:contains)* ?part .
+  ?c linkflows:refersTo ?part .
+
+  VALUES ?type { linkflows:PositiveComment linkflows:NeutralComment linkflows:NegativeComment }
+  GRAPH ?assertion { ?c a ?type . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?type ?reviewer
+```
+
+Distribution of all review comment dimension using VALUES:
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer ?type (count(?c) AS ?typecount)
+WHERE {
+  <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1>
+    (po:contains)* ?part .
+  ?c linkflows:refersTo ?part .
+
+  GRAPH ?assertion { ?c a ?type . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?type ?reviewer
+```
+
 
 ### get total number of review comments per article
 
