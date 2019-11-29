@@ -56,7 +56,8 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewComment
 WHERE {
-  ?reviewComment a linkflows:ActionNeededComment ;
+  ?reviewComment a linkflows:ActionNeeded .
   ?reviewComment linkflows:hasImpact ?impact
-  FILTER (?impact > "3"^^xsd:positiveInteger) .
+FILTER (?impact > "3"^^xsd:positiveInteger) .
+
 }
