@@ -46,12 +46,14 @@ PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
 
-SELECT (COUNT(*) as ?sections)
+SELECT ?title, (COUNT(*) as ?sections), (COUNT(*) as ?paragraphs)
 WHERE {
   ?article a doco:Article ;
-  po:contains ?section .
+    (po:contains)* ?section ;
+    dcterms:title ?title .
   ?section a doco:Section .
-} GROUP BY ?article
+  ?section po:contains ?paragraph .
+} GROUP BY ?title
 ```
 
 ### total number of review comments
