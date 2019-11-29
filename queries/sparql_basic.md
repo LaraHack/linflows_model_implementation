@@ -159,15 +159,15 @@ PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
 
-SELECT ?reviewer ?type (count(?c) AS ?typecount)
+SELECT ?article ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1>
+  ?article a doco:Article ;
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 
   GRAPH ?assertion { ?c a ?type . }
   ?assertion prov:wasAttributedTo ?reviewer .
-} GROUP BY ?type ?reviewer
+} GROUP BY ?article ?reviewer ?type ORDER BY ?article ?reviewer ?type
 ```
 
 

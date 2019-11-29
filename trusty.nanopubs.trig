@@ -7606,14 +7606,13 @@ sub:pubinfo {
   this: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RANAl5ifFqTN5khYzgsQW5yN3yhZKrE9vpoXsHHQgQHAQ> .
-@prefix sub: <http://purl.org/np/RANAl5ifFqTN5khYzgsQW5yN3yhZKrE9vpoXsHHQgQHAQ#> .
+@prefix this: <http://purl.org/np/RAlW_7eNkN2dTX4WKp10fk-lKkrG9rwyPWBaJaHVc_Oj0> .
+@prefix sub: <http://purl.org/np/RAlW_7eNkN2dTX4WKp10fk-lKkrG9rwyPWBaJaHVc_Oj0#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
 @prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 sub:Head {
@@ -7628,7 +7627,7 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "This paper proposes new crowdsourcing techniques to identify errors in linked data by combining expert judgements with data obtained from crowdsourcing platforms.";
     linkflows:hasImpact "0"^^xsd:positiveInteger;
-    linkflows:refersTo doco:Article .
+    linkflows:refersTo <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1> .
 }
 
 sub:provenance {
@@ -7640,14 +7639,13 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA1VVD2gEO9xpzfczMu6k0gk6539irlyheCWA08Rw1OuY> .
-@prefix sub: <http://purl.org/np/RA1VVD2gEO9xpzfczMu6k0gk6539irlyheCWA08Rw1OuY#> .
+@prefix this: <http://purl.org/np/RArrq4KYWmBAP-t_hEQb0v2VYco5igefyUdMpwzz1E9_M> .
+@prefix sub: <http://purl.org/np/RArrq4KYWmBAP-t_hEQb0v2VYco5igefyUdMpwzz1E9_M#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
 @prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 sub:Head {
@@ -7662,7 +7660,7 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "The paper addresses very valuable research questions.";
     linkflows:hasImpact "0"^^xsd:positiveInteger;
-    linkflows:refersTo doco:Article .
+    linkflows:refersTo <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1> .
 }
 
 sub:provenance {
@@ -7674,14 +7672,13 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAQrJvU6aFUpxHoinr6MBq67g9Wy74CPLL6weIj4Cb50A> .
-@prefix sub: <http://purl.org/np/RAQrJvU6aFUpxHoinr6MBq67g9Wy74CPLL6weIj4Cb50A#> .
+@prefix this: <http://purl.org/np/RAlHQUk4660kIujfQqRWg7_wperQp_3x2uB1EGIk5Gu0c> .
+@prefix sub: <http://purl.org/np/RAlHQUk4660kIujfQqRWg7_wperQp_3x2uB1EGIk5Gu0c#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
 @prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 sub:Head {
@@ -7696,7 +7693,7 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "The paper contains all necessary definitions of crowdsourcing terminology making it self-contained and understandable for a reader from the semantic web community.";
     linkflows:hasImpact "0"^^xsd:positiveInteger;
-    linkflows:refersTo doco:Article .
+    linkflows:refersTo <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1> .
 }
 
 sub:provenance {
@@ -7708,14 +7705,13 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAl1Y3_Am01ltaJMzkb-A-RwSqjuXtH_a595QrV1Lz46M> .
-@prefix sub: <http://purl.org/np/RAl1Y3_Am01ltaJMzkb-A-RwSqjuXtH_a595QrV1Lz46M#> .
+@prefix this: <http://purl.org/np/RAvVOY7IT1KyQi34kQgd19D7Wd2ODcoojvRAHa1OXQTCk> .
+@prefix sub: <http://purl.org/np/RAvVOY7IT1KyQi34kQgd19D7Wd2ODcoojvRAHa1OXQTCk#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
 @prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 sub:Head {
@@ -7730,7 +7726,7 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "Authors compare different combinations of worker/expert answers and propose different types of workflows to identify errors in linked data. The paper focuses on 3 specific types of errors. Authors focus exclusively on error identification as fixes can be best applied by correcting the automatic extraction process rather than the generated data.";
     linkflows:hasImpact "0"^^xsd:positiveInteger;
-    linkflows:refersTo doco:Article .
+    linkflows:refersTo <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1> .
 }
 
 sub:provenance {
@@ -7742,14 +7738,13 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAUdwgQNaJygndqNsB3yt-goMqz9hwUAb2NUzVWq31AkU> .
-@prefix sub: <http://purl.org/np/RAUdwgQNaJygndqNsB3yt-goMqz9hwUAb2NUzVWq31AkU#> .
+@prefix this: <http://purl.org/np/RAgxlj1EiHHPoMyQSuKI_vwKkLDZ8DiVH2EgrHO_K-JDw> .
+@prefix sub: <http://purl.org/np/RAgxlj1EiHHPoMyQSuKI_vwKkLDZ8DiVH2EgrHO_K-JDw#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
 @prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 sub:Head {
@@ -7764,7 +7759,7 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "Authors also make all data and results available on-line for others to re-use.";
     linkflows:hasImpact "0"^^xsd:positiveInteger;
-    linkflows:refersTo doco:Article .
+    linkflows:refersTo <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1> .
 }
 
 sub:provenance {
@@ -7776,14 +7771,13 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAMRaAxxzFpjDm_ic-EO82StXN8gU_Qg8TE6XGik9HFVE> .
-@prefix sub: <http://purl.org/np/RAMRaAxxzFpjDm_ic-EO82StXN8gU_Qg8TE6XGik9HFVE#> .
+@prefix this: <http://purl.org/np/RAXJWGiuZ5fVnKac7zU1f8IkjyesscsoXKWfPdUES-ioU> .
+@prefix sub: <http://purl.org/np/RAXJWGiuZ5fVnKac7zU1f8IkjyesscsoXKWfPdUES-ioU#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
 @prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 sub:Head {
@@ -7798,7 +7792,8 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "Results are discussed and analysed in detail comparing crowd and expert performance also including an error analysis.";
     linkflows:hasImpact "0"^^xsd:positiveInteger;
-    linkflows:refersTo doco:Section .
+    linkflows:refersTo <http://purl.org/np/RAYC2RtIuKVOsDCv5qXyG0WzJSDBx2rebnRD5Ot95VKVs#section>,
+      <http://purl.org/np/RAZEeWx-Wfq1vIZ5HvJWcFVmzSs9i97aVRKDPQhEdgqTU#section>, <http://purl.org/np/RArlHVkCEttcXQrmu-tQleBu3q_ULXT-u3vdIUPepCgwE#section> .
 }
 
 sub:provenance {
@@ -7810,14 +7805,13 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAThiBOr8uq0BVgJJpZNStgGzzxR5z7VY3v7X77mmcl5k> .
-@prefix sub: <http://purl.org/np/RAThiBOr8uq0BVgJJpZNStgGzzxR5z7VY3v7X77mmcl5k#> .
+@prefix this: <http://purl.org/np/RAtGAAlxDC9PWRBF0h5lO8GhYQbP1CGbyE_i116vkcFaE> .
+@prefix sub: <http://purl.org/np/RAtGAAlxDC9PWRBF0h5lO8GhYQbP1CGbyE_i116vkcFaE#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
 @prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
 
 sub:Head {
@@ -7832,7 +7826,7 @@ sub:assertion {
       linkflows:ReviewComment;
     linkflows:hasCommentText "(1) originality: The addressed problem of linked data quality is important and the proposed solution is novel and reasonable";
     linkflows:hasImpact "0"^^xsd:positiveInteger;
-    linkflows:refersTo doco:Article .
+    linkflows:refersTo <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1> .
 }
 
 sub:provenance {
@@ -8184,15 +8178,15 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAItbiRI7HomWkTW9p6fVO1UVg4iYg_j37uH32KbTGsJY> .
-@prefix sub: <http://purl.org/np/RAItbiRI7HomWkTW9p6fVO1UVg4iYg_j37uH32KbTGsJY#> .
-@prefix c1: <http://purl.org/np/RANAl5ifFqTN5khYzgsQW5yN3yhZKrE9vpoXsHHQgQHAQ> .
-@prefix c2: <http://purl.org/np/RA1VVD2gEO9xpzfczMu6k0gk6539irlyheCWA08Rw1OuY> .
-@prefix c3: <http://purl.org/np/RAQrJvU6aFUpxHoinr6MBq67g9Wy74CPLL6weIj4Cb50A> .
-@prefix c4: <http://purl.org/np/RAl1Y3_Am01ltaJMzkb-A-RwSqjuXtH_a595QrV1Lz46M> .
-@prefix c5: <http://purl.org/np/RAUdwgQNaJygndqNsB3yt-goMqz9hwUAb2NUzVWq31AkU> .
-@prefix c6: <http://purl.org/np/RAMRaAxxzFpjDm_ic-EO82StXN8gU_Qg8TE6XGik9HFVE> .
-@prefix c7: <http://purl.org/np/RAThiBOr8uq0BVgJJpZNStgGzzxR5z7VY3v7X77mmcl5k> .
+@prefix this: <http://purl.org/np/RAdqeNvMGkrkU955TLl4LsnMsn7Zmy3e_khdiopF2vJE4> .
+@prefix sub: <http://purl.org/np/RAdqeNvMGkrkU955TLl4LsnMsn7Zmy3e_khdiopF2vJE4#> .
+@prefix c1: <http://purl.org/np/RAlW_7eNkN2dTX4WKp10fk-lKkrG9rwyPWBaJaHVc_Oj0> .
+@prefix c2: <http://purl.org/np/RArrq4KYWmBAP-t_hEQb0v2VYco5igefyUdMpwzz1E9_M> .
+@prefix c3: <http://purl.org/np/RAlHQUk4660kIujfQqRWg7_wperQp_3x2uB1EGIk5Gu0c> .
+@prefix c4: <http://purl.org/np/RAvVOY7IT1KyQi34kQgd19D7Wd2ODcoojvRAHa1OXQTCk> .
+@prefix c5: <http://purl.org/np/RAgxlj1EiHHPoMyQSuKI_vwKkLDZ8DiVH2EgrHO_K-JDw> .
+@prefix c6: <http://purl.org/np/RAXJWGiuZ5fVnKac7zU1f8IkjyesscsoXKWfPdUES-ioU> .
+@prefix c7: <http://purl.org/np/RAtGAAlxDC9PWRBF0h5lO8GhYQbP1CGbyE_i116vkcFaE> .
 @prefix c8: <http://purl.org/np/RAWvIlfwENgRHWLWDiE80Khc04eUysa5Hr8AIn0rtghco> .
 @prefix c9: <http://purl.org/np/RATkcFJPbCozzkMYg7z7gyiTy1onX9pV7gM00H8XrVSu0> .
 @prefix c10: <http://purl.org/np/RAAJTKpnurlyOEc29WP-suTUTlsBLfcv_ktsdF00nB-FE> .
@@ -8221,13 +8215,21 @@ sub:Head {
 }
 
 sub:assertion {
-  c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c2#ReviewComment> .
-  
   c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c17#ReviewComment> .
   
   c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c10#ReviewComment> .
   
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c16#ReviewComment> .
+  
+  c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c9#ReviewComment> .
+  
+  c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c14#ReviewComment> .
+  
+  c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c8#ReviewComment> .
+  
+  c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c6#ReviewComment> .
+  
+  c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c11#ReviewComment> .
   
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c1#ReviewComment>;
     co:nextItem sub:_2 .
@@ -8293,31 +8295,23 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c8#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c9#ReviewComment>;
     a fr:Review .
   
-  c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c6#ReviewComment> .
-  
-  c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c1#ReviewComment> .
-  
-  c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c3#ReviewComment> .
-  
-  c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c7#ReviewComment> .
-  
-  c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c9#ReviewComment> .
-  
   c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c5#ReviewComment> .
-  
-  c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c14#ReviewComment> .
-  
-  c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c8#ReviewComment> .
-  
-  c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c11#ReviewComment> .
   
   c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c12#ReviewComment> .
   
-  c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c4#ReviewComment> .
+  c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c3#ReviewComment> .
+  
+  c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c1#ReviewComment> .
   
   c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c13#ReviewComment> .
   
+  c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c2#ReviewComment> .
+  
   c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c15#ReviewComment> .
+  
+  c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c7#ReviewComment> .
+  
+  c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c4#ReviewComment> .
 }
 
 sub:provenance {
