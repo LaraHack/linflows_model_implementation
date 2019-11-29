@@ -190,6 +190,27 @@ WHERE {
 } GROUP BY ?title
 ```
 
+### Free-text queries on review comments:
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?article ?reviewcomment ?text
+WHERE {
+  ?article a doco:Article ;
+    (po:contains)* ?part .
+  ?reviewcomment linkflows:refersTo ?part .
+
+  ?reviewcomment linkflows:hasCommentText ?text .
+  ?text <bif:contains> "data" .
+} GROUP BY ?article ?reviewcomment ORDER BY ?article ?reviewcomment
+```
+
+
 ## Queries for Competency Questions
 
 ### 1. How many comments were positive/negative per review?
