@@ -17,7 +17,7 @@
 
 :assertion {
 	:comment-1 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """This paper proposes new crowdsourcing techniques to identify errors in linked data by combining expert judgements with data obtained from crowdsourcing platforms.""" .
@@ -52,7 +52,7 @@
 
 :assertion {
 	:comment-2 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The paper addresses very valuable research questions.""" .
@@ -87,7 +87,7 @@
 
 :assertion {
 	:comment-3 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The paper contains all necessary definitions of crowdsourcing terminology making it self-contained and understandable for a reader from the semantic web community.""" .
@@ -122,7 +122,7 @@
 
 :assertion {
 	:comment-4 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Authors compare different combinations of worker/expert answers and propose different types of workflows to identify errors in linked data. The paper focuses on 3 specific types of errors. Authors focus exclusively on error identification as fixes can be best applied by correcting the automatic extraction process rather than the generated data.""" .
@@ -157,7 +157,7 @@
 
 :assertion {
 	:comment-5 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Authors also make all data and results available on-line for others to re-use.""" .
@@ -192,7 +192,9 @@
 
 :assertion {
 	:comment-6 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4#section> ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Results are discussed and analysed in detail comparing crowd and expert performance also including an error analysis.""" .
@@ -227,7 +229,7 @@
 
 :assertion {
 	:comment-7 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
 		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "0"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """(1) originality: The addressed problem of linked data quality is important and the proposed solution is novel and reasonable""" .
