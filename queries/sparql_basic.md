@@ -279,7 +279,9 @@ WHERE {
 } GROUP BY ?article ?reviewer ?type ORDER BY ?article ?reviewer ?type
 ```
 
-### 5. Which part is most (positively/negatively) commented?
+### 5. Which part is most commented?
+
+Most commented part of the article:
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
@@ -298,6 +300,11 @@ WHERE {
 
 } GROUP BY ?article ?part ORDER BY ?article ?part
 ```
+
+Most positively/negatively commented parts of the article:
+
+
+
 
 ### 6. {How many high impact comments that needed to be addressed were not addressed?}
 
