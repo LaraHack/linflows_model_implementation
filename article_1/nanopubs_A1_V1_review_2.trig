@@ -18,8 +18,8 @@
 :assertion {
 	:comment-1 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """This paper proposes new crowdsourcing techniques to identify errors in linked data by combining expert judgements with data obtained from crowdsourcing platforms.""" .
 }
 
@@ -53,8 +53,8 @@
 :assertion {
 	:comment-2 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The paper addresses very valuable research questions.""" .
 }
 
@@ -88,8 +88,8 @@
 :assertion {
 	:comment-3 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The paper contains all necessary definitions of crowdsourcing terminology making it self-contained and understandable for a reader from the semantic web community.""" .
 }
 
@@ -123,8 +123,8 @@
 :assertion {
 	:comment-4 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Authors compare different combinations of worker/expert answers and propose different types of workflows to identify errors in linked data. The paper focuses on 3 specific types of errors. Authors focus exclusively on error identification as fixes can be best applied by correcting the automatic extraction process rather than the generated data.""" .
 }
 
@@ -158,8 +158,8 @@
 :assertion {
 	:comment-5 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Authors also make all data and results available on-line for others to re-use.""" .
 }
 
@@ -195,8 +195,8 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2#section> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3#section> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4#section> ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Results are discussed and analysed in detail comparing crowd and expert performance also including an error analysis.""" .
 }
 
@@ -230,8 +230,8 @@
 :assertion {
 	:comment-7 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """(1) originality: The addressed problem of linked data quality is important and the proposed solution is novel and reasonable""" .
 }
 
@@ -272,8 +272,8 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3.4#section> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3.5#section> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4#section> ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """(2) significance of the results: The results show how to best combine experts and crowd for the proposed linked data quality problems. This does not solve all linked data quality problems, but it certainly contributes to bring this field forward.""" .
 }
 
@@ -307,8 +307,8 @@
 :assertion {
 	:comment-9 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """(3) quality of writing: The paper is very well written and structured. It is easy to follow and presents a detailed description of the approach and of the experimental results also including error analysis.""" .
 }
 
@@ -342,8 +342,8 @@
 :assertion {
 	:comment-10 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Detailed comments: - A controversial point is that the ground truth was created by experts as the results which are evaluated against this. I agree that there is no way around this, but a small discussion on how the authors believe the ground truth data is of better quality than the expert answers would help (e.g., experts did not necessarily put enough effort in the task as the ground truth creators did also by resolving conflicts and discussing difficult triples together etc.).""" .
 }
 
@@ -376,9 +376,9 @@
 
 :assertion {
 	:comment-11 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2#section> ; ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Detailed comments: - In section 2 it is unclear to me how the 4 dimensions relate to the 3 error types addressed here. Expanding this section would make the paper easier to understand and more self-contained. Discussing automatic approaches on how to identify errors in linked data could also be discussed at this point to motivate the need for human computation approaches.""" .
 }
 
@@ -411,9 +411,10 @@
 
 :assertion {
 	:comment-12 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/prop2#proposition> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Detailed comments: - The scalability of the approach is unclear: It seems to me that the proposed approach need each single triple in a linked dataset to be manually checked. This would limit the scalability of the approach. Thus, while the focus of this paper is clearly different, it would be useful to briefly discuss the possibility of hybrid human-machine approaches to scale the approach to large amounts of triples (e.g., the English DBpedia 3.9 has 500M triples). Related to this is “Proposition 2” which sounds very much not scalable.""" .
 }
 
@@ -447,9 +448,12 @@
 
 :assertion {
 	:comment-13 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.3_p7#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.3_p8#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.3_p9#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.3_p10#paragraph> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Detailed comments: - At the end of section 4.3 it is unclear whether the incorrect links are errors present in Wikipedia or are generated by the wrappers.""" .
 }
 
@@ -482,9 +486,9 @@
 
 :assertion {
 	:comment-14 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2.1_p3#paragraph> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Detailed comments: - The impression from reading the paper is that the payment of crowd workers is extremely low (e.g., 0.04USD for 5 triples or 0.06USD for 30 triples). It would be interesting to report the hourly rate by considering the time spent by workers in completing the tasks to get a better idea of the adopted payment level.""" .
 }
 
@@ -553,9 +557,9 @@
 
 :assertion {
 	:comment-16 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Detailed comments: Moreover, section 5.4.1 seems not to be a relevant baseline as it looks for different types of errors.""" .
 }
 
@@ -588,9 +592,9 @@
 
 :assertion {
 	:comment-17 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Detailed comments: - It would be good to add a final paragraph in section 7 stating how this paper compares to the two described areas of research.""" .
 }
 

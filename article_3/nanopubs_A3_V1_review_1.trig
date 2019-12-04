@@ -17,9 +17,9 @@
 
 :assertion {
 	:comment-1 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Major Revision""" .
 }
 
@@ -52,9 +52,9 @@
 
 :assertion {
 	:comment-2 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The authors proposed the WiseNet ontology for combining, analyzing and re-purposing the information from a smart camera network. The described process is interesting and combines different existing ontologies, such as, IFC, event, time. Furthermore, a demonstrator is built to show the procedure of the framework.""" .
 }
 
@@ -87,9 +87,9 @@
 
 :assertion {
 	:comment-3 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The paper is work in progress as stated by the authors, but some preliminary evaluation with existing frameworks should be included in this paper before publishing.""" .
 }
 
@@ -122,9 +122,9 @@
 
 :assertion {
 	:comment-4 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The paper is lacking a clear structure and different sections are mixed and hard to follow.""" .
 }
 
@@ -157,9 +157,9 @@
 
 :assertion {
 	:comment-5 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """I would recommend breaking the long paragraphs into smaller ones to ease readability, including itemizations and enumerations whenever possible.""" .
 }
 
@@ -193,8 +193,8 @@
 :assertion {
 	:comment-6 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Furthermore a strong reduction, or clarification on specific ontology terms in Section 3 is necessary to increase the readability of the text.""" .
 }
 
@@ -228,8 +228,8 @@
 :assertion {
 	:comment-7 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Finally, it should be made more clear in Section 3 and 4 that this is the new proposed framework.""" .
 }
 
@@ -263,8 +263,8 @@
 :assertion {
 	:comment-8 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """There are suggestions to integrate some WiseNet elements in the IFC standard, but no comparison is done with the recent IFC4 ontology. It should be made more clear what are the elements that could be integrated. Furthermore, a smaller ontology is proven to be more successful this should also been taken into account.""" .
 }
 
@@ -298,8 +298,8 @@
 :assertion {
 	:comment-9 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The authors use computer vision mechanisms to exploit the camera network. It is stated that this is outside the scope of this paper, but they should be discussed (shortly) in this paper.""" .
 }
 
@@ -333,8 +333,8 @@
 :assertion {
 	:comment-10 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Furthermore, there should be more explanation on how the WiseNet architecture would overcome the computer vision limitations (false detections) before publishing this paper. Currently, there are only detections included and there is from my point of view no possibility to solve these false detections or occlusions.""" .
 }
 
@@ -368,8 +368,8 @@
 :assertion {
 	:comment-11 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """In the paper there is a short description on the visual descriptors, for a person, focusing only on RGB values. This is not useful for people tracking or re-identification. I would suggest the authors to extend descriptors with other person semantic classes (i.e., age, gender, facial expression).""" .
 }
 
@@ -403,8 +403,8 @@
 :assertion {
 	:comment-12 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Finally, in the future work section I would append some extra applications( i.e., smoke or fire detection, door or window status (open-closed)) to make a more smarter network.""" .
 }
 

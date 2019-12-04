@@ -17,9 +17,9 @@
 
 :assertion {
 	:comment-1 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The paper presents Fact Extractor, a NLP pipeline that allows to generate machine-readable statements based on the extraction of n-ary relations from a textual corpus.""" .
 }
 
@@ -52,9 +52,9 @@
 
 :assertion {
 	:comment-2 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The pipeline shows its potentialities when applied to KB enrichment by exploiting textual corpora (e.g., Wikipedia articles for DBpedia).""" .
 }
 
@@ -87,9 +87,9 @@
 
 :assertion {
 	:comment-3 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The overall quality of writing is good. However, some issues may need clarification, furthermore, not too much, but some minor issues like typos exist that require some changes (see below).""" .
 }
 
@@ -122,9 +122,9 @@
 
 :assertion {
 	:comment-4 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The structure of the paper is very clear and consistent with the hypotheses and contributions listed in the abstract/introduction.""" .
 }
 
@@ -157,9 +157,9 @@
 
 :assertion {
 	:comment-5 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Nevertheless, some sections could be merged together (e.g., Section 2 -> 1, Section 8 -> 7, etc.).""" .
 }
 
@@ -192,9 +192,9 @@
 
 :assertion {
 	:comment-6 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s3#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Some claims should be toned down. For example, in Section 3 (Use case) when the authors motivate the reason behind their choice of adopting the Soccer domain for the use case, they argue that 5% of the whole English Wikipedia is a significant portion of the whole chapter. However, 5% can be hardly considered a significant portion of a dataset/sample. Moreover, this ratio is provided with respect to the English Wikipedia, while in the rest of the paper and in the evaluation the authors use the Italian Wikipedia. Hence, the ratio should be provided with respect to the Italian Wikipedia or at least the authors should motivate this incoherence.""" .
 }
 
@@ -228,8 +228,8 @@
 :assertion {
 	:comment-7 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """In Section 5 (Corpus Analysis) the authors "argue that the loss of information is not significant and can be neglected despite the recall costs". Again, the term significant should be used with more accuracy or ir should be better justified by providing supporting data and proper analysis.""" .
 }
 
@@ -262,9 +262,9 @@
 
 :assertion {
 	:comment-8 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The authors should provide more details for the following parts:""" .
 }
 
@@ -297,9 +297,9 @@
 
 :assertion {
 	:comment-9 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s6#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """* Section 6: provide ranks and more context about the selection of the LUs esordire, giocare, perdere, rimanere and vincere.""" .
 }
 
@@ -332,9 +332,9 @@
 
 :assertion {
 	:comment-10 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s8#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """* Section 8: how many rules were defined for the normalisation of numerical expressions? Are these rules available for consultation?""" .
 }
 
@@ -367,9 +367,9 @@
 
 :assertion {
 	:comment-11 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """* Section 11.1: no information about the inter-rater reliability is provided. This information is needed in order to demonstrate the value of the goldstandard built for the evaluation.""" .
 }
 
@@ -402,9 +402,9 @@
 
 :assertion {
 	:comment-12 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """* Section 11.2: can the data about property statistics made be available?""" .
 }
 
@@ -438,9 +438,9 @@
 
 :assertion {
 	:comment-13 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s2#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The representation of generated statements should be better clarified. In fact, in Section 2 they authors provide an example that does not reflect the semantics provided by the example in Section 9 (page 10). Namely, in the first example the authors state that, from the sentence "In Euro 1992, Germany reached the final, but lost 0-2 to Denmark", the pipeline generates: * a new statement "Germany defeat Denmark" where defeat is the frame * a set of facts about the new property by using FEs. Instead, in the second example, for the same sentence, the pipeline generates * a new statement ":Germany defeat :Defeat01" * a set of facts about the object :Defeat01 The semantics of the first example leds to extensional issues when adding new facts to a property/frame. This issues seem to be resolved by the second example. However, the statement is completely different as no explicit binary relation is generated between Germany and Denmark. Rather, a more coherent (with respect to first example) and correct formalisation could be the following: :Germany :defeat_01 :Denmark . :defeat_01 rdfs:subPropertyOf :defeat . :defeat_01 :winner :Denmark ; :loser :Germany ; :competition :Euro_1992 ; :score "0-2" .""" .
 }
 
@@ -473,9 +473,9 @@
 
 :assertion {
 	:comment-14 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The state of the art is focused on (open) information extraction and semantification. Nevertheless, it misses the comparison with a large slice of relevant works in the areas of machine reading, n-ary relations extraction, existing frame related KBs and theories in the Semantic Web. These works include FRED [1] (see also the paper submitted to the SWJ [2]), FrameBase (see also the paper submitted to the SWJ [4]), [5], [6] and [7]. [1] "Knowledge Extraction Based on Discourse Representation Theory and Linguistic Frames". Valentina Presutti, Francesco Draicchio, Aldo Gangemi. EKAW 2012: 114-129 [2] http://semantic-web-journal.org/system/files/swj1297.pdf [3] "FrameBase: Representing N-Ary Relations Using Semantic Frames". Jacobo Rouces, Gerard de Melo, Katja Hose. ESWC 2015: 505-521 [4] http://semantic-web-journal.org/system/files/swj1239.pdf [5] "Gathering lexical linked data and knowledge patterns from FrameNet". Andrea Giovanni Nuzzolese, Aldo Gangemi, Valentina Presutti. K-Cap 2011: 41-48 [6] "Frame Detection over the Semantic Web". Bonaventura Coppola, Aldo Gangemi, Alfio Gliozzo, Davide Picca, Valentina Presutti. ESWC 2009: 126-142 [7] "Towards a Pattern Science for the Semantic Web". Aldo Gangemi and Valentina Presutti. Semantic Web Journal 1.1, 2 (2010): 61-68.""" .
 }
 
@@ -509,8 +509,8 @@
 :assertion {
 	:comment-15 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The comparison with Legalo is unfair (cf. [8] for more details) In fact, Legalo: * relies on FRED (and its frame-based representation of natural language sentences) for generating binary relations; * works either on Wikipedia articles or generic free text inputs; * can be used for KB enrichment (cf. property matcher in the architecture of Legalo). [8] "From hyper- links to Semantic Web properties using Open Knowledge Extraction". Valentina Presutti, Andrea Giovanni Nuzzolese, Sergio Consoli, Aldo Gangemi, and Diego Reforgiato. Accepted for publication on Semantic Web Journal (http://semantic-web-journal.org/system/files/swj1195.pdf).""" .
 }
 
@@ -545,8 +545,8 @@
 :assertion {
 	:comment-16 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS * page 1: "DECIPHERING its meaning". If you do not use any cryptographic techniques the term understanding would be more appropriate.""" .
 }
 
@@ -581,8 +581,8 @@
 :assertion {
 	:comment-17 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS * page 2: to "to CREDIBLE (thus high-quality)" -> "to RELIABLE (thus high-quality)" """ .
 }
 
@@ -617,8 +617,8 @@
 :assertion {
 	:comment-18 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS * page 2: "from raw text and produces e.g, " -> "from raw text and produces, e.g, " """ .
 }
 
@@ -652,8 +652,8 @@
 :assertion {
 	:comment-19 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS * page 6: "The selected LUs comply to" -> "The selected LUs comply WITH" """ .
 }
 
@@ -687,8 +687,8 @@
 :assertion {
 	:comment-20 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS * page 7: "We alleviate this through EL techniques". What does EL stand for?""" .
 }
 
@@ -722,8 +722,8 @@
 :assertion {
 	:comment-21 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS  page 9: "which we call reification". I would say "called reification" """ .
 }
 
@@ -757,8 +757,8 @@
 :assertion {
 	:comment-22 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS * page 13/14: "In avevage, most raw properties" -> "ON avevage, most raw properties" """ .
 }
 

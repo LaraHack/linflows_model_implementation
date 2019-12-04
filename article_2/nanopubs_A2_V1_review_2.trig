@@ -17,9 +17,9 @@
 
 :assertion {
 	:comment-1 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The paper “N-ary Relation Extraction for Joint T-Box and A-Box Knowledge Base Augmentation” describes a pipeline for database enrichments. It builds on top of frame semantics.""" .
 }
 
@@ -52,9 +52,9 @@
 
 :assertion {
 	:comment-2 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1#section> ;
+		a linkflows:ContentComment, linkflows:PositiveComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The introduction comprehensively explains the need and usefulness for knowbase-completion and enumerates different efforts for making knowledge publicly available in a structured manner. It makes very clear what the main contributions of this paper are: It is a whole framework/pipeline from text to database entries. The actual information extraction technology is not very sophisticated, what the authors present as an advantage of the approach (and I agree, if this is of sufficient performance, of course).""" .
 }
 
@@ -87,9 +87,9 @@
 
 :assertion {
 	:comment-3 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Article ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The paper explains and partially focuses on technical details. It mentions the use of XML/Wikisyntax and actually explains how these documents are preprocessed. It explains the technology in terms of CPU and RAM used to process the data. I am not fully convinced that this level of detail is helpful in this article. It might be considered to move such detailed description to the homepage where the system can be downloaded and contribute to a more concise description.""" .
 }
 
@@ -122,9 +122,9 @@
 
 :assertion {
 	:comment-4 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The mathematically motivated methods, like TF-IDF-standard deviation-based ranking of entities could be introduced more formally.""" .
 }
 
@@ -157,9 +157,9 @@
 
 :assertion {
 	:comment-5 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11#section> ;
+		a linkflows:ContentComment, linkflows:PositiveComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "4"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The evaluation seems to be sound and is interesting.""" .
 }
 
@@ -192,9 +192,9 @@
 
 :assertion {
 	:comment-6 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """This paper could be improved by adding discussions for the different design decisions made when developing the pipeline. For instance, it remains unclear why it has been chosen to use a POS tagger, but no chunking, no dependency parsing. If such steps do not contribute to the overall performance, or if the pipeline would be to slow, that’s fine. But I would prefer to read about these trade-offs and possible impacts of other decisions.""" .
 }
 
@@ -227,9 +227,9 @@
 
 :assertion {
 	:comment-7 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s7#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The work is built on top of a manually annotated data set. I am wondering how that would scale to future applications of the pipeline. How is this approach working when new roles or entities are added? Do you expect reannotation to be necessary?""" .
 }
 
@@ -262,9 +262,9 @@
 
 :assertion {
 	:comment-8 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9.1#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The confidence score calculation is very important when it comes to KB completion, however, section 9.1 is only describing that the pipeline outputs such scores. I more formal description of properties and distributions of these scores would be interesting.""" .
 }
 
@@ -297,9 +297,9 @@
 
 :assertion {
 	:comment-9 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The related work section does not mention distributional methods and matrix factorization-based approaches for relation extraction. A short discussion of advantages and disadvantage would be interesting..""" .
 }
 
@@ -332,9 +332,9 @@
 
 :assertion {
 	:comment-10 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Finally, the developed system shares properties with semantic role labeling systems. How does your development compare to existing systems? Could an SRL-system contribute to a strong baseline?""" .
 }
 
@@ -368,8 +368,8 @@
 :assertion {
 	:comment-11 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Minor: * T-Box and A-Box are not terms which are well known in all communities which might be interested in this work. These terms should be introduced early in the paper.""" .
 }
 
@@ -403,8 +403,8 @@
 :assertion {
 	:comment-12 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Minor: * Figure 1 is very text focused. I understand that this is a screenshot (or print) from an actual system. However, the layout makes it quite difficult to understand just from the depiction what is the purpose. Perhaps a graphical annotation might help here.""" .
 }
 
@@ -439,8 +439,8 @@
 :assertion {
 	:comment-13 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Minor: * The use of English is not perfect and could be improved, however, this does not lead to any problems with understanding the content of the paper.""" .
 }
 
@@ -474,8 +474,8 @@
 :assertion {
 	:comment-14 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Minor: * Figure 3 could be additionally provided in a translated version, such that non-italien readers could understand it.""" .
 }
 
@@ -509,8 +509,8 @@
 :assertion {
 	:comment-15 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Minor: * Captions on Figures (e.g. 8) are too small.""" .
 }
 
@@ -545,8 +545,8 @@
 :assertion {
 	:comment-16 a linkflows:ReviewComment ;
 		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Minor: * Figure 8 is in general hard to interpret, as lines are hard to distinguish.""" .
 }
 
