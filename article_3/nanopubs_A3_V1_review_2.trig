@@ -87,7 +87,8 @@
 
 :assertion {
 	:comment-3 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The proposed approach is well fitting in the scope of the SWJ journal, even though more experiments would be beneficial to show how the WiseNET system can be actually applied and give added value compared to alternative and already existing solutions. If some modules of the architecture are still under development, then the authors could at least define some scenarios and KPIs to be evaluated in the future.""" .
@@ -122,7 +123,9 @@
 
 :assertion {
 	:comment-4 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s1_p6#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Moreover, the authors should further highlight which are the actual novel contributions beyond the state of the art with respect of the various modules of the proposed approach.""" .
@@ -192,7 +195,7 @@
 
 :assertion {
 	:comment-6 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t2#table> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """An overall graphical representation of the architecture to show how the ontology modules are integrated is missing (cf. table 2).""" .
@@ -227,8 +230,9 @@
 
 :assertion {
 	:comment-7 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t3#table> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t4#table> ;
+		a linkflows:StyleComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Are the classes and properties in Tables 3 and 4 novel definitions of the WiseNET ontology? It is suggested to include the prefix to avoid misunderstanding.""" .
 }
@@ -262,7 +266,9 @@
 
 :assertion {
 	:comment-8 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t4#table> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t5#table> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f3#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Moreover, it should be better explained why the WiseNET ontology redefines part of the content of ifcowl (e.g. properties “aggregates”, “spaceContains”). Why isn’t it enough to extract a fragment of ifcowl and use it in integration with other ontology modules? This would allow to skip a few query+update steps in the proposed methodology.""" .
@@ -297,7 +303,9 @@
 
 :assertion {
 	:comment-9 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s6.2#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list4#listing> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list5#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The query update examples for sect.6.2 are missing. This part is probably even more interesting and relevant than what is shown in listings 4 and 5""" .
@@ -332,7 +340,7 @@
 
 :assertion {
 	:comment-10 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/abstract#abstract> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- It is not appropriate to include a link in the abstract""" .
@@ -367,8 +375,8 @@
 
 :assertion {
 	:comment-11 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s1_p6#paragraph> ;
+		a linkflows:StyleComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- A reference could be placed when WiseNET is mentioned the first time in Sect.1""" .
 }
@@ -402,7 +410,7 @@
 
 :assertion {
 	:comment-12 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p5#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- In page 3, [10] is not the most proper reference about IFC EXPRESS to OWL. In addition to [30], also the paper Pauwels et al. 2017 (“Enhancing the ifcOWL ontology with an alternative representation for geometric data”) can be considered, since it includes the final version of ifcowl approved by bSI.""" .
@@ -438,7 +446,7 @@
 
 :assertion {
 	:comment-13 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p6#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- In page 3, the sentence “Currently, ontologies are represented using OWL-2 language…” is not correct since OWL-2 is not the only ontology language available.""" .
@@ -473,7 +481,7 @@
 
 :assertion {
 	:comment-14 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.1.2_p2#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Page 5, [28] is not the appropriate reference to ifcowl. Consider [30] and Pauwels et al. 2017.""" .
@@ -508,7 +516,7 @@
 
 :assertion {
 	:comment-15 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.2#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Section 3.2 can be made shorted since its contribution to the paper is quite limited.""" .
@@ -544,7 +552,8 @@
 
 :assertion {
 	:comment-16 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f4#figure> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f3#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Fig.4 is included before Fig.3""" .
@@ -580,7 +589,7 @@
 
 :assertion {
 	:comment-17 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Sect.5. Actually, ifcowl is just the ontology T-box and it does not include proper instances. It is suggested to use IFC-RDF graph (or something else) when referring to the instances. This means also that querying the ifcowl instances are not returned (cf. sect.6.1.)""" .
@@ -616,7 +625,8 @@
 
 :assertion {
 	:comment-18 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5_p5#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5_p6#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Sect.5. The use of the term “compliance check” while just looking at which classes are instantiated is a bit misleading.""" .
@@ -651,7 +661,7 @@
 
 :assertion {
 	:comment-19 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5.2_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Sect.5.2. The prefix “inst” is a pure convention related to the IFC-to-RDF conversion and is not defined in the ifcowl ontology.""" .
@@ -686,7 +696,7 @@
 
 :assertion {
 	:comment-20 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list3#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Listing 3. For completeness, also the inverse properties of ifcowl:relatingObject_IfcRelDecomposes ifcowl:relatedObjects_IfcRelDecomposes should be considered in the query.""" .
@@ -721,7 +731,7 @@
 
 :assertion {
 	:comment-21 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list3#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Listing 3. The query may return bindings with ?elementType=owl:NamedIndividual, therefore it would be better to add a FILTER like in Question2 of Listing 6.""" .
@@ -756,7 +766,7 @@
 
 :assertion {
 	:comment-22 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f5#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Fig.5. It’s a bit strange that a property of the a door (key system) is entered in the Camera Setup GUI. It is indeed an extension of what is converted from the IFC file.""" .
@@ -791,7 +801,7 @@
 
 :assertion {
 	:comment-23 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list5#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Listing 5. The query can be made more compact by exploiting “,”, avoiding to unnecessarily repeat rdf:type.""" .
@@ -826,7 +836,7 @@
 
 :assertion {
 	:comment-24 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list5#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Listing 5. Why is DUL:hasLocation used instead of what can be already found in ifcowl?""" .
@@ -861,7 +871,7 @@
 
 :assertion {
 	:comment-25 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list6#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Listing 6. Question 2. A semi-colon should go after ?x instead of a dot.""" .
@@ -896,7 +906,7 @@
 
 :assertion {
 	:comment-26 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list6#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Listing 6. Question 3. No need to specify a time stamp?""" .
@@ -966,7 +976,7 @@
 
 :assertion {
 	:comment-28 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p7#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Page 4, column 1, line 10, “unify” in place of “unified”""" .
@@ -1001,7 +1011,7 @@
 
 :assertion {
 	:comment-29 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p7#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Page 4, column 1, line 14, “where” in place of “were”""" .
@@ -1036,7 +1046,11 @@
 
 :assertion {
 	:comment-30 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p7#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p3#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p1#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p4#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s8_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Several times the word “fusion” is used as a verb, but it is a noun (cf. page 4, 17)""" .
@@ -1071,10 +1085,10 @@
 
 :assertion {
 	:comment-31 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p7#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 4, column 1, “warrants” in place of “warranties”""" .
+		linkflows:hasCommentText """- Page 4, column 1, “warrants” in place of “warranties” """ .
 }
 
 :provenance {
@@ -1106,10 +1120,10 @@
 
 :assertion {
 	:comment-32 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.1.2_p2#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 5, col 1, “interoperability between” in place of “interoperability among”""" .
+		linkflows:hasCommentText """- Page 5, col 1, “interoperability between” in place of “interoperability among” """ .
 }
 
 :provenance {
@@ -1141,10 +1155,10 @@
 
 :assertion {
 	:comment-33 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 8, col 2, “focus on” in place of “focus in”""" .
+		linkflows:hasCommentText """- Page 8, col 2, “focus on” in place of “focus in” """ .
 }
 
 :provenance {
@@ -1176,10 +1190,10 @@
 
 :assertion {
 	:comment-34 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p2#paragraph> ;
+		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 9, col 1, “inserting it into the” in place of “insert it to”""" .
+		linkflows:hasCommentText """- Page 9, col 1, “inserting it into the” in place of “insert it to” """ .
 }
 
 :provenance {
@@ -1211,10 +1225,10 @@
 
 :assertion {
 	:comment-35 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p2#paragraph> ;
+		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 9, col 2, “people are” in place of “people is”""" .
+		linkflows:hasCommentText """- Page 9, col 2, “people are” in place of “people is” """ .
 }
 
 :provenance {
@@ -1246,10 +1260,10 @@
 
 :assertion {
 	:comment-36 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p3#paragraph> ;
+		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 9, col 2, “may have occurred” in place of “may occurred”""" .
+		linkflows:hasCommentText """- Page 9, col 2, “may have occurred” in place of “may occurred” """ .
 }
 
 :provenance {
@@ -1281,8 +1295,14 @@
 
 :assertion {
 	:comment-37 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s6_p2#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s6.2_p3#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p2#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p7#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.2_p4#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p5#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5_p4#paragraph> ;
+		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- “consist on” is wrong, either use “consist of” or “consist in”, depending on the meaning (cf. pages 10, 13, 15)""" .
 }
@@ -1316,10 +1336,10 @@
 
 :assertion {
 	:comment-38 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5_p4#paragraph> ;
+		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 10, col 2, “contained in” in place of “contained on”""" .
+		linkflows:hasCommentText """- Page 10, col 2, “contained in” in place of “contained on” """ .
 }
 
 :provenance {
@@ -1351,10 +1371,12 @@
 
 :assertion {
 	:comment-39 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p3#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p4#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s1_p6#paragraph> ;
+		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 15, 17, “especially” in place of “specially”""" .
+		linkflows:hasCommentText """- Page 15, 17, “especially” in place of “specially” """ .
 }
 
 :provenance {
@@ -1386,10 +1408,10 @@
 
 :assertion {
 	:comment-40 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p1#paragraph> ;
+		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 15, “it satisfies” in place of “it satisfy”""" .
+		linkflows:hasCommentText """- Page 15, “it satisfies” in place of “it satisfy” """ .
 }
 
 :provenance {
@@ -1421,8 +1443,8 @@
 
 :assertion {
 	:comment-41 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p3#paragraph> ;
+		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Page 15, to clarify “the devices utilize”, maybe it should be “devices utilized”""" .
 }
@@ -1456,10 +1478,10 @@
 
 :assertion {
 	:comment-42 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p4#paragraph> ;
+		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 15, “does not need” in place of “does not needs”""" .
+		linkflows:hasCommentText """- Page 15, “does not need” in place of “does not needs” """ .
 }
 
 :provenance {
@@ -1491,7 +1513,7 @@
 
 :assertion {
 	:comment-43 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """- Several errors in the final paragraphs of sect.7.""" .

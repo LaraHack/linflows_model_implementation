@@ -227,7 +227,7 @@
 
 :assertion {
 	:comment-7 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s5_p1#paragraph>;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """In Section 5 (Corpus Analysis) the authors "argue that the loss of information is not significant and can be neglected despite the recall costs". Again, the term significant should be used with more accuracy or ir should be better justified by providing supporting data and proper analysis.""" .
@@ -508,7 +508,7 @@
 
 :assertion {
 	:comment-15 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.3_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The comparison with Legalo is unfair (cf. [8] for more details) In fact, Legalo: * relies on FRED (and its frame-based representation of natural language sentences) for generating binary relations; * works either on Wikipedia articles or generic free text inputs; * can be used for KB enrichment (cf. property matcher in the architecture of Legalo). [8] "From hyper- links to Semantic Web properties using Open Knowledge Extraction". Valentina Presutti, Andrea Giovanni Nuzzolese, Sergio Consoli, Aldo Gangemi, and Diego Reforgiato. Accepted for publication on Semantic Web Journal (http://semantic-web-journal.org/system/files/swj1195.pdf).""" .
@@ -544,7 +544,7 @@
 
 :assertion {
 	:comment-16 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS * page 1: "DECIPHERING its meaning". If you do not use any cryptographic techniques the term understanding would be more appropriate.""" .
@@ -580,7 +580,7 @@
 
 :assertion {
 	:comment-17 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1_p3#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS * page 2: to "to CREDIBLE (thus high-quality)" -> "to RELIABLE (thus high-quality)" """ .
@@ -616,7 +616,7 @@
 
 :assertion {
 	:comment-18 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1_p3#paragraph>;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS * page 2: "from raw text and produces e.g, " -> "from raw text and produces, e.g, " """ .
@@ -651,7 +651,7 @@
 
 :assertion {
 	:comment-19 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s6_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS * page 6: "The selected LUs comply to" -> "The selected LUs comply WITH" """ .
@@ -686,7 +686,7 @@
 
 :assertion {
 	:comment-20 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s7_p2#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS * page 7: "We alleviate this through EL techniques". What does EL stand for?""" .
@@ -721,7 +721,7 @@
 
 :assertion {
 	:comment-21 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS  page 9: "which we call reification". I would say "called reification" """ .
@@ -756,7 +756,7 @@
 
 :assertion {
 	:comment-22 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p4#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """-- MINOR COMMENTS * page 13/14: "In avevage, most raw properties" -> "ON avevage, most raw properties" """ .

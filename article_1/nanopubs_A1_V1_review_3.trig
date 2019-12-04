@@ -1459,7 +1459,7 @@
 
 :assertion {
 	:comment-42 a linkflows:ReviewComment ;
-		linkflows:refersTo linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3.4_p2#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3.4_p2#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Some relatively minor remarks: - page 20, 2nd column: possible design flaw also in the case of proper nouns""" .
@@ -1494,7 +1494,7 @@
 
 :assertion {
 	:comment-43 a linkflows:ReviewComment ;
-		linkflows:refersTo linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/f7#figure> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/f7#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Some relatively minor remarks: - figure 7(b): TP+TN are complementary w.r.t. FP+FN; rates would be more meaningful than total counts""" .

@@ -192,7 +192,7 @@
 
 :assertion {
 	:comment-6 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """While the instance data handled by the system focuses on high-level information that is combined with logic rules, it remains unclear how this information is propagated back to the SmartCameras doing the feature extraction of e.g. peoples autonomously and independently in order to "overcome some limitations of computer vision (e.g., false detections and missed detections)" . The back-propagation of context information to improve the detection accuracy is neither explained nor proven by data.""" .
@@ -227,7 +227,8 @@
 
 :assertion {
 	:comment-7 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list1#listing> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list2#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """While the extraction of spatial information from an underlying building model to set up topological relations seems sound, the use seems to be limited to an initial setup including the inference of room connectivity graphs (shared doors) and simple 'nearby' relations (Listings 1 and 2). While these basic relations might provide some degree of spatial context, their usefulness for real-world situations remain unclear.""" .
@@ -262,7 +263,7 @@
 
 :assertion {
 	:comment-8 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f5#figure>  ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The usefulness introduction of the suggested user interface mockup in fig. 5 is questionable without further usability testing and evaluation.""" .
@@ -297,7 +298,7 @@
 
 :assertion {
 	:comment-9 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s6.2#section>  ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The scalability of the dynamic population (section 6.2) is unclear (how are SWRL(?) inferences performing on real world buildings with hundreds of rooms and cameras etc.).""" .
@@ -332,7 +333,7 @@
 
 :assertion {
 	:comment-10 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s6.2_p3#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The usability of providing the bounding box descriptions "xywh" without projecting them into 3D-space and the intention of the RGB values in "visualDescription" is unclear.""" .
@@ -367,7 +368,8 @@
 
 :assertion {
 	:comment-11 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p2#paragraph> ;
+		linkflows:refersTo  <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p3#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The temporal events of persons being detected at certain moments in time is not further used in any of the demonstration queries and their relation to the spatial configuration of the building is not shown.""" .
@@ -402,7 +404,10 @@
 
 :assertion {
 	:comment-12 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5.1_p1#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5.2_p1#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5.2_p1#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p2#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Listing 6 is referred to but misses a label on page 15, as do other listings on e.g. page 11""" .
@@ -438,7 +443,9 @@
 
 :assertion {
 	:comment-13 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t3#table> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t4#table> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t5#table> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """The listings in tables 3-5 seem overly extensive and could go into a (digital) appendix.""" .
@@ -473,7 +480,7 @@
 
 :assertion {
 	:comment-14 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t1#table> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Many of the 'competency questions' in Table 1 are limited to static building data that could be answered from the original ifcOWL model data even if the semantic shortcuts bring some improvements regarding the reduction of complexity of queries (which are hidden from end users anyways)""" .
@@ -580,7 +587,7 @@
 
 :assertion {
 	:comment-17 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2#section>;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """An interesting addition to the current state of the art would be the extension of an ontology with modeling the precise fields of views of all cameras to allow a detailed calculations of camera coverage through e.g. overlapping FOV volumes. This would require the development of a spatial calculus that could be represented in the ontology in either static (immovable cameras) or dynamic spatio-temporal configurations (when is a feature detected in e.g. rotating cameras). For this, the notion of 'space' must be extended beyond the mere physical spaces from a static building models.""" .

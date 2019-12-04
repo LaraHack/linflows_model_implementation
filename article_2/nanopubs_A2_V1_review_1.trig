@@ -157,7 +157,8 @@
 
 :assertion {
 	:comment-5 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s7.2.1#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/f3#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """* In this context, I also do not completely understand the "anatomy" (weird term) of the crowdsourcing task: The description in Section 7.2.1 and Figure 3 suggest that the sentence to be annotated is presented to the workers together with the frame label. How can this be determined in advance? I suspect that this is done by assuming a fixed mapping between lexical units and a frame, which obviously neglects potential lexical ambiguity at the level of lexical units. This aspect needs clarification, and it should be quantified to what extent such ambiguities really occur and pose a problem to the system.""" .
@@ -266,7 +267,7 @@
 
 :assertion {
 	:comment-8 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/f4#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Figure 4 suggests, however, that there is a considerable proportion of cases where "0" chunks are erroneously assigned an FE label by the system. This clearly leads to an illegitimate boost of precision. The final version must at least include an additional setting where these cases are correctly evaluated as false positives.""" .
@@ -478,7 +479,7 @@
 
 :assertion {
 	:comment-14 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """* In Section 9, the formulation "...which we call reification" is misleading, as reification is certainly not a new term that is introduced here.""" .
@@ -513,7 +514,7 @@
 
 :assertion {
 	:comment-15 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/t2#table>  ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """* Table 2: What are "gold units", what are "untrusted judgments"? Please explain.""" .
@@ -585,7 +586,7 @@
 
 :assertion {
 	:comment-17 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1.1_p3#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """* Section 11.1.1: "Due to an error in the training set crowdsourcing step, we lack of VITTORIA and PARTITA samples": This issue should be corrected in the final version.""" .
@@ -621,7 +622,8 @@
 
 :assertion {
 	:comment-18 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/t4#table> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """* Table 4 mentions "frequency %" in the heading of column 1; the corresponding description in Section 11.2 talks about "absolute occurence frequencies". Please harmonize.""" .
@@ -656,7 +658,7 @@
 
 :assertion {
 	:comment-19 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/f8#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """* Figure 8 definitely needs a better resolution. In the current version, the curves are barely distinguishable, the legend hardly readable.""" .
@@ -691,7 +693,7 @@
 
 :assertion {
 	:comment-20 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """* Section 13.1: RE (in the authors' use of the term) and OIE are certainly not "two principal fields in Information Extraction", but rather refer two different paradigms in relation extraction (which is in itself a subtask of information extraction).""" .
@@ -726,7 +728,7 @@
 
 :assertion {
 	:comment-21 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p4#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """* p. 13: "lack of ontology property usage in 4 out of 7 classes" --> 3 out of 6?""" .

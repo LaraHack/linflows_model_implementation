@@ -367,7 +367,13 @@
 
 :assertion {
 	:comment-11 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p7#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p1#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p2#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12_p1#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.3_p1#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s14_p2#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Minor: * T-Box and A-Box are not terms which are well known in all communities which might be interested in this work. These terms should be introduced early in the paper.""" .
@@ -402,7 +408,7 @@
 
 :assertion {
 	:comment-12 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/f1#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Minor: * Figure 1 is very text focused. I understand that this is a screenshot (or print) from an actual system. However, the layout makes it quite difficult to understand just from the depiction what is the purpose. Perhaps a graphical annotation might help here.""" .
@@ -438,8 +444,8 @@
 
 :assertion {
 	:comment-13 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1>  ;
+		a linkflows:StyleComment, linkflows:NegativeComment, linkflows:SuggestionComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Minor: * The use of English is not perfect and could be improved, however, this does not lead to any problems with understanding the content of the paper.""" .
 }
@@ -473,7 +479,7 @@
 
 :assertion {
 	:comment-14 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f3#figure>  ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Minor: * Figure 3 could be additionally provided in a translated version, such that non-italien readers could understand it.""" .
@@ -508,8 +514,15 @@
 
 :assertion {
 	:comment-15 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f1#figure> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f2#figure> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f3#figure> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f4#figure> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f5#figure> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f6#figure> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f7#figure> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f8#figure> ;
+		a linkflows:StyleComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Minor: * Captions on Figures (e.g. 8) are too small.""" .
 }
@@ -544,7 +557,7 @@
 
 :assertion {
 	:comment-16 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Paragraph ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f8#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Minor: * Figure 8 is in general hard to interpret, as lines are hard to distinguish.""" .

@@ -540,7 +540,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """One important application of ontology is for semantic fusion, which consists on integrating and organiz- ing data and knowledge coming from multiple heterogeneous sources and to unified them into a consistent representation. There have being many works that combine semantic information coming from different sources in an ontology. Hong et al. presented some context-aware systems were the ontology plays a central role for enabling interoperability between devices and agents which are not designed to work together [16]. Dibley et al. developed an ontology framework that combines a sensor ontology with a building ontology and others supporting ontologies [10]. Other works have focused on using ontologies for combining computer vision with different kinds of information such as SanMiguel et al. which created an ontology composed mainly of knowledge about objects, events and image processing algorithms [34]; Chaochaisit et al. presented a semantic connection between sensor specification, localization methods and contextual in- formation [5]; and Town which presented an ontology that fusion multiple computer vision stages with con- text information for image retrieval and event detections [39]. The use of ontologies as an interoperability agent warranties the information fusion. Consequently, we propose the creation of an ontology to combine and re-purpose the different types of information required by a Panoptes building.""" .
+		c4o:hasContent """One important application of ontology is for semantic fusion, which consists on integrating and organiz- ing data and knowledge coming from multiple heterogeneous sources and to unified them into a consistent representation. There have being many works that combine semantic information coming from different sources in an ontology. Hong et al. presented some context-aware systems were the ontology plays a central role for enabling interoperability between devices and agents which are not designed to work together [16]. Dibley et al. developed an ontology framework that combines a sensor ontology with a building ontology and others supporting ontologies [10]. Other works have focused on using ontologies for combining computer vision with different kinds of information such as SanMiguel et al. which created an ontology composed mainly of knowledge about objects, events and image processing algorithms [34]; Chaochaisit et al. presented a semantic connection between sensor specification, localization methods and contextual information [5]; and Town which presented an ontology that fusion multiple computer vision stages with context information for image retrieval and event detections [39]. The use of ontologies as an interoperability agent warranties the information fusion. Consequently, we propose the creation of an ontology to combine and re-purpose the different types of information required by a Panoptes building.""" .
 }
 
 :provenance {
@@ -717,7 +717,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """The goal for developing the WiseNET ontology was to create a shared understanding of the structure of information for a Panoptes building. The WiseNET developing process follows the Noy and McGuin- ness methodology for ontology development [27]. This methodology consists of seven steps which are: determine scope of the ontology, consider reuse, enumerate classes, define classes and properties, define constrains and create instances (ontology population shown on Sections 5 and 6).""" .
+		c4o:hasContent """The goal for developing the WiseNET ontology was to create a shared understanding of the structure of information for a Panoptes building. The WiseNET developing process follows the Noy and McGuinness methodology for ontology development [27]. This methodology consists of seven steps which are: determine scope of the ontology, consider reuse, enumerate classes, define classes and properties, define constrains and create instances (ontology population shown on Sections 5 and 6).""" .
 }
 
 :provenance {
@@ -1548,7 +1548,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """The WiseNET ontology is the kernel of the WiseNET system. WiseNET is a semantic-based system that fuses heterogeneous sources of data such as data coming from sensors and the different contextual information. Due to the application of the paper (Panoptes building), we will focus in a specific type of sensor: smart cameras; however, the system is defined to include other type of sensors such as temperature, humidity, depth sensor, etc. The main goal of WiseNET is to improve classical computer vision and deep learning systems by considering the contextual information of the environment and by performing real-time reasoning. As a result, WiseNET may overcome some limitations of computer vision (e.g., false detections and missed detections), some drawbacks of deep learning (e.g., the need of large amount of training and test- ing data) and limitations of multi-camera based system (presented in Section 1) while allowing real-time event/anomalies detection and system reconfiguration.""" .
+		c4o:hasContent """The WiseNET ontology is the kernel of the WiseNET system. WiseNET is a semantic-based system that fuses heterogeneous sources of data such as data coming from sensors and the different contextual information. Due to the application of the paper (Panoptes building), we will focus in a specific type of sensor: smart cameras; however, the system is defined to include other type of sensors such as temperature, humidity, depth sensor, etc. The main goal of WiseNET is to improve classical computer vision and deep learning systems by considering the contextual information of the environment and by performing real-time reasoning. As a result, WiseNET may overcome some limitations of computer vision (e.g., false detections and missed detections), some drawbacks of deep learning (e.g., the need of large amount of training and testing data) and limitations of multi-camera based system (presented in Section 1) while allowing real-time event/anomalies detection and system reconfiguration.""" .
 }
 
 :provenance {
@@ -2773,7 +2773,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """Currently, the smart camera network (SCN) has already been deployed and the image processing algorithms have been embedded on it. However, the central API is in development process, therefore it is not possible to perform an evaluation of the complete system. Moreover, the WiseNET ontology may be evaluated. According to Hitzler et al. the accuracy criteria is a central requirement for ontology evaluation [14]. This criteria consists on verifying if the ontology accurately captures the aspects of the modeled domain for which it has designed for. The WiseNET ontology development was based on some competency questions (see Table 1), therefore the evaluation consists on showing that those questions can be answered by the ontology. Listing 6 presents the queries to answer some competency questions. Those questions were selected because they involve aspects which are important in a Panoptes building such as: knowing how many spaces there are in the storeys, which doors a smart camera monitors, how many people are in a space, at what time a person enter/leave a space and how much time a person stayed on a space. Question 1 (of Listing 6) was answered by getting all the elements aggregated by the building storeys. For answering question 2, the regions of interest (ROIs) in a camera’s field of view and their physical representation are obtained. Question 3 was answered by counting the number of ’person in space’ events in the specific space. Question 4 and 5 were answered by using the time interval entity of the event ’person in space’. The time interval entity has a be- ginning, end and duration (the duration is giving in a temporal unit).""" .
+		c4o:hasContent """Currently, the smart camera network (SCN) has already been deployed and the image processing algorithms have been embedded on it. However, the central API is in development process, therefore it is not possible to perform an evaluation of the complete system. Moreover, the WiseNET ontology may be evaluated. According to Hitzler et al. the accuracy criteria is a central requirement for ontology evaluation [14]. This criteria consists on verifying if the ontology accurately captures the aspects of the modeled domain for which it has designed for. The WiseNET ontology development was based on some competency questions (see Table 1), therefore the evaluation consists on showing that those questions can be answered by the ontology. Listing 6 presents the queries to answer some competency questions. Those questions were selected because they involve aspects which are important in a Panoptes building such as: knowing how many spaces there are in the storeys, which doors a smart camera monitors, how many people are in a space, at what time a person enter/leave a space and how much time a person stayed on a space. Question 1 (of Listing 6) was answered by getting all the elements aggregated by the building storeys. For answering question 2, the regions of interest (ROIs) in a camera’s field of view and their physical representation are obtained. Question 3 was answered by counting the number of ’person in space’ events in the specific space. Question 4 and 5 were answered by using the time interval entity of the event ’person in space’. The time interval entity has a beginning, end and duration (the duration is giving in a temporal unit).""" .
 }
 
 :provenance {
@@ -3035,7 +3035,7 @@
 
 :assertion {
 	:paragraph a doco:Paragraph ;
-		c4o:hasContent """The WiseNET system is a semantic-based real-time reasoning system, that fuses different sources of data and is expected to overcomes limitations of multi-camera based system. The WiseNET system selects relevant information from the video streams and adds contextual information to overcome problems of miss- ing information due to false/missed detections. Ad- ditionally, it relates events that occurred at different times, without human interaction. It also protects the user’s privacy by not sending nor saving any image, just extracting the knowledge from them. It may as well, reconfigure the smart camera network according to the inferred knowledge. In few words, the WiseNET system enables interoperability of information from different domains such as the built environment, event information and information coming from the smart camera network. A future goal of the WiseNET system is to offer services to building users according to information coming from a network of sensors deployed on the built environment and contextual information. This is a highly complex task due to the large scope of the building system, that goes from the static physical structure of the built environment to the internal envi- ronment in terms of the dynamic building users and the way how they interact with the building facilities.""" .
+		c4o:hasContent """The WiseNET system is a semantic-based real-time reasoning system, that fuses different sources of data and is expected to overcomes limitations of multi-camera based system. The WiseNET system selects relevant information from the video streams and adds contextual information to overcome problems of miss- ing information due to false/missed detections. Ad- ditionally, it relates events that occurred at different times, without human interaction. It also protects the user’s privacy by not sending nor saving any image, just extracting the knowledge from them. It may as well, reconfigure the smart camera network according to the inferred knowledge. In few words, the WiseNET system enables interoperability of information from different domains such as the built environment, event information and information coming from the smart camera network. A future goal of the WiseNET system is to offer services to building users according to information coming from a network of sensors deployed on the built environment and contextual information. This is a highly complex task due to the large scope of the building system, that goes from the static physical structure of the built environment to the internal environment in terms of the dynamic building users and the way how they interact with the building facilities.""" .
 }
 
 :provenance {
@@ -3339,5 +3339,453 @@
 
 :pubinfo {
 	: dc:created "2019-11-12T12:34:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Formula ;
+		c4o:hasContent """Listing 1""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Formula ;
+		c4o:hasContent """Listing 2""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Formula ;
+		c4o:hasContent """Listing 3""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Formula ;
+		c4o:hasContent """Listing 4""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Formula ;
+		c4o:hasContent """Listing 5""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list6#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Formula ;
+		c4o:hasContent """Listing 6""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Figure ;
+		c4o:hasContent """Figure 3""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Figure ;
+		c4o:hasContent """Figure 4""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Figure ;
+		c4o:hasContent """Figure 5""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Table ;
+		c4o:hasContent """Table 1""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Table ;
+		c4o:hasContent """Table 2""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Table ;
+		c4o:hasContent """Table 3""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t4#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Table ;
+		c4o:hasContent """Table 4""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/t5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:paragraph a doco:Table ;
+		c4o:hasContent """Table 5""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239> .
+}
+
+:pubinfo {
+	: dc:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime ;
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
