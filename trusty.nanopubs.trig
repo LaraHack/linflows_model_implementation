@@ -7335,8 +7335,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA-HW21dfIOoI2XNRDuF0naBfSP56aWtXZ1YXRzwU09HE> .
-@prefix sub: <http://purl.org/np/RA-HW21dfIOoI2XNRDuF0naBfSP56aWtXZ1YXRzwU09HE#> .
+@prefix this: <http://purl.org/np/RAdIyUHySrJ7eQ9pS8kMpHwy86ESLSajUYcnBwY40_rOw> .
+@prefix sub: <http://purl.org/np/RAdIyUHySrJ7eQ9pS8kMpHwy86ESLSajUYcnBwY40_rOw#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -7352,10 +7352,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-7 a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment,
-      linkflows:ReviewComment;
+  sub:comment-7 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "3) In section 3.2) you give background information on the Find-Fix-Verify pattern (2nd paragraph). This information (in which scenario it was used first, etc.) is not really necessary for the rest of the paper.";
-    linkflows:hasImpact "0"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAoFc19T2f1F2j25Q6xBtfclZ1LyAZrlD5IU6F_yBozGE#paragraph> .
 }
 
@@ -7734,15 +7734,15 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAgJNEGVSuLunkt1kRroiw6XxPJE3i2NrfrAEQNuhAqHc> .
-@prefix sub: <http://purl.org/np/RAgJNEGVSuLunkt1kRroiw6XxPJE3i2NrfrAEQNuhAqHc#> .
+@prefix this: <http://purl.org/np/RAoFXLaeJH61ic5xzLHXjOWqCPFek-yPkvMfUC90C-e3Q> .
+@prefix sub: <http://purl.org/np/RAoFXLaeJH61ic5xzLHXjOWqCPFek-yPkvMfUC90C-e3Q#> .
 @prefix c1: <http://purl.org/np/RATeinCdtAjiybfAYfmkG-HYd-sa04Y1G_ASvKSR5vT0M> .
 @prefix c2: <http://purl.org/np/RASDu_Ribodx4OPDiQUGz7ICYg595mfOxvNTwNVzBK6UM> .
 @prefix c3: <http://purl.org/np/RAEVOV-wpFSuszesSs6JCybeeKGaRG7SfGsQkPWpyLS5c> .
 @prefix c4: <http://purl.org/np/RAUlry-madMCgTm3ys-iz9tQu9j-ouTWVfqtYd_0huNIc> .
 @prefix c5: <http://purl.org/np/RAiF_N9vQe11Tv8fZDW51-FxGLWP7H_UHYyirSTSzXgko> .
 @prefix c6: <http://purl.org/np/RA8unqTPYRgVKnQ5-8ohCrNKviqN03VSNKEzEKX0gb24w> .
-@prefix c7: <http://purl.org/np/RA-HW21dfIOoI2XNRDuF0naBfSP56aWtXZ1YXRzwU09HE> .
+@prefix c7: <http://purl.org/np/RAdIyUHySrJ7eQ9pS8kMpHwy86ESLSajUYcnBwY40_rOw> .
 @prefix c8: <http://purl.org/np/RAcBstkhgzkjTar9i_QAGc7m9AavyTskmpRNAdB6CzN-U> .
 @prefix c9: <http://purl.org/np/RANx5cBnp_n71iRztTv-QlCfVqB41bNpX6qo00SvCJgSQ> .
 @prefix c10: <http://purl.org/np/RAJzxk6x8wIWyOqKo-9akIrxmUjUJUSzdWdPdmPYPDj1Q> .
@@ -7772,8 +7772,6 @@ sub:Head {
 }
 
 sub:assertion {
-  c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c7#ReviewComment> .
-  
   c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c15#ReviewComment> .
   
   c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c6#ReviewComment> .
@@ -7794,7 +7792,11 @@ sub:assertion {
   
   c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c8#ReviewComment> .
   
+  c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c7#ReviewComment> .
+  
   c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c17#ReviewComment> .
+  
+  c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c5#ReviewComment> .
   
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c1#ReviewComment>;
     co:nextItem sub:_2 .
@@ -7864,8 +7866,6 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c9#ReviewComment>;
     a fr:Review .
   
-  c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c5#ReviewComment> .
-  
   c18: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c18#ReviewComment> .
   
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c16#ReviewComment> .
@@ -7886,8 +7886,8 @@ sub:pubinfo {
   this: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAG5FmP0lE8JnEY3tFR5KUsPCzM8nRYl1uRTcRi8Klxvs> .
-@prefix sub: <http://purl.org/np/RAG5FmP0lE8JnEY3tFR5KUsPCzM8nRYl1uRTcRi8Klxvs#> .
+@prefix this: <http://purl.org/np/RAihXRDaUJZbu3Z9ae70sp0IqkLXDZgzYXdwAuJ_0JB4E> .
+@prefix sub: <http://purl.org/np/RAihXRDaUJZbu3Z9ae70sp0IqkLXDZgzYXdwAuJ_0JB4E#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -7903,10 +7903,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-1 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
+  sub:comment-1 a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "This paper proposes new crowdsourcing techniques to identify errors in linked data by combining expert judgements with data obtained from crowdsourcing platforms.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1> .
 }
 
@@ -7919,8 +7919,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAlEwTwrpgfgXm1kzMdph7n1yk96co-dYTl0GJmlCPU_Y> .
-@prefix sub: <http://purl.org/np/RAlEwTwrpgfgXm1kzMdph7n1yk96co-dYTl0GJmlCPU_Y#> .
+@prefix this: <http://purl.org/np/RAKFjHGRRudVO4GT8YUxyQJ6ZTJaRZBo8_y-jjs-T4BqM> .
+@prefix sub: <http://purl.org/np/RAKFjHGRRudVO4GT8YUxyQJ6ZTJaRZBo8_y-jjs-T4BqM#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -7936,10 +7936,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-2 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
+  sub:comment-2 a linkflows:ContentComment, linkflows:NoActionNeededComment, linkflows:PositiveComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "The paper addresses very valuable research questions.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "5"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1> .
 }
 
@@ -7952,8 +7952,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RASrbiE5nTuTNONG4Vzkmc1yanzK1eTjlo71nLZcRM6fE> .
-@prefix sub: <http://purl.org/np/RASrbiE5nTuTNONG4Vzkmc1yanzK1eTjlo71nLZcRM6fE#> .
+@prefix this: <http://purl.org/np/RALNv0nJmSgUQC4zykoR5Cmewi0OeSPPZOquOh-83_nyo> .
+@prefix sub: <http://purl.org/np/RALNv0nJmSgUQC4zykoR5Cmewi0OeSPPZOquOh-83_nyo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -7969,10 +7969,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-3 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-3 a linkflows:NoActionNeededComment, linkflows:PositiveComment, linkflows:ReviewComment,
+      linkflows:StyleComment;
     linkflows:hasCommentText "The paper contains all necessary definitions of crowdsourcing terminology making it self-contained and understandable for a reader from the semantic web community.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1> .
 }
 
@@ -7985,8 +7985,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAXmcxXRz7rIF6cdKvAs7Nd10eti5n6i0FIN3n3mqvpPU> .
-@prefix sub: <http://purl.org/np/RAXmcxXRz7rIF6cdKvAs7Nd10eti5n6i0FIN3n3mqvpPU#> .
+@prefix this: <http://purl.org/np/RAxgo-pQVuwjayMi3jp-8_1lXyBm8lQN3Q5eB88kit7hw> .
+@prefix sub: <http://purl.org/np/RAxgo-pQVuwjayMi3jp-8_1lXyBm8lQN3Q5eB88kit7hw#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8002,10 +8002,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-4 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
+  sub:comment-4 a linkflows:ContentComment, linkflows:NoActionNeededComment, linkflows:PositiveComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Authors compare different combinations of worker/expert answers and propose different types of workflows to identify errors in linked data. The paper focuses on 3 specific types of errors. Authors focus exclusively on error identification as fixes can be best applied by correcting the automatic extraction process rather than the generated data.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1> .
 }
 
@@ -8018,8 +8018,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAM_Ct2bDF68ibx8zfARc4vCxvc0J9UD5G6N84sYpXuTk> .
-@prefix sub: <http://purl.org/np/RAM_Ct2bDF68ibx8zfARc4vCxvc0J9UD5G6N84sYpXuTk#> .
+@prefix this: <http://purl.org/np/RAx7n0-qHwQc8zXuo0ZNA5LMSAOQBEBCntcpxflMWjwe4> .
+@prefix sub: <http://purl.org/np/RAx7n0-qHwQc8zXuo0ZNA5LMSAOQBEBCntcpxflMWjwe4#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8035,10 +8035,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-5 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
+  sub:comment-5 a linkflows:ContentComment, linkflows:NoActionNeededComment, linkflows:PositiveComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Authors also make all data and results available on-line for others to re-use.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1> .
 }
 
@@ -8051,8 +8051,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAoZacPZ2GwopzBUYf4sIQOOd6rBUILTvrXPtQdB-y2NQ> .
-@prefix sub: <http://purl.org/np/RAoZacPZ2GwopzBUYf4sIQOOd6rBUILTvrXPtQdB-y2NQ#> .
+@prefix this: <http://purl.org/np/RA7nAt04e1G4gbwkH_f7SRBQK9XfnMCj_4mKmV88kCK2g> .
+@prefix sub: <http://purl.org/np/RA7nAt04e1G4gbwkH_f7SRBQK9XfnMCj_4mKmV88kCK2g#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8068,10 +8068,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-6 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
+  sub:comment-6 a linkflows:ContentComment, linkflows:NoActionNeededComment, linkflows:PositiveComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Results are discussed and analysed in detail comparing crowd and expert performance also including an error analysis.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "5"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RA9dYQrA3ngirz8qPHx0phkDm3tv8aOQH_Ccm5I1zjWKA#section>,
       <http://purl.org/np/RAYC2RtIuKVOsDCv5qXyG0WzJSDBx2rebnRD5Ot95VKVs#section>, <http://purl.org/np/RAZEeWx-Wfq1vIZ5HvJWcFVmzSs9i97aVRKDPQhEdgqTU#section> .
 }
@@ -8085,8 +8085,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAynmO8BNEnChqS3UCqztxa4E6fkeF4Rt1dE4_sg4lI_I> .
-@prefix sub: <http://purl.org/np/RAynmO8BNEnChqS3UCqztxa4E6fkeF4Rt1dE4_sg4lI_I#> .
+@prefix this: <http://purl.org/np/RAca7CzduTWSW0Yp_3aEqqpH4kZCWOcjUHPKmEaOOej14> .
+@prefix sub: <http://purl.org/np/RAca7CzduTWSW0Yp_3aEqqpH4kZCWOcjUHPKmEaOOej14#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8102,10 +8102,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-7 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
+  sub:comment-7 a linkflows:ContentComment, linkflows:NoActionNeededComment, linkflows:PositiveComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "(1) originality: The addressed problem of linked data quality is important and the proposed solution is novel and reasonable";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1> .
 }
 
@@ -8118,8 +8118,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAOO5HBlay0-iNgGE6EiWgVmOYgjB4KH_v9ROez1Jt9Rk> .
-@prefix sub: <http://purl.org/np/RAOO5HBlay0-iNgGE6EiWgVmOYgjB4KH_v9ROez1Jt9Rk#> .
+@prefix this: <http://purl.org/np/RAULversutvIxkxhvKslk_Yj9JxIBxp2z9O4Yoq8iyoeM> .
+@prefix sub: <http://purl.org/np/RAULversutvIxkxhvKslk_Yj9JxIBxp2z9O4Yoq8iyoeM#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8135,10 +8135,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-8 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
+  sub:comment-8 a linkflows:ContentComment, linkflows:NoActionNeededComment, linkflows:PositiveComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "(2) significance of the results: The results show how to best combine experts and crowd for the proposed linked data quality problems. This does not solve all linked data quality problems, but it certainly contributes to bring this field forward.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "5"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RA1JWAMThC_p99P7YZMzDLtS7lxMqeVgjhlRuyiX4V8QY#section>,
       <http://purl.org/np/RABoOJeF2VfaurH3ax-EcMkENEpwKJBvwl0BirkrM-GnY#section>, <http://purl.org/np/RAIgJQ0XI4vI8PrS6Kh5xKtIr1j30l2iWv1R4OPDyaLe0#section>,
       <http://purl.org/np/RAMZRppeR6fF38-GKtccZdL9AGACf_EmUerTw2Bp3lrP4#section>, <http://purl.org/np/RAOj0tTT6HnKOEkJyrB1GhsruazpAL4r01fBVSq0EKwTE#section>,
@@ -8155,8 +8155,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAhmMXJw-4KOra6CEPpJCbUXkUIHHeSHDvVTa7o1cf8eQ> .
-@prefix sub: <http://purl.org/np/RAhmMXJw-4KOra6CEPpJCbUXkUIHHeSHDvVTa7o1cf8eQ#> .
+@prefix this: <http://purl.org/np/RACctl9WX_bR0pK5NCkWdc1CVpE-gk_ZNuGttlV5-08u4> .
+@prefix sub: <http://purl.org/np/RACctl9WX_bR0pK5NCkWdc1CVpE-gk_ZNuGttlV5-08u4#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8172,10 +8172,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-9 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-9 a linkflows:NoActionNeededComment, linkflows:PositiveComment, linkflows:ReviewComment,
+      linkflows:StyleComment;
     linkflows:hasCommentText "(3) quality of writing: The paper is very well written and structured. It is easy to follow and presents a detailed description of the approach and of the experimental results also including error analysis.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1> .
 }
 
@@ -8188,8 +8188,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAUdfSmgTDAPtBQvYgfBys12SAA6RYyCADlA10AOeWLlw> .
-@prefix sub: <http://purl.org/np/RAUdfSmgTDAPtBQvYgfBys12SAA6RYyCADlA10AOeWLlw#> .
+@prefix this: <http://purl.org/np/RACCiD2-G6zWEgrGs7ibXN8-LFItcbXVzhdo9zk4wcaXE> .
+@prefix sub: <http://purl.org/np/RACCiD2-G6zWEgrGs7ibXN8-LFItcbXVzhdo9zk4wcaXE#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8206,8 +8206,8 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-10 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-10 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "Detailed comments: - A controversial point is that the ground truth was created by experts as the results which are evaluated against this. I agree that there is no way around this, but a small discussion on how the authors believe the ground truth data is of better quality than the expert answers would help (e.g., experts did not necessarily put enough effort in the task as the ground truth creators did also by resolving conflicts and discussing difficult triples together etc.).";
     linkflows:hasImpact "3"^^xsd:positiveInteger;
     linkflows:refersTo doco:Section .
@@ -8222,8 +8222,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAUGJphNAh1gm10XiPSivye1W3IHD7wQB353H0dcaoJgk> .
-@prefix sub: <http://purl.org/np/RAUGJphNAh1gm10XiPSivye1W3IHD7wQB353H0dcaoJgk#> .
+@prefix this: <http://purl.org/np/RASCGdzBmhUBdcNK-Ne_UX6vCD9yCRbawm-nxRb1oNlyc> .
+@prefix sub: <http://purl.org/np/RASCGdzBmhUBdcNK-Ne_UX6vCD9yCRbawm-nxRb1oNlyc#> .
 @prefix s2: <http://purl.org/np/RAZ-5BH2IwShbiXCXQHsLT3F6HEMWtxu3f72Y2PfM0tHY> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8240,8 +8240,8 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-11 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-11 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "Detailed comments: - In section 2 it is unclear to me how the 4 dimensions relate to the 3 error types addressed here. Expanding this section would make the paper easier to understand and more self-contained. Discussing automatic approaches on how to identify errors in linked data could also be discussed at this point to motivate the need for human computation approaches.";
     linkflows:hasImpact "3"^^xsd:positiveInteger;
     linkflows:refersTo s2:\#section .
@@ -8256,8 +8256,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA7L5umnSHepWCuRW2jTdbP1m1Eqjm-1lGbATnXQtjZek> .
-@prefix sub: <http://purl.org/np/RA7L5umnSHepWCuRW2jTdbP1m1Eqjm-1lGbATnXQtjZek#> .
+@prefix this: <http://purl.org/np/RAoNlCz0nAjm_JzFJZvsmHrm7vBlzpGgr1at50WIaowjA> .
+@prefix sub: <http://purl.org/np/RAoNlCz0nAjm_JzFJZvsmHrm7vBlzpGgr1at50WIaowjA#> .
 @prefix s4: <http://purl.org/np/RA-ydmHQoYua6XWMo0u1NBFGPMJUw_F-6r5dLKnPZ4pbs> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8277,7 +8277,7 @@ sub:assertion {
   sub:comment-12 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Detailed comments: - The scalability of the approach is unclear: It seems to me that the proposed approach need each single triple in a linked dataset to be manually checked. This would limit the scalability of the approach. Thus, while the focus of this paper is clearly different, it would be useful to briefly discuss the possibility of hybrid human-machine approaches to scale the approach to large amounts of triples (e.g., the English DBpedia 3.9 has 500M triples). Related to this is “Proposition 2” which sounds very much not scalable.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/prop2#proposition>,
       s4:\#section .
 }
@@ -8291,8 +8291,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAJvqLhQHdpZjwBQVpuK3eh4PW28Aw-jUkPqyEvuFI04c> .
-@prefix sub: <http://purl.org/np/RAJvqLhQHdpZjwBQVpuK3eh4PW28Aw-jUkPqyEvuFI04c#> .
+@prefix this: <http://purl.org/np/RA4J2df-K_A6nszaOWaE27vqsGkX8N_WBsaJWJUJujSRo> .
+@prefix sub: <http://purl.org/np/RA4J2df-K_A6nszaOWaE27vqsGkX8N_WBsaJWJUJujSRo#> .
 @prefix p10: <http://purl.org/np/RAM5XYjJ8ShQBCpsdptVBJdC1xsy3Sf7zWtRrVzx-AJIA> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8312,7 +8312,7 @@ sub:assertion {
   sub:comment-13 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Detailed comments: - At the end of section 4.3 it is unclear whether the incorrect links are errors present in Wikipedia or are generated by the wrappers.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo p10:\#paragraph, <http://purl.org/np/RAQlu--T1TgdgDn8Fh5EK8yvGWvVLXX9QY9lXULyeN57A#paragraph>,
       <http://purl.org/np/RAbAA0w0PZgkGPiU4M-1CQeSbSNxleuameLKepgYP4AW0#paragraph>, <http://purl.org/np/RAm6AVwH-mWmJfKavur_ykxWUAUo1YZx0GChDTzzbkdss#paragraph> .
 }
@@ -8326,8 +8326,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAeNcgP2mVtFpNv79_oi8yj8BYpOzT5oNZPlxshKrmKGU> .
-@prefix sub: <http://purl.org/np/RAeNcgP2mVtFpNv79_oi8yj8BYpOzT5oNZPlxshKrmKGU#> .
+@prefix this: <http://purl.org/np/RAZF4GkIvyRhGrQ0WvjxjQL9ry5tz3ifJGEYO11R4vaSw> .
+@prefix sub: <http://purl.org/np/RAZF4GkIvyRhGrQ0WvjxjQL9ry5tz3ifJGEYO11R4vaSw#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8343,8 +8343,8 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-14 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-14 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "Detailed comments: - The impression from reading the paper is that the payment of crowd workers is extremely low (e.g., 0.04USD for 5 triples or 0.06USD for 30 triples). It would be interesting to report the hourly rate by considering the time spent by workers in completing the tasks to get a better idea of the adopted payment level.";
     linkflows:hasImpact "3"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAW0PGPeWemQNAQaHCcIJlxarf1kuqfI_WWoED8fJtRto#paragraph> .
@@ -8425,8 +8425,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RADv_ralvEEQ1BMMCg8jrgq0Sk0JQN9iyN-53YH6jPRTo> .
-@prefix sub: <http://purl.org/np/RADv_ralvEEQ1BMMCg8jrgq0Sk0JQN9iyN-53YH6jPRTo#> .
+@prefix this: <http://purl.org/np/RAD8sY0s1_XZkA4aW8wpOCng2td1SU0oJZ7jRDnK2gNGU> .
+@prefix sub: <http://purl.org/np/RAD8sY0s1_XZkA4aW8wpOCng2td1SU0oJZ7jRDnK2gNGU#> .
 @prefix s7: <http://purl.org/np/RArZGwxGKV2acEWZhDWZUH49geI9sq_veJLqqvY35TN4s> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8443,10 +8443,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-17 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-17 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "Detailed comments: - It would be good to add a final paragraph in section 7 stating how this paper compares to the two described areas of research.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo s7:\#section .
 }
 
@@ -8459,25 +8459,25 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA6aXOfMyPt65dI41OVRIfmU5Rza6xOdeZJGJTAjo4eoA> .
-@prefix sub: <http://purl.org/np/RA6aXOfMyPt65dI41OVRIfmU5Rza6xOdeZJGJTAjo4eoA#> .
-@prefix c1: <http://purl.org/np/RAG5FmP0lE8JnEY3tFR5KUsPCzM8nRYl1uRTcRi8Klxvs> .
-@prefix c2: <http://purl.org/np/RAlEwTwrpgfgXm1kzMdph7n1yk96co-dYTl0GJmlCPU_Y> .
-@prefix c3: <http://purl.org/np/RASrbiE5nTuTNONG4Vzkmc1yanzK1eTjlo71nLZcRM6fE> .
-@prefix c4: <http://purl.org/np/RAXmcxXRz7rIF6cdKvAs7Nd10eti5n6i0FIN3n3mqvpPU> .
-@prefix c5: <http://purl.org/np/RAM_Ct2bDF68ibx8zfARc4vCxvc0J9UD5G6N84sYpXuTk> .
-@prefix c6: <http://purl.org/np/RAoZacPZ2GwopzBUYf4sIQOOd6rBUILTvrXPtQdB-y2NQ> .
-@prefix c7: <http://purl.org/np/RAynmO8BNEnChqS3UCqztxa4E6fkeF4Rt1dE4_sg4lI_I> .
-@prefix c8: <http://purl.org/np/RAOO5HBlay0-iNgGE6EiWgVmOYgjB4KH_v9ROez1Jt9Rk> .
-@prefix c9: <http://purl.org/np/RAhmMXJw-4KOra6CEPpJCbUXkUIHHeSHDvVTa7o1cf8eQ> .
-@prefix c10: <http://purl.org/np/RAUdfSmgTDAPtBQvYgfBys12SAA6RYyCADlA10AOeWLlw> .
-@prefix c11: <http://purl.org/np/RAUGJphNAh1gm10XiPSivye1W3IHD7wQB353H0dcaoJgk> .
-@prefix c12: <http://purl.org/np/RA7L5umnSHepWCuRW2jTdbP1m1Eqjm-1lGbATnXQtjZek> .
-@prefix c13: <http://purl.org/np/RAJvqLhQHdpZjwBQVpuK3eh4PW28Aw-jUkPqyEvuFI04c> .
-@prefix c14: <http://purl.org/np/RAeNcgP2mVtFpNv79_oi8yj8BYpOzT5oNZPlxshKrmKGU> .
+@prefix this: <http://purl.org/np/RAhG05Nh-8_0WucZlN4r1DcCqOwQiGFTRa2zOH4UsqpOg> .
+@prefix sub: <http://purl.org/np/RAhG05Nh-8_0WucZlN4r1DcCqOwQiGFTRa2zOH4UsqpOg#> .
+@prefix c1: <http://purl.org/np/RAihXRDaUJZbu3Z9ae70sp0IqkLXDZgzYXdwAuJ_0JB4E> .
+@prefix c2: <http://purl.org/np/RAKFjHGRRudVO4GT8YUxyQJ6ZTJaRZBo8_y-jjs-T4BqM> .
+@prefix c3: <http://purl.org/np/RALNv0nJmSgUQC4zykoR5Cmewi0OeSPPZOquOh-83_nyo> .
+@prefix c4: <http://purl.org/np/RAxgo-pQVuwjayMi3jp-8_1lXyBm8lQN3Q5eB88kit7hw> .
+@prefix c5: <http://purl.org/np/RAx7n0-qHwQc8zXuo0ZNA5LMSAOQBEBCntcpxflMWjwe4> .
+@prefix c6: <http://purl.org/np/RA7nAt04e1G4gbwkH_f7SRBQK9XfnMCj_4mKmV88kCK2g> .
+@prefix c7: <http://purl.org/np/RAca7CzduTWSW0Yp_3aEqqpH4kZCWOcjUHPKmEaOOej14> .
+@prefix c8: <http://purl.org/np/RAULversutvIxkxhvKslk_Yj9JxIBxp2z9O4Yoq8iyoeM> .
+@prefix c9: <http://purl.org/np/RACctl9WX_bR0pK5NCkWdc1CVpE-gk_ZNuGttlV5-08u4> .
+@prefix c10: <http://purl.org/np/RACCiD2-G6zWEgrGs7ibXN8-LFItcbXVzhdo9zk4wcaXE> .
+@prefix c11: <http://purl.org/np/RASCGdzBmhUBdcNK-Ne_UX6vCD9yCRbawm-nxRb1oNlyc> .
+@prefix c12: <http://purl.org/np/RAoNlCz0nAjm_JzFJZvsmHrm7vBlzpGgr1at50WIaowjA> .
+@prefix c13: <http://purl.org/np/RA4J2df-K_A6nszaOWaE27vqsGkX8N_WBsaJWJUJujSRo> .
+@prefix c14: <http://purl.org/np/RAZF4GkIvyRhGrQ0WvjxjQL9ry5tz3ifJGEYO11R4vaSw> .
 @prefix c15: <http://purl.org/np/RAMREsC_3xvtfyusKcLQNgN8_4ewNRocsrYUJOidpTRhM> .
 @prefix c16: <http://purl.org/np/RAlsnPFQ_muH8cfFpCrltH-PAUucpVjtSO86u89HfPx4Y> .
-@prefix c17: <http://purl.org/np/RADv_ralvEEQ1BMMCg8jrgq0Sk0JQN9iyN-53YH6jPRTo> .
+@prefix c17: <http://purl.org/np/RAD8sY0s1_XZkA4aW8wpOCng2td1SU0oJZ7jRDnK2gNGU> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8496,6 +8496,30 @@ sub:Head {
 }
 
 sub:assertion {
+  c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c13#ReviewComment> .
+  
+  c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c6#ReviewComment> .
+  
+  c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c10#ReviewComment> .
+  
+  c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c9#ReviewComment> .
+  
+  c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c17#ReviewComment> .
+  
+  c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c2#ReviewComment> .
+  
+  c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c3#ReviewComment> .
+  
+  c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c15#ReviewComment> .
+  
+  c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c11#ReviewComment> .
+  
+  c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c8#ReviewComment> .
+  
+  c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c14#ReviewComment> .
+  
+  c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c7#ReviewComment> .
+  
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c1#ReviewComment>;
     co:nextItem sub:_2 .
   
@@ -8560,39 +8584,15 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c8#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c9#ReviewComment>;
     a fr:Review .
   
-  c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c12#ReviewComment> .
-  
-  c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c17#ReviewComment> .
-  
   c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c1#ReviewComment> .
-  
-  c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c13#ReviewComment> .
-  
-  c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c15#ReviewComment> .
-  
-  c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c5#ReviewComment> .
-  
-  c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c8#ReviewComment> .
-  
-  c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c3#ReviewComment> .
-  
-  c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c11#ReviewComment> .
-  
-  c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c10#ReviewComment> .
-  
-  c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c4#ReviewComment> .
-  
-  c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c14#ReviewComment> .
-  
-  c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c9#ReviewComment> .
-  
-  c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c2#ReviewComment> .
   
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c16#ReviewComment> .
   
-  c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c6#ReviewComment> .
+  c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c12#ReviewComment> .
   
-  c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c7#ReviewComment> .
+  c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c5#ReviewComment> .
+  
+  c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2_c4#ReviewComment> .
 }
 
 sub:provenance {
@@ -8604,8 +8604,8 @@ sub:pubinfo {
   this: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAAGcpRczEPYysmEjxFSkxtSIMm1q8YkL7bx8ySqjveTs> .
-@prefix sub: <http://purl.org/np/RAAGcpRczEPYysmEjxFSkxtSIMm1q8YkL7bx8ySqjveTs#> .
+@prefix this: <http://purl.org/np/RArJ2wdHDz-Edy_YT3MKTxz36EpAt1mzmKhWPCy1VqQRY> .
+@prefix sub: <http://purl.org/np/RArJ2wdHDz-Edy_YT3MKTxz36EpAt1mzmKhWPCy1VqQRY#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8621,10 +8621,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-1 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
+  sub:comment-1 a linkflows:ContentComment, linkflows:NoActionNeededComment, linkflows:PositiveComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Generally speaking, I like the paper and its topic and I think that it could worth publishing in SWJ, because it is strongly in line with the special issue CfP.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "5"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1> .
 }
 
@@ -8637,8 +8637,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA-LcSjOs8tsjqDKfvWDJKJP4TXMPdgrSSRElHIYc1zo4> .
-@prefix sub: <http://purl.org/np/RA-LcSjOs8tsjqDKfvWDJKJP4TXMPdgrSSRElHIYc1zo4#> .
+@prefix this: <http://purl.org/np/RAcuemHMhQNjBj6S_xEehWHD54-Ha1o4YvyXmccr2Ut_A> .
+@prefix sub: <http://purl.org/np/RAcuemHMhQNjBj6S_xEehWHD54-Ha1o4YvyXmccr2Ut_A#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8657,7 +8657,7 @@ sub:assertion {
   sub:comment-2 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Still, I have some major remarks that should be addressed before acceptance. My observations are mainly related to two aspects: the global scope of the paper and of the presented results, and the experiments design.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1> .
 }
 
@@ -8703,8 +8703,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA0g8Mk7ZCb-fROTfvWgg2YWt1lMc2BooP1Wy4Gkg_wGI> .
-@prefix sub: <http://purl.org/np/RA0g8Mk7ZCb-fROTfvWgg2YWt1lMc2BooP1Wy4Gkg_wGI#> .
+@prefix this: <http://purl.org/np/RA1OSxa_lKel4NLW1tqUuPAGc7-ukyL2ZyCmwEFKdJWmk> .
+@prefix sub: <http://purl.org/np/RA1OSxa_lKel4NLW1tqUuPAGc7-ukyL2ZyCmwEFKdJWmk#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8720,8 +8720,8 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-4 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-4 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "The authors stated that they focused on DBpedia \"as a representative data set for the broader Web of Data\"; I largely disagree with that for the following reasons: (1) not all LD sources are produced by following a transformation/mapping process like DBpedia one, and the types of errors that happen in a specific LD source heavily depend both on the intrinsic quality of the source and on the possible translation process to RDF; (2) DBpedia is very general in coverage of topics, while LD sources (and their possible quality issues) can be very specific to a given domain; as a consequence, the capability of an experts' or workers' crowd to identify and assess LD quality issues is highly influenced by the domain/coverage of the source. Therefore, I'd recommend to soften the claims of generality of the presented results and to clearly state that they are \"proved\" only on DBpedia. I'm sure the authors can speculate to what extent those results can be considered general, but at the present moment I believe they cannot affirm that they fully addressed the research questions as they are introduced.";
     linkflows:hasImpact "3"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAvRE3wxcjsrqH3jLUj1uYBWwnz3hv32F-35s2vEyV6KQ#paragraph> .
@@ -8770,8 +8770,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAg3eYbxPrWJqq6u-Uq13L2OJYc9YIFBNbu6HuUiVbWoE> .
-@prefix sub: <http://purl.org/np/RAg3eYbxPrWJqq6u-Uq13L2OJYc9YIFBNbu6HuUiVbWoE#> .
+@prefix this: <http://purl.org/np/RALUXwzkL4NwZ2jO3kD8ovJB5CF0nI1_m4NF7IvHe4t1E> .
+@prefix sub: <http://purl.org/np/RALUXwzkL4NwZ2jO3kD8ovJB5CF0nI1_m4NF7IvHe4t1E#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8787,10 +8787,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-6 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-6 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "As a global recommendation, I suggest the authors to honestly rephrase the parts of the paper that would try to convince the readers about a possible general validity of the paper results for any LD source and/or for any LD quality issue.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1> .
 }
 
@@ -8803,8 +8803,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAij8QOp6OQAushqBHmnqLb7IZzLYCmBup465c4IGPnlI> .
-@prefix sub: <http://purl.org/np/RAij8QOp6OQAushqBHmnqLb7IZzLYCmBup465c4IGPnlI#> .
+@prefix this: <http://purl.org/np/RAVM6TGV5VW-17gdgDJ-TRvBrk-Yg9LSeYPY_OGh71Y1g> .
+@prefix sub: <http://purl.org/np/RAVM6TGV5VW-17gdgDJ-TRvBrk-Yg9LSeYPY_OGh71Y1g#> .
 @prefix s5: <http://purl.org/np/RAG_jp5LOJ9GTnrcaSwx4arSYopJ06rXgORlo7_78sBLo> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8824,7 +8824,7 @@ sub:assertion {
   sub:comment-7 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Regarding the experiments design, my impression is that a number of results are not fully related to the intended characteristics of the experiments (expert vs. laymen crowdsourcing, find vs. verify stage, etc.) but are the collateral effect of non-optimal design choices, in terms of (1) choice of triples/data and quality issues to be tested, (2) user interface and support information provided to participants and (3) reported indicators and baselines.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo s5:\#section .
 }
 
@@ -8837,8 +8837,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAT0kNpSWzWmR--5X-_xezgWYfAa2GpQPTr8D8RkXAKrw> .
-@prefix sub: <http://purl.org/np/RAT0kNpSWzWmR--5X-_xezgWYfAa2GpQPTr8D8RkXAKrw#> .
+@prefix this: <http://purl.org/np/RAcwJwU7Mufd3CCK5a4QO25m0vJ7HzaYY05yAVtWySi-k> .
+@prefix sub: <http://purl.org/np/RAcwJwU7Mufd3CCK5a4QO25m0vJ7HzaYY05yAVtWySi-k#> .
 @prefix s5: <http://purl.org/np/RAG_jp5LOJ9GTnrcaSwx4arSYopJ06rXgORlo7_78sBLo> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8858,7 +8858,7 @@ sub:assertion {
   sub:comment-8 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Apart from the already provided considerations on DBpedia as above, I have a number of concerns on the employed triples. The experts were given the opportunity to find quality issues in triples that were (i) random, (ii) instances of some class or (iii) manually selected; while this can appear reasonable, the effects are that the workers' crowds (in both experimental workflows) were presented with information \"chosen\" by somebody else, thus possibly making the task hard or even impossible because of the triples' domain. I would have expected the authors to make a *controlled experiment*, i.e. selecting a general-purpose subset of DBpedia that - at least from the point of view of the content - was at the same \"difficulty\" level for all the involved crowds.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo s5:\#section .
 }
 
@@ -8871,8 +8871,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RArlNg3LKL_bMHiUemr8ErHy6qurFjI1Af_XuEJLYBOzQ> .
-@prefix sub: <http://purl.org/np/RArlNg3LKL_bMHiUemr8ErHy6qurFjI1Af_XuEJLYBOzQ#> .
+@prefix this: <http://purl.org/np/RACehgnkhy_wl5lJk8HOrCOt3NF6vrTV5cmY-tyakx7V0> .
+@prefix sub: <http://purl.org/np/RACehgnkhy_wl5lJk8HOrCOt3NF6vrTV5cmY-tyakx7V0#> .
 @prefix s5: <http://purl.org/np/RAG_jp5LOJ9GTnrcaSwx4arSYopJ06rXgORlo7_78sBLo> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8892,7 +8892,7 @@ sub:assertion {
   sub:comment-9 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Furthermore, also restricting to a set of selected subjects, I think that not all triples were suitable for the intended experiments; indeed, some specific cases emerged that are not related to the intrinsic characteristics of quality assurance; while it is generally ok to let the experimenters find out problems, it is also reasonable to think that, when preparing an experiment, the obvious things that can lead to problems are avoided. Some examples: - specific datatype objects (like dates vs. numbers, which are definitely ok to be mistaken) - owl:sameAs links (which maybe were interpreted in a \"purist\" way by LD experts who can be careful in accepting those triples because of their logical implications) - rdf:type triples among the incorrect link issues (apparently unclear for the MTurk workers, but partially also to me: why did rdf:type triples were considered among the \"links\" instead of the \"values\"?) - DBpedia translation-specific triples (which do not make any sense in such an evaluation setting, and should have been filtered out in the first place).";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo s5:\#section .
 }
 
@@ -8905,8 +8905,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAJPbk---MNTj_sZVJQ5SNfy2zPMPG4IykhiDJcz0RoR8> .
-@prefix sub: <http://purl.org/np/RAJPbk---MNTj_sZVJQ5SNfy2zPMPG4IykhiDJcz0RoR8#> .
+@prefix this: <http://purl.org/np/RA1-D6Cil1EYTVBXj3e5_07x9GorrlbXRp6JZlIo_S3B0> .
+@prefix sub: <http://purl.org/np/RA1-D6Cil1EYTVBXj3e5_07x9GorrlbXRp6JZlIo_S3B0#> .
 @prefix s5: <http://purl.org/np/RAG_jp5LOJ9GTnrcaSwx4arSYopJ06rXgORlo7_78sBLo> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8923,10 +8923,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-10 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
+  sub:comment-10 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:NoActionNeededComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Another fact to support this criticism is that the two authors who created the \"ground truth\" got quite low values of inter-rater agreement.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo s5:\#section .
 }
 
@@ -8939,8 +8939,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAMeR5XDT5kLV3lMt6mjiVbQm9Kirsu5E7aFROKuDojKU> .
-@prefix sub: <http://purl.org/np/RAMeR5XDT5kLV3lMt6mjiVbQm9Kirsu5E7aFROKuDojKU#> .
+@prefix this: <http://purl.org/np/RAja6No-7xECYe1J4zGB1_sRFfQAsOhdXmycxA6py_-0w> .
+@prefix sub: <http://purl.org/np/RAja6No-7xECYe1J4zGB1_sRFfQAsOhdXmycxA6py_-0w#> .
 @prefix s5: <http://purl.org/np/RAG_jp5LOJ9GTnrcaSwx4arSYopJ06rXgORlo7_78sBLo> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8957,10 +8957,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-11 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
+  sub:comment-11 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:NoActionNeededComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Also the tested quality issues are somehow unbalanced: while the incorrect object extraction or the incorrect links can be related to the entities' \"meaning\", the incorrect datatypes or language tags are more \"structural\" mistakes; as a consequence, it is not surprising that the latter is the case in which the paid workers performed worst.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo s5:\#section .
 }
 
@@ -8973,8 +8973,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RADQca1Hynxj_k-x70Z2SzzfxfBXmRMRZgmKs_Y1tn6c4> .
-@prefix sub: <http://purl.org/np/RADQca1Hynxj_k-x70Z2SzzfxfBXmRMRZgmKs_Y1tn6c4#> .
+@prefix this: <http://purl.org/np/RAfZVOxWxipHzGGmWzTQH4qTUyRLDL8CC_F_4Ujr2kph0> .
+@prefix sub: <http://purl.org/np/RAfZVOxWxipHzGGmWzTQH4qTUyRLDL8CC_F_4Ujr2kph0#> .
 @prefix s5: <http://purl.org/np/RAG_jp5LOJ9GTnrcaSwx4arSYopJ06rXgORlo7_78sBLo> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8991,10 +8991,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-12 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
+  sub:comment-12 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:NoActionNeededComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some experiment design flaws come also from the user interface and the information provided to the involved crowds.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo s5:\#section .
 }
 
@@ -9041,8 +9041,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAIdsCCt6VY4e5yvGNixwk1SYM0y6qMKNEY_nlt1zNoOw> .
-@prefix sub: <http://purl.org/np/RAIdsCCt6VY4e5yvGNixwk1SYM0y6qMKNEY_nlt1zNoOw#> .
+@prefix this: <http://purl.org/np/RATmyKByX3C4X7Fvw_cFOcMvNA0BYp-7ABMLJqRCwzZO8> .
+@prefix sub: <http://purl.org/np/RATmyKByX3C4X7Fvw_cFOcMvNA0BYp-7ABMLJqRCwzZO8#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9061,7 +9061,7 @@ sub:assertion {
   sub:comment-14 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Regarding the MTurk-based Find stage, I personally find the screenshot in Figure 3 very confusing, since it seems that the Wikipedia column (which should provide the \"human readable\" information) is less complete that the DBpedia column: how were the workers expected to interpret this fact? were they instructed to click on the Wikipedia page link (if provided) to check?";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/f3#figure> .
 }
 
@@ -9074,8 +9074,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAImLf041U3nyFNPbZhk0yyjbgERdULRJftQUR4T9scDY> .
-@prefix sub: <http://purl.org/np/RAImLf041U3nyFNPbZhk0yyjbgERdULRJftQUR4T9scDY#> .
+@prefix this: <http://purl.org/np/RAjuuFfu977NTwnJaHV3c3VzWjGA7zmtMOiMtNhXsngn4> .
+@prefix sub: <http://purl.org/np/RAjuuFfu977NTwnJaHV3c3VzWjGA7zmtMOiMtNhXsngn4#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9091,8 +9091,8 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-15 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-15 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "Regarding the MTurk-based Verify stage, Figure 5 is also problematic since it doesn't display the Wikipedia preview (explained in the text) and seems anyway to require quite an effort or some knowledge to be judged; it would have been interesting to know if the authors were able to trace if and how many times the workers actually clicked on the Wikipedia link or how much time it took to them to make a decision.";
     linkflows:hasImpact "3"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/f5#figure> .
@@ -9141,8 +9141,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA4-jKvA8cNeRwutcc_wGYIsZcoR0NJ84bYhJARknNRps> .
-@prefix sub: <http://purl.org/np/RA4-jKvA8cNeRwutcc_wGYIsZcoR0NJ84bYhJARknNRps#> .
+@prefix this: <http://purl.org/np/RA5YoyMVXhfB9U-LfEIHPyhAhcVlG2uzuFfp0SqdwUEdM> .
+@prefix sub: <http://purl.org/np/RA5YoyMVXhfB9U-LfEIHPyhAhcVlG2uzuFfp0SqdwUEdM#> .
 @prefix s5: <http://purl.org/np/RAG_jp5LOJ9GTnrcaSwx4arSYopJ06rXgORlo7_78sBLo> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -9162,7 +9162,7 @@ sub:assertion {
   sub:comment-17 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "I also have some doubts about the choice of evaluation metrics.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo s5:\#section .
 }
 
@@ -9175,8 +9175,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAunaofIowNUInUB-rxZS22cJBkIs3dqQpuPANwLzi66o> .
-@prefix sub: <http://purl.org/np/RAunaofIowNUInUB-rxZS22cJBkIs3dqQpuPANwLzi66o#> .
+@prefix this: <http://purl.org/np/RAtXn-LiVivwavUHzhrUFSp9UY6M_JcC4YLxpVxz8yLs8> .
+@prefix sub: <http://purl.org/np/RAtXn-LiVivwavUHzhrUFSp9UY6M_JcC4YLxpVxz8yLs8#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9192,8 +9192,8 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-18 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-18 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "Regarding the tables, the authors would have better used sensitivity and specificity rather than TP and FP, because rates are more easily compared and interpreted than counts. This last comment also applies to bar charts, which are hard to judge because of the different value ranges: using rates would improve readability and better convey the message.";
     linkflows:hasImpact "3"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/f3#figure>,
@@ -9209,8 +9209,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAFjf0Lcup6RrTw3LJv3lSIz6q6wn13fWvEvoCVoIpjoM> .
-@prefix sub: <http://purl.org/np/RAFjf0Lcup6RrTw3LJv3lSIz6q6wn13fWvEvoCVoIpjoM#> .
+@prefix this: <http://purl.org/np/RAZrMzBDCpmyo-ZFZlLMGxYFKzQNEI--oXxvPu4SlJo8I> .
+@prefix sub: <http://purl.org/np/RAZrMzBDCpmyo-ZFZlLMGxYFKzQNEI--oXxvPu4SlJo8I#> .
 @prefix s5: <http://purl.org/np/RAG_jp5LOJ9GTnrcaSwx4arSYopJ06rXgORlo7_78sBLo> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -9230,7 +9230,7 @@ sub:assertion {
   sub:comment-19 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Furthermore, I am not at all convinced about the significance of keeping track of the first answer, even less of the comparison between the first answer and the majority voting: while I understand the cost consideration, it would have been more meaningful to compare 3-worker majority voting vs. 5-worker majority voting, since 1 single worker cannot express any kind of answer \"agreement\" or \"variance\".";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo s5:\#section .
 }
 
@@ -9243,8 +9243,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAT4y8tVDrScUwNN3qN7E4Spm7ZSwWd3zxXRtCVszYvrQ> .
-@prefix sub: <http://purl.org/np/RAT4y8tVDrScUwNN3qN7E4Spm7ZSwWd3zxXRtCVszYvrQ#> .
+@prefix this: <http://purl.org/np/RAnEL1SCw7yck311ucmxM_xMv3IC9pVJJCx-mGrxPhOqg> .
+@prefix sub: <http://purl.org/np/RAnEL1SCw7yck311ucmxM_xMv3IC9pVJJCx-mGrxPhOqg#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9263,7 +9263,7 @@ sub:assertion {
   sub:comment-20 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Finally, I found the baseline section quite weird, since the authors describe the interlinks approach that perfectly makes sense (even if it regards only one of the tested quality issues), but they also introduce the TDQA assessment which cannot be compared to the experiment results (and thus cannot be considered a baseline approach). The authors would better create a baseline (e.g. by using SPIN or ShEx-based constraint checks) to try to identify datatype/language and object values issues (w.r.t. all those cases in which such checks can be implemented, of course); that would be a reasonable baseline to compare to.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAYC2RtIuKVOsDCv5qXyG0WzJSDBx2rebnRD5Ot95VKVs#section> .
 }
 
@@ -9276,8 +9276,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAmxzFSZCr4HAp7djonjBK79PzIFpYG6AZKXwx9cyeGcQ> .
-@prefix sub: <http://purl.org/np/RAmxzFSZCr4HAp7djonjBK79PzIFpYG6AZKXwx9cyeGcQ#> .
+@prefix this: <http://purl.org/np/RAtyU5qaZ_ay7kIqOtT5H8qHGgQ4H719H-A_2hs_OGcTA> .
+@prefix sub: <http://purl.org/np/RAtyU5qaZ_ay7kIqOtT5H8qHGgQ4H719H-A_2hs_OGcTA#> .
 @prefix s5: <http://purl.org/np/RAG_jp5LOJ9GTnrcaSwx4arSYopJ06rXgORlo7_78sBLo> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -9294,10 +9294,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-21 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-21 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "In any case, I would suggest the authors to make a final summary table that compares the two workflows as well as the comparable baselines, so to support the final discussion.";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "4"^^xsd:positiveInteger;
     linkflows:refersTo s5:\#section .
 }
 
@@ -9310,8 +9310,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAnScBXwshZ8gfPzVtcxLamfY4nHkdc1F_t0tv73Uuk_8> .
-@prefix sub: <http://purl.org/np/RAnScBXwshZ8gfPzVtcxLamfY4nHkdc1F_t0tv73Uuk_8#> .
+@prefix this: <http://purl.org/np/RAGkVbVlPAuqE6h20xZuPUXUUR0qPxaScaIMYtA6jAKUI> .
+@prefix sub: <http://purl.org/np/RAGkVbVlPAuqE6h20xZuPUXUUR0qPxaScaIMYtA6jAKUI#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9330,7 +9330,7 @@ sub:assertion {
   sub:comment-22 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 4, 1st column, postal code example: in some countries postal codes contain letters, so it is not necessarily true that it should be an integer";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAyUrXXy3NtAe6tZjkUrtqFsKZC_PbggWNN50OlLKzFR8> .
 }
 
@@ -9377,8 +9377,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAgb7HuNbvDqIwxD5Rzu6cuXttTG4XGhMidGTXH3zsQFo> .
-@prefix sub: <http://purl.org/np/RAgb7HuNbvDqIwxD5Rzu6cuXttTG4XGhMidGTXH3zsQFo#> .
+@prefix this: <http://purl.org/np/RAaXJ4dIaKiaEfpnylijv29JnziQp6XZ6sqDollWF2okk> .
+@prefix sub: <http://purl.org/np/RAaXJ4dIaKiaEfpnylijv29JnziQp6XZ6sqDollWF2okk#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9394,10 +9394,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-24 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-24 a linkflows:ActionNeededComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:StyleComment;
     linkflows:hasCommentText "Some relatively minor remarks: - section 3.2 is clearly related to reference [3], so there is no need to include the citation several times";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "1"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RALp8BJCxqBTmpvOHye7WT2FkTzKy3jyFQVRpehJwYwW0#section> .
 }
 
@@ -9410,8 +9410,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RABXHrd4tUjYg_0x3Kb4bb2Go4ZsUGO7gVB1Duou0YkU4> .
-@prefix sub: <http://purl.org/np/RABXHrd4tUjYg_0x3Kb4bb2Go4ZsUGO7gVB1Duou0YkU4#> .
+@prefix this: <http://purl.org/np/RARKPP5HDLBDQo87zzXVoFByj1Nzmm63WjMnskS7kCcjs> .
+@prefix sub: <http://purl.org/np/RARKPP5HDLBDQo87zzXVoFByj1Nzmm63WjMnskS7kCcjs#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9430,7 +9430,7 @@ sub:assertion {
   sub:comment-25 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 6, definition 1: why is it 2^Q? can all the quality issues happen at the same time?";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/d1#definition> .
 }
 
@@ -9443,8 +9443,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAAu4fuJlxFX7UwMwpr1_nWtRUmxMzXK-eV_bn0CDm1is> .
-@prefix sub: <http://purl.org/np/RAAu4fuJlxFX7UwMwpr1_nWtRUmxMzXK-eV_bn0CDm1is#> .
+@prefix this: <http://purl.org/np/RA4Y36ahfLyPmXAyU8wyreDWSkGeTjGOYvleuZKSHo1_g> .
+@prefix sub: <http://purl.org/np/RA4Y36ahfLyPmXAyU8wyreDWSkGeTjGOYvleuZKSHo1_g#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9463,7 +9463,7 @@ sub:assertion {
   sub:comment-26 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 6, beginning of 2nd column: this is very specific to DBpedia, so it is in contradiction to the generality claims of the paper";
-    linkflows:hasImpact "2"^^xsd:positiveInteger;
+    linkflows:hasImpact "3"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RA4uXoAwf44vuJ4W5iv2qwKI0EeJMzTooKB5ZM8zfElRc#paragraph> .
 }
 
@@ -9476,8 +9476,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAv9pgbeb0Trt8ke-yYw7VBjlHEQO3PFNpVGmY2-GCkMo> .
-@prefix sub: <http://purl.org/np/RAv9pgbeb0Trt8ke-yYw7VBjlHEQO3PFNpVGmY2-GCkMo#> .
+@prefix this: <http://purl.org/np/RAIZKY0hQYgQQtRsOysDlwu9kgqFnoVgfYZoooHvVo9C8> .
+@prefix sub: <http://purl.org/np/RAIZKY0hQYgQQtRsOysDlwu9kgqFnoVgfYZoooHvVo9C8#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9496,7 +9496,7 @@ sub:assertion {
   sub:comment-27 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 8, end of section 4.1: the authors explain the redundancy during the Find stage by experts; if an agreement is already achieved, is the Verify stage useful at all?";
-    linkflows:hasImpact "2"^^xsd:positiveInteger;
+    linkflows:hasImpact "3"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAPQnfSm8AOf3TaeLj5IHg8Qj27L8KB8dyf0GMyJ0q4rQ#paragraph>,
       <http://purl.org/np/RAxpHxupR9SrwiYtDqR0s4-qC5AvJFz8H4MoCBwpSon9g#paragraph> .
 }
@@ -9543,8 +9543,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA7PUt4jLvgKiwx7AagAwEhgLKTNB44BWHvkNksP2sKqo> .
-@prefix sub: <http://purl.org/np/RA7PUt4jLvgKiwx7AagAwEhgLKTNB44BWHvkNksP2sKqo#> .
+@prefix this: <http://purl.org/np/RAiB9xqo-Kpr6McAoKHTVaIAjWP-WgSeImPvxmhjQv3h4> .
+@prefix sub: <http://purl.org/np/RAiB9xqo-Kpr6McAoKHTVaIAjWP-WgSeImPvxmhjQv3h4#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9560,8 +9560,8 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-29 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NeutralComment,
-      linkflows:ReviewComment;
+  sub:comment-29 a linkflows:ActionNeededComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SyntaxComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 9, 2nd column: reference to Figure 1 should probably be Figure 3";
     linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RApUbn75vXzNZzxJ-16awQCmR6RZn4cGNgYqzaOQOjPIY#paragraph> .
@@ -9609,8 +9609,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAkAGcftuJ-sYITOFwhr9rAPiom58vgJKw898xtT9zMss> .
-@prefix sub: <http://purl.org/np/RAkAGcftuJ-sYITOFwhr9rAPiom58vgJKw898xtT9zMss#> .
+@prefix this: <http://purl.org/np/RA6enqIla5FL5hBUjPIlMyt5kqcEUOxgpY3PzVK3m7Xqw> .
+@prefix sub: <http://purl.org/np/RA6enqIla5FL5hBUjPIlMyt5kqcEUOxgpY3PzVK3m7Xqw#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9626,8 +9626,8 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-31 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
-      linkflows:SuggestionComment;
+  sub:comment-31 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
+      linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - section 4.4 is not completely necessary in the paper";
     linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.4.4#section> .
@@ -9642,8 +9642,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RApTT0ytltKMb9bm_sqjWy73EXtwBLH4liZhI4O_2xGJs> .
-@prefix sub: <http://purl.org/np/RApTT0ytltKMb9bm_sqjWy73EXtwBLH4liZhI4O_2xGJs#> .
+@prefix this: <http://purl.org/np/RAFZB4ee9jfGtoX_eYNchiWc8OdK7dB2bLXhnKePuXZjs> .
+@prefix sub: <http://purl.org/np/RAFZB4ee9jfGtoX_eYNchiWc8OdK7dB2bLXhnKePuXZjs#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9662,7 +9662,7 @@ sub:assertion {
   sub:comment-32 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 15, end of 1st column: why were the DBpedia Flickr links filtered out? if there was some doubt about their validity or relevance to the tests, why not filtering them out before the Find stage?";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAQfQZjxScZbv0BXcs6ug_oCImNsyjBTjT0SgSSAxz-4o#paragraph> .
 }
 
@@ -9774,8 +9774,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAdowHHX9fduePMbc1X9FDldQQGLCIKzAE4Z4XeQQHZw0> .
-@prefix sub: <http://purl.org/np/RAdowHHX9fduePMbc1X9FDldQQGLCIKzAE4Z4XeQQHZw0#> .
+@prefix this: <http://purl.org/np/RAevYWeZngon2HuL1YOHylxOnkF8c8bcGPGG385HEX0Fw> .
+@prefix sub: <http://purl.org/np/RAevYWeZngon2HuL1YOHylxOnkF8c8bcGPGG385HEX0Fw#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9794,7 +9794,7 @@ sub:assertion {
   sub:comment-36 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 16, beginning of 1st column: the need for specific technical knowledge about datatypes seems to be yet another experiment design flaw";
-    linkflows:hasImpact "2"^^xsd:positiveInteger;
+    linkflows:hasImpact "3"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RA7jfuFKxkUh8olqadPGl36eb1XtpnvbVD6u1gIlCWouM#paragraph> .
 }
 
@@ -9840,8 +9840,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAAZioXBFxxEcsLyr_X3iBwVJkzc_fnI2_F8k7EDWDgaM> .
-@prefix sub: <http://purl.org/np/RAAZioXBFxxEcsLyr_X3iBwVJkzc_fnI2_F8k7EDWDgaM#> .
+@prefix this: <http://purl.org/np/RA-N3kdG8F0MM7XGKsLIQ5vVRThu627md8H_svIqDQn8o> .
+@prefix sub: <http://purl.org/np/RA-N3kdG8F0MM7XGKsLIQ5vVRThu627md8H_svIqDQn8o#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9857,10 +9857,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-38 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NeutralComment,
+  sub:comment-38 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 18, section 5.3.2: the text says 30k triples while table 5 almost 70k triples, so what's the correct number? why was the sample selected on the basis of \"at least two workers\" and not by majority voting? the sample contains the \"exact same number of triples\" or exactly the same triples? why did this Verify stage take more time than in the case of the other workflow?";
-    linkflows:hasImpact "2"^^xsd:positiveInteger;
+    linkflows:hasImpact "3"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAPpy2vtaY3VkIqHrJlgf_EIsG5F030j18bcjEYIDNzAE#paragraph> .
 }
 
@@ -9873,8 +9873,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RANo6d2TgHPCNshucoi5yqbarc26MYf3tdO84iaSU85wI> .
-@prefix sub: <http://purl.org/np/RANo6d2TgHPCNshucoi5yqbarc26MYf3tdO84iaSU85wI#> .
+@prefix this: <http://purl.org/np/RAjy3FX_jYUijUCEUQLp9Pa4KpH4Kaoolnvx8G-a1GuoQ> .
+@prefix sub: <http://purl.org/np/RAjy3FX_jYUijUCEUQLp9Pa4KpH4Kaoolnvx8G-a1GuoQ#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9893,7 +9893,7 @@ sub:assertion {
   sub:comment-39 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 18, end of 2nd column: the geo-coordinates example seems yet another symptom of an ill-designed experiment";
-    linkflows:hasImpact "2"^^xsd:positiveInteger;
+    linkflows:hasImpact "3"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAb20AFOE6PIfuXlafN0kRBzIloUSAFT5GqboT0KssB2U#paragraph> .
 }
 
@@ -9906,8 +9906,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAD-YbdrIL1L0c7o9KIY2HK0Pplx6NKUUwcTqdS46oKbo> .
-@prefix sub: <http://purl.org/np/RAD-YbdrIL1L0c7o9KIY2HK0Pplx6NKUUwcTqdS46oKbo#> .
+@prefix this: <http://purl.org/np/RAPnXRkS4baofTK-Bd1yFjOHwBoLHAF9V21-GqDXOclvM> .
+@prefix sub: <http://purl.org/np/RAPnXRkS4baofTK-Bd1yFjOHwBoLHAF9V21-GqDXOclvM#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9926,7 +9926,7 @@ sub:assertion {
   sub:comment-40 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - table 5: the sample used for the Verify task does not have the same distribution of triples for the quality issues than the Find stage; can the authors elaborate of the possible effects of those different proportions in terms of loss of information?";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/t5#table> .
 }
 
@@ -9939,8 +9939,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAbgGh7-6i4u8I87EjuAGyVJLUhMXBQAXwYVNiT_zruTI> .
-@prefix sub: <http://purl.org/np/RAbgGh7-6i4u8I87EjuAGyVJLUhMXBQAXwYVNiT_zruTI#> .
+@prefix this: <http://purl.org/np/RA3OpWCsO0Kz1v8dD01DfK-8utmIsDROC07139yPaLxlc> .
+@prefix sub: <http://purl.org/np/RA3OpWCsO0Kz1v8dD01DfK-8utmIsDROC07139yPaLxlc#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9959,7 +9959,7 @@ sub:assertion {
   sub:comment-41 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 19, 2nd column: the problem with non-UTF8 characters seems another sign of sub-optimal design of the user interface for the experiments";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RA6GkaWnXef_q9baKvuxaNisvNoy2kNdkka8ZSPw_MeJM#paragraph> .
 }
 
@@ -9972,8 +9972,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA_mYddvVH_B23JJOr9eHi7KAy5SFvQ9MgnFlI_X1ipCE> .
-@prefix sub: <http://purl.org/np/RA_mYddvVH_B23JJOr9eHi7KAy5SFvQ9MgnFlI_X1ipCE#> .
+@prefix this: <http://purl.org/np/RAUgCbAvbwLhVC23EBR6QOxK9W90YfAxNN5UQfZVtpTe0> .
+@prefix sub: <http://purl.org/np/RAUgCbAvbwLhVC23EBR6QOxK9W90YfAxNN5UQfZVtpTe0#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9992,7 +9992,7 @@ sub:assertion {
   sub:comment-42 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 20, 2nd column: possible design flaw also in the case of proper nouns";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RA2h5adzNYg5feIIKsTMenY3oIBHMybhOWIfRT2Oy4ii8#paragraph> .
 }
 
@@ -10005,8 +10005,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAnuYRLWIlEkXcD7DDAsFRJM7K1hQNIwwZvIgmESDYaZI> .
-@prefix sub: <http://purl.org/np/RAnuYRLWIlEkXcD7DDAsFRJM7K1hQNIwwZvIgmESDYaZI#> .
+@prefix this: <http://purl.org/np/RAxEp3tHuKyl0M9SzdhHtH8Gq6ntzcHc5fAAusMzkaRWA> .
+@prefix sub: <http://purl.org/np/RAxEp3tHuKyl0M9SzdhHtH8Gq6ntzcHc5fAAusMzkaRWA#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -10022,8 +10022,8 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-43 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-43 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "Some relatively minor remarks: - figure 7(b): TP+TN are complementary w.r.t. FP+FN; rates would be more meaningful than total counts";
     linkflows:hasImpact "3"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/f7#figure> .
@@ -10038,8 +10038,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAI8QfBBg-1p6QEwJ8NlpBnRKjh6q0j6OrboQqwI93Ln0> .
-@prefix sub: <http://purl.org/np/RAI8QfBBg-1p6QEwJ8NlpBnRKjh6q0j6OrboQqwI93Ln0#> .
+@prefix this: <http://purl.org/np/RAIsdOXOWPD0nOFXRhW-ZuPjJQOV9GD2qKWSzas4qUGaY> .
+@prefix sub: <http://purl.org/np/RAIsdOXOWPD0nOFXRhW-ZuPjJQOV9GD2qKWSzas4qUGaY#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -10055,10 +10055,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-44 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
-      linkflows:ReviewComment;
+  sub:comment-44 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 21, 1st column: there are a couple of \"Find\" that are more probably \"Verify\"; it would be interesting to know if the rdf:type triples correctly classified were done by the same worker(s)";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAwesyB_1NBYotHhs7iavCcHHjpp4tRDnDmnJa_VVXwbY#paragraph> .
 }
 
@@ -10071,8 +10071,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAVXpzux5LxzSRQ-_4fohEZi7i_kU2nXYdFrdl2zJZgL0> .
-@prefix sub: <http://purl.org/np/RAVXpzux5LxzSRQ-_4fohEZi7i_kU2nXYdFrdl2zJZgL0#> .
+@prefix this: <http://purl.org/np/RAlxNkDw8ziFkO-xveR9Hx2w0imcd-vMtJGaq_g6wAz4s> .
+@prefix sub: <http://purl.org/np/RAlxNkDw8ziFkO-xveR9Hx2w0imcd-vMtJGaq_g6wAz4s#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -10091,7 +10091,7 @@ sub:assertion {
   sub:comment-45 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 21, 2nd column: it is not clear on how many triples the 5146 tests were run, on the 509 \"ground truth\" triples? what exactly is a success/failure in the tests?";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAkspgs8-SJP1VfmiF5XAIInrmgbiDW5f8kQGKh62yHHY#paragraph> .
 }
 
@@ -10104,8 +10104,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA9y_psY_OMFf3waWcuHiGP4BbDSLoLGrv6dDTwUYl5fM> .
-@prefix sub: <http://purl.org/np/RA9y_psY_OMFf3waWcuHiGP4BbDSLoLGrv6dDTwUYl5fM#> .
+@prefix this: <http://purl.org/np/RAAj5aJs0XqeX2L_90U33wbs2yQpomoyfAN9xBG63L01Q> .
+@prefix sub: <http://purl.org/np/RAAj5aJs0XqeX2L_90U33wbs2yQpomoyfAN9xBG63L01Q#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -10121,10 +10121,10 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:comment-46 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NeutralComment,
+  sub:comment-46 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 22, 2nd column: were only the foaf:name links used or also the rdfs:label ones? the listing is somewhat useless, the text was clear enough; also clear it is unclear what the \"triples subject to crowdsourcing\" were, since different datasets were used in the previous tests";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAMN15W14ILxAuxXNJkm57SmdiepX_-1aCNJ69UTn8hlo#paragraph> .
 }
 
@@ -10137,8 +10137,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAZWtMTtUbaIwIgQhmqz8LR7DKgfxznAELKrYCEJFr-uQ> .
-@prefix sub: <http://purl.org/np/RAZWtMTtUbaIwIgQhmqz8LR7DKgfxznAELKrYCEJFr-uQ#> .
+@prefix this: <http://purl.org/np/RA_Nn_zO06ziGVcGYq-sZYBbxiMTC3kw8IdlmnSApMAd8> .
+@prefix sub: <http://purl.org/np/RA_Nn_zO06ziGVcGYq-sZYBbxiMTC3kw8IdlmnSApMAd8#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -10157,7 +10157,7 @@ sub:assertion {
   sub:comment-47 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 23, 1st column: I didn't get what the following consideration refers to: \"workers were exceptionally good and efficient at performing comparisons between data entries, specially when some contextual information is provided\" ";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RANZUcu56jIzHNtsLLAk26GQ9dvEDCY819m4XKHlA4kv0#paragraph> .
 }
 
@@ -10170,8 +10170,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAqpjqsklylq0UZ7JhQngI9AQT5ha2dW9swRfN2wVqO_g> .
-@prefix sub: <http://purl.org/np/RAqpjqsklylq0UZ7JhQngI9AQT5ha2dW9swRfN2wVqO_g#> .
+@prefix this: <http://purl.org/np/RAWXQRRF9tEa8elGEBIjVMTufKLE5qMdkFbKIji_NUQGk> .
+@prefix sub: <http://purl.org/np/RAWXQRRF9tEa8elGEBIjVMTufKLE5qMdkFbKIji_NUQGk#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -10190,7 +10190,7 @@ sub:assertion {
   sub:comment-48 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 24, footnote 21: the link is broken";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/foot21#footnote> .
 }
 
@@ -10203,8 +10203,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAkxnjTX3JnSelVvF2MIt2Jwv1AhDGpqvGIukIBWIrrdE> .
-@prefix sub: <http://purl.org/np/RAkxnjTX3JnSelVvF2MIt2Jwv1AhDGpqvGIukIBWIrrdE#> .
+@prefix this: <http://purl.org/np/RADdVMAixs9ePftPqo9LB8tK4Dad02MKwLXjmDLkwMbaw> .
+@prefix sub: <http://purl.org/np/RADdVMAixs9ePftPqo9LB8tK4Dad02MKwLXjmDLkwMbaw#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -10223,7 +10223,7 @@ sub:assertion {
   sub:comment-49 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 24, 2nd column: \"fix-find-verify workflow\" is probably Find-Verify";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
     linkflows:refersTo <http://purl.org/np/RAZ0b05uIC42PLl_0jrx-DNM29l3vLRhZ92uDXIBVeiUE#paragraph> .
 }
 
@@ -10236,8 +10236,8 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAh0PQhCr8e25dEUZAktlRCgnAHnOtgP90tl5voWt9z2E> .
-@prefix sub: <http://purl.org/np/RAh0PQhCr8e25dEUZAktlRCgnAHnOtgP90tl5voWt9z2E#> .
+@prefix this: <http://purl.org/np/RAprNg5jLq7eCzB88339s_bcSzyzOVEKaxAgS_xar0zW4> .
+@prefix sub: <http://purl.org/np/RAprNg5jLq7eCzB88339s_bcSzyzOVEKaxAgS_xar0zW4#> .
 @prefix p7: <http://purl.org/np/RA5U5SCxl_hsBpTMcCq635jrx7wxEX6lYNNgLA7JJbgUQ> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10257,7 +10257,7 @@ sub:assertion {
   sub:comment-50 a linkflows:ActionNeededComment, linkflows:ContentComment, linkflows:NegativeComment,
       linkflows:ReviewComment;
     linkflows:hasCommentText "Some relatively minor remarks: - page 25, end of 1st column: the authors write \"Recently, a study [18]...\" but the paper was published in 2012";
-    linkflows:hasImpact "3"^^xsd:positiveInteger;
+    linkflows:hasImpact "1"^^xsd:positiveInteger;
     linkflows:refersTo p7:\#paragraph .
 }
 
@@ -10270,58 +10270,58 @@ sub:pubinfo {
   this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA75XTwMICsMFrO4aGdIFaQZwvGlTC7y-oYO53DB8-ibM> .
-@prefix sub: <http://purl.org/np/RA75XTwMICsMFrO4aGdIFaQZwvGlTC7y-oYO53DB8-ibM#> .
-@prefix c1: <http://purl.org/np/RAAGcpRczEPYysmEjxFSkxtSIMm1q8YkL7bx8ySqjveTs> .
-@prefix c2: <http://purl.org/np/RA-LcSjOs8tsjqDKfvWDJKJP4TXMPdgrSSRElHIYc1zo4> .
+@prefix this: <http://purl.org/np/RAlYJdsdZlHerRX4w6L0ng3EWduInPu23EMtIEaShBu30> .
+@prefix sub: <http://purl.org/np/RAlYJdsdZlHerRX4w6L0ng3EWduInPu23EMtIEaShBu30#> .
+@prefix c1: <http://purl.org/np/RArJ2wdHDz-Edy_YT3MKTxz36EpAt1mzmKhWPCy1VqQRY> .
+@prefix c2: <http://purl.org/np/RAcuemHMhQNjBj6S_xEehWHD54-Ha1o4YvyXmccr2Ut_A> .
 @prefix c3: <http://purl.org/np/RA4J78-c9O_73XLF_V_7PFnqtsebxpZkBSyVYzaBbr-hE> .
-@prefix c4: <http://purl.org/np/RA0g8Mk7ZCb-fROTfvWgg2YWt1lMc2BooP1Wy4Gkg_wGI> .
+@prefix c4: <http://purl.org/np/RA1OSxa_lKel4NLW1tqUuPAGc7-ukyL2ZyCmwEFKdJWmk> .
 @prefix c5: <http://purl.org/np/RApQfs7NzwCGIcqu-VzrYzN70FhSiXdAcHiFKojm18X0Q> .
-@prefix c6: <http://purl.org/np/RAg3eYbxPrWJqq6u-Uq13L2OJYc9YIFBNbu6HuUiVbWoE> .
-@prefix c7: <http://purl.org/np/RAij8QOp6OQAushqBHmnqLb7IZzLYCmBup465c4IGPnlI> .
-@prefix c8: <http://purl.org/np/RAT0kNpSWzWmR--5X-_xezgWYfAa2GpQPTr8D8RkXAKrw> .
-@prefix c9: <http://purl.org/np/RArlNg3LKL_bMHiUemr8ErHy6qurFjI1Af_XuEJLYBOzQ> .
-@prefix c10: <http://purl.org/np/RAJPbk---MNTj_sZVJQ5SNfy2zPMPG4IykhiDJcz0RoR8> .
-@prefix c11: <http://purl.org/np/RAMeR5XDT5kLV3lMt6mjiVbQm9Kirsu5E7aFROKuDojKU> .
-@prefix c12: <http://purl.org/np/RADQca1Hynxj_k-x70Z2SzzfxfBXmRMRZgmKs_Y1tn6c4> .
+@prefix c6: <http://purl.org/np/RALUXwzkL4NwZ2jO3kD8ovJB5CF0nI1_m4NF7IvHe4t1E> .
+@prefix c7: <http://purl.org/np/RAVM6TGV5VW-17gdgDJ-TRvBrk-Yg9LSeYPY_OGh71Y1g> .
+@prefix c8: <http://purl.org/np/RAcwJwU7Mufd3CCK5a4QO25m0vJ7HzaYY05yAVtWySi-k> .
+@prefix c9: <http://purl.org/np/RACehgnkhy_wl5lJk8HOrCOt3NF6vrTV5cmY-tyakx7V0> .
+@prefix c10: <http://purl.org/np/RA1-D6Cil1EYTVBXj3e5_07x9GorrlbXRp6JZlIo_S3B0> .
+@prefix c11: <http://purl.org/np/RAja6No-7xECYe1J4zGB1_sRFfQAsOhdXmycxA6py_-0w> .
+@prefix c12: <http://purl.org/np/RAfZVOxWxipHzGGmWzTQH4qTUyRLDL8CC_F_4Ujr2kph0> .
 @prefix c13: <http://purl.org/np/RAC2cbKOZEz3124tKf5vdtqOtFJg8Atp4Vyb-RTpe_mQY> .
-@prefix c14: <http://purl.org/np/RAIdsCCt6VY4e5yvGNixwk1SYM0y6qMKNEY_nlt1zNoOw> .
-@prefix c15: <http://purl.org/np/RAImLf041U3nyFNPbZhk0yyjbgERdULRJftQUR4T9scDY> .
+@prefix c14: <http://purl.org/np/RATmyKByX3C4X7Fvw_cFOcMvNA0BYp-7ABMLJqRCwzZO8> .
+@prefix c15: <http://purl.org/np/RAjuuFfu977NTwnJaHV3c3VzWjGA7zmtMOiMtNhXsngn4> .
 @prefix c16: <http://purl.org/np/RArn1huU_wDiFGaWJqaMVw0tuAOm0Q62HwVNIUkh9dJBQ> .
-@prefix c17: <http://purl.org/np/RA4-jKvA8cNeRwutcc_wGYIsZcoR0NJ84bYhJARknNRps> .
-@prefix c18: <http://purl.org/np/RAunaofIowNUInUB-rxZS22cJBkIs3dqQpuPANwLzi66o> .
-@prefix c19: <http://purl.org/np/RAFjf0Lcup6RrTw3LJv3lSIz6q6wn13fWvEvoCVoIpjoM> .
-@prefix c20: <http://purl.org/np/RAT4y8tVDrScUwNN3qN7E4Spm7ZSwWd3zxXRtCVszYvrQ> .
-@prefix c21: <http://purl.org/np/RAmxzFSZCr4HAp7djonjBK79PzIFpYG6AZKXwx9cyeGcQ> .
-@prefix c22: <http://purl.org/np/RAnScBXwshZ8gfPzVtcxLamfY4nHkdc1F_t0tv73Uuk_8> .
+@prefix c17: <http://purl.org/np/RA5YoyMVXhfB9U-LfEIHPyhAhcVlG2uzuFfp0SqdwUEdM> .
+@prefix c18: <http://purl.org/np/RAtXn-LiVivwavUHzhrUFSp9UY6M_JcC4YLxpVxz8yLs8> .
+@prefix c19: <http://purl.org/np/RAZrMzBDCpmyo-ZFZlLMGxYFKzQNEI--oXxvPu4SlJo8I> .
+@prefix c20: <http://purl.org/np/RAnEL1SCw7yck311ucmxM_xMv3IC9pVJJCx-mGrxPhOqg> .
+@prefix c21: <http://purl.org/np/RAtyU5qaZ_ay7kIqOtT5H8qHGgQ4H719H-A_2hs_OGcTA> .
+@prefix c22: <http://purl.org/np/RAGkVbVlPAuqE6h20xZuPUXUUR0qPxaScaIMYtA6jAKUI> .
 @prefix c23: <http://purl.org/np/RAyuGqKYb9PZUxlgN5S906aFmwduHMcx25kJJqniuOXEY> .
-@prefix c24: <http://purl.org/np/RAgb7HuNbvDqIwxD5Rzu6cuXttTG4XGhMidGTXH3zsQFo> .
-@prefix c25: <http://purl.org/np/RABXHrd4tUjYg_0x3Kb4bb2Go4ZsUGO7gVB1Duou0YkU4> .
-@prefix c26: <http://purl.org/np/RAAu4fuJlxFX7UwMwpr1_nWtRUmxMzXK-eV_bn0CDm1is> .
-@prefix c27: <http://purl.org/np/RAv9pgbeb0Trt8ke-yYw7VBjlHEQO3PFNpVGmY2-GCkMo> .
+@prefix c24: <http://purl.org/np/RAaXJ4dIaKiaEfpnylijv29JnziQp6XZ6sqDollWF2okk> .
+@prefix c25: <http://purl.org/np/RARKPP5HDLBDQo87zzXVoFByj1Nzmm63WjMnskS7kCcjs> .
+@prefix c26: <http://purl.org/np/RA4Y36ahfLyPmXAyU8wyreDWSkGeTjGOYvleuZKSHo1_g> .
+@prefix c27: <http://purl.org/np/RAIZKY0hQYgQQtRsOysDlwu9kgqFnoVgfYZoooHvVo9C8> .
 @prefix c28: <http://purl.org/np/RAGYsaP4HSUyRQeLjnr9ZIpCFzQFblvN9_cRAT3L3ZWl8> .
-@prefix c29: <http://purl.org/np/RA7PUt4jLvgKiwx7AagAwEhgLKTNB44BWHvkNksP2sKqo> .
+@prefix c29: <http://purl.org/np/RAiB9xqo-Kpr6McAoKHTVaIAjWP-WgSeImPvxmhjQv3h4> .
 @prefix c30: <http://purl.org/np/RA51GboEh2OuBJW_1zXUN8MUp_V6kVhcBGdG3A5wTavOg> .
-@prefix c31: <http://purl.org/np/RAkAGcftuJ-sYITOFwhr9rAPiom58vgJKw898xtT9zMss> .
-@prefix c32: <http://purl.org/np/RApTT0ytltKMb9bm_sqjWy73EXtwBLH4liZhI4O_2xGJs> .
+@prefix c31: <http://purl.org/np/RA6enqIla5FL5hBUjPIlMyt5kqcEUOxgpY3PzVK3m7Xqw> .
+@prefix c32: <http://purl.org/np/RAFZB4ee9jfGtoX_eYNchiWc8OdK7dB2bLXhnKePuXZjs> .
 @prefix c33: <http://purl.org/np/RARR82Wymg4lRYehHnGgiyU5KTQL8LK_wUboUobjJEUJ4> .
 @prefix c34: <http://purl.org/np/RAUWHVmuC-HugQdY1GZoxtC-MmCzS0KQTIZPPZm0iFD0U> .
 @prefix c35: <http://purl.org/np/RACI9ZPGixdcEZhbYN6oV84CUncsnG8WNWq3IInuK1p2k> .
-@prefix c36: <http://purl.org/np/RAdowHHX9fduePMbc1X9FDldQQGLCIKzAE4Z4XeQQHZw0> .
+@prefix c36: <http://purl.org/np/RAevYWeZngon2HuL1YOHylxOnkF8c8bcGPGG385HEX0Fw> .
 @prefix c37: <http://purl.org/np/RAzyN1MGH05cngjzfOZGrmhZW4q6qICQSD17WTT10rtg0> .
-@prefix c38: <http://purl.org/np/RAAZioXBFxxEcsLyr_X3iBwVJkzc_fnI2_F8k7EDWDgaM> .
-@prefix c39: <http://purl.org/np/RANo6d2TgHPCNshucoi5yqbarc26MYf3tdO84iaSU85wI> .
-@prefix c40: <http://purl.org/np/RAD-YbdrIL1L0c7o9KIY2HK0Pplx6NKUUwcTqdS46oKbo> .
-@prefix c41: <http://purl.org/np/RAbgGh7-6i4u8I87EjuAGyVJLUhMXBQAXwYVNiT_zruTI> .
-@prefix c42: <http://purl.org/np/RA_mYddvVH_B23JJOr9eHi7KAy5SFvQ9MgnFlI_X1ipCE> .
-@prefix c43: <http://purl.org/np/RAnuYRLWIlEkXcD7DDAsFRJM7K1hQNIwwZvIgmESDYaZI> .
-@prefix c44: <http://purl.org/np/RAI8QfBBg-1p6QEwJ8NlpBnRKjh6q0j6OrboQqwI93Ln0> .
-@prefix c45: <http://purl.org/np/RAVXpzux5LxzSRQ-_4fohEZi7i_kU2nXYdFrdl2zJZgL0> .
-@prefix c46: <http://purl.org/np/RA9y_psY_OMFf3waWcuHiGP4BbDSLoLGrv6dDTwUYl5fM> .
-@prefix c47: <http://purl.org/np/RAZWtMTtUbaIwIgQhmqz8LR7DKgfxznAELKrYCEJFr-uQ> .
-@prefix c48: <http://purl.org/np/RAqpjqsklylq0UZ7JhQngI9AQT5ha2dW9swRfN2wVqO_g> .
-@prefix c49: <http://purl.org/np/RAkxnjTX3JnSelVvF2MIt2Jwv1AhDGpqvGIukIBWIrrdE> .
-@prefix c50: <http://purl.org/np/RAh0PQhCr8e25dEUZAktlRCgnAHnOtgP90tl5voWt9z2E> .
+@prefix c38: <http://purl.org/np/RA-N3kdG8F0MM7XGKsLIQ5vVRThu627md8H_svIqDQn8o> .
+@prefix c39: <http://purl.org/np/RAjy3FX_jYUijUCEUQLp9Pa4KpH4Kaoolnvx8G-a1GuoQ> .
+@prefix c40: <http://purl.org/np/RAPnXRkS4baofTK-Bd1yFjOHwBoLHAF9V21-GqDXOclvM> .
+@prefix c41: <http://purl.org/np/RA3OpWCsO0Kz1v8dD01DfK-8utmIsDROC07139yPaLxlc> .
+@prefix c42: <http://purl.org/np/RAUgCbAvbwLhVC23EBR6QOxK9W90YfAxNN5UQfZVtpTe0> .
+@prefix c43: <http://purl.org/np/RAxEp3tHuKyl0M9SzdhHtH8Gq6ntzcHc5fAAusMzkaRWA> .
+@prefix c44: <http://purl.org/np/RAIsdOXOWPD0nOFXRhW-ZuPjJQOV9GD2qKWSzas4qUGaY> .
+@prefix c45: <http://purl.org/np/RAlxNkDw8ziFkO-xveR9Hx2w0imcd-vMtJGaq_g6wAz4s> .
+@prefix c46: <http://purl.org/np/RAAj5aJs0XqeX2L_90U33wbs2yQpomoyfAN9xBG63L01Q> .
+@prefix c47: <http://purl.org/np/RA_Nn_zO06ziGVcGYq-sZYBbxiMTC3kw8IdlmnSApMAd8> .
+@prefix c48: <http://purl.org/np/RAWXQRRF9tEa8elGEBIjVMTufKLE5qMdkFbKIji_NUQGk> .
+@prefix c49: <http://purl.org/np/RADdVMAixs9ePftPqo9LB8tK4Dad02MKwLXjmDLkwMbaw> .
+@prefix c50: <http://purl.org/np/RAprNg5jLq7eCzB88339s_bcSzyzOVEKaxAgS_xar0zW4> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -10340,15 +10340,83 @@ sub:Head {
 }
 
 sub:assertion {
-  c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c2#ReviewComment> .
+  c38: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c38#ReviewComment> .
+  
+  c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c10#ReviewComment> .
   
   c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c4#ReviewComment> .
   
-  c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c17#ReviewComment> .
+  c41: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c41#ReviewComment> .
   
   c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c3#ReviewComment> .
   
+  c26: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c26#ReviewComment> .
+  
   c30: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c30#ReviewComment> .
+  
+  c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c17#ReviewComment> .
+  
+  c31: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c31#ReviewComment> .
+  
+  c46: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c46#ReviewComment> .
+  
+  c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c13#ReviewComment> .
+  
+  c35: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c35#ReviewComment> .
+  
+  c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c9#ReviewComment> .
+  
+  c49: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c49#ReviewComment> .
+  
+  c32: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c32#ReviewComment> .
+  
+  c28: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c28#ReviewComment> .
+  
+  c22: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c22#ReviewComment> .
+  
+  c27: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c27#ReviewComment> .
+  
+  c44: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c44#ReviewComment> .
+  
+  c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c6#ReviewComment> .
+  
+  c40: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c40#ReviewComment> .
+  
+  c25: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c25#ReviewComment> .
+  
+  c33: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c33#ReviewComment> .
+  
+  c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c14#ReviewComment> .
+  
+  c34: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c34#ReviewComment> .
+  
+  c42: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c42#ReviewComment> .
+  
+  c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c7#ReviewComment> .
+  
+  c48: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c48#ReviewComment> .
+  
+  c19: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c19#ReviewComment> .
+  
+  c47: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c47#ReviewComment> .
+  
+  c24: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c24#ReviewComment> .
+  
+  c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c2#ReviewComment> .
+  
+  c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c8#ReviewComment> .
+  
+  c36: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c36#ReviewComment> .
+  
+  c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c12#ReviewComment> .
+  
+  c29: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c29#ReviewComment> .
+  
+  c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c11#ReviewComment> .
+  
+  c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c15#ReviewComment> .
+  
+  c39: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c39#ReviewComment> .
   
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c1#ReviewComment>;
     co:nextItem sub:_2 .
@@ -10530,91 +10598,23 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c9#ReviewComment>;
     a fr:Review .
   
-  c29: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c29#ReviewComment> .
-  
-  c46: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c46#ReviewComment> .
-  
-  c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c1#ReviewComment> .
-  
-  c38: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c38#ReviewComment> .
-  
-  c26: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c26#ReviewComment> .
-  
-  c25: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c25#ReviewComment> .
-  
-  c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c13#ReviewComment> .
-  
-  c35: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c35#ReviewComment> .
-  
-  c40: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c40#ReviewComment> .
-  
-  c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c12#ReviewComment> .
-  
-  c19: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c19#ReviewComment> .
-  
-  c28: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c28#ReviewComment> .
-  
-  c44: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c44#ReviewComment> .
-  
-  c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c14#ReviewComment> .
-  
-  c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c15#ReviewComment> .
-  
-  c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c10#ReviewComment> .
-  
-  c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c11#ReviewComment> .
-  
-  c39: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c39#ReviewComment> .
-  
-  c33: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c33#ReviewComment> .
-  
-  c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c8#ReviewComment> .
+  c45: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c45#ReviewComment> .
   
   c20: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c20#ReviewComment> .
   
-  c34: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c34#ReviewComment> .
-  
-  c45: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c45#ReviewComment> .
-  
-  c47: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c47#ReviewComment> .
-  
-  c42: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c42#ReviewComment> .
-  
-  c41: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c41#ReviewComment> .
-  
-  c36: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c36#ReviewComment> .
-  
-  c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c6#ReviewComment> .
-  
-  c24: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c24#ReviewComment> .
+  c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c5#ReviewComment> .
   
   c50: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c50#ReviewComment> .
   
-  c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c7#ReviewComment> .
-  
-  c31: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c31#ReviewComment> .
-  
-  c49: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c49#ReviewComment> .
-  
-  c21: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c21#ReviewComment> .
-  
-  c22: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c22#ReviewComment> .
-  
-  c43: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c43#ReviewComment> .
-  
-  c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c5#ReviewComment> .
-  
-  c32: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c32#ReviewComment> .
-  
-  c48: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c48#ReviewComment> .
-  
-  c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c9#ReviewComment> .
+  c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c1#ReviewComment> .
   
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c16#ReviewComment> .
   
   c18: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c18#ReviewComment> .
   
-  c27: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c27#ReviewComment> .
+  c21: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c21#ReviewComment> .
+  
+  c43: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c43#ReviewComment> .
   
   c23: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3_c23#ReviewComment> .
   

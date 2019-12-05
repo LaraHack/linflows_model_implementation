@@ -4,8 +4,6 @@
 
 ### get total number of triples in the ts
 
-output: 2955
-
 ```
 SELECT (COUNT(*) as ?Triples)
 WHERE {
@@ -39,7 +37,6 @@ WHERE {
 
 ### get total number of paragraphs/sections per article
 
-#TODO: needs to be slightly modified
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -68,7 +65,6 @@ WHERE {
 
 ### review comments per article
 
-#TODO: maybe adding a variable for the article link?
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -83,13 +79,50 @@ WHERE {
   ?reviewComment a linkflows:ReviewComment .
   ?reviewComment linkflows:refersTo  ?section .
 }
+```
+
+### number of review comments per chosen article
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT COUNT(?reviewComment) AS ?noReviewComments
+WHERE {
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+    (po:contains)* ?section .
+
+  ?reviewComment a linkflows:ReviewComment .
+  ?reviewComment linkflows:refersTo  ?section .
+}
+```
+
+### number of review comments per article, per reviewer
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer (COUNT(?reviewComment) AS ?noReviewComments)
+WHERE {
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+    (po:contains)* ?part .
+  ?reviewComment linkflows:refersTo ?part .
+
+  GRAPH ?assertion { ?reviewComment a linkflows:ReviewComment . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?reviewer
 ```
 
 ### distribution of review comments
 
 Distribution of part that they target per article:
 
-#TODO:  maybe adding a variable for the article link?
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -106,7 +139,7 @@ WHERE {
 }
 ```
 
-Distribution of positivity using UNION:
+### distribution of positivity using UNION
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
@@ -131,11 +164,8 @@ WHERE {
   }
 }
 ```
-Output:
-poscount	neutrcount	negcount
-0	7	78
 
-Distribution of positivity using VALUES:
+### distribution of positivity using VALUES
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
@@ -156,7 +186,7 @@ WHERE {
 } GROUP BY ?type ?reviewer
 ```
 
-Distribution of all review comment dimensions:
+### distribution of all review comment dimensions
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
@@ -179,7 +209,6 @@ WHERE {
 
 ### get total number of review comments per article
 
-#TODO: needs to be slightly modified
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -217,12 +246,7 @@ WHERE {
 } GROUP BY ?article ?reviewcomment ORDER BY ?article ?reviewcomment
 ```
 
-
-## Queries for Competency Questions
-
-### 1. How many comments were positive/negative per review?
-
-output;  14 negative, 0 positive, 4 neutral
+### Comments positive/negative per review for all articles:
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
@@ -243,7 +267,12 @@ WHERE {
 } GROUP BY ?article ?reviewer ?type ORDER BY ?article ?reviewer ?type
 ```
 
-### 2. How many negative review comments had an impact higher than 3?
+
+## Queries for Competency Questions
+
+### 1. What is the ratio of positive and negative comments per reviewer?
+
+Comments positive/negative per review for a chosen article:
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
@@ -252,19 +281,19 @@ PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
 
-SELECT ?article ?reviewer (COUNT(DISTINCT ?c) AS ?typecount)
+SELECT ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  ?article a doco:Article ;
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 
-  GRAPH ?assertion { ?c a linkflows:NegativeComment ; linkflows:hasImpact ?impact . }
-  FILTER (?impact > "3"^^xsd:positiveInteger) .
+  VALUES ?type { linkflows:PositiveComment linkflows:NeutralComment linkflows:NegativeComment }
+  GRAPH ?assertion { ?c a ?type . }
   ?assertion prov:wasAttributedTo ?reviewer .
-} GROUP BY ?article ?reviewer ORDER BY ?article ?reviewer
+} GROUP BY ?reviewer ?type ORDER BY ?reviewer ?type
 ```
 
-### 3. Which reviewer focused more on content/style/syntax?
+### 2. What is the nature of the review comments with respect to whether they address the content or the presentation of the article, and whether they refer to a specific paragraph or a larger structure such as a section or the whole article?
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
@@ -273,19 +302,84 @@ PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
 
-SELECT ?article ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
+SELECT ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  ?article a doco:Article ;
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 
   VALUES ?type { linkflows:SyntaxComment linkflows:StyleComment linkflows:ContentComment }
   GRAPH ?assertion { ?c a ?type . }
   ?assertion prov:wasAttributedTo ?reviewer .
-} GROUP BY ?article ?reviewer ?type ORDER BY ?article ?reviewer ?type
+} GROUP BY ?reviewer ?type ORDER BY ?reviewer ?type
 ```
 
-### 4. Comparing papers: which of the papers was more controversial?
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT (COUNT(?reviewCommentArticle) AS ?commentsPerArticle) (COUNT(?reviewCommentSection) AS ?commentsPerSections) (COUNT(?reviewCommentParagraph) AS ?commentsPerParagraph) (COUNT(?reviewCommentFigure) AS ?commentsPerFigure) (COUNT(?reviewCommentTable) AS ?commentsPerTable) (COUNT(?reviewCommentFootnote) AS ?commentsPerFootnote) (COUNT(?reviewCommentFormula) AS ?commentsPerFormula)
+WHERE {
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+    (po:contains)* ?part .
+
+  {
+    ?reviewCommentArticle a linkflows:ReviewComment .
+    ?reviewCommentArticle linkflows:refersTo  ?part .
+    ?subpart a doco:Article .
+  } UNION {
+    ?reviewCommentSection a linkflows:ReviewComment .
+    ?reviewCommentSection linkflows:refersTo ?part .
+    ?subpart a doco:Section .
+  } UNION {
+    ?reviewCommentParagraph a linkflows:ReviewComment .
+    ?reviewCommentParagraph linkflows:refersTo ?part .
+    ?subpart a doco:Paragraph .
+  } UNION {
+    ?reviewCommentFigure a linkflows:ReviewComment .
+    ?reviewCommentFigure linkflows:refersTo ?part .
+    ?subpart a doco:Figure .
+  } UNION {
+    ?reviewCommentTable a linkflows:ReviewComment .
+    ?reviewCommentTable linkflows:refersTo ?part .
+    ?subpart a doco:Table .
+  } UNION {
+    ?reviewCommentFootnote a linkflows:ReviewComment .
+    ?reviewCommentFootnote linkflows:refersTo ?part .
+    ?subpart a doco:Footnote .
+  } UNION {
+    ?reviewCommentFormula a linkflows:ReviewComment .
+    ?reviewCommentFormula linkflows:refersTo ?part .
+    ?subpart a doco:Formula .
+  }
+}
+```
+
+# does not return anything now
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT *
+WHERE {
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+    (po:contains)* ?part .
+
+  ?reviewComment a linkflows:ReviewComment .
+  ?reviewComment linkflows:refersTo  ?part .
+
+  VALUES ?type {doco:Article doco:Section doco:Paragraph doco:Figure doco:Table doco:Footnote doco:Formula}
+  GRAPH ?assertion {?reviewComment a ?type} .
+}
+```
+
+
+### 3. What are the critical points that were raised by the reviewers in the sense of negative comments with a high impact on the quality of the paper?
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
@@ -294,9 +388,72 @@ PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
 
-SELECT ?article ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
+SELECT ?reviewer (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  ?article a doco:Article ;
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+    (po:contains)* ?part .
+  ?c linkflows:refersTo ?part .
+
+  GRAPH ?assertion { ?c a linkflows:NegativeComment ; linkflows:hasImpact ?impact . }
+  FILTER (?impact > "3"^^xsd:positiveInteger) .
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?reviewer ORDER BY ?reviewer
+```
+
+
+### 4. How many points were raised that need to be addressed by the authors, as an estimate for the amount of work needed for a revision?
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer (COUNT(DISTINCT ?c) AS ?typecount)
+WHERE {
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+    (po:contains)* ?part .
+  ?c linkflows:refersTo ?part .
+
+  GRAPH ?assertion { ?c a linkflows:ActionNeededComment ; linkflows:hasImpact ?impact . }
+  FILTER (?impact > "3"^^xsd:positiveInteger) .
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?reviewer ORDER BY ?reviewer
+```
+
+### 5.  How do the review comments cover the different parts of the paper?
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?part (COUNT(DISTINCT ?c) AS ?commentcount)
+WHERE {
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+    (po:contains)* ?part .
+  ?part (po:contains)* ?subpart .
+  ?c linkflows:refersTo ?subpart .
+  # ?part a doco:Section .
+
+} GROUP BY ?part ORDER BY ?part
+```
+
+### 6.  Which parts of the paper seem controversial in the sense that they have both positive and negative comments?
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
+WHERE {
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 
@@ -304,48 +461,5 @@ WHERE {
   GRAPH ?assertion { ?c a ?type ; linkflows:hasImpact ?impact . }
   FILTER (?impact > "3"^^xsd:positiveInteger) .
   ?assertion prov:wasAttributedTo ?reviewer .
-} GROUP BY ?article ?reviewer ?type ORDER BY ?article ?reviewer ?type
-```
-
-### 5. Which part is most commented?
-
-Most commented part of the article:
-
-```
-PREFIX doco: <http://purl.org/spar/doco/>
-PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
-PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
-
-SELECT ?article ?part (COUNT(DISTINCT ?c) AS ?commentcount)
-WHERE {
-  ?article a doco:Article ;
-    (po:contains)* ?part .
-  ?part (po:contains)* ?subpart .
-  ?c linkflows:refersTo ?subpart .
-  # ?part a doco:Section .
-
-} GROUP BY ?article ?part ORDER BY ?article ?part
-```
-
-### 6. What are important points that need fixing?
-
-```
-PREFIX doco: <http://purl.org/spar/doco/>
-PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
-PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
-
-SELECT ?article ?reviewer (COUNT(DISTINCT ?c) AS ?typecount)
-WHERE {
-  ?article a doco:Article ;
-    (po:contains)* ?part .
-  ?c linkflows:refersTo ?part .
-
-  GRAPH ?assertion { ?c a linkflows:ActionNeededComment ; linkflows:hasImpact ?impact . }
-  FILTER (?impact > "3"^^xsd:positiveInteger) .
-  ?assertion prov:wasAttributedTo ?reviewer .
-} GROUP BY ?article ?reviewer ORDER BY ?article ?reviewer
+} GROUP BY ?reviewer ?type ORDER BY ?reviewer ?type
 ```
