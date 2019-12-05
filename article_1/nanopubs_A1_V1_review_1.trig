@@ -230,8 +230,8 @@
 :assertion {
 	:comment-7 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2_p2#paragraph> ;
-		a linkflows:ContentComment, linkflows:NeutralComment, linkflows:NoActionNeededComment	;
-		linkflows:hasImpact "0"^^xsd:positiveInteger ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:SuggestionComment	;
+		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """3) In section 3.2) you give background information on the Find-Fix-Verify pattern (2nd paragraph). This information (in which scenario it was used first, etc.) is not really necessary for the rest of the paper.""" .
 }
 

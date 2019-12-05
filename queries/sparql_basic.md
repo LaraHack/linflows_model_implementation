@@ -39,6 +39,7 @@ WHERE {
 
 ### get total number of paragraphs/sections per article
 
+#TODO: needs to be slightly modified
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -67,6 +68,7 @@ WHERE {
 
 ### review comments per article
 
+#TODO: maybe adding a variable for the article link?
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -75,7 +77,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT *
 WHERE {
-  <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1>
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
     (po:contains)* ?section .
 
   ?reviewComment a linkflows:ReviewComment .
@@ -87,6 +89,7 @@ WHERE {
 
 Distribution of part that they target per article:
 
+#TODO:  maybe adding a variable for the article link?
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -95,7 +98,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT *
 WHERE {
-  <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1>
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
     (po:contains)* ?section .
 
   ?reviewComment a linkflows:ReviewComment .
@@ -113,7 +116,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT (count(?pos) as ?poscount) (count(?neutr) as ?neutrcount) (count(?neg) as ?negcount)
 WHERE {
-  <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1>
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
     (po:contains)* ?part .
 
   {
@@ -128,6 +131,9 @@ WHERE {
   }
 }
 ```
+Output:
+poscount	neutrcount	negcount
+0	7	78
 
 Distribution of positivity using VALUES:
 
@@ -140,7 +146,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewer ?type (count(?c) AS ?typecount)
 WHERE {
-  <http://purl.org/np/RAC2uy68IF6HASObYpPo0r9sLIwt3XXDU7Yd8QtyKpwI0#articleVersion1>
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 
@@ -173,6 +179,7 @@ WHERE {
 
 ### get total number of review comments per article
 
+#TODO: needs to be slightly modified
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
