@@ -267,6 +267,46 @@ WHERE {
 } GROUP BY ?article ?reviewer ?type ORDER BY ?article ?reviewer ?type
 ```
 
+### Type of action needed:
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
+WHERE {
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+    (po:contains)* ?part .
+  ?c linkflows:refersTo ?part .
+
+  VALUES ?type { linkflows:ActionNeededComment linkflows:NoActionNeededComment linkflows:SuggestionComment }
+  GRAPH ?assertion { ?c a ?type . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?reviewer ?type ORDER BY ?reviewer ?type
+```
+
+### Impact per reviewer:
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer ?impact (COUNT(DISTINCT ?c) AS ?typecount)
+WHERE {
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+    (po:contains)* ?part .
+  ?c linkflows:refersTo ?part .
+
+  GRAPH ?assertion { ?c linkflows:hasImpact ?impact . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?reviewer ?impact ORDER BY ?reviewer ?impact
+```
 
 ## Queries for Competency Questions
 
@@ -323,38 +363,57 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 SELECT (COUNT(?reviewCommentArticle) AS ?commentsPerArticle) (COUNT(?reviewCommentSection) AS ?commentsPerSections) (COUNT(?reviewCommentParagraph) AS ?commentsPerParagraph) (COUNT(?reviewCommentFigure) AS ?commentsPerFigure) (COUNT(?reviewCommentTable) AS ?commentsPerTable) (COUNT(?reviewCommentFootnote) AS ?commentsPerFootnote) (COUNT(?reviewCommentFormula) AS ?commentsPerFormula)
 WHERE {
   <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
-    (po:contains)* ?part .
+    (po:contains)* ?subpart .
 
   {
     ?reviewCommentArticle a linkflows:ReviewComment .
-    ?reviewCommentArticle linkflows:refersTo  ?part .
+    ?reviewCommentArticle linkflows:refersTo  ?subpart .
     ?subpart a doco:Article .
   } UNION {
     ?reviewCommentSection a linkflows:ReviewComment .
-    ?reviewCommentSection linkflows:refersTo ?part .
+    ?reviewCommentSection linkflows:refersTo ?subpart .
     ?subpart a doco:Section .
   } UNION {
     ?reviewCommentParagraph a linkflows:ReviewComment .
-    ?reviewCommentParagraph linkflows:refersTo ?part .
+    ?reviewCommentParagraph linkflows:refersTo ?subpart .
     ?subpart a doco:Paragraph .
   } UNION {
     ?reviewCommentFigure a linkflows:ReviewComment .
-    ?reviewCommentFigure linkflows:refersTo ?part .
+    ?reviewCommentFigure linkflows:refersTo ?subpart .
     ?subpart a doco:Figure .
   } UNION {
     ?reviewCommentTable a linkflows:ReviewComment .
-    ?reviewCommentTable linkflows:refersTo ?part .
+    ?reviewCommentTable linkflows:refersTo ?subpart .
     ?subpart a doco:Table .
   } UNION {
     ?reviewCommentFootnote a linkflows:ReviewComment .
-    ?reviewCommentFootnote linkflows:refersTo ?part .
+    ?reviewCommentFootnote linkflows:refersTo ?subpart .
     ?subpart a doco:Footnote .
   } UNION {
     ?reviewCommentFormula a linkflows:ReviewComment .
-    ?reviewCommentFormula linkflows:refersTo ?part .
+    ?reviewCommentFormula linkflows:refersTo ?subpart .
     ?subpart a doco:Formula .
   }
 }
+```
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer ?level (COUNT(DISTINCT ?c) AS ?typecount)
+WHERE {
+  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+    (po:contains)* ?part .
+  ?c linkflows:refersTo ?part .
+  ?part a ?level .
+
+  GRAPH ?assertion { ?c a ?type . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?reviewer ?level ORDER BY ?reviewer
 ```
 
 # does not return anything now
