@@ -1,12 +1,12 @@
 
-# 1. Install Docker
+## 1. Install Docker
 Based on your distribution, see [Docker installation instructions](https://docs.docker.com/install/linux/docker-ce/ubuntu/).
 
-# 2. Install Virtuoso Docker image
+## 2. Install Virtuoso Docker image
 * [Virtuoso Docker image](https://github.com/tenforce/docker-virtuoso) - if needed (or curious), check the instructions there for more details.
 
 
-## OPTION 1 (__recommended__): With Docker Compose
+### OPTION 1 (__recommended__): With Docker Compose
 
 
 Create a ```docker-compose.yml``` file containing the following:
@@ -32,7 +32,7 @@ And run docker-compose:
 sudo docker-compose up
 ```
 
-## OPTION 2: With Docker Run
+### OPTION 2: With Docker Run
 
 
 Create a ```run.sh``` file containing the following:
@@ -46,7 +46,7 @@ docker run --name my-virtuoso \
     -d tenforce/virtuoso
 ```
 
-# [3. Access triple store](#step-3)
+## 3. Access triple store
 
 Once the server is up and running, in your browser go to:
 [http://localhost:8890/conductor](http://localhost:8890/conductor)
@@ -54,40 +54,40 @@ Once the server is up and running, in your browser go to:
 And login with ```dba``` and password ```admin```.
 
 
-# 4. Load trusty nanopubs into Virtuoso triple store
+## 4. Load trusty nanopubs into Virtuoso triple store
 
-## OPTION 1 (__recommended__)
+### OPTION 1 (__recommended__)
 
 Running the following script will generate the trusty nanopubs for the nanopubs in the repository, then load them in the Virtuoso triple store Docker image indicated above: ``` sudo ./reload.sh```
 
-## OPTION 2
+### OPTION 2
 If you want to do all the steps manually yourself instead of running the script above to load the data in the triple store:
 
-### 1) Generate trustyURIs
+#### 1) Generate trustyURIs
 
-#### script for nanopubs
+##### script for nanopubs
 ```
 ./np
 ./np help
 ./np op help
 ```
 
-#### checking the validity of nanopubs
+##### checking the validity of nanopubs
 ```
 ./np check nanopubs_V1.trig
 ```
 
-#### making trusty links for nanopubs
+##### making trusty links for nanopubs
 ```
 ./np mktrusty -r nanopubs_V1.trig
 ```
 
-#### checking trusty links for nanopubs
+##### checking trusty links for nanopubs
 ```
 ./np check trusty.nanopubs_V1.trig
 ```
 
-### 2) Load trusty nanopubs in triple store
+#### 2) Load trusty nanopubs in triple store
 
 1. Place files to load into the triplestore (```trusty.\*.trig``` files) into a folder like ```/<path>/virtuoso/dumps```
 2. Modifiy the ```virtuoso.ini``` file in ```/<path>/virtuoso``` such that the folder where you placed your dump files are in the ```DirsAllowed```:
@@ -110,6 +110,6 @@ In case you want to delete the triples in the store:
   SQL> DELETE FROM rdf_quad WHERE g = iri_to_id ('http://example.com');
 ```
 
-# 5. SPARQL queries on the nanopubs loaded in the Virtuoso triple store
+## 5. SPARQL queries on the nanopubs loaded in the Virtuoso triple store
 
-After starting the server and logging in the browser interface (see [Step 3 above](#step-3)), you can run the following SPARQL queries on the newly loaded triples: [SPARQL queries](/queries/sparql_basic.md)
+After starting the server and logging in the browser interface (see Step 3 above), you can run the following SPARQL queries on the newly loaded triples: [SPARQL queries](/queries/sparql_basic.md)
