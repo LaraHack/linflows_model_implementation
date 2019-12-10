@@ -46,7 +46,7 @@ docker run --name my-virtuoso \
     -d tenforce/virtuoso
 ```
 
-# 3. Access triple store
+# [3. Access triple store](#step-3)
 
 Once the server is up and running, in your browser go to:
 [http://localhost:8890/conductor](http://localhost:8890/conductor)
@@ -112,4 +112,4 @@ In case you want to delete the triples in the store:
 
 # 5. SPARQL queries on the nanopubs loaded in the Virtuoso triple store
 
-After starting the server and logging in the browser interface (see Step 3 above), you can run the following SPARQL queries on the newly loaded triples: [SPARQL queries](/queries/sparql_basic.md)
+After starting the server and logging in the browser interface (see [Step 3 above](#step-3)), you can run the following SPARQL queries on the newly loaded triples: [SPARQL queries](/queries/sparql_basic.md)
