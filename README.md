@@ -1,9 +1,9 @@
 
 # 1. Install Docker
-Based on your distribution, see [Docker installation instructions] (https://docs.docker.com/install/linux/docker-ce/ubuntu/).
+Based on your distribution, see [Docker installation instructions](https://docs.docker.com/install/linux/docker-ce/ubuntu/).
 
 # 2. Install Virtuoso Docker image
-* [Virtuoso Docker image](https://github.com/tenforce/docker-virtuoso) - if needed (or curious), check the instructions there for more details
+* [Virtuoso Docker image](https://github.com/tenforce/docker-virtuoso) - if needed (or curious), check the instructions there for more details.
 
 
 ## OPTION 1 (__recommended__): With Docker Compose
@@ -49,7 +49,7 @@ docker run --name my-virtuoso \
 # 3. Access triple store
 
 Once the server is up and running, in your browser go to:
-[http://localhost:8890/conductor] (http://localhost:8890/conductor)
+[http://localhost:8890/conductor](http://localhost:8890/conductor)
 
 And login with ```dba``` and password ```admin```.
 
@@ -89,7 +89,7 @@ If you want to do all the steps manually yourself instead of running the script 
 
 ### 2) Load trusty nanopubs in triple store
 
-1. Place files to load into the triplestore (trusty.\*.trig files) into a folder like ```/<path>/virtuoso/dumps```
+1. Place files to load into the triplestore (```trusty.\*.trig``` files) into a folder like ```/<path>/virtuoso/dumps```
 2. Modifiy the ```virtuoso.ini``` file in ```/<path>/virtuoso``` such that the folder where you placed your dump files are in the ```DirsAllowed```:
     * example: ```DirsAllowed			= ., /usr/local/virtuoso-opensource/share/virtuoso/vad, ./dumps```
 3. Restart your server
@@ -112,4 +112,4 @@ In case you want to delete the triples in the store:
 
 # 5. SPARQL queries on the nanopubs loaded in the Virtuoso triple store
 
-After starting the server and logging in the browser interface (see Step 3 above), you can run the following SPARQL queries on the newly loaded triples: [SPAQRL queries](/queries/sparql_basic.md)
+After starting the server and logging in the browser interface (see Step 3 above), you can run the following SPARQL queries on the newly loaded triples: [SPARQL queries](/queries/sparql_basic.md)
