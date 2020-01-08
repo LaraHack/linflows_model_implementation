@@ -31,7 +31,7 @@ PREFIX doco: <http://purl.org/spar/doco/>
 
 SELECT (COUNT(*) as ?o)
 WHERE {
-  ?s ?p doco:Paragraph #doco:Section
+  ?s ?p doco:Paragraph #doco:Section, doco:Article, doco:Figure, doco:Table, doco:Formula, doco:Footnote
 }
 ```
 
@@ -50,6 +50,61 @@ WHERE {
   ?section a doco:Section .
   ?section po:contains ?paragraph .
 } GROUP BY ?title
+```
+
+### total number of main sections per article
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+
+SELECT ?title, (COUNT(*) as ?sections)
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    dcterms:title ?title ;
+    po:contains ?section .
+
+  ?section a doco:Section .
+}
+```
+
+### total number of sections and subsections per article
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+
+SELECT ?title, (COUNT(*) as ?sections)
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    dcterms:title ?title ;
+    (po:contains)* ?section .
+
+  ?section a doco:Section .
+}
+```
+
+### get all the numbers and names of sections of an article
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX c4o: <http://purl.org/spar/c4o/>
+
+SELECT ?sectionNumber, ?sectionName
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?section .
+
+  ?section a doco:Section .
+  ?section po:containsAsHeader ?sectionLabel, ?sectionTitle .
+  ?sectionLabel a doco:SectionLabel ;
+     c4o:hasContent ?sectionNumber.
+  ?sectionTitle a doco:SectionTitle ;
+     c4o:hasContent ?sectionName.
+}
 ```
 
 ### total number of review comments
@@ -73,7 +128,9 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT *
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+  #<http://purl.org/np/RAq9AhYfJUi3yeiCm1zf8DmL_hPaXG7JayEC380WHYMK4#articleVersion1>
+  #<http://purl.org/np/RA8GWEOa9M60KPWBvk012dBRZeOKKyjeNy3vYYJRTx5rw#articleVersion1>
     (po:contains)* ?section .
 
   ?reviewComment a linkflows:ReviewComment .
@@ -91,7 +148,9 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT COUNT(?reviewComment) AS ?noReviewComments
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+  #<http://purl.org/np/RAq9AhYfJUi3yeiCm1zf8DmL_hPaXG7JayEC380WHYMK4#articleVersion1>
+  #<http://purl.org/np/RA8GWEOa9M60KPWBvk012dBRZeOKKyjeNy3vYYJRTx5rw#articleVersion1>
     (po:contains)* ?section .
 
   ?reviewComment a linkflows:ReviewComment .
@@ -110,13 +169,39 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewer (COUNT(?reviewComment) AS ?noReviewComments)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
   ?reviewComment linkflows:refersTo ?part .
 
   GRAPH ?assertion { ?reviewComment a linkflows:ReviewComment . }
   ?assertion prov:wasAttributedTo ?reviewer .
 } GROUP BY ?reviewer
+```
+
+### get the number of review comments for all sections of an article
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX deo: <http://purl.org/spar/deo/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX c4o: <http://purl.org/spar/c4o/>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?sectionNumber, ?sectionName, COUNT(?reviewComment) AS ?noReviewComments
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?section .
+
+  ?section a doco:Section .
+  ?section po:containsAsHeader ?sectionLabel, ?sectionTitle .
+  ?sectionLabel a doco:SectionLabel ;
+     c4o:hasContent ?sectionNumber.
+  ?sectionTitle a doco:SectionTitle ;
+     c4o:hasContent ?sectionName.
+
+   ?reviewComment a linkflows:ReviewComment .
+   ?reviewComment linkflows:refersTo  ?section .
+} ORDER BY ?sectionNumber
 ```
 
 ### distribution of review comments
@@ -131,12 +216,31 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT *
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?section .
 
   ?reviewComment a linkflows:ReviewComment .
   ?reviewComment linkflows:refersTo  ?section .
 }
+```
+
+### number of review comments that target different parts of an article
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?type, COUNT(?reviewComment) AS ?noReviewComments
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?section .
+
+  ?reviewComment a linkflows:ReviewComment .
+  ?reviewComment linkflows:refersTo  ?section .
+  ?section a ?type .
+} GROUP BY ?type
 ```
 
 ### distribution of positivity using UNION
@@ -149,7 +253,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT (count(?pos) as ?poscount) (count(?neutr) as ?neutrcount) (count(?neg) as ?negcount)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
 
   {
@@ -176,7 +280,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewer ?type (count(?c) AS ?typecount)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 
@@ -278,7 +382,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 
@@ -299,7 +403,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewer ?impact (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 
@@ -323,7 +427,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 
@@ -344,7 +448,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 
@@ -362,7 +466,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT (COUNT(?reviewCommentArticle) AS ?commentsPerArticle) (COUNT(?reviewCommentSection) AS ?commentsPerSections) (COUNT(?reviewCommentParagraph) AS ?commentsPerParagraph) (COUNT(?reviewCommentFigure) AS ?commentsPerFigure) (COUNT(?reviewCommentTable) AS ?commentsPerTable) (COUNT(?reviewCommentFootnote) AS ?commentsPerFootnote) (COUNT(?reviewCommentFormula) AS ?commentsPerFormula)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?subpart .
 
   {
@@ -406,7 +510,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewer ?level (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
   ?part a ?level .
@@ -426,7 +530,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT *
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
 
   ?reviewComment a linkflows:ReviewComment .
@@ -449,7 +553,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewer (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 
@@ -471,7 +575,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewer (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 
@@ -492,7 +596,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?part (COUNT(DISTINCT ?c) AS ?commentcount)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
   ?part (po:contains)* ?subpart .
   ?c linkflows:refersTo ?subpart .
@@ -512,7 +616,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
 WHERE {
-  <http://purl.org/np/RAU6sod5c-dJTRSUu9Sn4NyiBVNEKVZ2PzOImr1L2E5n4#articleVersion1>
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
   ?c linkflows:refersTo ?part .
 

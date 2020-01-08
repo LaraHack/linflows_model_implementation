@@ -20,6 +20,7 @@ db:
   volumes:
     - ./data/virtuoso:/data
   ports:
+    - "8890:8890"
 ```
 
 Then start docker:
@@ -58,7 +59,7 @@ And login with ```dba``` and password ```admin```.
 
 ### OPTION 1 (__recommended__)
 
-Running the following script will generate the trusty nanopubs for the nanopubs in the repository, then load them in the Virtuoso triple store Docker image indicated above: ``` sudo ./reload.sh```
+Running the following script will generate the trusty nanopubs for the nanopubs in the repository, then load them in the Virtuoso triple store Docker image indicated above: ``` sudo ./reload.sh```. Run this script in a different terminal window while the virtuoso server is up and running.
 
 ### OPTION 2
 If you want to do all the steps manually yourself instead of running the script above to load the data in the triple store:
@@ -89,16 +90,16 @@ If you want to do all the steps manually yourself instead of running the script 
 
 #### 2) Load trusty nanopubs in triple store
 
-1. Place files to load into the triplestore (```trusty.\*.trig``` files) into a folder like ```/<path>/virtuoso/dumps```
+1. Place files to load into the triplestore (```trusty.\*.nq``` files) into a folder like ```/<path>/virtuoso/dumps```
 2. Modifiy the ```virtuoso.ini``` file in ```/<path>/virtuoso``` such that the folder where you placed your dump files are in the ```DirsAllowed```:
     * example: ```DirsAllowed			= ., /usr/local/virtuoso-opensource/share/virtuoso/vad, ./dumps```
 3. Restart your server
 4. Find out the name of your docker instance in the ```NAMES``` field:```sudo docker ps```
-5. Loading data manually in Virtuoso, assuming the name of your Docker instance is ```triple_store_db_1``` (replace with the corresponding output of the previous command):
+5. Loading data manually in Virtuoso, assuming the name of your Docker instance is ```virtuoso_db_1``` (replace with the corresponding output of the previous command):
   ```
-  sudo docker exec -it triple_store_db_1 bash
+  sudo docker exec -it virtuoso_db_1 bash
   isql-v -U dba -P $DBA_PASSWORD
-  SQL> ld_dir ('./dumps', '*.trig', 'http://example.com');
+  SQL> ld_dir ('./dumps', '*.nq', 'http://example.com');
   SQL> rdf_loader_run();
 
   select * from DB.DBA.load_list;

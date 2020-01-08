@@ -863,7 +863,7 @@
 
 :assertion {
 	:comment-25 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/d1#definition> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/d1#formula> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Some relatively minor remarks: - page 6, definition 1: why is it 2^Q? can all the quality issues happen at the same time?""" .
@@ -1074,7 +1074,7 @@
 
 :assertion {
 	:comment-31 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.4.4#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.4#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Some relatively minor remarks: - section 4.4 is not completely necessary in the paper""" .

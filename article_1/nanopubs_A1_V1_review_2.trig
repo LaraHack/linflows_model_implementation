@@ -341,7 +341,8 @@
 
 :assertion {
 	:comment-10 a linkflows:ReviewComment ;
-		linkflows:refersTo doco:Section ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.1.3#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:SuggestionComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Detailed comments: - A controversial point is that the ground truth was created by experts as the results which are evaluated against this. I agree that there is no way around this, but a small discussion on how the authors believe the ground truth data is of better quality than the expert answers would help (e.g., experts did not necessarily put enough effort in the task as the ground truth creators did also by resolving conflicts and discussing difficult triples together etc.).""" .
@@ -412,7 +413,7 @@
 :assertion {
 	:comment-12 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4#section> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/prop2#proposition> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/prop2#formula> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "4"^^xsd:positiveInteger ;
 		linkflows:hasCommentText """Detailed comments: - The scalability of the approach is unclear: It seems to me that the proposed approach need each single triple in a linked dataset to be manually checked. This would limit the scalability of the approach. Thus, while the focus of this paper is clearly different, it would be useful to briefly discuss the possibility of hybrid human-machine approaches to scale the approach to large amounts of triples (e.g., the English DBpedia 3.9 has 500M triples). Related to this is “Proposition 2” which sounds very much not scalable.""" .
