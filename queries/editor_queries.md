@@ -12,9 +12,7 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 SELECT ?reviewer AS ?Reviewer (COUNT(?reviewComment) AS ?noReviewComments)
 WHERE {
-  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
-    (po:contains)* ?part .
-  ?reviewComment linkflows:refersTo ?part .
+  ?reviewComment linkflows:refersTo <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1> .
 
   GRAPH ?assertion { ?reviewComment a linkflows:ReviewComment . }
   ?assertion prov:wasAttributedTo ?reviewer .
