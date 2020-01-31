@@ -196,3 +196,27 @@ WHERE {
 
 } GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
 ```
+
+
+### Q10: number of review comments with impact=1, per reviewer
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer AS ?Reviewer COUNT(DISTINCT ?reviewComment) AS ?I1
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?part .
+
+  GRAPH ?assertion { ?reviewComment a linkflows:ReviewComment ; linkflows:hasImpact ?impact . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+
+  ?reviewComment linkflows:refersTo  ?part .
+  FILTER (?impact = "1"^^xsd:positiveInteger) .
+
+
+} GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
+```
