@@ -87,6 +87,7 @@ WHERE {
 } GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
 ```
 
+### Q5: number of review comments per style, per reviewer
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -94,14 +95,16 @@ PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
 
-SELECT ?reviewer ?type (count(?c) AS ?typecount)
+SELECT ?reviewer AS ?Reviewer COUNT(DISTINCT ?reviewComment) AS ?syntax
 WHERE {
   <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
-  ?c linkflows:refersTo ?part .
 
-  VALUES ?type { linkflows:PositiveComment linkflows:NeutralComment linkflows:NegativeComment }
-  GRAPH ?assertion { ?c a ?type . }
+  GRAPH ?assertion { ?reviewComment a linkflows:ReviewComment . }
   ?assertion prov:wasAttributedTo ?reviewer .
-} GROUP BY ?type ?reviewer
+
+  ?reviewComment linkflows:refersTo  ?part .
+  ?reviewComment a linkflows:StyleComment .
+
+} GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
 ```
