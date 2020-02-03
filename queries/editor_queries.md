@@ -386,21 +386,23 @@ PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
 
-SELECT ?reviewer AS ?Reviewer (COUNT(?reviewCommentArticle) AS ?commentsPerArticle) (COUNT(?reviewCommentSection) AS ?commentsPerSections) (COUNT(?reviewCommentParagraph) AS ?commentsPerParagraph)
+SELECT ?reviewer AS ?Reviewer (COUNT(?reviewCommentArticle) AS ?article) (COUNT(?reviewCommentSection) AS ?section) (COUNT(?reviewCommentParagraph) AS ?paragraph)
 WHERE {
   <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
 
-  GRAPH ?assertion { ?reviewComment a linkflows:ReviewComment . }
+  VALUES ?type {?reviewCommentArticle  ?reviewCommentSection ?reviewCommentParagraph}
+  GRAPH ?assertion { ?type a linkflows:ReviewComment . }
   ?assertion prov:wasAttributedTo ?reviewer .
 
-  ?reviewComment linkflows:refersTo  ?part .
-
-  {  
+  {    
+    ?reviewCommentArticle linkflows:refersTo  ?part .
     ?part a doco:Article .
   } UNION {
+    ?reviewCommentSection linkflows:refersTo  ?part .
     ?part a doco:Section .
   } UNION {
+    ?reviewCommentParagraph linkflows:refersTo  ?part .
     ?part a doco:Paragraph .
   }
 
