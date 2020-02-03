@@ -391,7 +391,7 @@ WHERE {
   <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?part .
 
-  VALUES ?type {?reviewCommentArticle  ?reviewCommentSection ?reviewCommentParagraph}
+  VALUES ?type {(?reviewCommentArticle)  (?reviewCommentSection) (?reviewCommentParagraph)}
   GRAPH ?assertion { ?type a linkflows:ReviewComment . }
   ?assertion prov:wasAttributedTo ?reviewer .
 
