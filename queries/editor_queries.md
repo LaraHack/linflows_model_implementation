@@ -376,3 +376,73 @@ WHERE {
 
 } GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
 ```
+#####################
+
+### Q1+Q2+Q3: number of review comments per article, section, paragraph per reviewer
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer AS ?Reviewer (COUNT(?reviewComment) AS ?article)
+WHERE {
+  ?reviewComment linkflows:refersTo <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1> .
+
+  GRAPH ?assertion { ?reviewComment a linkflows:ReviewComment . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?reviewer ORDER BY ASC(?reviewer)
+```
+
+### Q2: number of review comments per section, per reviewer
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer AS ?Reviewer (COUNT(?reviewCommentArticle) AS ?commentsPerArticle) (COUNT(?reviewCommentSection) AS ?commentsPerSections) (COUNT(?reviewCommentParagraph) AS ?commentsPerParagraph)
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?part .
+
+  GRAPH ?assertion { ?reviewComment a linkflows:ReviewComment . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+
+  ?reviewComment linkflows:refersTo  ?part .
+
+  {  
+    ?part a doco:Article .
+  } UNION {
+    ?part a doco:Section .
+  } UNION {
+    ?part a doco:Paragraph .
+  }
+
+} GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
+```
+
+### Q3: number of review comments per paragraph, per reviewer
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer AS ?Reviewer COUNT(DISTINCT ?reviewComment) AS ?paragraphs
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?paragraph .
+
+  GRAPH ?assertion { ?reviewComment a linkflows:ReviewComment . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+
+  ?reviewComment linkflows:refersTo  ?paragraph .
+  ?paragraph a doco:Paragraph .
+} GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
+```
