@@ -429,3 +429,48 @@ WHERE {
 
 } GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
 ```
+
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer AS ?Reviewer (COUNT(?reviewCommentArticle) AS ?commentsPerArticle) (COUNT(?reviewCommentSection) AS ?commentsPerSections) (COUNT(?reviewCommentParagraph) AS ?commentsPerParagraph) (COUNT(?reviewCommentFigure) AS ?commentsPerFigure) (COUNT(?reviewCommentTable) AS ?commentsPerTable) (COUNT(?reviewCommentFootnote) AS ?commentsPerFootnote) (COUNT(?reviewCommentFormula) AS ?commentsPerFormula)
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?subpart .
+
+  GRAPH ?assertion { ?c a linkflows:ReviewComment . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+
+  {
+    ?reviewCommentArticle a linkflows:ReviewComment .
+    ?reviewCommentArticle linkflows:refersTo  ?subpart .
+    ?subpart a doco:Article .
+  } UNION {
+    ?reviewCommentSection a linkflows:ReviewComment .
+    ?reviewCommentSection linkflows:refersTo ?subpart .
+    ?subpart a doco:Section .
+  } UNION {
+    ?reviewCommentParagraph a linkflows:ReviewComment .
+    ?reviewCommentParagraph linkflows:refersTo ?subpart .
+    ?subpart a doco:Paragraph .
+  } UNION {
+    ?reviewCommentFigure a linkflows:ReviewComment .
+    ?reviewCommentFigure linkflows:refersTo ?subpart .
+    ?subpart a doco:Figure .
+  } UNION {
+    ?reviewCommentTable a linkflows:ReviewComment .
+    ?reviewCommentTable linkflows:refersTo ?subpart .
+    ?subpart a doco:Table .
+  } UNION {
+    ?reviewCommentFootnote a linkflows:ReviewComment .
+    ?reviewCommentFootnote linkflows:refersTo ?subpart .
+    ?subpart a doco:Footnote .
+  } UNION {
+    ?reviewCommentFormula a linkflows:ReviewComment .
+    ?reviewCommentFormula linkflows:refersTo ?subpart .
+    ?subpart a doco:Formula .
+  }
+} GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
