@@ -379,6 +379,28 @@ WHERE {
 #####################
 
 ### Q1+Q2+Q3: number of review comments per article, section, paragraph per reviewer
+
+[//]: # (get the number of review comments belonging to a specific article that references the whole article, the sections and the paragraphs grouped by reviewer)
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+
+CONSTRUCT {
+
+}
+WHERE {
+    SELECT {
+
+    } GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
+}
+```
+
+
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
