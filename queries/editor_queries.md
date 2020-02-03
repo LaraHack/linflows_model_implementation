@@ -391,12 +391,19 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 
 CONSTRUCT {
-
+  ?reviewer ?type ?typecount .
 }
 WHERE {
-    SELECT {
+  SELECT ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
+  WHERE {
+    <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+      (po:contains)* ?part .
+    ?c linkflows:refersTo ?part .
 
-    } GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
+    VALUES ?type { linkflows:SyntaxComment linkflows:StyleComment linkflows:ContentComment }
+    GRAPH ?assertion { ?c a ?type . }
+    ?assertion prov:wasAttributedTo ?reviewer .
+  } GROUP BY ?reviewer ?type ORDER BY ?reviewer ?type
 }
 ```
 
@@ -430,6 +437,7 @@ WHERE {
 } GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
 ```
 
+```
 PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
@@ -474,3 +482,4 @@ WHERE {
     ?subpart a doco:Formula .
   }
 } GROUP BY ?reviewer  ORDER BY ASC(?reviewer)
+```
