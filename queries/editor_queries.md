@@ -391,19 +391,19 @@ PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkf
 
 
 CONSTRUCT {
-  ?reviewer ?type ?typecount .
+  ?reviewer ?aspect ?aspectCount .
 }
 WHERE {
-  SELECT ?reviewer ?type (COUNT(DISTINCT ?c) AS ?typecount)
+  SELECT ?reviewer ?aspect (COUNT(DISTINCT ?c) AS ?aspectCount)
   WHERE {
     <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
       (po:contains)* ?part .
     ?c linkflows:refersTo ?part .
 
-    VALUES ?type { linkflows:SyntaxComment linkflows:StyleComment linkflows:ContentComment }
-    GRAPH ?assertion { ?c a ?type . }
+    VALUES ?aspect { linkflows:SyntaxComment linkflows:StyleComment linkflows:ContentComment }
+    GRAPH ?assertion { ?c a ?aspect . }
     ?assertion prov:wasAttributedTo ?reviewer .
-  } GROUP BY ?reviewer ?type ORDER BY ?reviewer ?type
+  } GROUP BY ?reviewer ?aspect ORDER BY ?reviewer ?aspect
 }
 ```
 
