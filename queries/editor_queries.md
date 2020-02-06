@@ -494,7 +494,7 @@ Pos/Neg: negative, neutral, positive
 Impact: 3, 4, 5
 Action needed: compulsory
 
-#### Query logic
+#### Query logic (declarative)
 
 Retrieve number of review comments per reviewer that:
  - target a certain part of the given article URI ```AND```
@@ -504,7 +504,7 @@ Retrieve number of review comments per reviewer that:
  - the impact is 3 or 4 or 5 ```AND```
  - the action needed by author is compulsory to be addressed
 
- #### Query logic with some SPARQL
+#### Query logic with some pseudo-SPARQL
 
  Retrieve number of review comments per reviewer (```GROUP BY ?reviewer  ORDER BY ASC(?reviewer)``` )
  ```
@@ -540,3 +540,11 @@ Retrieve number of review comments per reviewer that:
     ```
     GRAPH ?assertion { ?reviewComment a linkflows:ActionNeededComment }
     ```
+
+#### Putting it all together:
+
+```
+GRAPH ?assertion {...}
+?assertion prov:wasAttributedTo ?reviewer .
+
+```
