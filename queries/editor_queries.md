@@ -22,6 +22,34 @@ WHERE {
 } GROUP BY ?reviewer ORDER BY ASC(?reviewer)
 ```
 
+#### Helpers Q1
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer ?posNeg ?c ?part ?impact ?aspect ?actionNeeded
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?part .
+  ?c linkflows:refersTo ?part .
+
+  ?c linkflows:hasImpact ?impact .
+
+  VALUES ?aspect { linkflows:SyntaxComment linkflows:StyleComment linkflows:ContentComment }
+  ?c a ?aspect .
+
+  VALUES ?actionNeeded { linkflows:ActionNeededComment linkflows:SuggestionComment linkflows:NoActionNeededComment}
+
+  VALUES ?posNeg { linkflows:PositiveComment linkflows:NeutralComment linkflows:NegativeComment }
+  GRAPH ?assertion { ?c a ?posNeg . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?reviewer ?posNeg ORDER BY ?reviewer ?posNeg
+```
+
 ### Q2: number of review comments per section, per reviewer
 
 ```
@@ -547,4 +575,34 @@ Retrieve number of review comments per reviewer that:
 GRAPH ?assertion {...}
 ?assertion prov:wasAttributedTo ?reviewer .
 
+```
+
+#### Helpers Question 4
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer ?part ?aspect ?posNeg ?impact
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?part .
+  ?reviewComment linkflows:refersTo ?part .
+
+  VALUES ?aspect { linkflows:SyntaxComment linkflows:StyleComment linkflows:ContentComment }
+  ?reviewComment a ?aspect .
+
+  VALUES ?posNeg { linkflows:PositiveComment linkflows:NeutralComment linkflows:NegativeComment }
+  ?reviewComment a ?posNeg .
+
+  ?reviewComment linkflows:hasImpact ?impact .
+
+  GRAPH ?assertion { ?reviewComment a linkflows:ActionNeededComment . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+}
+GROUP BY ?reviewer ?part ?aspect ?posNeg ?impact
+ORDER BY ?reviewer ?part ?aspect ?posNeg ?impact
 ```

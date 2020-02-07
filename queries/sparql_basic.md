@@ -414,7 +414,7 @@ WHERE {
 
 ## Queries for Competency Questions
 
-### 1. What is the ratio of positive and negative comments per reviewer?
+### 1. What is the distribution of positive and negative comments per reviewer?
 
 Comments positive/negative per review for a chosen article:
 
