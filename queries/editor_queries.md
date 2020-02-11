@@ -645,8 +645,10 @@ ORDER BY ?reviewer ?part ?aspect ?posNeg ?impact
 PREFIX doco: <http://purl.org/spar/doco/>
 PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
 PREFIX c4o: <http://purl.org/spar/c4o/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
 
-SELECT ?sectionNumber, ?sectionName, (COUNT(?reviewComment) AS ?commentsPerSection)
+SELECT ?sectionNumber, ?sectionName, ?aspect, ?impact, ?action
 WHERE {
   <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?section .
@@ -668,7 +670,7 @@ WHERE {
    VALUES ?action { linkflows:ActionNeededComment linkflows:SuggestionComment linkflows:NoActionNeededComment }
    ?reviewComment a ?action .
 
-   GRAPH ?assertion { ?reviewComment a ?reviewComment . }
+   GRAPH ?assertion { ?reviewComment a linkflows:ReviewComment . }
    ?assertion prov:wasAttributedTo ?reviewer .
-}
+} GROUP BY ?sectionNumber ORDER BY ?sectionNumber
 ```
