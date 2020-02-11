@@ -638,3 +638,37 @@ WHERE {
 GROUP BY ?reviewer ?part ?aspect ?posNeg ?impact
 ORDER BY ?reviewer ?part ?aspect ?posNeg ?impact
 ```
+
+#### Helpers Question 5
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX c4o: <http://purl.org/spar/c4o/>
+
+SELECT ?sectionNumber, ?sectionName, (COUNT(?reviewComment) AS ?commentsPerSection)
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?section .
+
+  ?section a doco:Section .
+  ?section po:containsAsHeader ?sectionLabel, ?sectionTitle .
+  ?sectionLabel a doco:SectionLabel ;
+     c4o:hasContent ?sectionNumber.
+  ?sectionTitle a doco:SectionTitle ;
+     c4o:hasContent ?sectionName.
+
+   ?reviewComment linkflows:refersTo ?section .
+
+   VALUES ?aspect { linkflows:SyntaxComment linkflows:StyleComment linkflows:ContentComment }
+   ?reviewComment a ?aspect .
+
+   ?reviewComment linkflows:hasImpact ?impact .
+
+   VALUES ?action { linkflows:ActionNeededComment linkflows:SuggestionComment linkflows:NoActionNeededComment }
+   ?reviewComment a ?action .
+
+   GRAPH ?assertion { ?reviewComment a ?reviewComment . }
+   ?assertion prov:wasAttributedTo ?reviewer .
+}
+```
