@@ -648,7 +648,7 @@ PREFIX c4o: <http://purl.org/spar/c4o/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
 
-SELECT ?sectionNumber, ?sectionName, ?aspect, ?impact, ?action
+SELECT ?sectionNumber, ?sectionName, ?aspect,  ?posNeg, ?impact, ?action
 WHERE {
   <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     (po:contains)* ?section .
@@ -664,6 +664,9 @@ WHERE {
 
    VALUES ?aspect { linkflows:SyntaxComment linkflows:StyleComment linkflows:ContentComment }
    ?reviewComment a ?aspect .
+
+   VALUES ?posNeg { linkflows:PositiveComment linkflows:NeutralComment linkflows:NegativeComment }
+   ?reviewComment a ?posNeg .
 
    ?reviewComment linkflows:hasImpact ?impact .
 
