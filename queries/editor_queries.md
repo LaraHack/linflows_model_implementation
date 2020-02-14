@@ -577,7 +577,8 @@ GRAPH ?assertion {...}
 
 ```
 
-#### Helpers Question 3
+
+#### Helpers Questions 1 and 2
 
 ```
 PREFIX doco: <http://purl.org/spar/doco/>
@@ -606,6 +607,39 @@ WHERE {
 }
 GROUP BY ?reviewer ?part ?aspect ?impact
 ORDER BY ?reviewer ?part ?aspect ?impact
+```
+
+
+#### Helpers Question 3
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer ?part ?aspect ?posNeg ?impact ?action
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?part .
+
+  VALUES ?aspect { linkflows:SyntaxComment linkflows:StyleComment linkflows:ContentComment }
+  ?reviewComment a ?aspect .
+
+  VALUES ?posNeg { linkflows:PositiveComment linkflows:NeutralComment linkflows:NegativeComment }
+  ?reviewComment a ?posNeg .
+
+  ?reviewComment linkflows:hasImpact ?impact .
+
+  VALUES ?action { linkflows:ActionNeededComment linkflows:SuggestionComment linkflows:NoActionNeededComment }
+  ?reviewComment a ?action .
+
+  GRAPH ?assertion { ?reviewComment linkflows:refersTo ?part . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+}
+GROUP BY ?reviewer ?part ?aspect ?posNeg ?impact
+ORDER BY ?reviewer ?part ?aspect ?posNeg ?impact
 ```
 
 
