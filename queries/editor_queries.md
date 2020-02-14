@@ -711,3 +711,34 @@ WHERE {
    ?assertion prov:wasAttributedTo ?reviewer .
 } GROUP BY ?sectionNumber ORDER BY ?sectionNumber
 ```
+
+
+#### Helpers: no. of distinct review comments per certain reviewer
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT (COUNT(DISTINCT ?reviewComment) AS ?noReviewComments)
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?part .
+
+  VALUES ?aspect { linkflows:SyntaxComment linkflows:StyleComment linkflows:ContentComment }
+  ?reviewComment a ?aspect .
+
+  VALUES ?posNeg { linkflows:PositiveComment linkflows:NeutralComment linkflows:NegativeComment }
+  ?reviewComment a ?posNeg .
+
+  ?reviewComment linkflows:hasImpact ?impact .
+
+  VALUES ?action { linkflows:ActionNeededComment linkflows:SuggestionComment linkflows:NoActionNeededComment }
+  ?reviewComment a ?action .
+
+  GRAPH ?assertion { ?reviewComment linkflows:refersTo ?part . }
+  ?assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> .
+}
+```
