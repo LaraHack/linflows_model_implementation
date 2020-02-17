@@ -742,3 +742,38 @@ WHERE {
   ?assertion prov:wasAttributedTo <https://orcid.org/0000-0001-9962-7193> .
 }
 ```
+
+#### Helper query template
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?reviewer ?reviewComment ?part ?aspect ?posNeg ?impact  ?actionNeeded
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    (po:contains)* ?part .
+  ?reviewComment linkflows:refersTo ?part .
+
+  VALUES ?partType { doco:Article doco:Section doco:Paragraph }
+  ?part a ?partType .
+
+  VALUES ?aspect { linkflows:SyntaxComment linkflows:StyleComment linkflows:ContentComment }
+  ?reviewComment a ?aspect .
+
+  VALUES ?posNeg { linkflows:PositiveComment linkflows:NeutralComment linkflows:NegativeComment }
+  ?reviewComment a ?posNeg .
+
+  ?reviewComment linkflows:hasImpact ?impact .
+  FILTER (?impact = "1"^^xsd:positiveInteger || ?impact = "2"^^xsd:positiveInteger || ?impact = "3"^^xsd:positiveInteger || ?impact = "4"^^xsd:positiveInteger || ?impact = "5"^^xsd:positiveInteger) .
+
+  VALUES ?actionNeeded { linkflows:ActionNeededComment linkflows:SuggestionComment linkflows:NoActionNeededComment}
+
+  GRAPH ?assertion { ?reviewComment a linkflows:ReviewComment . }
+  ?assertion prov:wasAttributedTo ?reviewer .
+} GROUP BY ?reviewer ?part ?aspect ?posNeg ?impact ?actionNeeded
+ORDER BY ?reviewer ?part ?aspect ?posNeg ?impact ?actionNeeded
+```
