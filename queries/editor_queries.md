@@ -777,3 +777,49 @@ WHERE {
 } GROUP BY ?reviewer ?part ?aspect ?posNeg ?impact ?actionNeeded
 ORDER BY ?reviewer ?part ?aspect ?posNeg ?impact ?actionNeeded
 ```
+
+### Helper table data
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX c4o: <http://purl.org/spar/c4o/>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?sectionNumberLiteral AS ?Section, ?sectionTitleLiteral AS ?Title, ?reviewComment, ?aspect, ?posNeg, ?impact, ?actionNeeded, ?commentText
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    dcterms:title ?title ;
+    po:contains ?section .
+
+  ?section a doco:Section ;
+     po:containsAsHeader ?sectionNumber, ?sectionTitle .
+  ?sectionNumber a doco:SectionLabel ;
+     c4o:hasContent ?sectionNumberLiteral .
+  ?sectionTitle a doco:SectionTitle ;
+     c4o:hasContent ?sectionTitleLiteral .
+
+  ?section (po:contains)* ?subpart.
+
+  ?reviewComment a linkflows:ReviewComment ;
+    linkflows:refersTo ?subpart.  
+
+  ?subpart a ?part .
+  VALUES ?part { doco:Section doco:Paragraph }
+
+  VALUES ?aspect { linkflows:SyntaxComment linkflows:StyleComment linkflows:ContentComment }
+  ?reviewComment a ?aspect .
+
+  VALUES ?posNeg { linkflows:PositiveComment linkflows:NeutralComment linkflows:NegativeComment }
+  ?reviewComment a ?posNeg .
+
+  ?reviewComment linkflows:hasImpact ?impact .
+
+  VALUES ?actionNeeded { linkflows:ActionNeededComment linkflows:SuggestionComment linkflows:NoActionNeededComment}
+  ?reviewComment a ?actionNeeded .
+
+  ?reviewComment linkflows:hasCommentText ?commentText .
+
+} ORDER BY ASC(?sectionNumberLiteral)
+```

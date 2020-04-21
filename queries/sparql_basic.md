@@ -69,6 +69,29 @@ WHERE {
 }
 ```
 
+### get main sections (section number and section title) per article (ordered by section number ascending)
+
+```
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX c4o: <http://purl.org/spar/c4o/>
+
+SELECT ?sectionNumberLiteral AS ?Section, ?sectionTitleLiteral AS ?Title
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    dcterms:title ?title ;
+    po:contains ?section .
+
+  ?section a doco:Section ;
+     po:containsAsHeader ?sectionNumber, ?sectionTitle .
+  ?sectionNumber a doco:SectionLabel ;
+     c4o:hasContent ?sectionNumberLiteral .
+  ?sectionTitle a doco:SectionTitle ;
+     c4o:hasContent ?sectionTitleLiteral .
+} ORDER BY ASC(?sectionNumberLiteral)
+```
+
 ### total number of sections and subsections per article
 
 ```
@@ -106,6 +129,34 @@ WHERE {
      c4o:hasContent ?sectionName.
 }
 ```
+
+
+PREFIX doco: <http://purl.org/spar/doco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
+PREFIX c4o: <http://purl.org/spar/c4o/>
+PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
+
+SELECT ?sectionNumberLiteral AS ?Section, ?sectionTitleLiteral AS ?Title, (COUNT (*) AS ?comment)
+WHERE {
+  <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
+    dcterms:title ?title ;
+    po:contains ?section .
+
+  ?section a doco:Section ;
+     po:containsAsHeader ?sectionNumber, ?sectionTitle .
+  ?sectionNumber a doco:SectionLabel ;
+     c4o:hasContent ?sectionNumberLiteral .
+  ?sectionTitle a doco:SectionTitle ;
+     c4o:hasContent ?sectionTitleLiteral .
+
+  ?comment a linkflows:ReviewComment ;
+    linkflows:refersTo ?section.  
+
+  ?section po:contains ?paragraph, ?subSection .
+  ?paragraph a doco:Paragraph .
+  ?subSection a doco:Section .
+} ORDER BY ASC(?sectionNumberLiteral)
 
 ### total number of review comments
 
