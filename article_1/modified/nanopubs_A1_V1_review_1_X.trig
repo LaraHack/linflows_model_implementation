@@ -1,4 +1,4 @@
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c1#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -33,7 +33,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -68,7 +68,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -103,7 +103,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c4#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -138,7 +138,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c5#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -175,7 +175,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c6#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c6#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -210,7 +210,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c7#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c7#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -245,7 +245,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c8#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c8#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -280,7 +280,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c9#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c9#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -315,7 +315,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c10#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c10#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -350,7 +350,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c11#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c11#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -385,7 +385,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c12#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c12#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -421,7 +421,7 @@
 }
 
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c13#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c13#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -456,7 +456,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c14#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c14#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -491,7 +491,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c15#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c15#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -527,7 +527,7 @@
 }
 
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c16#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c16#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -563,7 +563,7 @@
 }
 
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c17#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c17#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -599,7 +599,7 @@
 }
 
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c18#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c18#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -635,25 +635,25 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1#> .
-@prefix c1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c1#> .
-@prefix c2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c2#> .
-@prefix c3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c3#> .
-@prefix c4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c4#> .
-@prefix c5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c5#> .
-@prefix c6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c6#> .
-@prefix c7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c7#> .
-@prefix c8: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c8#> .
-@prefix c9: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c9#> .
-@prefix c10: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c10#> .
-@prefix c11: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c11#> .
-@prefix c12: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c12#> .
-@prefix c13: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c13#> .
-@prefix c14: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c14#> .
-@prefix c15: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c15#> .
-@prefix c16: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c16#> .
-@prefix c17: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c17#> .
-@prefix c18: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1_c18#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X#> .
+@prefix c1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c1#> .
+@prefix c2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c2#> .
+@prefix c3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c3#> .
+@prefix c4: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c4#> .
+@prefix c5: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c5#> .
+@prefix c6: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c6#> .
+@prefix c7: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c7#> .
+@prefix c8: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c8#> .
+@prefix c9: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c9#> .
+@prefix c10: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c10#> .
+@prefix c11: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c11#> .
+@prefix c12: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c12#> .
+@prefix c13: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c13#> .
+@prefix c14: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c14#> .
+@prefix c15: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c15#> .
+@prefix c16: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c16#> .
+@prefix c17: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c17#> .
+@prefix c18: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c18#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
