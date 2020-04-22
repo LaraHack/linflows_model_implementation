@@ -55,7 +55,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1#articleVersion1> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "4"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Still, I have some major remarks that should be addressed before acceptance. My observations are mainly related to two aspects: the global scope of the paper and of the presented results, and the experiments design.""" .
+		linkflows:hasCommentText """I have some major remarks that should be addressed before acceptance. My observations are mainly related to two aspects: the global scope of the paper and of the presented results, and the experiments design.""" .
 }
 
 :provenance {
@@ -160,7 +160,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Furthermore, the experiments were focused on some specific LD quality issues and not to the whole list of possible issues (which are comprehensively listed in the authors' previous works). While this is fine per se - I didn't expect the authors to make experiments on the whole set of issues - it makes the presented results even less general. It should be also valuable if the authors add an explanation on why those specific quality issues (instead of others) were selected for the experiments.""" .
+		linkflows:hasCommentText """The experiments were focused on some specific LD quality issues and not to the whole list of possible issues (which are comprehensively listed in the authors' previous works). While this is fine per se - I didn't expect the authors to make experiments on the whole set of issues - it makes the presented results even less general. It should be also valuable if the authors add an explanation on why those specific quality issues (instead of others) were selected for the experiments.""" .
 }
 
 :provenance {
@@ -265,7 +265,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "4"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Apart from the already provided considerations on DBpedia as above, I have a number of concerns on the employed triples. The experts were given the opportunity to find quality issues in triples that were (i) random, (ii) instances of some class or (iii) manually selected; while this can appear reasonable, the effects are that the workers' crowds (in both experimental workflows) were presented with information "chosen" by somebody else, thus possibly making the task hard or even impossible because of the triples' domain. I would have expected the authors to make a *controlled experiment*, i.e. selecting a general-purpose subset of DBpedia that - at least from the point of view of the content - was at the same "difficulty" level for all the involved crowds.""" .
+		linkflows:hasCommentText """I have a number of concerns on the employed triples. The experts were given the opportunity to find quality issues in triples that were (i) random, (ii) instances of some class or (iii) manually selected; while this can appear reasonable, the effects are that the workers' crowds (in both experimental workflows) were presented with information "chosen" by somebody else, thus possibly making the task hard or even impossible because of the triples' domain. I would have expected the authors to make a *controlled experiment*, i.e. selecting a general-purpose subset of DBpedia that - at least from the point of view of the content - was at the same "difficulty" level for all the involved crowds.""" .
 }
 
 :provenance {
@@ -300,7 +300,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "4"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Furthermore, also restricting to a set of selected subjects, I think that not all triples were suitable for the intended experiments; indeed, some specific cases emerged that are not related to the intrinsic characteristics of quality assurance; while it is generally ok to let the experimenters find out problems, it is also reasonable to think that, when preparing an experiment, the obvious things that can lead to problems are avoided. Some examples: - specific datatype objects (like dates vs. numbers, which are definitely ok to be mistaken) - owl:sameAs links (which maybe were interpreted in a "purist" way by LD experts who can be careful in accepting those triples because of their logical implications) - rdf:type triples among the incorrect link issues (apparently unclear for the MTurk workers, but partially also to me: why did rdf:type triples were considered among the "links" instead of the "values"?) - DBpedia translation-specific triples (which do not make any sense in such an evaluation setting, and should have been filtered out in the first place).""" .
+		linkflows:hasCommentText """Restricting to a set of selected subjects, I think that not all triples were suitable for the intended experiments; indeed, some specific cases emerged that are not related to the intrinsic characteristics of quality assurance; while it is generally ok to let the experimenters find out problems, it is also reasonable to think that, when preparing an experiment, the obvious things that can lead to problems are avoided. Some examples: - specific datatype objects (like dates vs. numbers, which are definitely ok to be mistaken) - owl:sameAs links (which maybe were interpreted in a "purist" way by LD experts who can be careful in accepting those triples because of their logical implications) - rdf:type triples among the incorrect link issues (apparently unclear for the MTurk workers, but partially also to me: why did rdf:type triples were considered among the "links" instead of the "values"?) - DBpedia translation-specific triples (which do not make any sense in such an evaluation setting, and should have been filtered out in the first place).""" .
 }
 
 :provenance {
@@ -335,7 +335,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "4"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Another fact to support this criticism is that the two authors who created the "ground truth" got quite low values of inter-rater agreement.""" .
+		linkflows:hasCommentText """The two authors who created the "ground truth" got quite low values of inter-rater agreement.""" .
 }
 
 :provenance {
@@ -370,7 +370,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:NoActionNeededComment	;
 		linkflows:hasImpact "4"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Also the tested quality issues are somehow unbalanced: while the incorrect object extraction or the incorrect links can be related to the entities' "meaning", the incorrect datatypes or language tags are more "structural" mistakes; as a consequence, it is not surprising that the latter is the case in which the paid workers performed worst.""" .
+		linkflows:hasCommentText """The tested quality issues are somehow unbalanced: while the incorrect object extraction or the incorrect links can be related to the entities' "meaning", the incorrect datatypes or language tags are more "structural" mistakes; as a consequence, it is not surprising that the latter is the case in which the paid workers performed worst.""" .
 }
 
 :provenance {
@@ -441,7 +441,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """First of all, the quality issues to be identified are not presented with the same granularity level to experts and laymen, since the experts got quite a detailed taxonomy of issues, while the MTurk users only three possibilities.""" .
+		linkflows:hasCommentText """The quality issues to be identified are not presented with the same granularity level to experts and laymen, since the experts got quite a detailed taxonomy of issues, while the MTurk users only three possibilities.""" .
 }
 
 :provenance {
@@ -547,7 +547,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Also some of the examples given in the text are misleading and therefore not fully suitable to be offered to the crowds as explanations (if they were); e.g. is Elvis Presley's name language-dependent?""" .
+		linkflows:hasCommentText """Some of the examples given in the text are misleading and therefore not fully suitable to be offered to the crowds as explanations (if they were); e.g. is Elvis Presley's name language-dependent?""" .
 }
 
 :provenance {
@@ -583,7 +583,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "4"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """I also have some doubts about the choice of evaluation metrics.""" .
+		linkflows:hasCommentText """I have some doubts about the choice of evaluation metrics.""" .
 }
 
 :provenance {
@@ -655,7 +655,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "4"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Furthermore, I am not at all convinced about the significance of keeping track of the first answer, even less of the comparison between the first answer and the majority voting: while I understand the cost consideration, it would have been more meaningful to compare 3-worker majority voting vs. 5-worker majority voting, since 1 single worker cannot express any kind of answer "agreement" or "variance".""" .
+		linkflows:hasCommentText """I am not at all convinced about the significance of keeping track of the first answer, even less of the comparison between the first answer and the majority voting: while I understand the cost consideration, it would have been more meaningful to compare 3-worker majority voting vs. 5-worker majority voting, since 1 single worker cannot express any kind of answer "agreement" or "variance".""" .
 }
 
 :provenance {
@@ -690,7 +690,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "4"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Finally, I found the baseline section quite weird, since the authors describe the interlinks approach that perfectly makes sense (even if it regards only one of the tested quality issues), but they also introduce the TDQA assessment which cannot be compared to the experiment results (and thus cannot be considered a baseline approach). The authors would better create a baseline (e.g. by using SPIN or ShEx-based constraint checks) to try to identify datatype/language and object values issues (w.r.t. all those cases in which such checks can be implemented, of course); that would be a reasonable baseline to compare to.""" .
+		linkflows:hasCommentText """I found the baseline section quite weird, since the authors describe the interlinks approach that perfectly makes sense (even if it regards only one of the tested quality issues), but they also introduce the TDQA assessment which cannot be compared to the experiment results (and thus cannot be considered a baseline approach). The authors would better create a baseline (e.g. by using SPIN or ShEx-based constraint checks) to try to identify datatype/language and object values issues (w.r.t. all those cases in which such checks can be implemented, of course); that would be a reasonable baseline to compare to.""" .
 }
 
 :provenance {
@@ -725,7 +725,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:SuggestionComment	;
 		linkflows:hasImpact "4"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """In any case, I would suggest the authors to make a final summary table that compares the two workflows as well as the comparable baselines, so to support the final discussion.""" .
+		linkflows:hasCommentText """I would suggest the authors to make a final summary table that compares the two workflows as well as the comparable baselines, so to support the final discussion.""" .
 }
 
 :provenance {
@@ -760,7 +760,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s2_p4#> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 4, 1st column, postal code example: in some countries postal codes contain letters, so it is not necessarily true that it should be an integer""" .
+		linkflows:hasCommentText """page 4, 1st column, postal code example: in some countries postal codes contain letters, so it is not necessarily true that it should be an integer""" .
 }
 
 :provenance {
@@ -796,7 +796,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.1.2#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - sections 3.1.1 and 3.1.2 do not provide any reference""" .
+		linkflows:hasCommentText """sections 3.1.1 and 3.1.2 do not provide any reference""" .
 }
 
 :provenance {
@@ -831,7 +831,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s3.2#section> ;
 		a linkflows:StyleComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "1"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - section 3.2 is clearly related to reference [3], so there is no need to include the citation several times""" .
+		linkflows:hasCommentText """section 3.2 is clearly related to reference [3], so there is no need to include the citation several times""" .
 }
 
 :provenance {
@@ -866,7 +866,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/d1#formula> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 6, definition 1: why is it 2^Q? can all the quality issues happen at the same time?""" .
+		linkflows:hasCommentText """page 6, definition 1: why is it 2^Q? can all the quality issues happen at the same time?""" .
 }
 
 :provenance {
@@ -901,7 +901,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4_p7#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 6, beginning of 2nd column: this is very specific to DBpedia, so it is in contradiction to the generality claims of the paper""" .
+		linkflows:hasCommentText """page 6, beginning of 2nd column: this is very specific to DBpedia, so it is in contradiction to the generality claims of the paper""" .
 }
 
 :provenance {
@@ -937,7 +937,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.1_p4#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 8, end of section 4.1: the authors explain the redundancy during the Find stage by experts; if an agreement is already achieved, is the Verify stage useful at all?""" .
+		linkflows:hasCommentText """page 8, end of section 4.1: the authors explain the redundancy during the Find stage by experts; if an agreement is already achieved, is the Verify stage useful at all?""" .
 }
 
 :provenance {
@@ -972,7 +972,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 9, 1st column: it seems that the prune step is specific to the experimental setting, rather than to the general case (non-dereferenceable URIs should have been discarded in the first place...)""" .
+		linkflows:hasCommentText """page 9, 1st column: it seems that the prune step is specific to the experimental setting, rather than to the general case (non-dereferenceable URIs should have been discarded in the first place...)""" .
 }
 
 :provenance {
@@ -1007,7 +1007,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.2_p6#paragraph> ;
 		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 9, 2nd column: reference to Figure 1 should probably be Figure 3""" .
+		linkflows:hasCommentText """page 9, 2nd column: reference to Figure 1 should probably be Figure 3""" .
 }
 
 :provenance {
@@ -1042,7 +1042,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/foot8#footnote> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 10, footnote 8: it is not simply for sake of simplicity, since datatype and language tag cannot happen together; furthermore, for the laymen probably there is not much difference between "value" and "link" either""" .
+		linkflows:hasCommentText """page 10, footnote 8: it is not simply for sake of simplicity, since datatype and language tag cannot happen together; furthermore, for the laymen probably there is not much difference between "value" and "link" either""" .
 }
 
 :provenance {
@@ -1077,7 +1077,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s4.4#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - section 4.4 is not completely necessary in the paper""" .
+		linkflows:hasCommentText """section 4.4 is not completely necessary in the paper""" .
 }
 
 :provenance {
@@ -1112,7 +1112,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2.5_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 15, end of 1st column: why were the DBpedia Flickr links filtered out? if there was some doubt about their validity or relevance to the tests, why not filtering them out before the Find stage?""" .
+		linkflows:hasCommentText """page 15, end of 1st column: why were the DBpedia Flickr links filtered out? if there was some doubt about their validity or relevance to the tests, why not filtering them out before the Find stage?""" .
 }
 
 :provenance {
@@ -1147,7 +1147,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2.4_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 15, section 5.2.4: the example triple is totally unclear, what does it mean? why is is correct?""" .
+		linkflows:hasCommentText """page 15, section 5.2.4: the example triple is totally unclear, what does it mean? why is is correct?""" .
 }
 
 :provenance {
@@ -1182,7 +1182,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/t3#table> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - table 3: from the text 1512 seems to be the number of the "marked" triples rather than the evaluated ones""" .
+		linkflows:hasCommentText """table 3: from the text 1512 seems to be the number of the "marked" triples rather than the evaluated ones""" .
 }
 
 :provenance {
@@ -1217,7 +1217,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/t4#table> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - table 4: the caption does not explain that the results refer to the "ground truth" sample (same for table 6); why the LD expert inter-rater agreement was computed for all the triples together?""" .
+		linkflows:hasCommentText """table 4: the caption does not explain that the results refer to the "ground truth" sample (same for table 6); why the LD expert inter-rater agreement was computed for all the triples together?""" .
 }
 
 :provenance {
@@ -1252,7 +1252,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2.5_p3#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 16, beginning of 1st column: the need for specific technical knowledge about datatypes seems to be yet another experiment design flaw""" .
+		linkflows:hasCommentText """page 16, beginning of 1st column: the need for specific technical knowledge about datatypes seems to be yet another experiment design flaw""" .
 }
 
 :provenance {
@@ -1287,7 +1287,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.2.6_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 17, list in the 1st column: what are Wikipedia-upload entries? what does it mean w.r.t. the misclassification discussion?""" .
+		linkflows:hasCommentText """page 17, list in the 1st column: what are Wikipedia-upload entries? what does it mean w.r.t. the misclassification discussion?""" .
 }
 
 :provenance {
@@ -1322,7 +1322,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3.2_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 18, section 5.3.2: the text says 30k triples while table 5 almost 70k triples, so what's the correct number? why was the sample selected on the basis of "at least two workers" and not by majority voting? the sample contains the "exact same number of triples" or exactly the same triples? why did this Verify stage take more time than in the case of the other workflow?""" .
+		linkflows:hasCommentText """page 18, section 5.3.2: the text says 30k triples while table 5 almost 70k triples, so what's the correct number? why was the sample selected on the basis of "at least two workers" and not by majority voting? the sample contains the "exact same number of triples" or exactly the same triples? why did this Verify stage take more time than in the case of the other workflow?""" .
 }
 
 :provenance {
@@ -1357,7 +1357,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3.3_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 18, end of 2nd column: the geo-coordinates example seems yet another symptom of an ill-designed experiment""" .
+		linkflows:hasCommentText """page 18, end of 2nd column: the geo-coordinates example seems yet another symptom of an ill-designed experiment""" .
 }
 
 :provenance {
@@ -1392,7 +1392,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/t5#table> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - table 5: the sample used for the Verify task does not have the same distribution of triples for the quality issues than the Find stage; can the authors elaborate of the possible effects of those different proportions in terms of loss of information?""" .
+		linkflows:hasCommentText """table 5: the sample used for the Verify task does not have the same distribution of triples for the quality issues than the Find stage; can the authors elaborate of the possible effects of those different proportions in terms of loss of information?""" .
 }
 
 :provenance {
@@ -1427,7 +1427,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3.4_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 19, 2nd column: the problem with non-UTF8 characters seems another sign of sub-optimal design of the user interface for the experiments""" .
+		linkflows:hasCommentText """page 19, 2nd column: the problem with non-UTF8 characters seems another sign of sub-optimal design of the user interface for the experiments""" .
 }
 
 :provenance {
@@ -1462,7 +1462,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3.4_p2#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 20, 2nd column: possible design flaw also in the case of proper nouns""" .
+		linkflows:hasCommentText """page 20, 2nd column: possible design flaw also in the case of proper nouns""" .
 }
 
 :provenance {
@@ -1497,7 +1497,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/f7#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:SuggestionComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - figure 7(b): TP+TN are complementary w.r.t. FP+FN; rates would be more meaningful than total counts""" .
+		linkflows:hasCommentText """figure 7(b): TP+TN are complementary w.r.t. FP+FN; rates would be more meaningful than total counts""" .
 }
 
 :provenance {
@@ -1532,7 +1532,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.3.5_p2#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:SuggestionComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 21, 1st column: there are a couple of "Find" that are more probably "Verify"; it would be interesting to know if the rdf:type triples correctly classified were done by the same worker(s)""" .
+		linkflows:hasCommentText """page 21, 1st column: there are a couple of "Find" that are more probably "Verify"; it would be interesting to know if the rdf:type triples correctly classified were done by the same worker(s)""" .
 }
 
 :provenance {
@@ -1567,7 +1567,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.1_p3#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 21, 2nd column: it is not clear on how many triples the 5146 tests were run, on the 509 "ground truth" triples? what exactly is a success/failure in the tests?""" .
+		linkflows:hasCommentText """page 21, 2nd column: it is not clear on how many triples the 5146 tests were run, on the 509 "ground truth" triples? what exactly is a success/failure in the tests?""" .
 }
 
 :provenance {
@@ -1602,7 +1602,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s5.4.2_p2#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 22, 2nd column: were only the foaf:name links used or also the rdfs:label ones? the listing is somewhat useless, the text was clear enough; also clear it is unclear what the "triples subject to crowdsourcing" were, since different datasets were used in the previous tests""" .
+		linkflows:hasCommentText """page 22, 2nd column: were only the foaf:name links used or also the rdfs:label ones? the listing is somewhat useless, the text was clear enough; also clear it is unclear what the "triples subject to crowdsourcing" were, since different datasets were used in the previous tests""" .
 }
 
 :provenance {
@@ -1637,7 +1637,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s6_p2#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 23, 1st column: I didn't get what the following consideration refers to: "workers were exceptionally good and efficient at performing comparisons between data entries, specially when some contextual information is provided" """ .
+		linkflows:hasCommentText """page 23, 1st column: I didn't get what the following consideration refers to: "workers were exceptionally good and efficient at performing comparisons between data entries, specially when some contextual information is provided" """ .
 }
 
 :provenance {
@@ -1672,7 +1672,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/foot21#footnote> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 24, footnote 21: the link is broken""" .
+		linkflows:hasCommentText """page 24, footnote 21: the link is broken""" .
 }
 
 :provenance {
@@ -1707,7 +1707,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p3#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 24, 2nd column: "fix-find-verify workflow" is probably Find-Verify""" .
+		linkflows:hasCommentText """page 24, 2nd column: "fix-find-verify workflow" is probably Find-Verify""" .
 }
 
 :provenance {
@@ -1742,7 +1742,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/s7.1_p7#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "1"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some relatively minor remarks: - page 25, end of 1st column: the authors write "Recently, a study [18]..." but the paper was published in 2012""" .
+		linkflows:hasCommentText """page 25, end of 1st column: the authors write "Recently, a study [18]..." but the paper was published in 2012""" .
 }
 
 :provenance {
