@@ -787,7 +787,7 @@ PREFIX po: <http://www.essepuntato.it/2008/12/pattern#>
 PREFIX c4o: <http://purl.org/spar/c4o/>
 PREFIX linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#>
 
-SELECT ?sectionNumberLiteral AS ?Section, ?sectionTitleLiteral AS ?Title, ?reviewComment, ?aspect, ?posNeg, ?impact, ?actionNeeded, ?commentText
+SELECT DISTINCT ?sectionNumberLiteral AS ?Section, ?sectionTitleLiteral AS ?Title, ?reviewComment, ?aspect, ?posNeg, ?impact, ?actionNeeded, ?commentText
 WHERE {
   <http://purl.org/np/RAnVHrB5TSxLeOc6XTVafmd9hvosbs4c-4Ck0XRh_CgGk#articleVersion1>
     dcterms:title ?title ;
