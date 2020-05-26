@@ -19,12 +19,12 @@
 	:comment-1 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """The paper “N-ary Relation Extraction for Joint T-Box and A-Box Knowledge Base Augmentation” describes a pipeline for database enrichments. It builds on top of frame semantics.""" .
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """This article presents work on "N-ary Relation Extraction for Joint T-Box and A-Box Knowledge Base Augmentation". The authors propose the FactExtractor system, i.e., a workflow that runs unstructured natural language text through an NLP pipeline in order to generate machine-readable statements that can be used to extend an existing knowledge base. Their approach capitalizes on Frame Semantics as a theoretical backbone from linguistic theory that serves as an interface between an ontology or data model and natural language. The authors demonstrate the capabilities of FactExtractor in a use case based on Italian Wikipedia text (snapshot of 52.000 articles about soccer players) and DBpedia as the target knowledge base to be enriched. The mapping between the DBPO data model and the natural language extractions is achieved by manually defined frames, which provide event classes and expressive roles partipating in these events, both of which can be readily transformed into RDF statements in order to populate the KB. For the given use case, the authors had to define a total of six frames and 15 roles which are particularly tailored to the domain at hand. As such, the proposed method provides an interesting complement to KB population from semi-structured sources such as Wikipedia infoboxes that is commonly used approach in the DBpedia community. Therefore, and due to its novel linguistic underpinnings, I consider this work highly original.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -52,14 +52,14 @@
 
 :assertion {
 	:comment-2 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1#section> ;
-		a linkflows:ContentComment, linkflows:PositiveComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """The introduction comprehensively explains the need and usefulness for knowbase-completion and enumerates different efforts for making knowledge publicly available in a structured manner. It makes very clear what the main contributions of this paper are: It is a whole framework/pipeline from text to database entries. The actual information extraction technology is not very sophisticated, what the authors present as an advantage of the approach (and I agree, if this is of sufficient performance, of course).""" .
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """The paper is generally well structured, the line of argumentation mostly clear and comprehensible, with some qualifications however:""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -89,12 +89,12 @@
 	:comment-3 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """The paper explains and partially focuses on technical details. It mentions the use of XML/Wikisyntax and actually explains how these documents are preprocessed. It explains the technology in terms of CPU and RAM used to process the data. I am not fully convinced that this level of detail is helpful in this article. It might be considered to move such detailed description to the homepage where the system can be downloaded and contribute to a more concise description.""" .
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* From my perspective, the aspect of joint T-Box and A-Box population is somewhat overstated. Certainly, FactExtractor is capable of populating both T-Box and A-Box _simultaneously_, i.e., relying on one and the same pipeline of analyis. However, I cannot see any aspect in the system that indicates a genuinely _joint_ approach in the sense that T-Box and A-Box knowledge acquisition is closely intertwined in order to exploit mutual dependencies between the two (which would correspond to the common use of the term in the machine learning or NLP literature). I would suggest to change the terminology here.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -122,14 +122,14 @@
 
 :assertion {
 	:comment-4 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s1#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s2#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """The mathematically motivated methods, like TF-IDF-standard deviation-based ranking of entities could be introduced more formally.""" .
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* The approach is claimed to be based on "supervised, yet reasonably priced" machine learning methods. However, this comes at the cost of a highly demanding crowdsourcing step that somehow questions the generalizability of the approach: I can barely imagine a crowd of laymen annotating natural language text according to a large-scale, generalized frame inventory. From a more long-term perspective, such a generalization step to (a) less restricted domains and (b) beyond Wikipedia text would be clearly necessary at some point, if the authors take their own argument seriously that KB content should be validated against third-party (i.e., non Wikimedia) resources.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -157,14 +157,15 @@
 
 :assertion {
 	:comment-5 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11#section> ;
-		a linkflows:ContentComment, linkflows:PositiveComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "4"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """The evaluation seems to be sound and is interesting.""" .
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s7.2.1#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/f3#figure> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* In this context, I also do not completely understand the "anatomy" (weird term) of the crowdsourcing task: The description in Section 7.2.1 and Figure 3 suggest that the sentence to be annotated is presented to the workers together with the frame label. How can this be determined in advance? I suspect that this is done by assuming a fixed mapping between lexical units and a frame, which obviously neglects potential lexical ambiguity at the level of lexical units. This aspect needs clarification, and it should be quantified to what extent such ambiguities really occur and pose a problem to the system.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -192,14 +193,18 @@
 
 :assertion {
 	:comment-6 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s5#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s6#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s7#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s8#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """This paper could be improved by adding discussions for the different design decisions made when developing the pipeline. For instance, it remains unclear why it has been chosen to use a POS tagger, but no chunking, no dependency parsing. If such steps do not contribute to the overall performance, or if the pipeline would be to slow, that’s fine. But I would prefer to read about these trade-offs and possible impacts of other decisions.""" .
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Given the considerable amount of substantial work that underlies the paper, it is a bit unfortunate that the significance of the results suffers from issues in the experimental settings and the evaluation:""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -227,14 +232,14 @@
 
 :assertion {
 	:comment-7 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s7#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """The work is built on top of a manually annotated data set. I am wondering how that would scale to future applications of the pipeline. How is this approach working when new roles or entities are added? Do you expect reannotation to be necessary?""" .
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* The evaluation of classification performance (Section 11.1) is conducted in a rather lenient fashion only, as full credit is given to partial overlap of predicted and correct chunks of text. At least for comparison, I would like to see a more strict setting relying on complete overlap (or a discussion why this is not feasible). What is more, it seems to me that chunks that are labeled with "0" in the gold standard (i.e., should not be labeled by the system) are excluded from the evaluation in the first place.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -262,14 +267,14 @@
 
 :assertion {
 	:comment-8 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9.1#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/f4#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """The confidence score calculation is very important when it comes to KB completion, however, section 9.1 is only describing that the pipeline outputs such scores. I more formal description of properties and distributions of these scores would be interesting.""" .
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """Figure 4 suggests, however, that there is a considerable proportion of cases where "0" chunks are erroneously assigned an FE label by the system. This clearly leads to an illegitimate boost of precision. The final version must at least include an additional setting where these cases are correctly evaluated as false positives.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -297,14 +302,15 @@
 
 :assertion {
 	:comment-9 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/t5#table> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/t6#table> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """The related work section does not mention distributional methods and matrix factorization-based approaches for relation extraction. A short discussion of advantages and disadvantage would be interesting..""" .
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* In purely quantiative terms, the relative gains obtained from A-Box and T-Box augmentation as reported in Tables 5 and 6 are very impressive. However, it would also be interesting to assess the correctness of the additional statements. Given the reservations mentioned in the previous point, I could imagine that there might be a considerable proportion of noise in the extractions. Please provide a snapshot evaluation, e.g., by manually annotating a random sample of extracted assertions.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -332,14 +338,14 @@
 
 :assertion {
 	:comment-10 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s7.1#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Finally, the developed system shares properties with semantic role labeling systems. How does your development compare to existing systems? Could an SRL-system contribute to a strong baseline?""" .
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* The experimental settings include a rather simple strategy for seed selection (for both training the frame/FE classifiers and selecting the sentences to be used for extracting assertions in the first place), viz., sentence filtering according to a maximum length of words. First, for the sake of exactness and replicability of the results, this threshold should be explicitly stated. Second, I am a bit concerned that this strategy might introduce a bias towards shorter sentence with a relatively simple syntactic structure, which might explain why Named Entity Linking serves well as a surrogate of syntactic parsing. If so, this clearly questions the scalability of the approach. In any case, I would like to see a more comprehensive discussion of these aspects.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -367,20 +373,14 @@
 
 :assertion {
 	:comment-11 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p7#paragraph> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p1#paragraph> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.3_p2#paragraph> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s12_p1#paragraph> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.3_p1#paragraph> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s14_p2#paragraph> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Minor: * T-Box and A-Box are not terms which are well known in all communities which might be interested in this work. These terms should be introduced early in the paper.""" .
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* The article should be rendered more self-contained by making less extensive use of references to the authors' own previous work (Fossati et al., 2013) without giving any substantial details about the approach taken there.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -408,14 +408,14 @@
 
 :assertion {
 	:comment-12 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/f1#figure> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s7#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Minor: * Figure 1 is very text focused. I understand that this is a screenshot (or print) from an actual system. However, the layout makes it quite difficult to understand just from the depiction what is the purpose. Perhaps a graphical annotation might help here.""" .
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* While it is certainly fair to say that the workflow as proposed in the paper makes use of a "lightweight NLP machinery" only, the NLP pipeline still requires a lot of manual effort due to the construction of domain-specific FrameNets and the manual annotation work that is needed in order to train classifiers for frame and frame element detection. These modules being core parts of the pipeline, it is certainly not adequate to claim that there be "no need for ... semantic role labeling" in FactExtractor.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -444,14 +444,14 @@
 
 :assertion {
 	:comment-13 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1#ArticleVersion1>  ;
-		a linkflows:StyleComment, linkflows:NegativeComment, linkflows:SuggestionComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Minor: * The use of English is not perfect and could be improved, however, this does not lead to any problems with understanding the content of the paper.""" .
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s5.2#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* Section 5.2: Why is lexical units selection framed as a ranking problem (rather than a filtering/classification problem), and how are the two scores (TF/IDF and standard deviation) combined?""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -479,14 +479,14 @@
 
 :assertion {
 	:comment-14 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f3#figure>  ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s9_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Minor: * Figure 3 could be additionally provided in a translated version, such that non-italien readers could understand it.""" .
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* In Section 9, the formulation "...which we call reification" is misleading, as reification is certainly not a new term that is introduced here.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -514,21 +514,14 @@
 
 :assertion {
 	:comment-15 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f1#figure> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f2#figure> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f3#figure> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f4#figure> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f5#figure> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f6#figure> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f7#figure> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f8#figure> ;
-		a linkflows:StyleComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Minor: * Captions on Figures (e.g. 8) are too small.""" .
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/t2#table>  ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* Table 2: What are "gold units", what are "untrusted judgments"? Please explain.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -557,14 +550,192 @@
 
 :assertion {
 	:comment-16 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/f8#figure> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s8#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "2"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Minor: * Figure 8 is in general hard to interpret, as lines are hard to distinguish.""" .
+		linkflows:hasImpact "4"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* In Section 8, I was surprised to see that low agreement among the annotators on numerical FEs can be recovered from by using rule-based heuristics. What was the source of the low agreement then?""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c17#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-17 a linkflows:ReviewComment ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.1.1_p3#paragraph> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* Section 11.1.1: "Due to an error in the training set crowdsourcing step, we lack of VITTORIA and PARTITA samples": This issue should be corrected in the final version.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c18#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-18 a linkflows:ReviewComment ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/t4#table> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p1#paragraph> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* Table 4 mentions "frequency %" in the heading of column 1; the corresponding description in Section 11.2 talks about "absolute occurence frequencies". Please harmonize.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c19#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-19 a linkflows:ReviewComment ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/f8#figure> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* Figure 8 definitely needs a better resolution. In the current version, the curves are barely distinguishable, the legend hardly readable.""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c20#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-20 a linkflows:ReviewComment ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s13.1_p1#paragraph> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* Section 13.1: RE (in the authors' use of the term) and OIE are certainly not "two principal fields in Information Extraction", but rather refer two different paradigms in relation extraction (which is in itself a subtask of information extraction).""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c21#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-21 a linkflows:ReviewComment ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/s11.2_p4#paragraph> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """* p. 13: "lack of ontology property usage in 4 out of 7 classes" --> 3 out of 6?""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 
@@ -591,6 +762,11 @@
 @prefix c14: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c14#> .
 @prefix c15: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c15#> .
 @prefix c16: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c16#> .
+@prefix c17: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c17#> .
+@prefix c18: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c18#> .
+@prefix c19: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c19#> .
+@prefix c20: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c20#> .
+@prefix c21: <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2_c21#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -611,9 +787,13 @@
 }
 
 :assertion {
-	:review-2 a fr:Review  ;
-		dcterms:creator <https://orcid.org/0000-0002-2014-6619> ;
+	:review-1 a fr:Review  ;
+		dcterms:creator <https://orcid.org/0000-0001-6549-066X> ;
 		fr:isReviewOf <http://dx.doi.org/10.3233/SW-170269> ;
+		dcterms:issued "2016-02-29"^^xsd:date ;
+		fr:issuedFor <http://www.semantic-web-journal.net> ;
+		fr:releasedBy <http://www.semantic-web-journal.net> ;
+		fr:hasRating fr:A-R-TS-MAJREV ;
 		po:contains
 			c1:ReviewComment ,
 			c2:ReviewComment ,
@@ -630,7 +810,12 @@
 			c13:ReviewComment ,
 			c14:ReviewComment ,
 			c15:ReviewComment ,
-			c16:ReviewComment ;
+			c16:ReviewComment ,
+			c17:ReviewComment ,
+			c18:ReviewComment ,
+			c19:ReviewComment ,
+			c20:ReviewComment ,
+			c21:ReviewComment ;
 		  co:firstItem [
 	      co:itemContent c1:ReviewComment ;
 	      co:nextItem [
@@ -662,7 +847,17 @@
 																	co:nextItem [
 								      							co:itemContent c15:ReviewComment ;
 																		co:nextItem [
-									      							co:itemContent c16:ReviewComment ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] .
+									      							co:itemContent c16:ReviewComment ;
+																			co:nextItem [
+										      							co:itemContent c17:ReviewComment ;
+																				co:nextItem [
+											      							co:itemContent c18:ReviewComment ;
+																					co:nextItem [
+																						co:itemContent c19:ReviewComment ;
+																						co:nextItem [
+																							co:itemContent c20:ReviewComment ;
+																							co:nextItem [
+																								co:itemContent c21:ReviewComment ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] .
 
 	c1: npx:introduces c1:ReviewComment .
 	c2: npx:introduces c2:ReviewComment .
@@ -680,10 +875,15 @@
 	c14: npx:introduces c14:ReviewComment .
 	c15: npx:introduces c15:ReviewComment .
 	c16: npx:introduces c16:ReviewComment .
+	c17: npx:introduces c17:ReviewComment .
+	c18: npx:introduces c18:ReviewComment .
+	c19: npx:introduces c19:ReviewComment .
+	c20: npx:introduces c20:ReviewComment .
+	c21: npx:introduces c21:ReviewComment .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-2014-6619> ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0001-6549-066X> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-170269> .
 }
 

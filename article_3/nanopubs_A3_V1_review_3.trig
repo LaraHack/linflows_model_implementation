@@ -644,6 +644,10 @@
 	:review-3 a fr:Review  ;
 		dcterms:creator <https://orcid.org/0000-0000-0000-0000> ;
 		fr:isReviewOf <http://dx.doi.org/10.3233/SW-180298> ;
+		dcterms:issued "2017-07-05"^^xsd:date ;
+		fr:issuedFor <http://www.semantic-web-journal.net> ;
+		fr:releasedBy <http://www.semantic-web-journal.net> ;
+		fr:hasRating fr:A-R-TS-MAJREV ;
 		po:contains
 			c1:ReviewComment ,
 			c2:ReviewComment ,

@@ -1,4 +1,4 @@
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c1#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -20,11 +20,11 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1#ArticleVersion1> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Major Revision""" .
+		linkflows:hasCommentText """The paper addresses a problem that is relevant both from scientific and industrial perspective.""" .
 }
 
 :provenance {
-	:assertion prov:wasAttributedTo linkflows:sample-paper-3-anonymous-reviewer-2 ;
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
 		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
 }
 
@@ -33,7 +33,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c2#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c2#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -52,10 +52,11 @@
 
 :assertion {
 	:comment-2 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1#ArticleVersion1> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """The paper addresses a problem that is relevant both from scientific and industrial perspective.""" .
+		linkflows:hasCommentText """The proposed approach is well fitting in the scope of the SWJ journal, even though more experiments would be beneficial to show how the WiseNET system can be actually applied and give added value compared to alternative and already existing solutions. If some modules of the architecture are still under development, then the authors could at least define some scenarios and KPIs to be evaluated in the future.""" .
 }
 
 :provenance {
@@ -68,7 +69,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c3#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c3#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -88,10 +89,11 @@
 :assertion {
 	:comment-3 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3#section> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s1_p6#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """The proposed approach is well fitting in the scope of the SWJ journal, even though more experiments would be beneficial to show how the WiseNET system can be actually applied and give added value compared to alternative and already existing solutions. If some modules of the architecture are still under development, then the authors could at least define some scenarios and KPIs to be evaluated in the future.""" .
+		linkflows:hasCommentText """The authors should further highlight which are the actual novel contributions beyond the state of the art with respect of the various modules of the proposed approach.""" .
 }
 
 :provenance {
@@ -104,7 +106,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c4#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c4#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -123,12 +125,10 @@
 
 :assertion {
 	:comment-4 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3#section> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s1_p6#paragraph> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1#ArticleVersion1> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Moreover, the authors should further highlight which are the actual novel contributions beyond the state of the art with respect of the various modules of the proposed approach.""" .
+		linkflows:hasCommentText """Some concepts and goals are repeated along the article. It would make sense to formalize them at the beginning of the paper and then reference them.""" .
 }
 
 :provenance {
@@ -141,7 +141,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c5#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c5#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -160,10 +160,10 @@
 
 :assertion {
 	:comment-5 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1#ArticleVersion1> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t2#table> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Some concepts and goals are repeated along the article. It would make sense to formalize them at the beginning of the paper and then reference them.""" .
+		linkflows:hasCommentText """An overall graphical representation of the architecture to show how the ontology modules are integrated is missing (cf. table 2).""" .
 }
 
 :provenance {
@@ -176,7 +176,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c6#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c6#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -195,10 +195,11 @@
 
 :assertion {
 	:comment-6 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t2#table> ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t3#table> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t4#table> ;
+		a linkflows:StyleComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """An overall graphical representation of the architecture to show how the ontology modules are integrated is missing (cf. table 2).""" .
+		linkflows:hasCommentText """Are the classes and properties in Tables 3 and 4 novel definitions of the WiseNET ontology? It is suggested to include the prefix to avoid misunderstanding.""" .
 }
 
 :provenance {
@@ -211,7 +212,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c7#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c7#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -230,11 +231,12 @@
 
 :assertion {
 	:comment-7 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t3#table> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t4#table> ;
-		a linkflows:StyleComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t5#table> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f3#figure> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Are the classes and properties in Tables 3 and 4 novel definitions of the WiseNET ontology? It is suggested to include the prefix to avoid misunderstanding.""" .
+		linkflows:hasCommentText """It should be better explained why the WiseNET ontology redefines part of the content of ifcowl (e.g. properties “aggregates”, “spaceContains”). Why isn’t it enough to extract a fragment of ifcowl and use it in integration with other ontology modules? This would allow to skip a few query+update steps in the proposed methodology.""" .
 }
 
 :provenance {
@@ -247,7 +249,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c8#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c8#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -266,43 +268,6 @@
 
 :assertion {
 	:comment-8 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t4#table> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/t5#table> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f3#figure> ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """Moreover, it should be better explained why the WiseNET ontology redefines part of the content of ifcowl (e.g. properties “aggregates”, “spaceContains”). Why isn’t it enough to extract a fragment of ifcowl and use it in integration with other ontology modules? This would allow to skip a few query+update steps in the proposed methodology.""" .
-}
-
-:provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
-}
-
-:pubinfo {
-	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
-}
-
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c9#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix npx: <http://purl.org/nanopub/x/> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
-
-:Head {
-	: np:hasAssertion :assertion ;
-		np:hasProvenance :provenance ;
-		np:hasPublicationInfo :pubinfo ;
-		a np:Nanopublication .
-}
-
-:assertion {
-	:comment-9 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s6.2#section> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list4#listing> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list5#listing> ;
@@ -321,7 +286,42 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c10#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c9#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-9 a linkflows:ReviewComment ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/abstract#abstract> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """- It is not appropriate to include a link in the abstract""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c10#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -340,10 +340,10 @@
 
 :assertion {
 	:comment-10 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/abstract#abstract> ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s1_p6#paragraph> ;
+		a linkflows:StyleComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- It is not appropriate to include a link in the abstract""" .
+		linkflows:hasCommentText """- A reference could be placed when WiseNET is mentioned the first time in Sect.1""" .
 }
 
 :provenance {
@@ -356,7 +356,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c11#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c11#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -375,10 +375,10 @@
 
 :assertion {
 	:comment-11 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s1_p6#paragraph> ;
-		a linkflows:StyleComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p5#paragraph> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- A reference could be placed when WiseNET is mentioned the first time in Sect.1""" .
+		linkflows:hasCommentText """- In page 3, [10] is not the most proper reference about IFC EXPRESS to OWL. In addition to [30], also the paper Pauwels et al. 2017 (“Enhancing the ifcOWL ontology with an alternative representation for geometric data”) can be considered, since it includes the final version of ifcowl approved by bSI.""" .
 }
 
 :provenance {
@@ -391,7 +391,8 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c12#> .
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c12#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -410,10 +411,10 @@
 
 :assertion {
 	:comment-12 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p5#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p6#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- In page 3, [10] is not the most proper reference about IFC EXPRESS to OWL. In addition to [30], also the paper Pauwels et al. 2017 (“Enhancing the ifcOWL ontology with an alternative representation for geometric data”) can be considered, since it includes the final version of ifcowl approved by bSI.""" .
+		linkflows:hasCommentText """- In page 3, the sentence “Currently, ontologies are represented using OWL-2 language…” is not correct since OWL-2 is not the only ontology language available.""" .
 }
 
 :provenance {
@@ -426,8 +427,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c13#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c13#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -446,10 +446,10 @@
 
 :assertion {
 	:comment-13 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p6#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.1.2_p2#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- In page 3, the sentence “Currently, ontologies are represented using OWL-2 language…” is not correct since OWL-2 is not the only ontology language available.""" .
+		linkflows:hasCommentText """- Page 5, [28] is not the appropriate reference to ifcowl. Consider [30] and Pauwels et al. 2017.""" .
 }
 
 :provenance {
@@ -462,7 +462,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c14#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c14#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -481,10 +481,10 @@
 
 :assertion {
 	:comment-14 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.1.2_p2#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.2#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 5, [28] is not the appropriate reference to ifcowl. Consider [30] and Pauwels et al. 2017.""" .
+		linkflows:hasCommentText """- Section 3.2 can be made shorted since its contribution to the paper is quite limited.""" .
 }
 
 :provenance {
@@ -497,7 +497,8 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c15#> .
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c15#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -516,42 +517,6 @@
 
 :assertion {
 	:comment-15 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.2#section> ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Section 3.2 can be made shorted since its contribution to the paper is quite limited.""" .
-}
-
-:provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
-}
-
-:pubinfo {
-	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
-}
-
-
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c16#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix npx: <http://purl.org/nanopub/x/> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
-
-:Head {
-	: np:hasAssertion :assertion ;
-		np:hasProvenance :provenance ;
-		np:hasPublicationInfo :pubinfo ;
-		a np:Nanopublication .
-}
-
-:assertion {
-	:comment-16 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f4#figure> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f3#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
@@ -570,7 +535,43 @@
 }
 
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c17#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c16#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-16 a linkflows:ReviewComment ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5#section> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """- Sect.5. Actually, ifcowl is just the ontology T-box and it does not include proper instances. It is suggested to use IFC-RDF graph (or something else) when referring to the instances. This means also that querying the ifcowl instances are not returned (cf. sect.6.1.)""" .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c17#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -589,10 +590,11 @@
 
 :assertion {
 	:comment-17 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5#section> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5_p5#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5_p6#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Sect.5. Actually, ifcowl is just the ontology T-box and it does not include proper instances. It is suggested to use IFC-RDF graph (or something else) when referring to the instances. This means also that querying the ifcowl instances are not returned (cf. sect.6.1.)""" .
+		linkflows:hasCommentText """- Sect.5. The use of the term “compliance check” while just looking at which classes are instantiated is a bit misleading.""" .
 }
 
 :provenance {
@@ -605,8 +607,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c18#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c18#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -625,11 +626,10 @@
 
 :assertion {
 	:comment-18 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5_p5#paragraph> ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5_p6#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5.2_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Sect.5. The use of the term “compliance check” while just looking at which classes are instantiated is a bit misleading.""" .
+		linkflows:hasCommentText """- Sect.5.2. The prefix “inst” is a pure convention related to the IFC-to-RDF conversion and is not defined in the ifcowl ontology.""" .
 }
 
 :provenance {
@@ -642,7 +642,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c19#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c19#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -661,10 +661,10 @@
 
 :assertion {
 	:comment-19 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5.2_p1#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list3#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Sect.5.2. The prefix “inst” is a pure convention related to the IFC-to-RDF conversion and is not defined in the ifcowl ontology.""" .
+		linkflows:hasCommentText """- Listing 3. For completeness, also the inverse properties of ifcowl:relatingObject_IfcRelDecomposes ifcowl:relatedObjects_IfcRelDecomposes should be considered in the query.""" .
 }
 
 :provenance {
@@ -677,7 +677,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c20#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c20#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -699,7 +699,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list3#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Listing 3. For completeness, also the inverse properties of ifcowl:relatingObject_IfcRelDecomposes ifcowl:relatedObjects_IfcRelDecomposes should be considered in the query.""" .
+		linkflows:hasCommentText """- Listing 3. The query may return bindings with ?elementType=owl:NamedIndividual, therefore it would be better to add a FILTER like in Question2 of Listing 6.""" .
 }
 
 :provenance {
@@ -712,7 +712,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c21#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c21#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -731,10 +731,10 @@
 
 :assertion {
 	:comment-21 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list3#listing> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f5#figure> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Listing 3. The query may return bindings with ?elementType=owl:NamedIndividual, therefore it would be better to add a FILTER like in Question2 of Listing 6.""" .
+		linkflows:hasCommentText """- Fig.5. It’s a bit strange that a property of the a door (key system) is entered in the Camera Setup GUI. It is indeed an extension of what is converted from the IFC file.""" .
 }
 
 :provenance {
@@ -747,7 +747,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c22#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c22#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -766,10 +766,10 @@
 
 :assertion {
 	:comment-22 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/f5#figure> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list5#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Fig.5. It’s a bit strange that a property of the a door (key system) is entered in the Camera Setup GUI. It is indeed an extension of what is converted from the IFC file.""" .
+		linkflows:hasCommentText """- Listing 5. The query can be made more compact by exploiting “,”, avoiding to unnecessarily repeat rdf:type.""" .
 }
 
 :provenance {
@@ -782,7 +782,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c23#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c23#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -804,7 +804,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list5#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Listing 5. The query can be made more compact by exploiting “,”, avoiding to unnecessarily repeat rdf:type.""" .
+		linkflows:hasCommentText """- Listing 5. Why is DUL:hasLocation used instead of what can be already found in ifcowl?""" .
 }
 
 :provenance {
@@ -817,7 +817,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c24#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c24#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -836,10 +836,10 @@
 
 :assertion {
 	:comment-24 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list5#listing> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list6#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Listing 5. Why is DUL:hasLocation used instead of what can be already found in ifcowl?""" .
+		linkflows:hasCommentText """- Listing 6. Question 2. A semi-colon should go after ?x instead of a dot.""" .
 }
 
 :provenance {
@@ -852,7 +852,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c25#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c25#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -874,7 +874,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list6#listing> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Listing 6. Question 2. A semi-colon should go after ?x instead of a dot.""" .
+		linkflows:hasCommentText """- Listing 6. Question 3. No need to specify a time stamp?""" .
 }
 
 :provenance {
@@ -887,7 +887,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c26#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c26#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -906,10 +906,10 @@
 
 :assertion {
 	:comment-26 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/list6#listing> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1#ArticleVersion1> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Listing 6. Question 3. No need to specify a time stamp?""" .
+		linkflows:hasCommentText """The paper is well structured and the use of English language is generally good, but it must be improved. There are errors and typos throughout the paper, including grammatical and wrong lexical choices. Here are some examples""" .
 }
 
 :provenance {
@@ -922,7 +922,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c27#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c27#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -941,10 +941,10 @@
 
 :assertion {
 	:comment-27 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1#ArticleVersion1> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p7#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """The paper is well structured and the use of English language is generally good, but it must be improved. There are errors and typos throughout the paper, including grammatical and wrong lexical choices. Here are some examples""" .
+		linkflows:hasCommentText """- Page 4, column 1, line 10, “unify” in place of “unified”""" .
 }
 
 :provenance {
@@ -957,7 +957,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c28#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c28#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -979,7 +979,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p7#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 4, column 1, line 10, “unify” in place of “unified”""" .
+		linkflows:hasCommentText """- Page 4, column 1, line 14, “where” in place of “were”""" .
 }
 
 :provenance {
@@ -992,7 +992,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c29#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c29#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1011,41 +1011,6 @@
 
 :assertion {
 	:comment-29 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p7#paragraph> ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 4, column 1, line 14, “where” in place of “were”""" .
-}
-
-:provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
-}
-
-:pubinfo {
-	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
-}
-
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c30#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix npx: <http://purl.org/nanopub/x/> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
-
-:Head {
-	: np:hasAssertion :assertion ;
-		np:hasProvenance :provenance ;
-		np:hasPublicationInfo :pubinfo ;
-		a np:Nanopublication .
-}
-
-:assertion {
-	:comment-30 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p7#paragraph> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p3#paragraph> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p1#paragraph> ;
@@ -1066,7 +1031,42 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c31#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c30#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-30 a linkflows:ReviewComment ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p7#paragraph> ;
+		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """- Page 4, column 1, “warrants” in place of “warranties” """ .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c31#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1085,10 +1085,10 @@
 
 :assertion {
 	:comment-31 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s2_p7#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.1.2_p2#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 4, column 1, “warrants” in place of “warranties” """ .
+		linkflows:hasCommentText """- Page 5, col 1, “interoperability between” in place of “interoperability among” """ .
 }
 
 :provenance {
@@ -1101,7 +1101,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c32#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c32#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1120,10 +1120,10 @@
 
 :assertion {
 	:comment-32 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.1.2_p2#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p1#paragraph> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 5, col 1, “interoperability between” in place of “interoperability among” """ .
+		linkflows:hasCommentText """- Page 8, col 2, “focus on” in place of “focus in” """ .
 }
 
 :provenance {
@@ -1136,7 +1136,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c33#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c33#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1155,10 +1155,10 @@
 
 :assertion {
 	:comment-33 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p1#paragraph> ;
-		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p2#paragraph> ;
+		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 8, col 2, “focus on” in place of “focus in” """ .
+		linkflows:hasCommentText """- Page 9, col 1, “inserting it into the” in place of “insert it to” """ .
 }
 
 :provenance {
@@ -1171,7 +1171,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c34#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c34#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1193,7 +1193,7 @@
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p2#paragraph> ;
 		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 9, col 1, “inserting it into the” in place of “insert it to” """ .
+		linkflows:hasCommentText """- Page 9, col 2, “people are” in place of “people is” """ .
 }
 
 :provenance {
@@ -1206,7 +1206,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c35#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c35#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1225,10 +1225,10 @@
 
 :assertion {
 	:comment-35 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p2#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p3#paragraph> ;
 		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 9, col 2, “people are” in place of “people is” """ .
+		linkflows:hasCommentText """- Page 9, col 2, “may have occurred” in place of “may occurred” """ .
 }
 
 :provenance {
@@ -1241,7 +1241,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c36#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c36#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1260,41 +1260,6 @@
 
 :assertion {
 	:comment-36 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s4_p3#paragraph> ;
-		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 9, col 2, “may have occurred” in place of “may occurred” """ .
-}
-
-:provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
-}
-
-:pubinfo {
-	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
-}
-
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c37#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix npx: <http://purl.org/nanopub/x/> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
-
-:Head {
-	: np:hasAssertion :assertion ;
-		np:hasProvenance :provenance ;
-		np:hasPublicationInfo :pubinfo ;
-		a np:Nanopublication .
-}
-
-:assertion {
-	:comment-37 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s6_p2#paragraph> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s6.2_p3#paragraph> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p2#paragraph> ;
@@ -1317,7 +1282,42 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c38#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c37#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-37 a linkflows:ReviewComment ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5_p4#paragraph> ;
+		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """- Page 10, col 2, “contained in” in place of “contained on” """ .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c38#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1336,41 +1336,6 @@
 
 :assertion {
 	:comment-38 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s5_p4#paragraph> ;
-		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 10, col 2, “contained in” in place of “contained on” """ .
-}
-
-:provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
-}
-
-:pubinfo {
-	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
-}
-
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c39#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix npx: <http://purl.org/nanopub/x/> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
-
-:Head {
-	: np:hasAssertion :assertion ;
-		np:hasProvenance :provenance ;
-		np:hasPublicationInfo :pubinfo ;
-		a np:Nanopublication .
-}
-
-:assertion {
-	:comment-39 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p3#paragraph> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p4#paragraph> ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s1_p6#paragraph> ;
@@ -1389,7 +1354,42 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c40#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c39#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:comment-39 a linkflows:ReviewComment ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p1#paragraph> ;
+		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
+		linkflows:hasImpact "3"^^xsd:positiveInteger ;
+		linkflows:hasCommentText """- Page 15, “it satisfies” in place of “it satisfy” """ .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
+}
+
+:pubinfo {
+	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}
+
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c40#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1408,10 +1408,10 @@
 
 :assertion {
 	:comment-40 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p1#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p3#paragraph> ;
 		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 15, “it satisfies” in place of “it satisfy” """ .
+		linkflows:hasCommentText """- Page 15, to clarify “the devices utilize”, maybe it should be “devices utilized”""" .
 }
 
 :provenance {
@@ -1424,7 +1424,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c41#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c41#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1443,10 +1443,10 @@
 
 :assertion {
 	:comment-41 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p3#paragraph> ;
+		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p4#paragraph> ;
 		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 15, to clarify “the devices utilize”, maybe it should be “devices utilized”""" .
+		linkflows:hasCommentText """- Page 15, “does not need” in place of “does not needs” """ .
 }
 
 :provenance {
@@ -1459,7 +1459,7 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c42#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c42#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1478,41 +1478,6 @@
 
 :assertion {
 	:comment-42 a linkflows:ReviewComment ;
-		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7_p4#paragraph> ;
-		a linkflows:SyntaxComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
-		linkflows:hasImpact "3"^^xsd:positiveInteger ;
-		linkflows:hasCommentText """- Page 15, “does not need” in place of “does not needs” """ .
-}
-
-:provenance {
-	:assertion prov:wasAttributedTo <https://orcid.org/0000-0000-0000-0000> ;
-		 prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-180298> .
-}
-
-:pubinfo {
-	: dc:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime ;
-		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
-}
-
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c43#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix npx: <http://purl.org/nanopub/x/> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
-
-:Head {
-	: np:hasAssertion :assertion ;
-		np:hasProvenance :provenance ;
-		np:hasPublicationInfo :pubinfo ;
-		a np:Nanopublication .
-}
-
-:assertion {
-	:comment-43 a linkflows:ReviewComment ;
 		linkflows:refersTo <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s7#section> ;
 		a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ActionNeededComment	;
 		linkflows:hasImpact "3"^^xsd:positiveInteger ;
@@ -1529,50 +1494,49 @@
 		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
 }
 
-@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2#> .
-@prefix c1: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c1#> .
-@prefix c2: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c2#> .
-@prefix c3: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c3#> .
-@prefix c4: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c4#> .
-@prefix c5: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c5#> .
-@prefix c6: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c6#> .
-@prefix c7: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c7#> .
-@prefix c8: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c8#> .
-@prefix c9: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c9#> .
-@prefix c10: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c10#> .
-@prefix c11: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c11#> .
-@prefix c12: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c12#> .
-@prefix c13: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c13#> .
-@prefix c14: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c14#> .
-@prefix c15: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c15#> .
-@prefix c16: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c16#> .
-@prefix c17: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c17#> .
-@prefix c18: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c18#> .
-@prefix c19: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c19#> .
-@prefix c20: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c20#> .
-@prefix c21: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c21#> .
-@prefix c22: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c22#> .
-@prefix c23: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c23#> .
-@prefix c24: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c24#> .
-@prefix c25: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c25#> .
-@prefix c26: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c26#> .
-@prefix c27: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c27#> .
-@prefix c28: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c28#> .
-@prefix c29: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c29#> .
-@prefix c30: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c30#> .
-@prefix c31: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c31#> .
-@prefix c32: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c32#> .
-@prefix c33: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c33#> .
-@prefix c34: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c34#> .
-@prefix c35: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c35#> .
-@prefix c36: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c36#> .
-@prefix c37: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c37#> .
-@prefix c38: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c38#> .
-@prefix c39: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c39#> .
-@prefix c40: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c40#> .
-@prefix c41: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c41#> .
-@prefix c42: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c42#> .
-@prefix c43: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2_c43#> .
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X#> .
+@prefix c1: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c1#> .
+@prefix c2: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c2#> .
+@prefix c3: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c3#> .
+@prefix c4: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c4#> .
+@prefix c5: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c5#> .
+@prefix c6: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c6#> .
+@prefix c7: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c7#> .
+@prefix c8: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c8#> .
+@prefix c9: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c9#> .
+@prefix c10: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c10#> .
+@prefix c11: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c11#> .
+@prefix c12: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c12#> .
+@prefix c13: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c13#> .
+@prefix c14: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c14#> .
+@prefix c15: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c15#> .
+@prefix c16: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c16#> .
+@prefix c17: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c17#> .
+@prefix c18: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c18#> .
+@prefix c19: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c19#> .
+@prefix c20: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c20#> .
+@prefix c21: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c21#> .
+@prefix c22: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c22#> .
+@prefix c23: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c23#> .
+@prefix c24: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c24#> .
+@prefix c25: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c25#> .
+@prefix c26: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c26#> .
+@prefix c27: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c27#> .
+@prefix c28: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c28#> .
+@prefix c29: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c29#> .
+@prefix c30: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c30#> .
+@prefix c31: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c31#> .
+@prefix c32: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c32#> .
+@prefix c33: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c33#> .
+@prefix c34: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c34#> .
+@prefix c35: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c35#> .
+@prefix c36: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c36#> .
+@prefix c37: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c37#> .
+@prefix c38: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c38#> .
+@prefix c39: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c39#> .
+@prefix c40: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c40#> .
+@prefix c41: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c41#> .
+@prefix c42: <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c42#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -1642,8 +1606,7 @@
 			c39:ReviewComment ,
 			c40:ReviewComment ,
 			c41:ReviewComment ,
-			c42:ReviewComment ,
-			c43:ReviewComment ;
+			c42:ReviewComment ;
 		  co:firstItem [
 	      co:itemContent c1:ReviewComment ;
 	      co:nextItem [
@@ -1727,9 +1690,7 @@
 																																										 co:nextItem [
 																																											 co:itemContent c41:ReviewComment ;
 																																											 co:nextItem [
-																																												 co:itemContent c42:ReviewComment ;
-																																												 co:nextItem [
-																																													 co:itemContent c43:ReviewComment ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] .
+																																												 co:itemContent c42:ReviewComment ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] .
 
 	c1: npx:introduces c1:ReviewComment .
 	c2: npx:introduces c2:ReviewComment .
@@ -1773,7 +1734,6 @@
 	c40: npx:introduces c40:ReviewComment .
 	c41: npx:introduces c41:ReviewComment .
 	c42: npx:introduces c42:ReviewComment .
-	c43: npx:introduces c43:ReviewComment .
 }
 
 :provenance {

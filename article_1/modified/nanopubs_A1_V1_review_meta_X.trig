@@ -1,0 +1,55 @@
+@prefix : <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/rews_A1X#> .
+@prefix rew1: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X#> .
+@prefix rew2: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X#> .
+@prefix rew3: <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix po: <http://www.essepuntato.it/2008/12/pattern#> .
+@prefix co: <http://purl.org/co/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix fr: <http://fairreviews.linkeddata.es/def/core/index.html#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:reviews-V1X a fabio:Review  ;
+		fr:isReviewOf <http://dx.doi.org/10.3233/sw-160239> ;
+		fr:issuedFor <http://www.semantic-web-journal.net> ;
+		fr:releasedBy <http://www.semantic-web-journal.net> ;
+		fr:hasRating fr:A-R-TS-MAJREV ;
+		po:contains
+			rew1:Review ,
+			rew2:Review ,
+			rew3:Review ;
+		  co:firstItem [
+	      co:itemContent rew1:Review ;
+	      co:nextItem [
+					co:itemContent rew2:Review ;
+					co:nextItem [
+		  			co:itemContent rew3:Review ] ] ] .
+
+	rew1: npx:introduces rew1:Review .
+	rew2: npx:introduces rew2:Review .
+	rew3: npx:introduces rew3:Review .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo <https://orcid.org/0000-0002-7311-3693> ;
+		 prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239> .
+}
+
+:pubinfo {
+	: dc:created "2020-05-25T09:05:11+01:00"^^xsd:dateTime ;
+		pav:createdBy  <https://orcid.org/0000-0002-7114-6459> .
+}

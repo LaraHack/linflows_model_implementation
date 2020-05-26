@@ -1829,6 +1829,10 @@
 	:review-3 a fr:Review  ;
 		dcterms:creator <https://orcid.org/0000-0001-9962-7193> ;
 		fr:isReviewOf <http://dx.doi.org/10.3233/sw-160239> ;
+		dcterms:issued "2015-07-06"^^xsd:date ;
+		fr:issuedFor <http://www.semantic-web-journal.net> ;
+		fr:releasedBy <http://www.semantic-web-journal.net> ;
+		fr:hasRating fr:A-R-TS-MAJREV ;
 		po:contains
 			c1:ReviewComment ,
 			c2:ReviewComment ,
