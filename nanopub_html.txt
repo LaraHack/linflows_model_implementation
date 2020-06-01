@@ -1,0 +1,33 @@
+@prefix this: <http://purl.org/np/RA28QwaD22DK7U1Xq94UESAd3Y2jpGmVMCAk6_7aB_ivc> .
+@prefix sub: <http://purl.org/np/RA28QwaD22DK7U1Xq94UESAd3Y2jpGmVMCAk6_7aB_ivc#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix linkflows: <https://github.com/LaraHack/linkflows_model/blob/master/Linkflows.ttl#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:comment-7 a linkflows:ContentComment, linkflows:NegativeComment, linkflows:ReviewComment,
+      linkflows:SuggestionComment;
+    linkflows:hasCommentText "In section 3.2) you give background information on the Find-Fix-Verify pattern (2nd paragraph). This information (in which scenario it was used first, etc.) is not really necessary for the rest of the paper.";
+    linkflows:hasImpact "2"^^xsd:positiveInteger;
+    linkflows:refersTo <http://purl.org/np/RAoFc19T2f1F2j25Q6xBtfclZ1LyAZrlD5IU6F_yBozGE#paragraph> .
+}
+
+sub:provenance {
+  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/sw-160239>;
+    prov:wasAttributedTo <https://orcid.org/0000-0001-7069-9804> .
+}
+
+sub:pubinfo {
+  this: dcterms:created "2019-11-26T09:05:11+01:00"^^xsd:dateTime;
+    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
+}
