@@ -394,17 +394,17 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-introduction-contributions-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-introduction-contributions-title;
     a doco:Section .
-  
+
   sub:section-introduction-contributions-title c4o:hasContent "Contributions";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -472,17 +472,17 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-introduction-structure-of-the-paper-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-introduction-structure-of-the-paper-title;
     a doco:Section .
-  
+
   sub:section-introduction-structure-of-the-paper-title c4o:hasContent "Structure of the paper";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -531,80 +531,80 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent p4:\#paragraph;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent sub:section-number;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent sub:section-introduction-title;
     co:nextItem sub:_12 .
-  
+
   sub:_12 co:itemContent p1:\#paragraph;
     co:nextItem sub:_13 .
-  
+
   sub:_13 co:itemContent p2:\#paragraph;
     co:nextItem sub:_14 .
-  
+
   sub:_14 co:itemContent p3:\#paragraph;
     co:nextItem sub:_1 .
-  
+
   sub:_2 co:itemContent p5:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p6:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p7:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p8:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p9:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p10:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent s1_contributions:\#section;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent s1_structure-of-the-paper:\#section .
-  
+
   sub:section co:firstItem sub:_10;
     po:contains p9:\#paragraph, p4:\#paragraph, s1_contributions:\#section, s1_structure-of-the-paper:\#section,
       p10:\#paragraph, p5:\#paragraph, p1:\#paragraph, p8:\#paragraph, p3:\#paragraph, p6:\#paragraph,
       p7:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-introduction-title, sub:section-number;
     a deo:Introduction, doco:Section .
-  
+
   sub:section-introduction-title c4o:hasContent "Introduction";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "1";
     a doco:SectionLabel .
-  
+
   p9: npx:introduces p9:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   s1_contributions: npx:introduces s1_contributions:\#section .
-  
+
   s1_structure-of-the-paper: npx:introduces s1_structure-of-the-paper:\#section .
-  
+
   p10: npx:introduces p10:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p8: npx:introduces p8:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   p7: npx:introduces p7:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -831,50 +831,50 @@ sub:Head {
 
 sub:assertion {
   p2: npx:introduces p2:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-2-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p4:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p5:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent p6:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p5:\#paragraph, p3:\#paragraph, p1:\#paragraph, p6:\#paragraph,
       p4:\#paragraph;
     po:containsAsHeader sub:section-2-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-2-title c4o:hasContent "Linked Data Quality Issues";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "2";
     a doco:SectionLabel .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
 }
 
@@ -1252,23 +1252,23 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-3-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-3.1-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-3.1-title c4o:hasContent "Types of Crowdsourcing";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "3.1";
     a doco:SectionLabel .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -1305,29 +1305,29 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-3.1.1-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-3.1.1-title, sub:section:number;
     a doco:Section .
-  
+
   sub:section-3.1.1-title c4o:hasContent "Contest-based Crowdsourcing";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "3.1.1";
     a doco:SectionLabel .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -1365,34 +1365,34 @@ sub:Head {
 
 sub:assertion {
   p2: npx:introduces p2:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-3.1.2-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p1:\#paragraph, p3:\#paragraph;
     po:containsAsHeader sub:section-3.1.2-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-3.1.2-title c4o:hasContent "Microtask Crowdsourcing";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "3.1.2";
     a doco:SectionLabel .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
 }
 
@@ -1432,43 +1432,43 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-3.2-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p4:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p5:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p3:\#paragraph, p4:\#paragraph, p5:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-3.2-title, sub:section:number;
     a doco:Section .
-  
+
   sub:section-3.2-title c4o:hasContent "Crowdsourcing Pattern Find-Fix-Verify";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "3.2";
     a doco:SectionLabel .
 }
@@ -1505,43 +1505,43 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RA8snEaL0MZaroL2M48LENuTyxMFmjCGSGX3twSrS3DTs> npx:introduces
       <http://purl.org/np/RA8snEaL0MZaroL2M48LENuTyxMFmjCGSGX3twSrS3DTs#section> .
-  
+
   <http://purl.org/np/RALLmIXxu5raMxeCprqS02acL8BQBBbE4uf4rVjGdjBFg> npx:introduces
       <http://purl.org/np/RALLmIXxu5raMxeCprqS02acL8BQBBbE4uf4rVjGdjBFg#section> .
-  
+
   <http://purl.org/np/RAeZUsAwfgCgW2D7GwlwO9l7ozu0JTID8oTTRS4VOMngY> npx:introduces
       <http://purl.org/np/RAeZUsAwfgCgW2D7GwlwO9l7ozu0JTID8oTTRS4VOMngY#section> .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-3-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RA8snEaL0MZaroL2M48LENuTyxMFmjCGSGX3twSrS3DTs#section>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RAeZUsAwfgCgW2D7GwlwO9l7ozu0JTID8oTTRS4VOMngY#section>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/np/RALLmIXxu5raMxeCprqS02acL8BQBBbE4uf4rVjGdjBFg#section>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/np/RAsoUzV0zCATSuHstv3TRcbODkSR6mGY52yb4d3zF9WiY#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RA8snEaL0MZaroL2M48LENuTyxMFmjCGSGX3twSrS3DTs#section>,
       <http://purl.org/np/RALLmIXxu5raMxeCprqS02acL8BQBBbE4uf4rVjGdjBFg#section>, <http://purl.org/np/RAeZUsAwfgCgW2D7GwlwO9l7ozu0JTID8oTTRS4VOMngY#section>,
       <http://purl.org/np/RAsoUzV0zCATSuHstv3TRcbODkSR6mGY52yb4d3zF9WiY#section>;
     po:containsAsHeader sub:section-3-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-3-title c4o:hasContent "Crowdsourcing Preliminaries";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "3";
     a doco:SectionLabel .
-  
+
   <http://purl.org/np/RAsoUzV0zCATSuHstv3TRcbODkSR6mGY52yb4d3zF9WiY> npx:introduces
       <http://purl.org/np/RAsoUzV0zCATSuHstv3TRcbODkSR6mGY52yb4d3zF9WiY#section> .
 }
@@ -1639,7 +1639,7 @@ sub:Head {
 
 sub:assertion {
   d1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/d1#formula> .
-  
+
   sub:paragraph c4o:hasContent "Definition 1. (Problem Definition: Mapping RDF Triples to Quality Issues). Given T a set of RDF triples and Q a set of quality issues, a mapping of triples to quality issues is defined as a partial function φ : T → 2 Q . φ(t) denotes the quality issues associated with t ∈ T . In particular, when φ(t) 6 = ∅ the triple t is considered ‘incorrect’, otherwise it can be affirmed that t is ‘correct’.";
     po:contains <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/d1#formula>;
     a doco:Paragraph .
@@ -1678,7 +1678,7 @@ sub:assertion {
   sub:paragraph c4o:hasContent "In order to provide an efficient crowdsourcing solution to the problem presented in Definition 1, we applied a variation of the crowdsourcing pattern Find- Fix-Verify [3]. As discussed in Section 3, this crowdsourcing pattern allows for increasing the overall quality of the results while maintaining competitive monetary costs when applying other crowdsourcing approaches. Our implementation of the Find-Fix-Verify pattern is tailored to assess the quality of Linked Data sets that are automatically created from other sources. Such is the case of DBpedia [24], a data set created by extracting knowledge from Wikipedia via declarative mediator/wrapper pattern. The wrappers are the result of a crowdsourced community effort of contributors to the DBpedia project. To crowdsource the assessment of triples of data sets like DBpedia, we devise a two-fold approach including the following stages: Find and Verify. In the Find stage, the crowd was requested to detect LD quality issues in a set of RDF triples, and annotate them with the corresponding issue(s) if applicable. We define the Find Stage as follows:";
     po:contains <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/d1#formula>;
     a doco:Paragraph .
-  
+
   d1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/d1#formula> .
 }
 
@@ -2027,39 +2027,39 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-4.1-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p4:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p4:\#paragraph, p2:\#paragraph, p3:\#paragraph;
     po:containsAsHeader sub:section-4.1-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-4.1-title c4o:hasContent "Find Stage: Contest-based Crowdsourcing";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "4.1";
     a doco:SectionLabel .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
 }
 
@@ -2314,9 +2314,9 @@ sub:assertion {
   sub:paragraph c4o:hasContent "An important aspect when generating microtasks from RDF data (or machine-readable data in general) is developing useful human-understandable interfaces (Algorithm 1, line 9) for the target non-expert crowds. In microtasks, optimal user interfaces reduce ambiguity as well as the probability to retrieve erroneous answers from the crowd due to a misinterpretation of the task. Therefore, before start to resolve one of our tasks, the crowd workers were instructed with details and examples about each quality issue. After reading the instructions, workers proceed to resolve the given task. Figure 3 depicts the interface of a microtask generated for the Find stage in our approach. To display each triple, we retrieved the values of the foaf:name or rdfs:label properties for subjects, predicates, and datatypes. The name of languages in language-tagged strings were parsed using a conversion table from the best current practices BCP 47 [7], as suggested by the RDF specification 7 . Language tags and datatypes of objects were highlighted, such that workers can easily identify them [Footnote 8] . Additionally, in order to provide contextual information, we implemented a simple wrapper which extracts the corresponding data encoded in the infobox of the Wikipedia article associated with the resource – specified via foaf:isPrimaryTopicOf . The crowd has the possibility to select one or several quality issues per triple.";
     po:contains foot8:\#footnote, f3:\#figure;
     a doco:Paragraph .
-  
+
   foot8: npx:introduces foot8:\#footnote .
-  
+
   f3: npx:introduces f3:\#figure .
 }
 
@@ -2389,55 +2389,55 @@ sub:Head {
 
 sub:assertion {
   p2: npx:introduces p2:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-4-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p4:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p5:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent p6:\#paragraph;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent p7:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p6:\#paragraph, p5:\#paragraph, p3:\#paragraph, p4:\#paragraph,
       p1:\#paragraph, p7:\#paragraph;
     po:containsAsHeader sub:section-4.2-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-4.2-title c4o:hasContent "Find Stage: Paid Microtask Crowdsourcing";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "4.2";
     a doco:SectionLabel .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p7: npx:introduces p7:\#paragraph .
 }
 
@@ -2784,7 +2784,7 @@ sub:assertion {
   sub:paragraph c4o:hasContent "Examples of this type of task are depicted in Figure 5. In the first example (see Figure 5a), the workers must decide whether the content in the given external web page is related to “John Two-Hawks”. It is easy to observe that in this case the content is not directly associated to the person “John Two-Hawks”. Therefore, the right answer is that the link is incorrect. On the other hand, we also exemplified the case when an interlink presents relevant content to the given subject. Consider the example in Figure 5b, where the subject is the plant “Pandanus boninensis” and the external link is a web page generated by the DBpedia Flickr wrapper. The web page indeed shows pictures of the subject plant. Therefore, the correct answer is that the link is correct.";
     po:contains f5:\#figure;
     a doco:Paragraph .
-  
+
   f5: npx:introduces f5:\#figure .
 }
 
@@ -2829,70 +2829,70 @@ sub:Head {
 
 sub:assertion {
   p6: npx:introduces p6:\#paragraph .
-  
+
   p10: npx:introduces p10:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p7: npx:introduces p7:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p9: npx:introduces p9:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent p8:\#paragraph;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent p9:\#paragraph;
     co:nextItem sub:_12 .
-  
+
   sub:_12 co:itemContent p10:\#paragraph .
-  
+
   sub:_2 co:itemContent sub:section-4.3-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p4:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p5:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent p6:\#paragraph;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent p7:\#paragraph;
     co:nextItem sub:_10 .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p6:\#paragraph, p10:\#paragraph, p2:\#paragraph, p7:\#paragraph, p4:\#paragraph,
       p9:\#paragraph, p8:\#paragraph, p3:\#paragraph, p5:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-4.3-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-4.3-title c4o:hasContent "Verify Stage: Paid Microtask Crowdsourcing";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "4.3";
     a doco:SectionLabel .
-  
+
   p8: npx:introduces p8:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -3084,7 +3084,7 @@ sub:assertion {
   sub:paragraph c4o:hasContent "Proposition 2. The number of microtasks generated in each stage is linear with respect to the number of triples assessed.";
     po:contains <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/prop2#formula>;
     a doco:Paragraph .
-  
+
   prop2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/prop2#formula> .
 }
 
@@ -3220,60 +3220,60 @@ sub:Head {
 
 sub:assertion {
   p2: npx:introduces p2:\#paragraph .
-  
+
   p8: npx:introduces p8:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent p8:\#paragraph .
-  
+
   sub:_2 co:itemContent sub:section-4.4-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p4:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p5:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent p6:\#paragraph;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent p7:\#paragraph;
     co:nextItem sub:_10 .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p8:\#paragraph, p1:\#paragraph, p3:\#paragraph, p5:\#paragraph,
       p6:\#paragraph, p7:\#paragraph, p4:\#paragraph;
     po:containsAsHeader sub:section-4.4-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-4.4-title c4o:hasContent "Properties of Our Approach";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "4.4";
     a doco:SectionLabel .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   p7: npx:introduces p7:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
 }
 
@@ -3317,77 +3317,77 @@ sub:Head {
 
 sub:assertion {
   p7: npx:introduces p7:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   <http://purl.org/np/RALUfzrTOeBwafHevdTZBOMZXzNtqGQgbXpzr20um_H7I> npx:introduces
       <http://purl.org/np/RALUfzrTOeBwafHevdTZBOMZXzNtqGQgbXpzr20um_H7I#section> .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   <http://purl.org/np/RANnGyK4ycZOmfIsYDFDavO3ArKsWAiLfKE6HxMJsA3pc> npx:introduces
       <http://purl.org/np/RANnGyK4ycZOmfIsYDFDavO3ArKsWAiLfKE6HxMJsA3pc#section> .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   <http://purl.org/np/RAexT1wmV_NG8gjd_HcpyjcZRW2M40WRbv1kgsMzy4agk> npx:introduces
       <http://purl.org/np/RAexT1wmV_NG8gjd_HcpyjcZRW2M40WRbv1kgsMzy4agk#section> .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p9: npx:introduces p9:\#paragraph .
-  
+
   <http://purl.org/np/RAm4B2vfo8pqlWhlb4lDlDxQsJIeNoDMC8TGYSfd-24K4> npx:introduces
       <http://purl.org/np/RAm4B2vfo8pqlWhlb4lDlDxQsJIeNoDMC8TGYSfd-24K4#section> .
-  
+
   p8: npx:introduces p8:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   sub:_1 co:itemContent <http://purl.org/np/RANnGyK4ycZOmfIsYDFDavO3ArKsWAiLfKE6HxMJsA3pc#section>;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent p4:\#paragraph;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent p5:\#paragraph;
     co:nextItem sub:_12 .
-  
+
   sub:_12 co:itemContent p6:\#paragraph;
     co:nextItem sub:_13 .
-  
+
   sub:_13 co:itemContent p7:\#paragraph;
     co:nextItem sub:_14 .
-  
+
   sub:_14 co:itemContent p8:\#paragraph;
     co:nextItem sub:_15 .
-  
+
   sub:_15 co:itemContent p9:\#paragraph;
     co:nextItem sub:_1 .
-  
+
   sub:_2 co:itemContent <http://purl.org/np/RAexT1wmV_NG8gjd_HcpyjcZRW2M40WRbv1kgsMzy4agk#section>;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RAm4B2vfo8pqlWhlb4lDlDxQsJIeNoDMC8TGYSfd-24K4#section>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RALUfzrTOeBwafHevdTZBOMZXzNtqGQgbXpzr20um_H7I#section> .
-  
+
   sub:_5 co:itemContent sub:section-number;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent sub:section-4-title;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p1:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent p2:\#paragraph;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent p3:\#paragraph;
     co:nextItem sub:_10 .
-  
+
   sub:section co:firstItem sub:_5;
     po:contains p7:\#paragraph, p3:\#paragraph, <http://purl.org/np/RALUfzrTOeBwafHevdTZBOMZXzNtqGQgbXpzr20um_H7I#section>,
       p2:\#paragraph, <http://purl.org/np/RANnGyK4ycZOmfIsYDFDavO3ArKsWAiLfKE6HxMJsA3pc#section>,
@@ -3396,13 +3396,13 @@ sub:assertion {
       p8:\#paragraph, p5:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-4-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-4-title c4o:hasContent "Our Approach: Crowdsourcing Linked Data Quality Assessment";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "4";
     a doco:SectionLabel .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -3532,23 +3532,23 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.1.1-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-5.1.1-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-5.1.1-title c4o:hasContent "Dataset and Implementation";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.1.1";
     a doco:SectionLabel .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -3648,28 +3648,28 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.1.2-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-5.1.2-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-5.1.2-title c4o:hasContent "Metrics";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.1.2";
     a doco:SectionLabel .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -3768,26 +3768,26 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.1.3-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-5.1.3-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-5.1.3-title c4o:hasContent "Gold Standard";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.1.3";
     a doco:SectionLabel .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -3823,36 +3823,36 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RA3x27WMLws0hdO9b6gWdbwhL5MnEtE8OhXQsvjuPnDRs> npx:introduces
       <http://purl.org/np/RA3x27WMLws0hdO9b6gWdbwhL5MnEtE8OhXQsvjuPnDRs#section> .
-  
+
   <http://purl.org/np/RACmd-TbIFDAz5NaxzkFVko-prow5J4jFsXv1Es1tVqM0> npx:introduces
       <http://purl.org/np/RACmd-TbIFDAz5NaxzkFVko-prow5J4jFsXv1Es1tVqM0#section> .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.1-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RACmd-TbIFDAz5NaxzkFVko-prow5J4jFsXv1Es1tVqM0#section>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RA3x27WMLws0hdO9b6gWdbwhL5MnEtE8OhXQsvjuPnDRs#section>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/np/RAuwh_oETxyJB59vTb1-vIZ-aYNz7qVoJgt9z_-e1-wJY#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RA3x27WMLws0hdO9b6gWdbwhL5MnEtE8OhXQsvjuPnDRs#section>,
       <http://purl.org/np/RACmd-TbIFDAz5NaxzkFVko-prow5J4jFsXv1Es1tVqM0#section>, <http://purl.org/np/RAuwh_oETxyJB59vTb1-vIZ-aYNz7qVoJgt9z_-e1-wJY#section>;
     po:containsAsHeader sub:section-5.1-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-5.1-title c4o:hasContent "Experimental Settings";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.1";
     a doco:SectionLabel .
-  
+
   <http://purl.org/np/RAuwh_oETxyJB59vTb1-vIZ-aYNz7qVoJgt9z_-e1-wJY> npx:introduces
       <http://purl.org/np/RAuwh_oETxyJB59vTb1-vIZ-aYNz7qVoJgt9z_-e1-wJY#section> .
 }
@@ -4016,39 +4016,39 @@ sub:Head {
 
 sub:assertion {
   p4: npx:introduces p4:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.2.1-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p4:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p4:\#paragraph, p3:\#paragraph, p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-5.2.1-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-5.2.1-title c4o:hasContent "Contest Settings: Find Stage";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.2.1";
     a doco:SectionLabel .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -4211,38 +4211,38 @@ sub:Head {
 
 sub:assertion {
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.2.2-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p4:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p1:\#paragraph, p4:\#paragraph, p3:\#paragraph;
     po:containsAsHeader sub:section-5.2.2-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-5.2.2-title c4o:hasContent "Microtask Settings: Verify Stage";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.2.2";
     a doco:SectionLabel .
 }
@@ -4311,7 +4311,7 @@ sub:assertion {
   sub:paragraph c4o:hasContent "The contest was open for a predefined period of time of three weeks. During this time, 58 LD experts analyzed 521 distinct DBpedia resources and, considering an average of 47.19 triples per resource in this data set [43], the experts browsed around 24, 560 triples. They detected a total of 1, 512 triples as erroneous and classified them using the given taxonomy. After obtaining the results from the experts, we filtered out duplicates, triples whose objects were broken links and the external pages referring to the DBpedia Flickr Wrapper. In total, we submitted 1, 073 triples to the crowd. A total of 80 distinct workers assessed all the RDF triples in four days. A summary of these observations are shown in Table 3.";
     po:contains t3:\#table;
     a doco:Paragraph .
-  
+
   t3: npx:introduces t3:\#table .
 }
 
@@ -4377,7 +4377,7 @@ sub:Head {
 
 sub:assertion {
   t4: npx:introduces t4:\#table .
-  
+
   sub:paragraph c4o:hasContent "We compared the common 1, 073 triples assessed in each crowdsourcing approach against our gold standard and measured precision as well as inter-rater agreement values for each type of task (see Table 4). For the contest-based approach, the tool allowed two participants to evaluate a single resource. In total, there were 268 inter-evaluations for which we calculated the triple-based inter-agreement (adjusting the observed agreement with agreement by chance) to be 0.38. For the microtasks, we measured the inter-rater agreement values between a maximum of 5 workers for each type of task using Fleiss’ kappa measure [10]. While the inter-rater agreement between workers for the interlinking was high (0.7396), the ones for object values and datatypes was moderate to low with 0.5348 and 0.4960, respectively. Table 4 reports on the precision achieved by the LF experts and crowd in each stage. In the following we present further details on the results for each type of task.";
     po:contains t4:\#table;
     a doco:Paragraph .
@@ -4418,28 +4418,28 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.2.3-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-5.2.3-title, sub:section-number;
     a deo:Results, doco:Section .
-  
+
   sub:section-5.2.3-title c4o:hasContent "Overall Results";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.2.3";
     a doco:SectionLabel .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -4476,7 +4476,7 @@ sub:assertion {
   sub:paragraph c4o:hasContent "As reported in Table 4, our crowdsourcing experiments reached a precision of 0.90 for MTurk workers (majority voting) and 0.72 for LD experts. Most of the missing or incomplete values that are extracted from Wikipedia occur with the predicates related to dates, for example: (2005 Six Nations Championship, Date, 12). In these cases, the experts and workers presented a similar behavior, classifying 110 and 107 triples correctly, respectively, out of the 117 assessed triples for this class. The difference in precision between the two approaches can be explained as follows. There were 52 DBpedia triples whose values might seem erroneous, although they were cor- rectly extracted from Wikipedia. One example of these triples is: (English (programming language), Influenced by, ?) . We found out that the LD experts classified all these triples as incorrect. In contrast, the workers successfully answered that 50 out of this 52 were correct, since they could easily compare the DB- pedia and Wikipedia values in the HITs.";
     po:contains t4:\#table;
     a doco:Paragraph .
-  
+
   t4: npx:introduces t4:\#table .
 }
 
@@ -4513,23 +4513,23 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.2.4-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-5.2.4-title, sub:section-number;
     a deo:Results, doco:Section .
-  
+
   sub:section-5.2.4-title c4o:hasContent "Results: Incorrect/missing Values";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.2.4";
     a doco:SectionLabel .
 }
@@ -4567,7 +4567,7 @@ sub:assertion {
   sub:paragraph c4o:hasContent "Table 4 exhibits that the experts are reliable (with 0.83 of precision) on finding this type of quality issue, while the precision of the crowd (0.51) on verifying these triples is relatively low. In particular, the first answers submitted by the crowd were slightly better than the results obtained with majority voting. A detailed study of these cases showed that 28 triples that were initially classified correctly, later were misclassified, and most of these triples refer to a language datatype. The low performance of the MTurk workers compared to the experts is not surprising, since this particular task requires certain technical knowledge about datatypes and, moreover, the specification of values and types in LD.";
     po:contains t4:\#table;
     a doco:Paragraph .
-  
+
   t4: npx:introduces t4:\#table .
 }
 
@@ -4668,33 +4668,33 @@ sub:Head {
 
 sub:assertion {
   p3: npx:introduces p3:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.2.5-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p3:\#paragraph, p2:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-5.2.5-title, sub:section-number;
     a deo:Results, doco:Section .
-  
+
   sub:section-5.2.5-title c4o:hasContent "Results: Incorrect Datatypes or Language Tags";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.2.5";
     a doco:SectionLabel .
 }
@@ -4732,7 +4732,7 @@ sub:assertion {
   sub:paragraph c4o:hasContent "Table 4 displays the precision for each studied quality assessment mechanism. The extremely low precision of 0.15 of the contest’s participants was unexpected. We analyzed in detail the 189 misclassifications of the experts:";
     po:contains t4:\#table;
     a doco:Paragraph .
-  
+
   t4: npx:introduces t4:\#table .
 }
 
@@ -4801,29 +4801,29 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.2.6-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-5.2.6-title, sub:section-number;
     a deo:Results, doco:Section .
-  
+
   sub:section-5.2.6-title c4o:hasContent "Results: Incorrect Links";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.2.6";
     a doco:SectionLabel .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -4859,39 +4859,39 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RADGmBuzvAgB9oUsKPjd952IktrSPJl53XNqsqaAYPkz4> npx:introduces
       <http://purl.org/np/RADGmBuzvAgB9oUsKPjd952IktrSPJl53XNqsqaAYPkz4#section> .
-  
+
   <http://purl.org/np/RARPmrAA-s0LBt1rispzHdyzuyOEE4IdH8NBm-E8l_xkg> npx:introduces
       <http://purl.org/np/RARPmrAA-s0LBt1rispzHdyzuyOEE4IdH8NBm-E8l_xkg#section> .
-  
+
   <http://purl.org/np/RAU4u7SrRQBom94EPU9PSPwRoIMYlElh6EaRyC586IQb8> npx:introduces
       <http://purl.org/np/RAU4u7SrRQBom94EPU9PSPwRoIMYlElh6EaRyC586IQb8#section> .
-  
+
   <http://purl.org/np/RAUcGlByXZrPkonpQFyI9WlFp3ivtSzEMrcHPwcNzB7P8> npx:introduces
       <http://purl.org/np/RAUcGlByXZrPkonpQFyI9WlFp3ivtSzEMrcHPwcNzB7P8#section> .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.2-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RAU4u7SrRQBom94EPU9PSPwRoIMYlElh6EaRyC586IQb8#section>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RAsD7PgdaZs4EcCGHf5PWeUsJHRHzmkptC-yz8JoZlvdM#section>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/np/RARPmrAA-s0LBt1rispzHdyzuyOEE4IdH8NBm-E8l_xkg#section>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/np/RAjGLi_Lq8igLKbaHmqhUd2CLlas1uYtzc2Hz-cN-7Cwk#section>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/np/RAUcGlByXZrPkonpQFyI9WlFp3ivtSzEMrcHPwcNzB7P8#section>;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent <http://purl.org/np/RADGmBuzvAgB9oUsKPjd952IktrSPJl53XNqsqaAYPkz4#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RADGmBuzvAgB9oUsKPjd952IktrSPJl53XNqsqaAYPkz4#section>,
       <http://purl.org/np/RARPmrAA-s0LBt1rispzHdyzuyOEE4IdH8NBm-E8l_xkg#section>, <http://purl.org/np/RAU4u7SrRQBom94EPU9PSPwRoIMYlElh6EaRyC586IQb8#section>,
@@ -4899,16 +4899,16 @@ sub:assertion {
       <http://purl.org/np/RAsD7PgdaZs4EcCGHf5PWeUsJHRHzmkptC-yz8JoZlvdM#section>;
     po:containsAsHeader sub:section-5.2-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-5.2-title c4o:hasContent "Evaluation of Combining LD Experts (Find Stage) and Microtasks (Verify Stage)";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.2";
     a doco:SectionLabel .
-  
+
   <http://purl.org/np/RAjGLi_Lq8igLKbaHmqhUd2CLlas1uYtzc2Hz-cN-7Cwk> npx:introduces
       <http://purl.org/np/RAjGLi_Lq8igLKbaHmqhUd2CLlas1uYtzc2Hz-cN-7Cwk#section> .
-  
+
   <http://purl.org/np/RAsD7PgdaZs4EcCGHf5PWeUsJHRHzmkptC-yz8JoZlvdM> npx:introduces
       <http://purl.org/np/RAsD7PgdaZs4EcCGHf5PWeUsJHRHzmkptC-yz8JoZlvdM#section> .
 }
@@ -5010,29 +5010,29 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.3.1-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p3:\#paragraph, p1:\#paragraph, p4:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-5.3.1-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-5.3.1-title c4o:hasContent "Microtask Settings: Find and Verify Stages";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.3.1";
     a doco:SectionLabel .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -5100,7 +5100,7 @@ sub:assertion {
   sub:paragraph c4o:hasContent "In order to replicate the approach followed in the contest, in the Find stage, we crowdsourced all the triples associated with resources that were explored by the LD experts. In total, we submitted to the crowd 30, 658 RDF triples. The microtasks were resolved by 187 distinct workers who identified 26, 835 triples as erroneous in 14 days, and classified them into the three quality issues studied in this work. Then, we selected samples from triples identified as erroneous in the Find stage by at least two workers from the crowd. This allowed us to fairly compare the outcome of the Verify stage from both workflows. Each sample contains the exact same number of triples that were crowdsourced in the Verify Stage in the first workflow, i.e., 509 triples with object value issues, 341 with data type or language tag issues, and 223 with interlinks issues. All triples crowdsourced in the Verify Stage were assessed by 141 workers in seven days. A summary of these results and further details are presented in Table 5.";
     po:contains t5:\#table;
     a doco:Paragraph .
-  
+
   t5: npx:introduces t5:\#table .
 }
 
@@ -5169,28 +5169,28 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.3.2-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-5.3.2-title, sub:section-number;
     a deo:Results, doco:Section .
-  
+
   sub:section-5.3.2-title c4o:hasContent "Overall Results";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.3.2";
     a doco:SectionLabel .
 }
@@ -5292,28 +5292,28 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.3.3-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-5.3.3-title, sub:section-number;
     a deo:Results, doco:Section .
-  
+
   sub:section-5.3.3-title c4o:hasContent "Results: Incorrect/missing Values";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.3.3";
     a doco:SectionLabel .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -5381,7 +5381,7 @@ sub:assertion {
   sub:paragraph c4o:hasContent "In this type of task, the crowd in the Find stage focused on assessing triples whose objects correspond to language-tagged literals. Figure 7a shows the distribution of the datatypes and language tags in the sampled triples processed by the crowd. Out of the 341 analyzed triples, 307 triples identified as ‘erroneous’ in this stage were annotated with language tags. As reported on Table 6, the crowd in the Find stage achieved a precision of 0.1466, being the lowest precision achieved in all the microtask settings. Most of the triples (72 out of 341) identified as ‘incorrect’ in this stage were annotated with the English language tag. We corroborated that false positives in other languages were not generated due to malfunctions of the interface of the HITs: microtasks were properly displaying non UTF-8 characters used in several languages in DBpedia, e.g., Russian, Japanese, Chinese, among others.";
     po:contains f7:\#figure;
     a doco:Paragraph .
-  
+
   f7: npx:introduces f7:\#figure .
 }
 
@@ -5416,7 +5416,7 @@ sub:Head {
 
 sub:assertion {
   f7: npx:introduces f7:\#figure .
-  
+
   sub:paragraph c4o:hasContent "In the Verify stage of this type of task, the crowd outperformed the precision of the Find stage, achieving values of 0.5510 for the ‘first answer’ setting and 0.8723 with ‘majority voting’. This major improvement on the precision put in evidence the importance of having the a multi-validation pattern like Find-Fix-Verify in which initial errors can be reduced in subsequent iterations. Congruently with the behavior observed in the first workflow, MTurk workers perform well when verifying language-tagged literals. Further- more, the high values of inter-rater agreement con- firms that the crowd is consistently good in this par- ticular scenario. Figure 7b depicts the results of the ‘majority voting’ setting when classifying triples correctly, i.e., true positives (TP) and true negatives (TN), vs. misclassifying triples, i.e. false positives (FP) and false negatives (FN). We can observe that the crowd is exceptionally successful in identifying correct triples that were classified as erroneous in the previous stage (true negatives). This can be confirmed by the high value of accuracy 17 (0.9531) achieved by the crowd in this stage with ‘majority voting’. A closer inspection to the six false positives revealed that in three cases the crowd misclassified triples whose object is a proper noun, for instance, (Tiszaszentimre, name, Tiszaszen- timre@en) and (Ferrari Mythos, label, Ferrari Mythos@de) ; in the other three cases the object of the triple corresponds to a common noun or text in the following languages: Italian, Portuguese, and English, for example, (Book, label, Libro@it) .";
     po:contains f7:\#figure;
     a doco:Paragraph .
@@ -5456,29 +5456,29 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.3.4-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-5.3.4-title, sub:section-number;
     a deo:Results, doco:Section .
-  
+
   sub:section-5.3.4-title c4o:hasContent "Results: Incorrect Datatypes or Language Tags";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.3.4";
     a doco:SectionLabel .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -5579,28 +5579,28 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.3.5-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-5.3.5-title, sub:section-number;
     a deo:Results, doco:Section .
-  
+
   sub:section-5.3.5-title c4o:hasContent "Results: Incorrect Links";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.3.5";
     a doco:SectionLabel .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -5637,49 +5637,49 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RA6O4eLgHW6-Y4IF7msR7Qj4obrblQBeckadTrIFq-Wls> npx:introduces
       <http://purl.org/np/RA6O4eLgHW6-Y4IF7msR7Qj4obrblQBeckadTrIFq-Wls#section> .
-  
+
   <http://purl.org/np/RAKSK_OUECWruBe4CXcBAd6F-5NTH92qDzDqUhyc82TYg> npx:introduces
       <http://purl.org/np/RAKSK_OUECWruBe4CXcBAd6F-5NTH92qDzDqUhyc82TYg#section> .
-  
+
   <http://purl.org/np/RAMmP4wM8Vqx0yDs9GjVTvtG2iE4RjUgQYdeSm178NaYc> npx:introduces
       <http://purl.org/np/RAMmP4wM8Vqx0yDs9GjVTvtG2iE4RjUgQYdeSm178NaYc#section> .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.3-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RAMmP4wM8Vqx0yDs9GjVTvtG2iE4RjUgQYdeSm178NaYc#section>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RAqIKqogsR5KNPUgj5uJkzvZ18G9faTbk95y2llhGL0c8#section>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/np/RA6O4eLgHW6-Y4IF7msR7Qj4obrblQBeckadTrIFq-Wls#section>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/np/RApdx73E1hsj1iIIZwXJZZHPWgf3Uo1v2JVl8uYT5Xqxw#section>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/np/RAKSK_OUECWruBe4CXcBAd6F-5NTH92qDzDqUhyc82TYg#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RA6O4eLgHW6-Y4IF7msR7Qj4obrblQBeckadTrIFq-Wls#section>,
       <http://purl.org/np/RAKSK_OUECWruBe4CXcBAd6F-5NTH92qDzDqUhyc82TYg#section>, <http://purl.org/np/RAMmP4wM8Vqx0yDs9GjVTvtG2iE4RjUgQYdeSm178NaYc#section>,
       <http://purl.org/np/RApdx73E1hsj1iIIZwXJZZHPWgf3Uo1v2JVl8uYT5Xqxw#section>, <http://purl.org/np/RAqIKqogsR5KNPUgj5uJkzvZ18G9faTbk95y2llhGL0c8#section>;
     po:containsAsHeader sub:section-5.3-title, sub:section-number;
     a deo:Evaluation, doco:Section .
-  
+
   sub:section-5.3-title c4o:hasContent "Evaluation of Using Microtrask Crowdsourcing in Find and Verify Stages";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.3";
     a doco:SectionLabel .
-  
+
   <http://purl.org/np/RApdx73E1hsj1iIIZwXJZZHPWgf3Uo1v2JVl8uYT5Xqxw> npx:introduces
       <http://purl.org/np/RApdx73E1hsj1iIIZwXJZZHPWgf3Uo1v2JVl8uYT5Xqxw#section> .
-  
+
   <http://purl.org/np/RAqIKqogsR5KNPUgj5uJkzvZ18G9faTbk95y2llhGL0c8> npx:introduces
       <http://purl.org/np/RAqIKqogsR5KNPUgj5uJkzvZ18G9faTbk95y2llhGL0c8#section> .
 }
@@ -5970,54 +5970,54 @@ sub:Head {
 
 sub:assertion {
   p7: npx:introduces p7:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.4.1-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p4:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p5:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent p6:\#paragraph;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent p7:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p7:\#paragraph, p2:\#paragraph, p6:\#paragraph, p4:\#paragraph, p5:\#paragraph,
       p3:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-5.4.1-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-5.4.1-title c4o:hasContent "Object Values, Datatypes and Literals";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.4.1";
     a doco:SectionLabel .
 }
@@ -6115,7 +6115,7 @@ sub:Head {
 
 sub:assertion {
   t9: npx:introduces t9:\#table .
-  
+
   sub:paragraph c4o:hasContent "In order to compare the baseline with the crowdsourcing approaches (i.e. detection whether the interlinks are correct), we first extracted the interlinks from the triples subject to crowdsourcing. A total of 2, 780 interlinks were retrieved. Table 9 shows the number and types of interlinks present in the dataset.";
     po:contains t9:\#table;
     a doco:Paragraph .
@@ -6187,33 +6187,33 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.4.2-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p3:\#paragraph, p2:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-5.4.2-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-5.4.2-title c4o:hasContent "Interlinks";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.4.2";
     a doco:SectionLabel .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -6251,36 +6251,36 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RA-j3OPXMoicqC0z1VYZNapDk0jZFaw8f8KfkF5safTiw> npx:introduces
       <http://purl.org/np/RA-j3OPXMoicqC0z1VYZNapDk0jZFaw8f8KfkF5safTiw#section> .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5.4-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RAv0fRMOh6X0qsILbYDXjePcXCtQ72a5MYz8Bvx7BWikE#section>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/np/RA-j3OPXMoicqC0z1VYZNapDk0jZFaw8f8KfkF5safTiw#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RA-j3OPXMoicqC0z1VYZNapDk0jZFaw8f8KfkF5safTiw#section>,
       <http://purl.org/np/RAv0fRMOh6X0qsILbYDXjePcXCtQ72a5MYz8Bvx7BWikE#section>, p1:\#paragraph;
     po:containsAsHeader sub:section-5.4-title, sub:section-number;
     a deo:Evaluation, doco:Section .
-  
+
   sub:section-5.4-title c4o:hasContent "Evaluation of Baseline Approaches";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5.4";
     a doco:SectionLabel .
-  
+
   <http://purl.org/np/RAv0fRMOh6X0qsILbYDXjePcXCtQ72a5MYz8Bvx7BWikE> npx:introduces
       <http://purl.org/np/RAv0fRMOh6X0qsILbYDXjePcXCtQ72a5MYz8Bvx7BWikE#section> .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -6319,53 +6319,53 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-5-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/np/RAjiYkS-AqDBz7Xzt_9m31Fq-UrifpILPzBk2bG0Z5mWk#section>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/np/RAW_rpscAWrG6PaMaPiKVT-SBt38vz72RIalaXxmGa42k#section>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/np/RAdgKOtmTP-LzObLmjbsTH1LoLOEpVsKgVt1JEVxxQD20#section>;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent <http://purl.org/np/RAMJgwVyZqFsg1RLIdpfG7ooMp0KyBwEHVNxX_Iw9cpAk#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, <http://purl.org/np/RAMJgwVyZqFsg1RLIdpfG7ooMp0KyBwEHVNxX_Iw9cpAk#section>,
       <http://purl.org/np/RAW_rpscAWrG6PaMaPiKVT-SBt38vz72RIalaXxmGa42k#section>, p1:\#paragraph,
       <http://purl.org/np/RAdgKOtmTP-LzObLmjbsTH1LoLOEpVsKgVt1JEVxxQD20#section>, <http://purl.org/np/RAjiYkS-AqDBz7Xzt_9m31Fq-UrifpILPzBk2bG0Z5mWk#section>;
     po:containsAsHeader sub:section-5-title, sub:section-number;
     a deo:Evaluation, doco:Section .
-  
+
   sub:section-5-title c4o:hasContent "Evaluation";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "5";
     a doco:SectionLabel .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   <http://purl.org/np/RAMJgwVyZqFsg1RLIdpfG7ooMp0KyBwEHVNxX_Iw9cpAk> npx:introduces
       <http://purl.org/np/RAMJgwVyZqFsg1RLIdpfG7ooMp0KyBwEHVNxX_Iw9cpAk#section> .
-  
+
   <http://purl.org/np/RAW_rpscAWrG6PaMaPiKVT-SBt38vz72RIalaXxmGa42k> npx:introduces
       <http://purl.org/np/RAW_rpscAWrG6PaMaPiKVT-SBt38vz72RIalaXxmGa42k#section> .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   <http://purl.org/np/RAdgKOtmTP-LzObLmjbsTH1LoLOEpVsKgVt1JEVxxQD20> npx:introduces
       <http://purl.org/np/RAdgKOtmTP-LzObLmjbsTH1LoLOEpVsKgVt1JEVxxQD20#section> .
-  
+
   <http://purl.org/np/RAjiYkS-AqDBz7Xzt_9m31Fq-UrifpILPzBk2bG0Z5mWk> npx:introduces
       <http://purl.org/np/RAjiYkS-AqDBz7Xzt_9m31Fq-UrifpILPzBk2bG0Z5mWk#section> .
 }
@@ -6527,7 +6527,7 @@ sub:assertion {
   sub:paragraph c4o:hasContent "One of the goals of our work is to investigate how the contributions of crowdsourcing approaches can be integrated into LD curation processes, by evaluating the performance of two crowdsourcing workflows in a cost-efficient way. In microtask settings, the first challenge is then to reduce the amount of tasks submitted to the crowd and the number of requested assign- ments (different answers), since both of these factors determine the overall cost of crowdsourcing projects. For the Find stage, Algorithm 1 generated 2, 339 HITs to crowdsource 68, 976 RDF triples, consistently with the property stated by Proposition 2. In our experiments, we approved a total of 2, 294 task solutions in the Find stage and, considering the payment per HIT (US$ 0.06), the total cost of this evaluation resulted in US$ 137.58. Furthermore, in the Verify stage, the cost of submitting to MTurk the problematic triples found by the experts was only US$ 43.";
     po:contains <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/prop2#formula>;
     a doco:Paragraph .
-  
+
   prop2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/prop2#formula> .
 }
 
@@ -6568,44 +6568,44 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-6-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p4:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p5:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p5:\#paragraph, p2:\#paragraph, p4:\#paragraph, p3:\#paragraph;
     po:containsAsHeader sub:section-6-title, sub:section-number;
     a deo:Discussion, doco:Section .
-  
+
   sub:section-6-title c4o:hasContent "Final Discussions";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "6";
     a doco:SectionLabel .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
 }
 
@@ -6733,7 +6733,7 @@ sub:Head {
 
 sub:assertion {
   foot21: npx:introduces foot21:\#footnote .
-  
+
   sub:paragraph c4o:hasContent "Like any Web-centric community of its kind, Linked Data has had its share of volunteer initiatives, including the Linked Open Data Cloud itself and DBpe- dia [23], and competitions such as the yearly Semantic Web Challenge 20 and the European Data Innovator Award. [Footnote 21]";
     po:contains foot21:\#footnote;
     a doco:Paragraph .
@@ -6964,59 +6964,59 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   p7: npx:introduces p7:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p8: npx:introduces p8:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent p8:\#paragraph .
-  
+
   sub:_2 co:itemContent sub:section-7.1-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p4:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p5:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent p6:\#paragraph;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent p7:\#paragraph;
     co:nextItem sub:_10 .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p7:\#paragraph, p4:\#paragraph, p2:\#paragraph, p8:\#paragraph,
       p6:\#paragraph, p3:\#paragraph, p5:\#paragraph;
     po:containsAsHeader sub:section-7.1-title, sub:section-number;
     a doco:Section .
-  
+
   sub:section-7.1-title c4o:hasContent "Using Crowdsourcing in Linked Data Management";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "7.1";
     a doco:SectionLabel .
 }
@@ -7055,28 +7055,28 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-7-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RAzYLib9v5uHvnR02YVMFhT20lFFVoX7_OrFOYh0MGKM0#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, <http://purl.org/np/RAzYLib9v5uHvnR02YVMFhT20lFFVoX7_OrFOYh0MGKM0#section>;
     po:containsAsHeader sub:section-7-title, sub:section-number;
     a deo:RelatedWork, doco:Section .
-  
+
   sub:section-7-title c4o:hasContent "Related Work";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "7";
     a doco:SectionLabel .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   <http://purl.org/np/RAzYLib9v5uHvnR02YVMFhT20lFFVoX7_OrFOYh0MGKM0> npx:introduces
       <http://purl.org/np/RAzYLib9v5uHvnR02YVMFhT20lFFVoX7_OrFOYh0MGKM0#section> .
 }
@@ -7274,43 +7274,43 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-number;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent sub:section-8-title;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p1:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p2:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p3:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p4:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p5:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p3:\#paragraph, p4:\#paragraph, p5:\#paragraph, p2:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-8-title, sub:section-number;
     a deo:Conclusion, deo:FutureWork, doco:Section .
-  
+
   sub:section-8-title c4o:hasContent "Conclusions and Future Work";
     a doco:SectionTitle .
-  
+
   sub:section-number c4o:hasContent "8";
     a doco:SectionLabel .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -7386,50 +7386,50 @@ sub:Head {
 
 sub:assertion {
   s1: npx:introduces s1:\#section .
-  
+
   ack: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/acknowledgements#acknowledgements> .
-  
+
   s8: npx:introduces s8:\#section .
-  
+
   s5: npx:introduces s5:\#section .
-  
+
   s2: npx:introduces s2:\#section .
-  
+
   s7: npx:introduces s7:\#section .
-  
+
   s3: npx:introduces s3:\#section .
-  
+
   s6: npx:introduces s6:\#section .
-  
+
   sub:_1 co:itemContent abs:\#abstract;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/acknowledgements#acknowledgements> .
-  
+
   sub:_2 co:itemContent s1:\#section;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent s2:\#section;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent s3:\#section;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent s4:\#section;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent s5:\#section;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent s6:\#section;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent s7:\#section;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent s8:\#section;
     co:nextItem sub:_10 .
-  
+
   sub:articleVersion1 co:firstItem sub:_1;
     dc:creator <http://orcid.org/0000-0003-0530-4305>;
     dc:language "en";
@@ -7438,9 +7438,9 @@ sub:assertion {
       s1:\#section, s8:\#section, s5:\#section, s2:\#section, s7:\#section, s3:\#section,
       s6:\#section, s4:\#section, abs:\#abstract;
     a doco:Article .
-  
+
   s4: npx:introduces s4:\#section .
-  
+
   abs: npx:introduces abs:\#abstract .
 }
 
@@ -7731,48 +7731,48 @@ sub:Head {
 
 sub:assertion {
   p4: npx:introduces p4:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p7: npx:introduces p7:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-introduction-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p5:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p6:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent p7:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p4:\#paragraph, p5:\#paragraph, p3:\#paragraph, p1:\#paragraph, p7:\#paragraph,
       p6:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-introduction-title;
     a deo:Introduction, doco:Section .
-  
+
   sub:section-introduction-title c4o:hasContent "Introduction";
     a doco:SectionTitle .
 }
@@ -7842,17 +7842,17 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-2-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-2-title;
     a deo:ProblemStatement, doco:Section .
-  
+
   sub:section-2-title c4o:hasContent "Problem and Solution";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -7920,17 +7920,17 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-3-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-3-title;
     a doco:Section .
-  
+
   sub:section-3-title c4o:hasContent "Use Case";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -8093,33 +8093,33 @@ sub:Head {
 
 sub:assertion {
   p3: npx:introduces p3:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-4-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p3:\#paragraph, p2:\#paragraph, p4:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-4-title;
     a doco:Section .
-  
+
   sub:section-4-title c4o:hasContent "System Description";
     a doco:SectionTitle .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -8218,17 +8218,17 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-5.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-5.1-title;
     a doco:Section .
-  
+
   sub:section-5.1-title c4o:hasContent "Lexical Units Extraction";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -8296,17 +8296,17 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-5.2-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-5.2-title;
     a doco:Section .
-  
+
   sub:section-5.2-title c4o:hasContent "Lexical Units Ranking";
     a doco:SectionTitle .
 }
@@ -8344,29 +8344,29 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RADPkPqJErGlEKhvum_pcgKsP8EyLrBAQiGTPa-fxUHLw> npx:introduces
       <http://purl.org/np/RADPkPqJErGlEKhvum_pcgKsP8EyLrBAQiGTPa-fxUHLw#section> .
-  
+
   sub:_1 co:itemContent sub:section-5-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RADPkPqJErGlEKhvum_pcgKsP8EyLrBAQiGTPa-fxUHLw#section>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RAwehT65rJfMc0PiWNrbXVrhS3GE8Q5cMIi0-fMUi0Hg0#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RADPkPqJErGlEKhvum_pcgKsP8EyLrBAQiGTPa-fxUHLw#section>,
       p1:\#paragraph, <http://purl.org/np/RAwehT65rJfMc0PiWNrbXVrhS3GE8Q5cMIi0-fMUi0Hg0#section>;
     po:containsAsHeader sub:section-5-title;
     a doco:Section .
-  
+
   sub:section-5-title c4o:hasContent "Corpus Analysis";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   <http://purl.org/np/RAwehT65rJfMc0PiWNrbXVrhS3GE8Q5cMIi0-fMUi0Hg0> npx:introduces
       <http://purl.org/np/RAwehT65rJfMc0PiWNrbXVrhS3GE8Q5cMIi0-fMUi0Hg0#section> .
 }
@@ -8498,28 +8498,28 @@ sub:Head {
 
 sub:assertion {
   p3: npx:introduces p3:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-6-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p3:\#paragraph, p2:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-6-title;
     a doco:Section .
-  
+
   sub:section-6-title c4o:hasContent "Use Case Frame Repository";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -8711,23 +8711,23 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-7.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-7.1-title;
     a doco:Section .
-  
+
   sub:section-7.1-title c4o:hasContent "Seed Selection";
     a doco:SectionTitle .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -8985,44 +8985,44 @@ sub:Head {
 
 sub:assertion {
   p3: npx:introduces p3:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-7.2.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p5:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p6:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p3:\#paragraph, p2:\#paragraph, p5:\#paragraph, p6:\#paragraph, p1:\#paragraph,
       p4:\#paragraph;
     po:containsAsHeader sub:section-7.2.1-title;
     a doco:Section .
-  
+
   sub:section-7.2.1-title c4o:hasContent "Task Anatomy";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
 }
 
@@ -9058,23 +9058,23 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-7.2-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RAVvOHUZoDh5eHszog4zZdOAlxErkVbZ1Hif2-taGQOFM#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, <http://purl.org/np/RAVvOHUZoDh5eHszog4zZdOAlxErkVbZ1Hif2-taGQOFM#section>;
     po:containsAsHeader sub:section-7.2-title;
     a doco:Section .
-  
+
   sub:section-7.2-title c4o:hasContent "Training Set Creation";
     a doco:SectionTitle .
-  
+
   <http://purl.org/np/RAVvOHUZoDh5eHszog4zZdOAlxErkVbZ1Hif2-taGQOFM> npx:introduces
       <http://purl.org/np/RAVvOHUZoDh5eHszog4zZdOAlxErkVbZ1Hif2-taGQOFM#section> .
 }
@@ -9142,17 +9142,17 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-7.3-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-7.3-title;
     a doco:Section .
-  
+
   sub:section-7.3-title c4o:hasContent "Frame Classification: Features";
     a doco:SectionTitle .
 }
@@ -9192,47 +9192,47 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RA6n02FSeXh291LZilvmwrgkfoSEJ3uQnyef7aiAEZDxw> npx:introduces
       <http://purl.org/np/RA6n02FSeXh291LZilvmwrgkfoSEJ3uQnyef7aiAEZDxw#section> .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-7-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/np/RAY-P-WxUizJ4zp5oqi4g_VhexHS1B6U_521yTLvWOmec#section>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/np/RA6n02FSeXh291LZilvmwrgkfoSEJ3uQnyef7aiAEZDxw#section>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/np/RAhLw3_hl0q560gPpQ8Qlc3Sx-kt6ykkvrnqTyTaLgZrM#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RA6n02FSeXh291LZilvmwrgkfoSEJ3uQnyef7aiAEZDxw#section>,
       p3:\#paragraph, p1:\#paragraph, <http://purl.org/np/RAY-P-WxUizJ4zp5oqi4g_VhexHS1B6U_521yTLvWOmec#section>,
       <http://purl.org/np/RAhLw3_hl0q560gPpQ8Qlc3Sx-kt6ykkvrnqTyTaLgZrM#section>, p2:\#paragraph;
     po:containsAsHeader sub:section-7-title;
     a doco:Section .
-  
+
   sub:section-7-title c4o:hasContent "Supervised Fact Extraction";
     a doco:SectionTitle .
-  
+
   <http://purl.org/np/RAY-P-WxUizJ4zp5oqi4g_VhexHS1B6U_521yTLvWOmec> npx:introduces
       <http://purl.org/np/RAY-P-WxUizJ4zp5oqi4g_VhexHS1B6U_521yTLvWOmec#section> .
-  
+
   <http://purl.org/np/RAhLw3_hl0q560gPpQ8Qlc3Sx-kt6ykkvrnqTyTaLgZrM> npx:introduces
       <http://purl.org/np/RAhLw3_hl0q560gPpQ8Qlc3Sx-kt6ykkvrnqTyTaLgZrM#section> .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -9363,27 +9363,27 @@ sub:Head {
 
 sub:assertion {
   p3: npx:introduces p3:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-8-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p3:\#paragraph, p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-8-title;
     a doco:Section .
-  
+
   sub:section-8-title c4o:hasContent "Numerical Expressions Normalization";
     a doco:SectionTitle .
 }
@@ -9607,17 +9607,17 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-9.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-9.1-title;
     a doco:Section .
-  
+
   sub:section-9.1-title c4o:hasContent "Confidence Scores";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -9658,44 +9658,44 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RA9QpiQtDIBYDTX0PlkQTSLN_-SWEY00ZVpjZjByt6jJw> npx:introduces
       <http://purl.org/np/RA9QpiQtDIBYDTX0PlkQTSLN_-SWEY00ZVpjZjByt6jJw#section> .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-9-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p5:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/np/RA9QpiQtDIBYDTX0PlkQTSLN_-SWEY00ZVpjZjByt6jJw#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RA9QpiQtDIBYDTX0PlkQTSLN_-SWEY00ZVpjZjByt6jJw#section>,
       p1:\#paragraph, p4:\#paragraph, p5:\#paragraph, p2:\#paragraph, p3:\#paragraph;
     po:containsAsHeader sub:section-9-title;
     a doco:Section .
-  
+
   sub:section-9-title c4o:hasContent "Dataset Production";
     a doco:SectionTitle .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
 }
 
@@ -9826,28 +9826,28 @@ sub:Head {
 
 sub:assertion {
   p2: npx:introduces p2:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-10-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p1:\#paragraph, p3:\#paragraph;
     po:containsAsHeader sub:section-10-title;
     a doco:Section .
-  
+
   sub:section-10-title c4o:hasContent "Baseline Classifier";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
 }
 
@@ -10072,33 +10072,33 @@ sub:Head {
 
 sub:assertion {
   p3: npx:introduces p3:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-11.1.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p3:\#paragraph, p4:\#paragraph, p2:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-11.1.1-title;
     a doco:Section .
-  
+
   sub:section-11.1.1-title c4o:hasContent "Supervised Classification Performance Breakdown";
     a doco:SectionTitle .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -10135,22 +10135,22 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-11.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RAL18VfBqwwngqAVlVIH50Fyws5zYgWs_S50sGMjLd1MU#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, <http://purl.org/np/RAL18VfBqwwngqAVlVIH50Fyws5zYgWs_S50sGMjLd1MU#section>;
     po:containsAsHeader sub:section-11.1-title;
     a doco:Section .
-  
+
   sub:section-11.1-title c4o:hasContent "Classification Performance";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   <http://purl.org/np/RAL18VfBqwwngqAVlVIH50Fyws5zYgWs_S50sGMjLd1MU> npx:introduces
       <http://purl.org/np/RAL18VfBqwwngqAVlVIH50Fyws5zYgWs_S50sGMjLd1MU#section> .
 }
@@ -10410,49 +10410,49 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-11.2-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p5:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p6:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent p7:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p6:\#paragraph, p2:\#paragraph, p4:\#paragraph, p5:\#paragraph,
       p7:\#paragraph, p3:\#paragraph;
     po:containsAsHeader sub:section-11.2-title;
     a doco:Section .
-  
+
   sub:section-11.2-title c4o:hasContent "T-Box Enrichment";
     a doco:SectionTitle .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p7: npx:introduces p7:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
 }
 
@@ -10647,38 +10647,38 @@ sub:Head {
 
 sub:assertion {
   p5: npx:introduces p5:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-11.3-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p5:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p5:\#paragraph, p3:\#paragraph, p4:\#paragraph, p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-11.3-title;
     a doco:Section .
-  
+
   sub:section-11.3-title c4o:hasContent "A-Box Population";
     a doco:SectionTitle .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -10716,36 +10716,36 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RA2rF-QIYcp-ZXX6ogE_85oprXSLxGxpiwFe-jRgtRrns> npx:introduces
       <http://purl.org/np/RA2rF-QIYcp-ZXX6ogE_85oprXSLxGxpiwFe-jRgtRrns#section> .
-  
+
   <http://purl.org/np/RABhjdHDh4X3XNQOYHrfuQBg2VvPDLftAj5nzmo4SFSFI> npx:introduces
       <http://purl.org/np/RABhjdHDh4X3XNQOYHrfuQBg2VvPDLftAj5nzmo4SFSFI#section> .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   <http://purl.org/np/RAOx96JfRze5Z3NsHSpnTWpmc37LGz-QKHM9mEIZ4fk80> npx:introduces
       <http://purl.org/np/RAOx96JfRze5Z3NsHSpnTWpmc37LGz-QKHM9mEIZ4fk80#section> .
-  
+
   sub:_1 co:itemContent sub:section-11-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RA2rF-QIYcp-ZXX6ogE_85oprXSLxGxpiwFe-jRgtRrns#section>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RAOx96JfRze5Z3NsHSpnTWpmc37LGz-QKHM9mEIZ4fk80#section>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/np/RABhjdHDh4X3XNQOYHrfuQBg2VvPDLftAj5nzmo4SFSFI#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RA2rF-QIYcp-ZXX6ogE_85oprXSLxGxpiwFe-jRgtRrns#section>,
       <http://purl.org/np/RABhjdHDh4X3XNQOYHrfuQBg2VvPDLftAj5nzmo4SFSFI#section>, p1:\#paragraph,
       <http://purl.org/np/RAOx96JfRze5Z3NsHSpnTWpmc37LGz-QKHM9mEIZ4fk80#section>;
     po:containsAsHeader sub:section-11-title;
     a deo:Evaluation, doco:Section .
-  
+
   sub:section-11-title c4o:hasContent "Evaluation";
     a doco:SectionTitle .
 }
@@ -10845,17 +10845,17 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-12.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-12.1-title;
     a doco:Section .
-  
+
   sub:section-12.1-title c4o:hasContent "Scaling Up";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -10923,17 +10923,17 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-12.2-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-12.2-title;
     a deo:FutureWork, doco:Section .
-  
+
   sub:section-12.2-title c4o:hasContent "Technical Future Work";
     a doco:SectionTitle .
 }
@@ -10971,29 +10971,29 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RA3kOi4skhuw456RrOZfjcUWuBOMtniE1RLLxT_ECvjKc> npx:introduces
       <http://purl.org/np/RA3kOi4skhuw456RrOZfjcUWuBOMtniE1RLLxT_ECvjKc#section> .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-12-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RA2rF-QIYcp-ZXX6ogE_85oprXSLxGxpiwFe-jRgtRrns#section>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RAZOVLyhiva5Rv1_DV5Bd-bJWi7S06xVmWJQYWgtqzORU#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RA2rF-QIYcp-ZXX6ogE_85oprXSLxGxpiwFe-jRgtRrns#section>,
       p1:\#paragraph, <http://purl.org/np/RAZOVLyhiva5Rv1_DV5Bd-bJWi7S06xVmWJQYWgtqzORU#section>;
     po:containsAsHeader sub:section-12-title;
     a doco:Section .
-  
+
   sub:section-12-title c4o:hasContent "Observations";
     a doco:SectionTitle .
-  
+
   <http://purl.org/np/RAZOVLyhiva5Rv1_DV5Bd-bJWi7S06xVmWJQYWgtqzORU> npx:introduces
       <http://purl.org/np/RAZOVLyhiva5Rv1_DV5Bd-bJWi7S06xVmWJQYWgtqzORU#section> .
 }
@@ -11123,17 +11123,17 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-13.1.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-13.1.1-title;
     a doco:Section .
-  
+
   sub:section-13.1.1-title c4o:hasContent "Relation Extraction";
     a doco:SectionTitle .
 }
@@ -11233,23 +11233,23 @@ sub:Head {
 
 sub:assertion {
   p2: npx:introduces p2:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-13.1.2-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-13.1.2-title;
     a doco:Section .
-  
+
   sub:section-13.1.2-title c4o:hasContent "Open Information Extraction";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -11285,30 +11285,30 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-13.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RAcUNLuHuw79iw_bONA8BtcgF4g9GoRmFmCDEqzizHhH8#section>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RAPAxfXRyaVCPt4WiSlIV_9xJ-E6WCryrjSGLRKyADdyg#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, <http://purl.org/np/RAPAxfXRyaVCPt4WiSlIV_9xJ-E6WCryrjSGLRKyADdyg#section>,
       <http://purl.org/np/RAcUNLuHuw79iw_bONA8BtcgF4g9GoRmFmCDEqzizHhH8#section>;
     po:containsAsHeader sub:section-13.1-title;
     a doco:Section .
-  
+
   sub:section-13.1-title c4o:hasContent "Information Extraction";
     a doco:SectionTitle .
-  
+
   <http://purl.org/np/RAPAxfXRyaVCPt4WiSlIV_9xJ-E6WCryrjSGLRKyADdyg> npx:introduces
       <http://purl.org/np/RAPAxfXRyaVCPt4WiSlIV_9xJ-E6WCryrjSGLRKyADdyg#section> .
-  
+
   <http://purl.org/np/RAcUNLuHuw79iw_bONA8BtcgF4g9GoRmFmCDEqzizHhH8> npx:introduces
       <http://purl.org/np/RAcUNLuHuw79iw_bONA8BtcgF4g9GoRmFmCDEqzizHhH8#section> .
 }
@@ -11377,17 +11377,17 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-13.2-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-13.2-title;
     a doco:Section .
-  
+
   sub:section-13.2-title c4o:hasContent "Knowledge Base Construction";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -11454,17 +11454,17 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-13.3-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-13.3-title;
     a doco:Section .
-  
+
   sub:section-13.3-title c4o:hasContent "Open Information Semantification";
     a doco:SectionTitle .
 }
@@ -11503,36 +11503,36 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RANt9P3qhQBfdtr7hxxRRjvzPtYgNF_G7l4uP2vj4_1Lo> npx:introduces
       <http://purl.org/np/RANt9P3qhQBfdtr7hxxRRjvzPtYgNF_G7l4uP2vj4_1Lo#section> .
-  
+
   sub:_1 co:itemContent sub:section-13-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RANt9P3qhQBfdtr7hxxRRjvzPtYgNF_G7l4uP2vj4_1Lo#section>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RAokY6fy7gP4eKaQyulWt13ie9bTvL65Vs93DMq8D08zo#section>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/np/RAugkvMOcIWfEgDiZ6VjijTkvxqIYEUdNZR1poxfJHgro#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RANt9P3qhQBfdtr7hxxRRjvzPtYgNF_G7l4uP2vj4_1Lo#section>,
       p1:\#paragraph, <http://purl.org/np/RAokY6fy7gP4eKaQyulWt13ie9bTvL65Vs93DMq8D08zo#section>,
       <http://purl.org/np/RAugkvMOcIWfEgDiZ6VjijTkvxqIYEUdNZR1poxfJHgro#section>;
     po:containsAsHeader sub:section-13-title;
     a deo:RelatedWork, doco:Section .
-  
+
   sub:section-13-title c4o:hasContent "Related Work";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   <http://purl.org/np/RAokY6fy7gP4eKaQyulWt13ie9bTvL65Vs93DMq8D08zo> npx:introduces
       <http://purl.org/np/RAokY6fy7gP4eKaQyulWt13ie9bTvL65Vs93DMq8D08zo#section> .
-  
+
   <http://purl.org/np/RAugkvMOcIWfEgDiZ6VjijTkvxqIYEUdNZR1poxfJHgro> npx:introduces
       <http://purl.org/np/RAugkvMOcIWfEgDiZ6VjijTkvxqIYEUdNZR1poxfJHgro#section> .
 }
@@ -11771,44 +11771,44 @@ sub:Head {
 
 sub:assertion {
   p3: npx:introduces p3:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-14-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p5:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p6:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p3:\#paragraph, p2:\#paragraph, p6:\#paragraph, p4:\#paragraph, p1:\#paragraph,
       p5:\#paragraph;
     po:containsAsHeader sub:section-14-title;
     a deo:Conclusion, doco:Section .
-  
+
   sub:section-14-title c4o:hasContent "Conclusion";
     a doco:SectionTitle .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
 }
 
@@ -11890,76 +11890,76 @@ sub:Head {
 
 sub:assertion {
   abs: npx:introduces abs:\#abstract .
-  
+
   s3: npx:introduces s3:\#section .
-  
+
   s2: npx:introduces s2:\#section .
-  
+
   s12: npx:introduces s12:\#section .
-  
+
   s5: npx:introduces s5:\#section .
-  
+
   s7: npx:introduces s7:\#section .
-  
+
   s13: npx:introduces s13:\#section .
-  
+
   s14: npx:introduces s14:\#section .
-  
+
   s9: npx:introduces s9:\#section .
-  
+
   s10: npx:introduces s10:\#section .
-  
+
   s8: npx:introduces s8:\#section .
-  
+
   ack: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/acknowledgements#acknowledgements> .
-  
+
   sub:_1 co:itemContent abs:\#abstract;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent s9:\#section;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent s10:\#section;
     co:nextItem sub:_12 .
-  
+
   sub:_12 co:itemContent s11:\#section;
     co:nextItem sub:_13 .
-  
+
   sub:_13 co:itemContent s12:\#section;
     co:nextItem sub:_14 .
-  
+
   sub:_14 co:itemContent s13:\#section;
     co:nextItem sub:_15 .
-  
+
   sub:_15 co:itemContent s14:\#section;
     co:nextItem sub:_16 .
-  
+
   sub:_16 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/acknowledgements#acknowledgements> .
-  
+
   sub:_2 co:itemContent s1:\#section;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent s2:\#section;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent s3:\#section;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent s4:\#section;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent s5:\#section;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent s6:\#section;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent s7:\#section;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent s8:\#section;
     co:nextItem sub:_10 .
-  
+
   sub:articleVersion1 co:firstItem sub:_1;
     dc:creator <http://orcid.org/0000-0003-0530-4305>;
     dc:language "en";
@@ -11969,13 +11969,13 @@ sub:assertion {
       s13:\#section, s14:\#section, s9:\#section, s10:\#section, s8:\#section, s11:\#section,
       s4:\#section, s6:\#section, s1:\#section;
     a doco:Article .
-  
+
   s11: npx:introduces s11:\#section .
-  
+
   s4: npx:introduces s4:\#section .
-  
+
   s6: npx:introduces s6:\#section .
-  
+
   s1: npx:introduces s1:\#section .
 }
 
@@ -12112,37 +12112,7 @@ sub:pubinfo {
   this: dcterms:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAFPT9wCAgvGbuIOkIBFE2ag4v4PK__s05yjtGOrPTIC0> .
-@prefix sub: <http://purl.org/np/RAFPT9wCAgvGbuIOkIBFE2ag4v4PK__s05yjtGOrPTIC0#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix c4o: <http://purl.org/spar/c4o/> .
 
-sub:Head {
-  this: np:hasAssertion sub:assertion;
-    np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
-}
-
-sub:assertion {
-  sub:paragraph c4o:hasContent "Figure 3";
-    a doco:Figure .
-}
-
-sub:provenance {
-  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239>;
-    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
-}
-
-sub:pubinfo {
-  this: dcterms:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
-    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
-}
 @prefix this: <http://purl.org/np/RAhzSI7B8gwRrqvldtRza1ZO4vTZZSkLEewxLafl_WlwQ> .
 @prefix sub: <http://purl.org/np/RAhzSI7B8gwRrqvldtRza1ZO4vTZZSkLEewxLafl_WlwQ#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -12329,37 +12299,7 @@ sub:pubinfo {
   this: dcterms:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAFw4xbCmB23hZ1h96f7uJO7IVA1Y86PS_vTjYptz1XLs> .
-@prefix sub: <http://purl.org/np/RAFw4xbCmB23hZ1h96f7uJO7IVA1Y86PS_vTjYptz1XLs#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix c4o: <http://purl.org/spar/c4o/> .
 
-sub:Head {
-  this: np:hasAssertion sub:assertion;
-    np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
-}
-
-sub:assertion {
-  sub:paragraph c4o:hasContent "Table 4";
-    a doco:Table .
-}
-
-sub:provenance {
-  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239>;
-    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
-}
-
-sub:pubinfo {
-  this: dcterms:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
-    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
-}
 @prefix this: <http://purl.org/np/RAmyxHzPKLQoJa696NjK04IyI2v5tlXGGBnoblNqVAQLA> .
 @prefix sub: <http://purl.org/np/RAmyxHzPKLQoJa696NjK04IyI2v5tlXGGBnoblNqVAQLA#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -12638,49 +12578,49 @@ sub:Head {
 
 sub:assertion {
   p6: npx:introduces p6:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-introduction-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p5:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p6:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent p7:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p6:\#paragraph, p3:\#paragraph, p2:\#paragraph, p1:\#paragraph, p5:\#paragraph,
       p4:\#paragraph, p7:\#paragraph;
     po:containsAsHeader sub:section-introduction-title;
     a deo:Introduction, doco:Section .
-  
+
   sub:section-introduction-title c4o:hasContent "Introduction";
     a doco:SectionTitle .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p7: npx:introduces p7:\#paragraph .
 }
 
@@ -12972,54 +12912,54 @@ sub:Head {
 
 sub:assertion {
   p2: npx:introduces p2:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-2-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p5:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p6:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent p7:\#paragraph;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent p8:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p5:\#paragraph, p4:\#paragraph, p3:\#paragraph, p1:\#paragraph,
       p7:\#paragraph, p6:\#paragraph, p8:\#paragraph;
     po:containsAsHeader sub:section-2-title;
     a deo:Background, deo:RelatedWork, doco:Section .
-  
+
   sub:section-2-title c4o:hasContent "Background and related work";
     a doco:SectionTitle .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p7: npx:introduces p6:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   p8: npx:introduces p7:\#paragraph .
 }
 
@@ -13180,23 +13120,23 @@ sub:Head {
 
 sub:assertion {
   p2: npx:introduces p2:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-3.1.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-3.1.1-title;
     a doco:Section .
-  
+
   sub:section-3.1.1-title c4o:hasContent "Scope of the ontology";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -13328,27 +13268,27 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-3.1.2-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p3:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-3.1.2-title;
     a doco:Section .
-  
+
   sub:section-3.1.3-title c4o:hasContent "Links to existing ontologies";
     a doco:SectionTitle .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -13479,28 +13419,28 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-3.1.3-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p3:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-3.1.3-title;
     a doco:Section .
-  
+
   sub:section-3.1.3-title c4o:hasContent "Classes and properties of WiseNET";
     a doco:SectionTitle .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -13537,36 +13477,36 @@ sub:Head {
 sub:assertion {
   <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/s3.1.1#:> npx:introduces
       <http://purl.org/np/RAhvO8gnCQGssiubMLMHEvNr3g7SdptZ3k3sFE8yD0gGM#section> .
-  
+
   <http://purl.org/np/RA38HDMaaKFnHrqCpX4LaXZ_DnBuGpF8yN1-RJmyPjB4E> npx:introduces
       <http://purl.org/np/RA38HDMaaKFnHrqCpX4LaXZ_DnBuGpF8yN1-RJmyPjB4E#section> .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-3.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RAhvO8gnCQGssiubMLMHEvNr3g7SdptZ3k3sFE8yD0gGM#section>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RA38HDMaaKFnHrqCpX4LaXZ_DnBuGpF8yN1-RJmyPjB4E#section>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/np/RAh7j8dWZ5NEwYFW_wnkfoUtqZucVotMx1TzSMlmsXSyY#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RA38HDMaaKFnHrqCpX4LaXZ_DnBuGpF8yN1-RJmyPjB4E#section>,
       p1:\#paragraph, <http://purl.org/np/RAh7j8dWZ5NEwYFW_wnkfoUtqZucVotMx1TzSMlmsXSyY#section>,
       <http://purl.org/np/RAhvO8gnCQGssiubMLMHEvNr3g7SdptZ3k3sFE8yD0gGM#section>;
     po:containsAsHeader sub:section-3.1-title;
     a doco:Section .
-  
+
   sub:section-3.1-title c4o:hasContent "Ontology development";
     a doco:SectionTitle .
-  
+
   <http://purl.org/np/RAh7j8dWZ5NEwYFW_wnkfoUtqZucVotMx1TzSMlmsXSyY> npx:introduces
       <http://purl.org/np/RAh7j8dWZ5NEwYFW_wnkfoUtqZucVotMx1TzSMlmsXSyY#section> .
 }
@@ -13794,44 +13734,44 @@ sub:Head {
 
 sub:assertion {
   p4: npx:introduces p4:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-3.2-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p5:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p6:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p4:\#paragraph, p2:\#paragraph, p1:\#paragraph, p5:\#paragraph, p6:\#paragraph,
       p3:\#paragraph;
     po:containsAsHeader sub:section-3.2-title;
     a doco:Section .
-  
+
   sub:section-3.2-title c4o:hasContent "Ontology decidability";
     a doco:SectionTitle .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
 }
 
@@ -13868,30 +13808,30 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RAAh8drcoiyg2uoWDSKmmZjsV7ORI-uYRWanyDojN7vjo> npx:introduces
       <http://purl.org/np/RAAh8drcoiyg2uoWDSKmmZjsV7ORI-uYRWanyDojN7vjo#section> .
-  
+
   <http://purl.org/np/RAW-_8rZBBXabZVJd-9hQcX7vn639BN8Wdhu5gnTYBdTM> npx:introduces
       <http://purl.org/np/RAW-_8rZBBXabZVJd-9hQcX7vn639BN8Wdhu5gnTYBdTM#section> .
-  
+
   sub:_1 co:itemContent sub:section-3-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/np/RAW-_8rZBBXabZVJd-9hQcX7vn639BN8Wdhu5gnTYBdTM#section>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RAAh8drcoiyg2uoWDSKmmZjsV7ORI-uYRWanyDojN7vjo#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RAAh8drcoiyg2uoWDSKmmZjsV7ORI-uYRWanyDojN7vjo#section>,
       <http://purl.org/np/RAW-_8rZBBXabZVJd-9hQcX7vn639BN8Wdhu5gnTYBdTM#section>, p1:\#paragraph;
     po:containsAsHeader sub:section-3-title;
     a doco:Section .
-  
+
   sub:section-3-title c4o:hasContent "Formal modeling";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -14086,38 +14026,38 @@ sub:Head {
 
 sub:assertion {
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-4-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p5:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p5:\#paragraph, p3:\#paragraph, p4:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-4-title;
     a doco:Section .
-  
+
   sub:section-4-title c4o:hasContent "Operational modeling";
     a doco:SectionTitle .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -14371,17 +14311,17 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-5.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph;
     po:containsAsHeader sub:section-5.1-title;
     a doco:Section .
-  
+
   sub:section-5.1-title c4o:hasContent "Extraction query";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -14513,27 +14453,27 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-5.2-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p3:\#paragraph, p1:\#paragraph;
     po:containsAsHeader sub:section-5.2-title;
     a doco:Section .
-  
+
   sub:section-5.2-title c4o:hasContent "Population query";
     a doco:SectionTitle .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
 }
 
@@ -14575,56 +14515,56 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RA1tzROFknkP13TpZDRrX7nXuQDTrt-4U07kMdikPiJ8g> npx:introduces
       <http://purl.org/np/RA1tzROFknkP13TpZDRrX7nXuQDTrt-4U07kMdikPiJ8g#section> .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-5-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p5:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p6:\#paragraph;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent <http://purl.org/np/RAiMqcDDdbyaQRu6m_ZLVRCc6bXy3ZxpUVDzWXbQYjXKg#section>;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent <http://purl.org/np/RA1tzROFknkP13TpZDRrX7nXuQDTrt-4U07kMdikPiJ8g#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RA1tzROFknkP13TpZDRrX7nXuQDTrt-4U07kMdikPiJ8g#section>,
       p4:\#paragraph, p5:\#paragraph, p1:\#paragraph, p6:\#paragraph, p3:\#paragraph, <http://purl.org/np/RAiMqcDDdbyaQRu6m_ZLVRCc6bXy3ZxpUVDzWXbQYjXKg#section>,
       p2:\#paragraph;
     po:containsAsHeader sub:section-5-title;
     a doco:Section .
-  
+
   sub:section-5-title c4o:hasContent "Ontology population from IFC";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   <http://purl.org/np/RAiMqcDDdbyaQRu6m_ZLVRCc6bXy3ZxpUVDzWXbQYjXKg> npx:introduces
       <http://purl.org/np/RAiMqcDDdbyaQRu6m_ZLVRCc6bXy3ZxpUVDzWXbQYjXKg#section> .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -14849,32 +14789,32 @@ sub:Head {
 
 sub:assertion {
   p3: npx:introduces p3:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-6.1-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p3:\#paragraph, p2:\#paragraph, p1:\#paragraph, p4:\#paragraph;
     po:containsAsHeader sub:section-6.1-title;
     a doco:Section .
-  
+
   sub:section-6.1-title c4o:hasContent "Static population";
     a doco:SectionTitle .
 }
@@ -15012,28 +14952,28 @@ sub:Head {
 
 sub:assertion {
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-6.2-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p1:\#paragraph, p3:\#paragraph;
     po:containsAsHeader sub:section-6.2-title;
     a doco:Section .
-  
+
   sub:section-6.2-title c4o:hasContent "Dynamic population";
     a doco:SectionTitle .
-  
+
   p3: npx:introduces p3:\#paragraph .
 }
 
@@ -15071,34 +15011,34 @@ sub:Head {
 sub:assertion {
   <http://purl.org/np/RAEKpzCvcb4Ym5OyJrMVzpnZph7cF6iriw55aWpi4GsIc> npx:introduces
       <http://purl.org/np/RAEKpzCvcb4Ym5OyJrMVzpnZph7cF6iriw55aWpi4GsIc#section> .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   sub:_1 co:itemContent sub:section-6-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/np/RAreDixX6cET2pyhQSKGJRdTI63jaZoCnUhXl_Zz0iSJE#section>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/np/RAEKpzCvcb4Ym5OyJrMVzpnZph7cF6iriw55aWpi4GsIc#section> .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains <http://purl.org/np/RAEKpzCvcb4Ym5OyJrMVzpnZph7cF6iriw55aWpi4GsIc#section>,
       p2:\#paragraph, p1:\#paragraph, <http://purl.org/np/RAreDixX6cET2pyhQSKGJRdTI63jaZoCnUhXl_Zz0iSJE#section>;
     po:containsAsHeader sub:section-6-title;
     a doco:Section .
-  
+
   sub:section-6-title c4o:hasContent "Ontology population from smart cameras";
     a doco:SectionTitle .
-  
+
   <http://purl.org/np/RAreDixX6cET2pyhQSKGJRdTI63jaZoCnUhXl_Zz0iSJE> npx:introduces
       <http://purl.org/np/RAreDixX6cET2pyhQSKGJRdTI63jaZoCnUhXl_Zz0iSJE#section> .
 }
@@ -15328,43 +15268,43 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-7-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent p4:\#paragraph;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent p5:\#paragraph;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent p6:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p5:\#paragraph, p3:\#paragraph, p2:\#paragraph, p4:\#paragraph, p1:\#paragraph,
       p6:\#paragraph;
     po:containsAsHeader sub:section-7-title;
     a deo:Discussion, doco:Section .
-  
+
   sub:section-7-title c4o:hasContent "Discussion";
     a doco:SectionTitle .
-  
+
   p5: npx:introduces p5:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p4: npx:introduces p4:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p6: npx:introduces p6:\#paragraph .
 }
 
@@ -15497,27 +15437,27 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-8-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent p3:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p2:\#paragraph, p1:\#paragraph, p3:\#paragraph;
     po:containsAsHeader sub:section-8-title;
     a deo:Conclusion, doco:Section .
-  
+
   sub:section-8-title c4o:hasContent "Conclusion and prospectives";
     a doco:SectionTitle .
-  
+
   p2: npx:introduces p2:\#paragraph .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p3: npx:introduces p3:\#paragraph .
 }
 
@@ -15620,22 +15560,22 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent sub:section-8-title;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent p1:\#paragraph;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent p2:\#paragraph .
-  
+
   sub:section co:firstItem sub:_1;
     po:contains p1:\#paragraph, p2:\#paragraph;
     po:containsAsHeader sub:section-acknowledgements-title;
     a deo:Acknowledgements, doco:Section .
-  
+
   sub:section-acknowledgements-title c4o:hasContent "Acknowledgements";
     a doco:SectionTitle .
-  
+
   p1: npx:introduces p1:\#paragraph .
-  
+
   p2: npx:introduces p2:\#paragraph .
 }
 
@@ -15679,36 +15619,36 @@ sub:Head {
 
 sub:assertion {
   s8: npx:introduces s8:\#section .
-  
+
   sub:_1 co:itemContent abs:\#abstract;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/acknowledgements#acknowledgements> .
-  
+
   sub:_2 co:itemContent s1:\#section;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent s2:\#section;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent s3:\#section;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent s4:\#section;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent s5:\#section;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent s6:\#section;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent s7:\#section;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent s8:\#section;
     co:nextItem sub:_10 .
-  
+
   sub:articleVersion1 co:firstItem sub:_1;
     dc:creator <https://orcid.org/0000-0002-8429-8208>;
     dc:language "en";
@@ -15717,23 +15657,23 @@ sub:assertion {
       s8:\#section, s4:\#section, s7:\#section, s2:\#section, s5:\#section, s6:\#section,
       s3:\#section, s1:\#section, abs:\#abstract;
     a doco:Article .
-  
+
   s4: npx:introduces s4:\#section .
-  
+
   s7: npx:introduces s7:\#section .
-  
+
   s2: npx:introduces s2:\#section .
-  
+
   ack: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/acknowledgements#acknowledgements> .
-  
+
   s5: npx:introduces s5:\#section .
-  
+
   s6: npx:introduces s6:\#section .
-  
+
   s3: npx:introduces s3:\#section .
-  
+
   s1: npx:introduces s1:\#section .
-  
+
   abs: npx:introduces abs:\#abstract .
 }
 
@@ -15963,68 +15903,6 @@ sub:pubinfo {
   this: dcterms:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAhzSI7B8gwRrqvldtRza1ZO4vTZZSkLEewxLafl_WlwQ> .
-@prefix sub: <http://purl.org/np/RAhzSI7B8gwRrqvldtRza1ZO4vTZZSkLEewxLafl_WlwQ#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix c4o: <http://purl.org/spar/c4o/> .
-
-sub:Head {
-  this: np:hasAssertion sub:assertion;
-    np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
-}
-
-sub:assertion {
-  sub:paragraph c4o:hasContent "Figure 4";
-    a doco:Figure .
-}
-
-sub:provenance {
-  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239>;
-    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
-}
-
-sub:pubinfo {
-  this: dcterms:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
-    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
-}
-@prefix this: <http://purl.org/np/RALWpP41m_ES4DbPJuuT7OZtwTrTLp4z8-Aojw9MKguZM> .
-@prefix sub: <http://purl.org/np/RALWpP41m_ES4DbPJuuT7OZtwTrTLp4z8-Aojw9MKguZM#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix c4o: <http://purl.org/spar/c4o/> .
-
-sub:Head {
-  this: np:hasAssertion sub:assertion;
-    np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
-}
-
-sub:assertion {
-  sub:paragraph c4o:hasContent "Figure 5";
-    a doco:Figure .
-}
-
-sub:provenance {
-  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239>;
-    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
-}
-
-sub:pubinfo {
-  this: dcterms:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
-    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
-}
 @prefix this: <http://purl.org/np/RAbb-GzNHBrYrm6bP9Z1Yjmeyp7_A7KaWN5zObJe_YmRU> .
 @prefix sub: <http://purl.org/np/RAbb-GzNHBrYrm6bP9Z1Yjmeyp7_A7KaWN5zObJe_YmRU#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -16056,37 +15934,7 @@ sub:pubinfo {
   this: dcterms:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RA0DFqHZ5W6yfUT3-q1R4rxn5BJYJMD4At6VpJ6zyb2g4> .
-@prefix sub: <http://purl.org/np/RA0DFqHZ5W6yfUT3-q1R4rxn5BJYJMD4At6VpJ6zyb2g4#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix c4o: <http://purl.org/spar/c4o/> .
 
-sub:Head {
-  this: np:hasAssertion sub:assertion;
-    np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
-}
-
-sub:assertion {
-  sub:paragraph c4o:hasContent "Table 2";
-    a doco:Table .
-}
-
-sub:provenance {
-  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239>;
-    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
-}
-
-sub:pubinfo {
-  this: dcterms:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
-    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
-}
 @prefix this: <http://purl.org/np/RAtHoo82Xnu6kta4nNdyEq82cP8B9XNJMp0B1E2VhqZT0> .
 @prefix sub: <http://purl.org/np/RAtHoo82Xnu6kta4nNdyEq82cP8B9XNJMp0B1E2VhqZT0#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -16149,37 +15997,7 @@ sub:pubinfo {
   this: dcterms:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
     pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
 }
-@prefix this: <http://purl.org/np/RAxcmkg8BARrKioFYpIVlNqerexfDSl5gkRYLxymzUnME> .
-@prefix sub: <http://purl.org/np/RAxcmkg8BARrKioFYpIVlNqerexfDSl5gkRYLxymzUnME#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix doco: <http://purl.org/spar/doco/> .
-@prefix c4o: <http://purl.org/spar/c4o/> .
 
-sub:Head {
-  this: np:hasAssertion sub:assertion;
-    np:hasProvenance sub:provenance;
-    np:hasPublicationInfo sub:pubinfo;
-    a np:Nanopublication .
-}
-
-sub:assertion {
-  sub:paragraph c4o:hasContent "Table 5";
-    a doco:Table .
-}
-
-sub:provenance {
-  sub:assertion prov:hadPrimarySource <http://dx.doi.org/10.3233/SW-160239>;
-    prov:wasAttributedTo <https://orcid.org/0000-0003-0530-4305> .
-}
-
-sub:pubinfo {
-  this: dcterms:created "2019-09-20T18:05:11+01:00"^^xsd:dateTime;
-    pav:createdBy <https://orcid.org/0000-0002-7114-6459> .
-}
 @prefix this: <http://purl.org/np/RAOfJb-nnHbZzZyk4TOW4R4WVD1QlRJ3CB2INk7ldF-b4> .
 @prefix sub: <http://purl.org/np/RAOfJb-nnHbZzZyk4TOW4R4WVD1QlRJ3CB2INk7ldF-b4#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -16788,61 +16606,61 @@ sub:Head {
 
 sub:assertion {
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c16#ReviewComment> .
-  
+
   c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c5#ReviewComment> .
-  
+
   c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c6#ReviewComment> .
-  
+
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c1#ReviewComment>;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c10#ReviewComment>;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c11#ReviewComment>;
     co:nextItem sub:_12 .
-  
+
   sub:_12 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c12#ReviewComment>;
     co:nextItem sub:_13 .
-  
+
   sub:_13 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c13#ReviewComment>;
     co:nextItem sub:_14 .
-  
+
   sub:_14 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c14#ReviewComment>;
     co:nextItem sub:_15 .
-  
+
   sub:_15 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c15#ReviewComment>;
     co:nextItem sub:_16 .
-  
+
   sub:_16 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c16#ReviewComment>;
     co:nextItem sub:_17 .
-  
+
   sub:_17 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c17#ReviewComment> .
-  
+
   sub:_2 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c2#ReviewComment>;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c3#ReviewComment>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c4#ReviewComment>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c5#ReviewComment>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c6#ReviewComment>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c7#ReviewComment>;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c8#ReviewComment>;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c9#ReviewComment>;
     co:nextItem sub:_10 .
-  
+
   sub:review-2 fr:hasRating fr:A-R-TS-MINREV;
     fr:isReviewOf <http://dx.doi.org/10.3233/sw-160239>;
     fr:issuedFor <http://www.semantic-web-journal.net>;
@@ -16864,33 +16682,33 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c6#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c7#ReviewComment>,
       <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c8#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c9#ReviewComment>;
     a fr:Review .
-  
+
   c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c1#ReviewComment> .
-  
+
   c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c4#ReviewComment> .
-  
+
   c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c14#ReviewComment> .
-  
+
   c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c15#ReviewComment> .
-  
+
   c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c8#ReviewComment> .
-  
+
   c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c10#ReviewComment> .
-  
+
   c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c3#ReviewComment> .
-  
+
   c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c9#ReviewComment> .
-  
+
   c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c12#ReviewComment> .
-  
+
   c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c11#ReviewComment> .
-  
+
   c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c13#ReviewComment> .
-  
+
   c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c7#ReviewComment> .
-  
+
   c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c17#ReviewComment> .
-  
+
   c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X_c2#ReviewComment> .
 }
 
@@ -17541,78 +17359,78 @@ sub:Head {
 
 sub:assertion {
   c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c7#ReviewComment> .
-  
+
   c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c5#ReviewComment> .
-  
+
   c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c11#ReviewComment> .
-  
+
   c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c17#ReviewComment> .
-  
+
   c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c9#ReviewComment> .
-  
+
   c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c4#ReviewComment> .
-  
+
   c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c13#ReviewComment> .
-  
+
   c18: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c18#ReviewComment> .
-  
+
   c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c3#ReviewComment> .
-  
+
   c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c6#ReviewComment> .
-  
+
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c1#ReviewComment>;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c10#ReviewComment>;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c11#ReviewComment>;
     co:nextItem sub:_12 .
-  
+
   sub:_12 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c12#ReviewComment>;
     co:nextItem sub:_13 .
-  
+
   sub:_13 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c13#ReviewComment>;
     co:nextItem sub:_14 .
-  
+
   sub:_14 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c14#ReviewComment>;
     co:nextItem sub:_15 .
-  
+
   sub:_15 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c15#ReviewComment>;
     co:nextItem sub:_16 .
-  
+
   sub:_16 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c16#ReviewComment>;
     co:nextItem sub:_17 .
-  
+
   sub:_17 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c17#ReviewComment>;
     co:nextItem sub:_18 .
-  
+
   sub:_18 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c18#ReviewComment> .
-  
+
   sub:_2 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c2#ReviewComment>;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c3#ReviewComment>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c4#ReviewComment>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c5#ReviewComment>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c6#ReviewComment>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c7#ReviewComment>;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c8#ReviewComment>;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c9#ReviewComment>;
     co:nextItem sub:_10 .
-  
+
   sub:review-1 fr:hasRating fr:A-R-TS-MAJREV;
     fr:isReviewOf <http://dx.doi.org/10.3233/sw-160239>;
     fr:issuedFor <http://www.semantic-web-journal.net>;
@@ -17635,21 +17453,21 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c6#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c7#ReviewComment>,
       <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c8#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c9#ReviewComment>;
     a fr:Review .
-  
+
   c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c14#ReviewComment> .
-  
+
   c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c1#ReviewComment> .
-  
+
   c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c10#ReviewComment> .
-  
+
   c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c12#ReviewComment> .
-  
+
   c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c2#ReviewComment> .
-  
+
   c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c15#ReviewComment> .
-  
+
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c16#ReviewComment> .
-  
+
   c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X_c8#ReviewComment> .
 }
 
@@ -19394,230 +19212,230 @@ sub:Head {
 
 sub:assertion {
   c48: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c48#ReviewComment> .
-  
+
   c45: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c45#ReviewComment> .
-  
+
   c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c4#ReviewComment> .
-  
+
   c49: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c49#ReviewComment> .
-  
+
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c16#ReviewComment> .
-  
+
   c25: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c25#ReviewComment> .
-  
+
   c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c11#ReviewComment> .
-  
+
   c42: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c42#ReviewComment> .
-  
+
   c20: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c20#ReviewComment> .
-  
+
   c23: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c23#ReviewComment> .
-  
+
   c36: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c36#ReviewComment> .
-  
+
   c19: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c19#ReviewComment> .
-  
+
   c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c7#ReviewComment> .
-  
+
   c47: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c47#ReviewComment> .
-  
+
   c24: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c24#ReviewComment> .
-  
+
   c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c2#ReviewComment> .
-  
+
   c22: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c22#ReviewComment> .
-  
+
   c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c3#ReviewComment> .
-  
+
   c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c17#ReviewComment> .
-  
+
   c32: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c32#ReviewComment> .
-  
+
   c50: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c50#ReviewComment> .
-  
+
   c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c10#ReviewComment> .
-  
+
   c37: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c37#ReviewComment> .
-  
+
   c26: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c26#ReviewComment> .
-  
+
   c29: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c29#ReviewComment> .
-  
+
   c31: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c31#ReviewComment> .
-  
+
   c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c13#ReviewComment> .
-  
+
   c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c14#ReviewComment> .
-  
+
   c34: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c34#ReviewComment> .
-  
+
   c35: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c35#ReviewComment> .
-  
+
   c40: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c40#ReviewComment> .
-  
+
   c21: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c21#ReviewComment> .
-  
+
   c44: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c44#ReviewComment> .
-  
+
   c43: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c43#ReviewComment> .
-  
+
   c30: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c30#ReviewComment> .
-  
+
   c38: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c38#ReviewComment> .
-  
+
   c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c1#ReviewComment> .
-  
+
   c27: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c27#ReviewComment> .
-  
+
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c1#ReviewComment>;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c10#ReviewComment>;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c11#ReviewComment>;
     co:nextItem sub:_12 .
-  
+
   sub:_12 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c12#ReviewComment>;
     co:nextItem sub:_13 .
-  
+
   sub:_13 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c13#ReviewComment>;
     co:nextItem sub:_14 .
-  
+
   sub:_14 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c14#ReviewComment>;
     co:nextItem sub:_15 .
-  
+
   sub:_15 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c15#ReviewComment>;
     co:nextItem sub:_16 .
-  
+
   sub:_16 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c16#ReviewComment>;
     co:nextItem sub:_17 .
-  
+
   sub:_17 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c17#ReviewComment>;
     co:nextItem sub:_18 .
-  
+
   sub:_18 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c18#ReviewComment>;
     co:nextItem sub:_19 .
-  
+
   sub:_19 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c19#ReviewComment>;
     co:nextItem sub:_20 .
-  
+
   sub:_2 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c2#ReviewComment>;
     co:nextItem sub:_3 .
-  
+
   sub:_20 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c20#ReviewComment>;
     co:nextItem sub:_21 .
-  
+
   sub:_21 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c21#ReviewComment>;
     co:nextItem sub:_22 .
-  
+
   sub:_22 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c22#ReviewComment>;
     co:nextItem sub:_23 .
-  
+
   sub:_23 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c23#ReviewComment>;
     co:nextItem sub:_24 .
-  
+
   sub:_24 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c24#ReviewComment>;
     co:nextItem sub:_25 .
-  
+
   sub:_25 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c25#ReviewComment>;
     co:nextItem sub:_26 .
-  
+
   sub:_26 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c26#ReviewComment>;
     co:nextItem sub:_27 .
-  
+
   sub:_27 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c27#ReviewComment>;
     co:nextItem sub:_28 .
-  
+
   sub:_28 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c28#ReviewComment>;
     co:nextItem sub:_29 .
-  
+
   sub:_29 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c29#ReviewComment>;
     co:nextItem sub:_30 .
-  
+
   sub:_3 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c3#ReviewComment>;
     co:nextItem sub:_4 .
-  
+
   sub:_30 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c30#ReviewComment>;
     co:nextItem sub:_31 .
-  
+
   sub:_31 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c31#ReviewComment>;
     co:nextItem sub:_32 .
-  
+
   sub:_32 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c32#ReviewComment>;
     co:nextItem sub:_33 .
-  
+
   sub:_33 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c33#ReviewComment>;
     co:nextItem sub:_34 .
-  
+
   sub:_34 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c34#ReviewComment>;
     co:nextItem sub:_35 .
-  
+
   sub:_35 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c35#ReviewComment>;
     co:nextItem sub:_36 .
-  
+
   sub:_36 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c36#ReviewComment>;
     co:nextItem sub:_37 .
-  
+
   sub:_37 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c37#ReviewComment>;
     co:nextItem sub:_38 .
-  
+
   sub:_38 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c38#ReviewComment>;
     co:nextItem sub:_39 .
-  
+
   sub:_39 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c39#ReviewComment>;
     co:nextItem sub:_40 .
-  
+
   sub:_4 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c4#ReviewComment>;
     co:nextItem sub:_5 .
-  
+
   sub:_40 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c40#ReviewComment>;
     co:nextItem sub:_41 .
-  
+
   sub:_41 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c41#ReviewComment>;
     co:nextItem sub:_42 .
-  
+
   sub:_42 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c42#ReviewComment>;
     co:nextItem sub:_43 .
-  
+
   sub:_43 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c43#ReviewComment>;
     co:nextItem sub:_44 .
-  
+
   sub:_44 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c44#ReviewComment>;
     co:nextItem sub:_45 .
-  
+
   sub:_45 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c45#ReviewComment>;
     co:nextItem sub:_46 .
-  
+
   sub:_46 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c46#ReviewComment>;
     co:nextItem sub:_47 .
-  
+
   sub:_47 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c47#ReviewComment>;
     co:nextItem sub:_48 .
-  
+
   sub:_48 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c48#ReviewComment>;
     co:nextItem sub:_49 .
-  
+
   sub:_49 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c49#ReviewComment>;
     co:nextItem sub:_50 .
-  
+
   sub:_5 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c5#ReviewComment>;
     co:nextItem sub:_6 .
-  
+
   sub:_50 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c50#ReviewComment> .
-  
+
   sub:_6 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c6#ReviewComment>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c7#ReviewComment>;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c8#ReviewComment>;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c9#ReviewComment>;
     co:nextItem sub:_10 .
-  
+
   sub:review-3 fr:hasRating fr:A-R-TS-MAJREV;
     fr:isReviewOf <http://dx.doi.org/10.3233/sw-160239>;
     fr:issuedFor <http://www.semantic-web-journal.net>;
@@ -19670,29 +19488,29 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c6#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c7#ReviewComment>,
       <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c8#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c9#ReviewComment>;
     a fr:Review .
-  
+
   c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c9#ReviewComment> .
-  
+
   c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c8#ReviewComment> .
-  
+
   c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c5#ReviewComment> .
-  
+
   c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c12#ReviewComment> .
-  
+
   c41: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c41#ReviewComment> .
-  
+
   c18: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c18#ReviewComment> .
-  
+
   c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c6#ReviewComment> .
-  
+
   c28: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c28#ReviewComment> .
-  
+
   c39: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c39#ReviewComment> .
-  
+
   c46: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c46#ReviewComment> .
-  
+
   c33: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c33#ReviewComment> .
-  
+
   c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X_c15#ReviewComment> .
 }
 
@@ -19730,19 +19548,19 @@ sub:Head {
 
 sub:assertion {
   rew1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X#Review> .
-  
+
   rew2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X#Review> .
-  
+
   rew3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X#Review> .
-  
+
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r1X#Review>;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r2X#Review>;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-1/v1/r3X#Review> .
-  
+
   sub:reviews-V1X fr:hasRating fr:A-R-TS-MAJREV;
     fr:isReviewOf <http://dx.doi.org/10.3233/sw-160239>;
     fr:issuedFor <http://www.semantic-web-journal.net>;
@@ -20338,66 +20156,66 @@ sub:Head {
 
 sub:assertion {
   c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c4#ReviewComment> .
-  
+
   c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c5#ReviewComment> .
-  
+
   c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c8#ReviewComment> .
-  
+
   c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c6#ReviewComment> .
-  
+
   c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c10#ReviewComment> .
-  
+
   c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c3#ReviewComment> .
-  
+
   c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c2#ReviewComment> .
-  
+
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c1#ReviewComment>;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c10#ReviewComment>;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c11#ReviewComment>;
     co:nextItem sub:_12 .
-  
+
   sub:_12 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c12#ReviewComment>;
     co:nextItem sub:_13 .
-  
+
   sub:_13 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c13#ReviewComment>;
     co:nextItem sub:_14 .
-  
+
   sub:_14 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c14#ReviewComment>;
     co:nextItem sub:_15 .
-  
+
   sub:_15 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c15#ReviewComment>;
     co:nextItem sub:_16 .
-  
+
   sub:_16 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c16#ReviewComment> .
-  
+
   sub:_2 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c2#ReviewComment>;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c3#ReviewComment>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c4#ReviewComment>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c5#ReviewComment>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c6#ReviewComment>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c7#ReviewComment>;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c8#ReviewComment>;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c9#ReviewComment>;
     co:nextItem sub:_10 .
-  
+
   sub:review-2 fr:hasRating fr:A-R-TS-MINREV;
     fr:isReviewOf <http://dx.doi.org/10.3233/SW-170269>;
     fr:issuedFor <http://www.semantic-web-journal.net>;
@@ -20418,23 +20236,23 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c6#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c7#ReviewComment>,
       <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c8#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c9#ReviewComment>;
     a fr:Review .
-  
+
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c16#ReviewComment> .
-  
+
   c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c9#ReviewComment> .
-  
+
   c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c14#ReviewComment> .
-  
+
   c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c1#ReviewComment> .
-  
+
   c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c11#ReviewComment> .
-  
+
   c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c12#ReviewComment> .
-  
+
   c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c15#ReviewComment> .
-  
+
   c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c7#ReviewComment> .
-  
+
   c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X_c13#ReviewComment> .
 }
 
@@ -21188,85 +21006,85 @@ sub:Head {
 
 sub:assertion {
   c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c12#ReviewComment> .
-  
+
   c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c17#ReviewComment> .
-  
+
   c20: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c20#ReviewComment> .
-  
+
   c18: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c18#ReviewComment> .
-  
+
   c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c4#ReviewComment> .
-  
+
   c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c3#ReviewComment> .
-  
+
   c19: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c19#ReviewComment> .
-  
+
   c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c5#ReviewComment> .
-  
+
   c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c8#ReviewComment> .
-  
+
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c1#ReviewComment>;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c10#ReviewComment>;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c11#ReviewComment>;
     co:nextItem sub:_12 .
-  
+
   sub:_12 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c12#ReviewComment>;
     co:nextItem sub:_13 .
-  
+
   sub:_13 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c13#ReviewComment>;
     co:nextItem sub:_14 .
-  
+
   sub:_14 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c14#ReviewComment>;
     co:nextItem sub:_15 .
-  
+
   sub:_15 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c15#ReviewComment>;
     co:nextItem sub:_16 .
-  
+
   sub:_16 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c16#ReviewComment>;
     co:nextItem sub:_17 .
-  
+
   sub:_17 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c17#ReviewComment>;
     co:nextItem sub:_18 .
-  
+
   sub:_18 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c18#ReviewComment>;
     co:nextItem sub:_19 .
-  
+
   sub:_19 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c19#ReviewComment>;
     co:nextItem sub:_20 .
-  
+
   sub:_2 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c2#ReviewComment>;
     co:nextItem sub:_3 .
-  
+
   sub:_20 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c20#ReviewComment>;
     co:nextItem sub:_21 .
-  
+
   sub:_21 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c21#ReviewComment> .
-  
+
   sub:_3 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c3#ReviewComment>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c4#ReviewComment>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c5#ReviewComment>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c6#ReviewComment>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c7#ReviewComment>;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c8#ReviewComment>;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c9#ReviewComment>;
     co:nextItem sub:_10 .
-  
+
   sub:review-1 fr:hasRating fr:A-R-TS-MAJREV;
     fr:isReviewOf <http://dx.doi.org/10.3233/SW-170269>;
     fr:issuedFor <http://www.semantic-web-journal.net>;
@@ -21292,29 +21110,29 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c7#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c8#ReviewComment>,
       <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c9#ReviewComment>;
     a fr:Review .
-  
+
   c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c9#ReviewComment> .
-  
+
   c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c13#ReviewComment> .
-  
+
   c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c10#ReviewComment> .
-  
+
   c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c14#ReviewComment> .
-  
+
   c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c2#ReviewComment> .
-  
+
   c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c15#ReviewComment> .
-  
+
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c16#ReviewComment> .
-  
+
   c21: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c21#ReviewComment> .
-  
+
   c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c7#ReviewComment> .
-  
+
   c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c6#ReviewComment> .
-  
+
   c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c1#ReviewComment> .
-  
+
   c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X_c11#ReviewComment> .
 }
 
@@ -22097,114 +21915,114 @@ sub:Head {
 
 sub:assertion {
   c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c14#ReviewComment> .
-  
+
   c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c12#ReviewComment> .
-  
+
   c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c10#ReviewComment> .
-  
+
   c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c4#ReviewComment> .
-  
+
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c16#ReviewComment> .
-  
+
   c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c8#ReviewComment> .
-  
+
   c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c5#ReviewComment> .
-  
+
   c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c13#ReviewComment> .
-  
+
   c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c9#ReviewComment> .
-  
+
   c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c1#ReviewComment> .
-  
+
   c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c6#ReviewComment> .
-  
+
   c22: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c22#ReviewComment> .
-  
+
   c18: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c18#ReviewComment> .
-  
+
   c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c7#ReviewComment> .
-  
+
   c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c15#ReviewComment> .
-  
+
   c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c3#ReviewComment> .
-  
+
   c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c2#ReviewComment> .
-  
+
   c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c11#ReviewComment> .
-  
+
   c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c17#ReviewComment> .
-  
+
   c19: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c19#ReviewComment> .
-  
+
   c21: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c21#ReviewComment> .
-  
+
   c20: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c20#ReviewComment> .
-  
+
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c1#ReviewComment>;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c10#ReviewComment>;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c11#ReviewComment>;
     co:nextItem sub:_12 .
-  
+
   sub:_12 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c12#ReviewComment>;
     co:nextItem sub:_13 .
-  
+
   sub:_13 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c13#ReviewComment>;
     co:nextItem sub:_14 .
-  
+
   sub:_14 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c14#ReviewComment>;
     co:nextItem sub:_15 .
-  
+
   sub:_15 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c15#ReviewComment>;
     co:nextItem sub:_16 .
-  
+
   sub:_16 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c16#ReviewComment>;
     co:nextItem sub:_17 .
-  
+
   sub:_17 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c17#ReviewComment>;
     co:nextItem sub:_18 .
-  
+
   sub:_18 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c18#ReviewComment>;
     co:nextItem sub:_19 .
-  
+
   sub:_19 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c19#ReviewComment>;
     co:nextItem sub:_20 .
-  
+
   sub:_2 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c2#ReviewComment>;
     co:nextItem sub:_3 .
-  
+
   sub:_20 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c20#ReviewComment>;
     co:nextItem sub:_21 .
-  
+
   sub:_21 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c21#ReviewComment>;
     co:nextItem sub:_22 .
-  
+
   sub:_22 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c22#ReviewComment> .
-  
+
   sub:_3 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c3#ReviewComment>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c4#ReviewComment>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c5#ReviewComment>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c6#ReviewComment>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c7#ReviewComment>;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c8#ReviewComment>;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X_c9#ReviewComment>;
     co:nextItem sub:_10 .
-  
+
   sub:review-3 fr:hasRating fr:A-R-TS-MAJREV;
     fr:isReviewOf <http://dx.doi.org/10.3233/SW-170269>;
     fr:issuedFor <http://www.semantic-web-journal.net>;
@@ -22268,12 +22086,12 @@ sub:Head {
 sub:assertion {
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X#Review>;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X#Review>;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X#Review> .
-  
+
   sub:reviews-V1X fr:hasRating fr:A-R-TS-MAJREV;
     fr:isReviewOf <http://dx.doi.org/10.3233/SW-170269>;
     fr:issuedFor <http://www.semantic-web-journal.net>;
@@ -22282,11 +22100,11 @@ sub:assertion {
     po:contains <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X#Review>,
       <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X#Review>, <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X#Review>;
     a fabio:Review .
-  
+
   rew1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r1X#Review> .
-  
+
   rew2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r2X#Review> .
-  
+
   rew3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-2/v1/r3X#Review> .
 }
 
@@ -22699,49 +22517,49 @@ sub:Head {
 
 sub:assertion {
   c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c2#ReviewComment> .
-  
+
   c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c3#ReviewComment> .
-  
+
   c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c10#ReviewComment> .
-  
+
   c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c1#ReviewComment> .
-  
+
   c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c7#ReviewComment> .
-  
+
   c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c5#ReviewComment> .
-  
+
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c1#ReviewComment>;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c10#ReviewComment>;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c11#ReviewComment> .
-  
+
   sub:_2 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c2#ReviewComment>;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c3#ReviewComment>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c4#ReviewComment>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c5#ReviewComment>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c6#ReviewComment>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c7#ReviewComment>;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c8#ReviewComment>;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c9#ReviewComment>;
     co:nextItem sub:_10 .
-  
+
   sub:review-1 fr:hasRating fr:A-R-TS-MAJREV;
     fr:isReviewOf <http://dx.doi.org/10.3233/SW-180298>;
     fr:issuedFor <http://www.semantic-web-journal.net>;
@@ -22757,15 +22575,15 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c6#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c7#ReviewComment>,
       <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c8#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c9#ReviewComment>;
     a fr:Review .
-  
+
   c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c8#ReviewComment> .
-  
+
   c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c4#ReviewComment> .
-  
+
   c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c11#ReviewComment> .
-  
+
   c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c6#ReviewComment> .
-  
+
   c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X_c9#ReviewComment> .
 }
 
@@ -24254,188 +24072,188 @@ sub:Head {
 
 sub:assertion {
   c26: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c26#ReviewComment> .
-  
+
   c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c14#ReviewComment> .
-  
+
   c30: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c30#ReviewComment> .
-  
+
   c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c7#ReviewComment> .
-  
+
   c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c8#ReviewComment> .
-  
+
   c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c13#ReviewComment> .
-  
+
   c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c4#ReviewComment> .
-  
+
   c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c15#ReviewComment> .
-  
+
   c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c9#ReviewComment> .
-  
+
   c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c12#ReviewComment> .
-  
+
   c32: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c32#ReviewComment> .
-  
+
   c37: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c37#ReviewComment> .
-  
+
   c25: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c25#ReviewComment> .
-  
+
   c42: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c42#ReviewComment> .
-  
+
   c20: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c20#ReviewComment> .
-  
+
   c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c11#ReviewComment> .
-  
+
   c40: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c40#ReviewComment> .
-  
+
   c38: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c38#ReviewComment> .
-  
+
   c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c2#ReviewComment> .
-  
+
   c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c6#ReviewComment> .
-  
+
   c39: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c39#ReviewComment> .
-  
+
   c33: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c33#ReviewComment> .
-  
+
   c21: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c21#ReviewComment> .
-  
+
   c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c10#ReviewComment> .
-  
+
   c19: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c19#ReviewComment> .
-  
+
   c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c3#ReviewComment> .
-  
+
   c31: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c31#ReviewComment> .
-  
+
   c41: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c41#ReviewComment> .
-  
+
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c16#ReviewComment> .
-  
+
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c1#ReviewComment>;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c10#ReviewComment>;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c11#ReviewComment>;
     co:nextItem sub:_12 .
-  
+
   sub:_12 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c12#ReviewComment>;
     co:nextItem sub:_13 .
-  
+
   sub:_13 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c13#ReviewComment>;
     co:nextItem sub:_14 .
-  
+
   sub:_14 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c14#ReviewComment>;
     co:nextItem sub:_15 .
-  
+
   sub:_15 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c15#ReviewComment>;
     co:nextItem sub:_16 .
-  
+
   sub:_16 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c16#ReviewComment>;
     co:nextItem sub:_17 .
-  
+
   sub:_17 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c17#ReviewComment>;
     co:nextItem sub:_18 .
-  
+
   sub:_18 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c18#ReviewComment>;
     co:nextItem sub:_19 .
-  
+
   sub:_19 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c19#ReviewComment>;
     co:nextItem sub:_20 .
-  
+
   sub:_2 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c2#ReviewComment>;
     co:nextItem sub:_3 .
-  
+
   sub:_20 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c20#ReviewComment>;
     co:nextItem sub:_21 .
-  
+
   sub:_21 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c21#ReviewComment>;
     co:nextItem sub:_22 .
-  
+
   sub:_22 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c22#ReviewComment>;
     co:nextItem sub:_23 .
-  
+
   sub:_23 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c23#ReviewComment>;
     co:nextItem sub:_24 .
-  
+
   sub:_24 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c24#ReviewComment>;
     co:nextItem sub:_25 .
-  
+
   sub:_25 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c25#ReviewComment>;
     co:nextItem sub:_26 .
-  
+
   sub:_26 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c26#ReviewComment>;
     co:nextItem sub:_27 .
-  
+
   sub:_27 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c27#ReviewComment>;
     co:nextItem sub:_28 .
-  
+
   sub:_28 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c28#ReviewComment>;
     co:nextItem sub:_29 .
-  
+
   sub:_29 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c29#ReviewComment>;
     co:nextItem sub:_30 .
-  
+
   sub:_3 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c3#ReviewComment>;
     co:nextItem sub:_4 .
-  
+
   sub:_30 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c30#ReviewComment>;
     co:nextItem sub:_31 .
-  
+
   sub:_31 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c31#ReviewComment>;
     co:nextItem sub:_32 .
-  
+
   sub:_32 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c32#ReviewComment>;
     co:nextItem sub:_33 .
-  
+
   sub:_33 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c33#ReviewComment>;
     co:nextItem sub:_34 .
-  
+
   sub:_34 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c34#ReviewComment>;
     co:nextItem sub:_35 .
-  
+
   sub:_35 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c35#ReviewComment>;
     co:nextItem sub:_36 .
-  
+
   sub:_36 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c36#ReviewComment>;
     co:nextItem sub:_37 .
-  
+
   sub:_37 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c37#ReviewComment>;
     co:nextItem sub:_38 .
-  
+
   sub:_38 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c38#ReviewComment>;
     co:nextItem sub:_39 .
-  
+
   sub:_39 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c39#ReviewComment>;
     co:nextItem sub:_40 .
-  
+
   sub:_4 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c4#ReviewComment>;
     co:nextItem sub:_5 .
-  
+
   sub:_40 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c40#ReviewComment>;
     co:nextItem sub:_41 .
-  
+
   sub:_41 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c41#ReviewComment>;
     co:nextItem sub:_42 .
-  
+
   sub:_42 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c42#ReviewComment> .
-  
+
   sub:_5 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c5#ReviewComment>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c6#ReviewComment>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c7#ReviewComment>;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c8#ReviewComment>;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c9#ReviewComment>;
     co:nextItem sub:_10 .
-  
+
   sub:review-2 fr:hasRating fr:A-R-TS-MAJREV;
     fr:isReviewOf <http://dx.doi.org/10.3233/SW-180298>;
     fr:issuedFor <http://www.semantic-web-journal.net>;
@@ -24481,31 +24299,31 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c7#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c8#ReviewComment>,
       <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c9#ReviewComment>;
     a fr:Review .
-  
+
   c27: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c27#ReviewComment> .
-  
+
   c24: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c24#ReviewComment> .
-  
+
   c34: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c34#ReviewComment> .
-  
+
   c18: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c18#ReviewComment> .
-  
+
   c36: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c36#ReviewComment> .
-  
+
   c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c1#ReviewComment> .
-  
+
   c23: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c23#ReviewComment> .
-  
+
   c35: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c35#ReviewComment> .
-  
+
   c29: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c29#ReviewComment> .
-  
+
   c22: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c22#ReviewComment> .
-  
+
   c28: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c28#ReviewComment> .
-  
+
   c17: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c17#ReviewComment> .
-  
+
   c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X_c5#ReviewComment> .
 }
 
@@ -25088,58 +24906,58 @@ sub:Head {
 
 sub:assertion {
   c14: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c14#ReviewComment> .
-  
+
   c16: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c16#ReviewComment> .
-  
+
   c8: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c8#ReviewComment> .
-  
+
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c1#ReviewComment>;
     co:nextItem sub:_2 .
-  
+
   sub:_10 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c10#ReviewComment>;
     co:nextItem sub:_11 .
-  
+
   sub:_11 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c11#ReviewComment>;
     co:nextItem sub:_12 .
-  
+
   sub:_12 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c12#ReviewComment>;
     co:nextItem sub:_13 .
-  
+
   sub:_13 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c13#ReviewComment>;
     co:nextItem sub:_14 .
-  
+
   sub:_14 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c14#ReviewComment>;
     co:nextItem sub:_15 .
-  
+
   sub:_15 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c15#ReviewComment>;
     co:nextItem sub:_16 .
-  
+
   sub:_16 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c16#ReviewComment> .
-  
+
   sub:_2 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c2#ReviewComment>;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c3#ReviewComment>;
     co:nextItem sub:_4 .
-  
+
   sub:_4 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c4#ReviewComment>;
     co:nextItem sub:_5 .
-  
+
   sub:_5 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c5#ReviewComment>;
     co:nextItem sub:_6 .
-  
+
   sub:_6 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c6#ReviewComment>;
     co:nextItem sub:_7 .
-  
+
   sub:_7 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c7#ReviewComment>;
     co:nextItem sub:_8 .
-  
+
   sub:_8 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c8#ReviewComment>;
     co:nextItem sub:_9 .
-  
+
   sub:_9 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c9#ReviewComment>;
     co:nextItem sub:_10 .
-  
+
   sub:review-3 fr:hasRating fr:A-R-TS-MAJREV;
     fr:isReviewOf <http://dx.doi.org/10.3233/SW-180298>;
     fr:issuedFor <http://www.semantic-web-journal.net>;
@@ -25160,31 +24978,31 @@ sub:assertion {
       <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c6#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c7#ReviewComment>,
       <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c8#ReviewComment>, <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c9#ReviewComment>;
     a fr:Review .
-  
+
   c12: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c12#ReviewComment> .
-  
+
   c3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c3#ReviewComment> .
-  
+
   c2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c2#ReviewComment> .
-  
+
   c13: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c13#ReviewComment> .
-  
+
   c1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c1#ReviewComment> .
-  
+
   c11: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c11#ReviewComment> .
-  
+
   c9: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c9#ReviewComment> .
-  
+
   c5: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c5#ReviewComment> .
-  
+
   c15: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c15#ReviewComment> .
-  
+
   c7: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c7#ReviewComment> .
-  
+
   c6: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c6#ReviewComment> .
-  
+
   c10: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c10#ReviewComment> .
-  
+
   c4: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X_c4#ReviewComment> .
 }
 
@@ -25222,15 +25040,15 @@ sub:Head {
 
 sub:assertion {
   rew3: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X#Review> .
-  
+
   sub:_1 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X#Review>;
     co:nextItem sub:_2 .
-  
+
   sub:_2 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X#Review>;
     co:nextItem sub:_3 .
-  
+
   sub:_3 co:itemContent <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X#Review> .
-  
+
   sub:reviews-V1X fr:hasRating fr:A-R-TS-MAJREV;
     fr:isReviewOf <http://dx.doi.org/10.3233/SW-180298>;
     fr:issuedFor <http://www.semantic-web-journal.net>;
@@ -25239,9 +25057,9 @@ sub:assertion {
     po:contains <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X#Review>,
       <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X#Review>, <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r3X#Review>;
     a fabio:Review .
-  
+
   rew1: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r1X#Review> .
-  
+
   rew2: npx:introduces <http://purl.org/nanopub/temp/linkflows/sample-paper-3/v1/r2X#Review> .
 }
 
