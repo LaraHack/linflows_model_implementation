@@ -113,4 +113,4 @@ In case you want to delete the triples in the store:
 
 ## 5. SPARQL queries on the nanopubs loaded in the Virtuoso triple store
 
-After starting the server and logging in the browser interface (see Step 3 above), you can run the following SPARQL queries on the newly loaded triples: [SPARQL queries](/queries/sparql_basic.md)
+After starting the server and logging in the browser interface (see Step 3 above), you can run the following SPARQL queries on the newly loaded triples: [statistics dataset](/queries/statistics_dataset.md), [competency questions](/queries/competency_questions.md), [various queries](/queries/various_sparql_queries.md).
